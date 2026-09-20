@@ -1,0 +1,33 @@
+name: Genera Concetto del giorno
+
+on:
+  schedule:
+    - cron: '30 6 * * *'
+  workflow_dispatch: {}
+
+jobs:
+  genera:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Scarica il repository
+        uses: actions/checkout@v4
+
+      - name: Imposta Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Genera le edizioni di oggi
+        env:
+          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
+        run: node scripts/generate-concetto.js
+
+      - name: Salva i risultati nel repository
+        run: |
+          git config user.name "Concetto Bot"
+          git config user.email "actions@github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "Aggiornamento automatico"
+          git push
