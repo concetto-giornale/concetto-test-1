@@ -1,0 +1,47 @@
+{
+  "generato_il": "2026-09-21T09:42:42.785Z",
+  "data": "2026-09-21",
+  "categorie": {},
+  "errori": [
+    {
+      "categoria": "Italia",
+      "errore": "[HTTP 401] token expired or incorrect"
+    },
+    {
+      "categoria": "Esteri",
+      "errore": "[HTTP 401] token expired or incorrect"
+    },
+    {
+      "categoria": "Economia",
+      "errore": "[HTTP 401] token expired or incorrect"
+    },
+    {
+      "categoria": "Tecnologia",
+      "errore": "[HTTP 401] token expired or incorrect"
+    },
+    {
+      "categoria": "Sport",
+      "errore": "[HTTP 401] token expired or incorrect"
+    },
+    {
+      "categoria": "Cultura & Spettacolo",
+      "errore": "[HTTP 401] token expired or incorrect"
+    },
+    {
+      "categoria": "Gossip",
+      "errore": "[HTTP 401] token expired or incorrect"
+    },
+    {
+      "categoria": "Ambiente",
+      "errore": "[HTTP 401] token expired or incorrect"
+    },
+    {
+      "categoria": "Moda & Lifestyle",
+      "errore": "[HTTP 401] token expired or incorrect"
+    },
+    {
+      "categoria": "Concetto+",
+      "errore": "[HTTP 401] token expired or incorrect"
+    }
+  ]
+}
