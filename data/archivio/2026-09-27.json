@@ -1,124 +1,31 @@
 {
-  "generato_il": "2026-09-27T06:35:51.520Z",
+  "generato_il": "2026-09-27T06:44:48.267Z",
   "data": "2026-09-27",
-  "categorie": {
-    "economia": {
-      "id": "economia",
-      "label": "Economia",
-      "segments": [
-        {
-          "text": "Le incertezze del petrolio",
-          "type": "deepdive",
-          "detail": "La volatilità del mercato energetico globale."
-        },
-        {
-          "text": "e il declino del diesel",
-          "type": "deepdive",
-          "detail": "La pressione normativa e il calo delle vendite."
-        },
-        {
-          "text": "costringono le banche e le industrie italiane",
-          "type": "plain"
-        },
-        {
-          "text": "a navigare tra nuove norme Usa",
-          "type": "name",
-          "detail": "L'impatto delle decisioni politiche statunitensi."
-        },
-        {
-          "text": "e la transizione energetica",
-          "type": "deepdive",
-          "detail": "La necessità di adeguarsi agli standard verdi."
-        },
-        {
-          "text": "nonostante la resilienza economica del Paese",
-          "type": "plain"
-        }
-      ],
-      "aforisma": "L'economia è come il vento: chi non cambia rotta si spegne.",
-      "autore": "Elio Valtieri",
-      "approfondimento": "La sfida industriale passa ora dalla gestione della crisi dei combustibili fossili alla rapida adozione di tecnologie sostenibili, condizionando i mercati finanziari globali."
-    },
-    "tecnologia": {
-      "id": "tecnologia",
-      "label": "Tecnologia",
-      "segments": [
-        {
-          "text": "La rapida evoluzione dell'intelligenza artificiale",
-          "type": "plain",
-          "detail": "Il focus è sull'evoluzione tecnologica e sulle sue implicazioni globali."
-        },
-        {
-          "text": " e della tecnologia avanzata",
-          "type": "plain",
-          "detail": "Estensione del tema alle infrastrutture e ai dispositivi digitali."
-        },
-        {
-          "text": " sta ridefinendo la geopolitica globale",
-          "type": "plain",
-          "detail": "L'impatto delle tecnologie sulle dinamiche internazionali."
-        },
-        {
-          "text": " , trasformando il lavoro",
-          "type": "plain",
-          "detail": "Le trasformazioni nel settore lavorativo e l'automazione."
-        },
-        {
-          "text": " e minacciando la stabilità",
-          "type": "deepdive",
-          "detail": "I rischi connessi all'uso improprio delle tecnologie avanzate."
-        },
-        {
-          "text": " , sfidando i confini tra realtà digitale e sovrapposizione umana",
-          "type": "unusual",
-          "detail": "Il confine sfumato tra mondo fisico e realtà generata."
-        }
-      ],
-      "aforisma": "L'arte di vivere nel vero è la prima vittoria dell'artificiale.",
-      "autore": "Elio Zenith",
-      "approfondimento": "La fusione tra intelligenza artificiale e potere geopolitico crea nuove forme di instabilità."
-    },
-    "sport": {
-      "id": "sport",
-      "label": "Sport",
-      "segments": [
-        {
-          "text": "Lo sport vive un momento di alti e bassi",
-          "type": "plain"
-        },
-        {
-          "text": "tra dominazioni in pista",
-          "type": "unusual",
-          "detail": "Risultati di élite in categorie motoristiche e calcistiche"
-        },
-        {
-          "text": "e crisi nelle squadre",
-          "type": "deepdive",
-          "detail": "Tensioni interne e problemi di gestione nelle federazioni"
-        },
-        {
-          "text": "dove leggende e rinunce si intrecciano",
-          "type": "name",
-          "detail": "Evoluzione delle carriere e dinamiche etiche"
-        }
-      ],
-      "aforisma": "La vittoria è solo un respiro, la vera sfida è il non mollare mai.",
-      "autore": "Marco Vittorino",
-      "approfondimento": "Le prestazioni tecniche mostrano un'asimmetria tra squadre superpotenti e quelle in crisi. Le rinunce dei giocatori riflettono tensioni sociali profonde."
-    }
-  },
+  "categorie": {},
   "errori": [
     {
       "categoria": "Italia",
-      "errore": "[HTTP 429] The service may be temporarily overloaded, please try again later"
+      "errore": "[HTTP 429] Rate limit reached for requests"
     },
     {
       "categoria": "Esteri",
       "errore": "[HTTP 429] The service may be temporarily overloaded, please try again later"
     },
     {
+      "categoria": "Economia",
+      "errore": "[HTTP 429] The service may be temporarily overloaded, please try again later"
+    },
+    {
+      "categoria": "Tecnologia",
+      "errore": "[HTTP 429] The service may be temporarily overloaded, please try again later"
+    },
+    {
+      "categoria": "Sport",
+      "errore": "[HTTP 429] The service may be temporarily overloaded, please try again later"
+    },
+    {
       "categoria": "Cultura & Spettacolo",
-      "errore": "fetch failed"
+      "errore": "[HTTP 429] The service may be temporarily overloaded, please try again later"
     },
     {
       "categoria": "Gossip",
@@ -134,7 +41,7 @@
     },
     {
       "categoria": "Concetto+",
-      "errore": "[HTTP 429] The service may be temporarily overloaded, please try again later"
+      "errore": "[HTTP 429] Rate limit reached for requests"
     }
   ]
 }
