@@ -71,15 +71,11 @@
   /* ---------- Griglia prima pagina ---------- */
   .front-grid{
     max-width:1320px; margin:0 auto; padding:26px 28px 40px;
-    display:grid;
-    grid-template-columns:repeat(5, minmax(0, 1fr));
-    grid-template-rows:auto auto auto auto;
-    grid-template-areas:
-      "italia italia esteri esteri concettoplus"
-      "italia italia esteri esteri concettoplus"
-      "economia tecnologia sport cultura concettoplus"
-      "gossip gossip ambiente ambiente moda";
-    gap:22px;
+    column-count:4; column-gap:22px;
+  }
+  .front-grid > .section-box{
+    break-inside:avoid; page-break-inside:avoid; -webkit-column-break-inside:avoid;
+    margin-bottom:22px;
   }
   .box-italia{grid-area:italia;}
   .box-esteri{grid-area:esteri;}
@@ -232,16 +228,10 @@
   .legal-footer a{color:var(--meta);}
 
   /* ---------- Responsive ---------- */
-  @media (max-width:980px){
-    .front-grid{
-      grid-template-columns:minmax(0, 1fr);
-      grid-template-areas:
-        "italia" "esteri" "concettoplus"
-        "economia" "tecnologia" "sport" "cultura"
-        "gossip" "ambiente" "moda";
-    }
-  }
+  @media (max-width:1100px){ .front-grid{column-count:3;} }
+  @media (max-width:760px){ .front-grid{column-count:2;} }
   @media (max-width:520px){
+    .front-grid{column-count:1;}
     .masthead-top{font-size:10px;}
     .today-strip{font-size:10px; gap:12px;}
   }
@@ -262,7 +252,7 @@
 <div class="today-strip mono" id="todayStrip"></div>
 
 <div class="front-grid" id="frontGrid">
-  <p class="mono" style="grid-column:1/-1; text-align:center; color:var(--meta); padding:40px 0;">sto caricando l'edizione di oggi<span id="loadingDots"></span></p>
+  <p class="mono" style="column-span:all; text-align:center; color:var(--meta); padding:40px 0;">sto caricando l'edizione di oggi<span id="loadingDots"></span></p>
 </div>
 
 <div class="overlay-backdrop" id="overlay">
@@ -295,6 +285,9 @@
     { id: 'ambiente', size: 'medium' },
     { id: 'moda', size: 'medium' },
   ];
+
+  // Un ritaglio evidenziato può essere al massimo di 3 parole: oltre, torna a parole singole
+  const MAX_PAROLE_EVIDENZIATE = 3;
 
   const CLIP_SIZES = { hero: '17px', tall: '15px', medium: '14px', small: '13px' };
 
@@ -503,8 +496,10 @@
     const clipSize = CLIP_SIZES[boxSize];
 
     data.segments.forEach(seg => {
-      if(seg.type === 'plain' || !CATEGORY_META[seg.type]){
-        seg.text.split(/\s+/).filter(Boolean).forEach(word => {
+      const segText = seg.text || '';
+      const nParole = segText.trim().split(/\s+/).filter(Boolean).length;
+      if(seg.type === 'plain' || !CATEGORY_META[seg.type] || nParole > MAX_PAROLE_EVIDENZIATE){
+        segText.split(/\s+/).filter(Boolean).forEach(word => {
           const clip = makeClip(word, null, clipIndex++, clipSize);
           clip.classList.add(NEUTRAL_TONES[neutralIndex++ % NEUTRAL_TONES.length]);
           box.appendChild(clip);
