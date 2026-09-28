@@ -72,7 +72,7 @@
   .front-grid{
     max-width:1320px; margin:0 auto; padding:26px 28px 40px;
     display:grid;
-    grid-template-columns:repeat(5, 1fr);
+    grid-template-columns:repeat(5, minmax(0, 1fr));
     grid-template-rows:auto auto auto auto;
     grid-template-areas:
       "italia italia esteri esteri concettoplus"
@@ -93,6 +93,7 @@
   .box-moda{grid-area:moda;}
 
   .section-box{
+    min-width:0;
     border:1px solid var(--rule-light);
     background:rgba(255,255,255,0.35);
     padding:16px 18px 18px;
@@ -133,7 +134,7 @@
     color:#1c1a16;
     background:var(--paper-tone, #efe9d8);
     box-shadow:0 2px 0 rgba(0,0,0,0.05), 0 4px 8px rgba(0,0,0,0.22);
-    line-height:1.12; white-space:nowrap; user-select:none;
+    line-height:1.12; white-space:normal; max-width:100%; text-align:left; user-select:none;
     font-size: var(--clip-size, 14px);
   }
   .clip.tagged{cursor:pointer; transition:transform .15s ease;}
@@ -233,7 +234,7 @@
   /* ---------- Responsive ---------- */
   @media (max-width:980px){
     .front-grid{
-      grid-template-columns:1fr;
+      grid-template-columns:minmax(0, 1fr);
       grid-template-areas:
         "italia" "esteri" "concettoplus"
         "economia" "tecnologia" "sport" "cultura"
