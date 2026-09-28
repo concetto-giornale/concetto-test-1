@@ -1,6 +1,14 @@
 // ============================================================
 // Concetto — Generatore Edizioni Quotidiane
 // ============================================================
+// Gira su GitHub Actions una o più volte al giorno (server-side,
+// nessun browser coinvolto: niente problemi di CORS). Per ogni
+// categoria: legge titoli reali da Google News RSS, chiede al
+// modello gratuito Z.ai (GLM-4.7-Flash) di sintetizzarli nello
+// stesso formato usato dall'app, salva tutto in data/oggi.json
+// e in un archivio datato.
+// ============================================================
+
 const fs = require('fs');
 const path = require('path');
 
@@ -98,7 +106,14 @@ Rispondi SOLO con un oggetto JSON valido, nessun markdown, nessun backtick, ness
 Assicurati che la concatenazione di tutti i "text" in ordine ricomponga esattamente la frase, con spazi naturali tra le parole.`;
 }
 
-async function callZai(promptText) {
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+// Pausa fissa tra una categoria e la successiva (sia in caso di successo che di errore)
+const PAUSA_TRA_CATEGORIE_MS = 8000;
+// Attese prima di ogni nuovo tentativo su 429 / errori di rete / 5xx
+const BACKOFF_MS = [15000, 30000, 60000, 90000];
+
+async function callZaiOnce(promptText) {
   const response = await fetch('https://api.z.ai/api/paas/v4/chat/completions', {
     method: 'POST',
     headers: {
@@ -107,14 +122,41 @@ async function callZai(promptText) {
     },
     body: JSON.stringify({
       model: 'glm-4.7-flash',
-      messages: [{ role: 'user', content: promptText }]
+      messages: [{ role: 'user', content: promptText }],
+      // GLM-4.7-Flash ragiona di default: qui non serve, e rallenta/appesantisce ogni richiesta
+      thinking: { type: 'disabled' },
+      max_tokens: 2000
     })
   });
-  const data = await response.json();
-  if (data.error) throw new Error(`[HTTP ${response.status}] ${data.error.message || 'Errore Z.ai'}`);
-  const content = data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content;
+
+  let data = null;
+  try { data = await response.json(); } catch (_) { /* corpo non JSON */ }
+
+  if (!response.ok || (data && data.error)) {
+    const msg = (data && data.error && data.error.message) || 'Errore Z.ai';
+    const err = new Error(`[HTTP ${response.status}] ${msg}`);
+    err.status = response.status;
+    err.retryAfterMs = Number(response.headers.get('retry-after')) * 1000 || 0;
+    throw err;
+  }
+
+  const content = data && data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content;
   if (!content) throw new Error('Risposta vuota da Z.ai.');
   return content.trim();
+}
+
+async function callZai(promptText) {
+  for (let attempt = 0; ; attempt++) {
+    try {
+      return await callZaiOnce(promptText);
+    } catch (err) {
+      const retryable = err.status === 429 || err.status >= 500 || err.status === undefined;
+      if (!retryable || attempt >= BACKOFF_MS.length) throw err;
+      const wait = Math.max(BACKOFF_MS[attempt], err.retryAfterMs || 0);
+      console.warn(`  ⚠ ${err.message} — riprovo tra ${Math.round(wait / 1000)}s (tentativo ${attempt + 2}/${BACKOFF_MS.length + 1})`);
+      await sleep(wait);
+    }
+  }
 }
 
 function parseModelJson(rawText) {
@@ -158,38 +200,78 @@ async function generateCategory(cat) {
 }
 
 async function main() {
-  const results = {};
-  const errors = [];
+  const dataDir = path.join(__dirname, '..', 'data');
+  const archivioDir = path.join(dataDir, 'archivio');
+  const oggiPath = path.join(dataDir, 'oggi.json');
 
+  // Edizione precedente: serve come ripiego se una categoria non riesce
+  let precedente = null;
+  try { precedente = JSON.parse(fs.readFileSync(oggiPath, 'utf8')); } catch (_) {}
+
+  const results = {};
+  let daRiprovare = [];
+  const errori = {};
+
+  // Primo passaggio: una categoria alla volta, con pausa SEMPRE (anche dopo un errore)
   for (const cat of CATEGORIES) {
     try {
       results[cat.id] = await generateCategory(cat);
-      await new Promise(r => setTimeout(r, 2000));
     } catch (err) {
       console.error(`✗ Errore su "${cat.label}":`, err.message);
-      errors.push({ categoria: cat.label, errore: err.message });
+      errori[cat.id] = { categoria: cat.label, errore: err.message };
+      daRiprovare.push(cat);
+    }
+    await sleep(PAUSA_TRA_CATEGORIE_MS);
+  }
+
+  // Secondo passaggio: le categorie fallite, dopo una pausa più lunga
+  if (daRiprovare.length) {
+    console.log(`\nRiprovo ${daRiprovare.length} categorie dopo una pausa di 60s...`);
+    await sleep(60000);
+    for (const cat of daRiprovare) {
+      try {
+        results[cat.id] = await generateCategory(cat);
+        delete errori[cat.id];
+      } catch (err) {
+        console.error(`✗ Ancora errore su "${cat.label}":`, err.message);
+        errori[cat.id] = { categoria: cat.label, errore: err.message };
+      }
+      await sleep(PAUSA_TRA_CATEGORIE_MS);
+    }
+  }
+
+  const nuove = Object.keys(results).length;
+  if (nuove === 0) {
+    // Non sovrascrivo l'ultima edizione buona con un file vuoto
+    console.error('\nNessuna categoria generata: lascio invariata l\'edizione precedente.');
+    process.exit(1);
+  }
+
+  // Per le categorie fallite, riuso quella di ieri (segnata come non aggiornata)
+  for (const cat of CATEGORIES) {
+    if (!results[cat.id] && precedente && precedente.categorie && precedente.categorie[cat.id]) {
+      results[cat.id] = { ...precedente.categorie[cat.id], stale: true };
+      console.log(`↺ "${cat.label}": mantenuta la versione precedente.`);
     }
   }
 
   const now = new Date();
   const dataISO = now.toISOString().split('T')[0];
+  const erroriList = Object.values(errori);
   const output = {
     generato_il: now.toISOString(),
     data: dataISO,
     categorie: results,
-    errori: errors.length ? errors : undefined
+    errori: erroriList.length ? erroriList : undefined
   };
 
-  const dataDir = path.join(__dirname, '..', 'data');
-  const archivioDir = path.join(dataDir, 'archivio');
   fs.mkdirSync(archivioDir, { recursive: true });
-
-  fs.writeFileSync(path.join(dataDir, 'oggi.json'), JSON.stringify(output, null, 2));
+  fs.writeFileSync(oggiPath, JSON.stringify(output, null, 2));
   fs.writeFileSync(path.join(archivioDir, `${dataISO}.json`), JSON.stringify(output, null, 2));
 
-  console.log(`\nFatto. ${Object.keys(results).length}/${CATEGORIES.length} categorie generate.`);
-  if (errors.length) {
-    console.log('Categorie con errori:', errors.map(e => e.categoria).join(', '));
+  console.log(`\nFatto. ${nuove}/${CATEGORIES.length} categorie generate ora.`);
+  if (erroriList.length) {
+    console.log('Categorie con errori:', erroriList.map(e => e.categoria).join(', '));
   }
 }
 
