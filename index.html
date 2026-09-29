@@ -309,7 +309,7 @@
 </div>
 
 <div class="legal-footer">
-  Concetto è un progetto di <strong>Vangard</strong>, marchio di RASCHETTI SRLS — Via Parravicini 29, 23017 Morbegno (SO) — P.IVA 01082340140 — REA 81343 — <a href="concetto-privacy.html">Privacy Policy</a><br>Le immagini sono foto generiche da Flickr (via LoremFlickr) scelte per argomento: non si riferiscono alle singole notizie.
+  Concetto è un progetto di <strong>Vangard</strong>, marchio di RASCHETTI SRLS — Via Parravicini 29, 23017 Morbegno (SO) — P.IVA 01082340140 — REA 81343 — <a href="concetto-privacy.html">Privacy Policy</a><br>Le immagini sono foto generiche (Flickr via LoremFlickr, oppure Picsum) e non si riferiscono alle singole notizie.
 </div>
 
 <script>
@@ -537,12 +537,24 @@
     if(!container) return;
     const seed = hashStr(new Date().toISOString().slice(0, 10) + catId) % 1000;
     const kw = PHOTO_KEYWORDS[catId] || 'news';
+    // 1) foto per argomento (LoremFlickr)  2) se non arriva entro 5 secondi: foto casuale sempre disponibile (Picsum)
+    const sources = [
+      `https://loremflickr.com/900/600/${kw}?lock=${seed}`,
+      `https://picsum.photos/seed/${catId}${seed}/900/600`
+    ];
     const img = new Image();
     img.alt = '';
-    img.loading = 'lazy';
-    img.onerror = () => img.remove();   // se la foto non arriva resta lo sfondo neutro
-    img.src = `https://loremflickr.com/900/600/${kw}?lock=${seed}`;
+    let step = 0, timer = null;
+    function next(){
+      clearTimeout(timer);
+      if(step >= sources.length){ img.remove(); return; }   // resta lo sfondo neutro
+      img.src = sources[step++];
+      if(step < sources.length){ timer = setTimeout(next, 5000); }
+    }
+    img.onload = () => clearTimeout(timer);
+    img.onerror = next;
     container.appendChild(img);
+    next();
   }
 
   function renderCard(catId, kind, data){
