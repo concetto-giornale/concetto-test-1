@@ -11,16 +11,31 @@
 <style>
   :root{
     --ink:#141414;
-    --ink-70: rgba(20,20,20,0.78);
+    --ink-soft:#222222;
     --rule:#1a1a1a;
     --rule-light:#d9d9d6;
     --red:#b3121c;
     --meta:#5f5f5a;
+    --link:#0b4a94;
     --page-bg:#ffffff;
+    --photo-1:#e4e0d2;
+    --photo-2:#bfb89f;
     --gold:#e6b23d;
     --teal:#54c2bb;
     --rose:#e5708a;
     --violet:#9c94f5;
+  }
+  [data-theme="dark"]{
+    --ink:#f1efe8;
+    --ink-soft:#e6e3d9;
+    --rule:#e8e5da;
+    --rule-light:#34332f;
+    --red:#ff7075;
+    --meta:#a9a79c;
+    --link:#8dbbff;
+    --page-bg:#141413;
+    --photo-1:#2d2c28;
+    --photo-2:#1e1d1a;
   }
   *{box-sizing:border-box; margin:0; padding:0;}
   html{scroll-behavior:smooth;}
@@ -96,7 +111,7 @@
   .col > .card{flex:1 1 auto;}
   .photo{
     position:relative; flex:1 1 auto; overflow:hidden;
-    background:linear-gradient(135deg,#e4e0d2,#bfb89f);
+    background:linear-gradient(135deg,var(--photo-1),var(--photo-2));
   }
   .photo img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block;}
   .card-lead .photo{min-height:340px;}
@@ -121,7 +136,7 @@
   .aforisma{
     margin-top:18px; padding:2px 0 2px 14px; border-left:3px solid var(--red);
     font-family:'Source Serif 4', Georgia, serif; font-style:italic; font-weight:400;
-    color:#222; line-height:1.4;
+    color:var(--ink-soft); line-height:1.4;
   }
   .card-lead .aforisma{font-size:22px;}
   .card-mid  .aforisma{font-size:18.5px;}
@@ -134,10 +149,11 @@
   .approf-link{
     margin-top:14px; align-self:flex-start; cursor:pointer;
     font-family:'Roboto Condensed', sans-serif; font-weight:700; font-size:13px;
-    letter-spacing:0.06em; text-transform:uppercase; color:#0b4a94;
-    border-bottom:2px solid #0b4a94; padding-bottom:1px;
+    letter-spacing:0.06em; text-transform:uppercase; color:var(--link);
+    border-bottom:2px solid var(--link); padding-bottom:1px;
   }
   .approf-link:hover{color:var(--red); border-color:var(--red);}
+  .card-actions .approf-link{margin-top:0;}
 
   /* ---------- Ritagli di giornale (lettera del rapitore) ---------- */
   .clip{
@@ -253,6 +269,149 @@
   }
   .legal-footer a{color:var(--meta);}
 
+
+  /* ---------- Novità: orologio, tema, archivio, azioni, curiosità, fonti ---------- */
+  .mt-right{display:flex; gap:6px 16px; align-items:center; flex-wrap:wrap; justify-content:flex-end;}
+  .clock{font-weight:700; color:var(--ink);}
+  .theme-btn, .ed-btn{
+    font-family:'Roboto Condensed', sans-serif; font-size:12.5px; color:var(--meta);
+    background:none; border:1px solid var(--rule-light); padding:2px 10px; cursor:pointer; border-radius:3px;
+  }
+  .theme-btn:hover, .ed-btn:hover:not(:disabled){color:var(--red); border-color:var(--red);}
+  .ed-btn:disabled{opacity:.35; cursor:default;}
+  .edition-nav{
+    max-width:1280px; margin:0 auto; padding:8px 20px;
+    display:flex; align-items:center; justify-content:center; gap:16px; flex-wrap:wrap;
+    border-bottom:1px solid var(--rule-light);
+    font-family:'Roboto Condensed', sans-serif; font-size:13px; color:var(--meta);
+  }
+  .edition-nav[hidden]{display:none;}
+  .edition-nav .ed-label{font-weight:700; color:var(--ink);}
+
+  .subtitle{
+    font-family:'Source Serif 4', Georgia, serif; font-style:italic; font-size:17px;
+    color:var(--ink-soft); margin:-6px 0 4px;
+  }
+  .paesi{font-family:'Roboto Condensed', sans-serif; font-size:12px; color:var(--meta); margin-bottom:10px;}
+  .stale-note{font-family:'Roboto Condensed', sans-serif; font-size:12px; color:var(--meta); margin:-6px 0 10px;}
+
+  .card-actions{display:flex; flex-wrap:wrap; align-items:center; gap:10px 16px; margin-top:14px;}
+  .act{
+    font-family:'Roboto Condensed', sans-serif; font-weight:700; font-size:12.5px;
+    letter-spacing:0.06em; text-transform:uppercase; color:var(--ink);
+    background:none; border:1px solid var(--rule-light); padding:4px 10px; cursor:pointer; border-radius:3px;
+  }
+  .act:hover:not(:disabled){border-color:var(--red); color:var(--red);}
+  .act:disabled{opacity:.5; cursor:wait;}
+
+  .curiosita{max-width:1280px; margin:0 auto; padding:8px 20px 30px;}
+  .cur-title{
+    font-family:'Playfair Display', Georgia, serif; font-weight:900; font-size:28px;
+    border-top:3px solid var(--rule); padding-top:12px; margin-bottom:16px;
+  }
+  .cur-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(230px, 1fr)); gap:22px;}
+  .cur-box{border-top:1px solid var(--rule-light); padding-top:12px; min-width:0;}
+  .cur-box p{font-family:'Source Serif 4', Georgia, serif; font-size:16.5px; line-height:1.45; color:var(--ink-soft);}
+  .cur-word{font-family:'Abril Fatface', serif; font-size:34px; line-height:1.1; margin:2px 0 2px; overflow-wrap:anywhere;}
+  .cur-moon{font-size:46px; line-height:1.1;}
+  .cur-quote{font-style:italic; font-size:18px !important;}
+  .cur-meta{font-family:'Roboto Condensed', sans-serif; font-size:12.5px; letter-spacing:0.05em; text-transform:uppercase; color:var(--meta); margin:4px 0 8px;}
+  .cur-meta a{color:var(--link);}
+
+  .sources{
+    max-width:1280px; margin:0 auto; padding:16px 20px 22px;
+    border-top:1px solid var(--rule-light);
+    font-family:'Roboto', Arial, sans-serif; font-size:11.5px; line-height:1.6; color:var(--meta);
+  }
+  .sources h2{font-family:'Roboto Condensed', sans-serif; font-size:12px; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:6px;}
+  .sources p{margin:0 0 3px;}
+  .sources b{color:var(--ink); font-weight:500;}
+  .sources a{color:var(--meta); text-decoration:underline;}
+  .sources a:hover{color:var(--red);}
+  .sources .src-note{margin-top:8px; font-style:italic;}
+
+
+  /* ---------- Spazi pubblicitari ---------- */
+  .masthead-row{
+    max-width:1280px; margin:0 auto; padding:0 20px;
+    display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);
+    grid-template-areas:"l logo r"; align-items:center; gap:10px 22px;
+  }
+  .masthead-row .masthead{grid-area:logo; padding:22px 0 14px;}
+  .ad-side{display:flex; min-width:0;}
+  .ad-side-l{grid-area:l; justify-content:flex-start;}
+  .ad-side-r{grid-area:r; justify-content:flex-end;}
+
+  .ad{
+    position:relative; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    text-align:center; overflow:hidden; text-decoration:none; color:#23262d;
+    isolation:isolate; border-radius:10px; container-type:inline-size;
+    background:linear-gradient(135deg, var(--a,#ffe7d8), var(--b,#ffd2e1)); background-size:220% 220%;
+    border:1px solid rgba(35,38,45,0.07);
+    box-shadow:0 6px 18px rgba(60,50,90,0.10);
+    animation:adDrift 12s ease-in-out infinite alternate;
+    transition:transform .25s ease, box-shadow .25s ease;
+  }
+  .ad:hover{transform:translateY(-2px); box-shadow:0 10px 24px rgba(60,50,90,0.16);}
+  .ad-mini{width:100%; max-width:240px; aspect-ratio:2.4/1; padding:8px 14px;}
+  .ad-quad{width:100%; aspect-ratio:1/1; padding:8cqw 7cqw; flex:none;}
+  .ad *{position:relative; z-index:3;}
+  .ad .ad-tag{
+    position:absolute; top:7px; left:11px; z-index:4;
+    font-family:'Roboto Condensed', sans-serif; font-weight:500; font-size:9.5px;
+    letter-spacing:0.16em; text-transform:uppercase; color:rgba(35,38,45,0.5);
+  }
+  /* due bagliori bianchi morbidi che fluttuano piano */
+  .ad::before, .ad::after{content:''; position:absolute; border-radius:50%; z-index:1; pointer-events:none;}
+  .ad::before{
+    width:60%; aspect-ratio:1; left:-18%; top:-28%;
+    background:radial-gradient(circle, rgba(255,255,255,0.9), rgba(255,255,255,0) 68%);
+    animation:adFloatA 9s ease-in-out infinite alternate;
+  }
+  .ad::after{
+    width:54%; aspect-ratio:1; right:-16%; bottom:-26%;
+    background:radial-gradient(circle, rgba(255,255,255,0.75), rgba(255,255,255,0) 68%);
+    animation:adFloatB 11s ease-in-out infinite alternate;
+  }
+
+  /* palette pastello, una per spazio */
+  .pal-peach {--a:#ffe7d8; --b:#ffd2e1;}
+  .pal-mint  {--a:#d8f5e7; --b:#d4ebff;}
+  .pal-lav   {--a:#e8e2ff; --b:#d8ecff;}
+  .pal-rose  {--a:#ffdfe9; --b:#efe2ff;}
+
+  .ad-k{
+    font-family:'Roboto Condensed', sans-serif; font-weight:700; letter-spacing:0.2em;
+    text-transform:uppercase; color:rgba(35,38,45,0.6);
+  }
+  .ad-t{
+    font-family:'Playfair Display', Georgia, serif; font-style:italic; font-weight:700;
+    color:#23262d; line-height:1.15;
+  }
+  .ad-orn{color:rgba(35,38,45,0.32); letter-spacing:0.5em; font-size:11px; animation:adPulse 3.4s ease-in-out infinite;}
+  .ad-mini .ad-k{font-size:10.5px;}
+  .ad-mini .ad-t{font-size:clamp(14px, 7.6cqw, 18px); margin-top:3px;}
+  .ad-quad .ad-k{font-size:clamp(10.5px, 5cqw, 14px);}
+  .ad-quad .ad-t{font-size:clamp(21px, 11cqw, 31px); margin:8px 0 12px;}
+  .ad-cta{
+    display:inline-block; font-family:'Roboto Condensed', sans-serif; font-weight:700;
+    font-size:clamp(11px, 5cqw, 14px); letter-spacing:0.08em; text-transform:uppercase;
+    color:#23262d; background:#ffffff; padding:0.55em 1.25em; border-radius:999px;
+    box-shadow:0 2px 8px rgba(35,38,45,0.14); animation:adBtn 3s ease-in-out infinite;
+  }
+
+  @keyframes adDrift{0%{background-position:0% 50%} 100%{background-position:100% 50%}}
+  @keyframes adFloatA{to{transform:translate(28%,18%)}}
+  @keyframes adFloatB{to{transform:translate(-30%,-16%)}}
+  @keyframes adPulse{0%,100%{opacity:0.35} 50%{opacity:0.9}}
+  @keyframes adBtn{0%,100%{box-shadow:0 2px 8px rgba(35,38,45,0.14)} 50%{box-shadow:0 5px 16px rgba(35,38,45,0.26)}}
+  @media (prefers-reduced-motion: reduce){
+    .ad, .ad::before, .ad::after, .ad *{animation:none !important;}
+  }
+
+  .col-center > .center-grid{flex:2 1 auto;}
+  .col > .ad-quad{flex:none;}
+
   /* ---------- Responsive ---------- */
   @media (max-width:1000px){
     .front{grid-template-columns:minmax(0,1fr); gap:26px 0;}
@@ -262,6 +421,11 @@
     .card-mid  .photo{height:210px; min-height:0;}
     .card-side .photo{height:210px; min-height:0;}
     .col-left, .col-right{display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:26px 24px;}
+  }
+  @media (max-width:1000px){
+    .ad-side{display:none;}
+    .masthead-row{grid-template-columns:minmax(0,1fr); grid-template-areas:"logo";}
+    .masthead-row .masthead{padding:16px 0 6px;}
   }
   @media (max-width:640px){
     .center-grid, .col-left, .col-right{grid-template-columns:minmax(0,1fr);}
@@ -275,14 +439,21 @@
 <body>
 
 <div class="masthead-top">
-  <span id="dateline"></span>
-  <span>Dieci edizioni al giorno · Generate in automatico · Gratis, senza account</span>
+  <span id="clockPlace" class="clock"></span>
+  <span class="mt-right">
+    <span>10 edizioni al giorno · riassunte in automatico da AI · gratis, senza account</span>
+    <button type="button" class="theme-btn" id="themeBtn">Modalità notte</button>
+  </span>
 </div>
 
-<header class="masthead">
+<div class="masthead-row">
+  <div class="ad-side ad-side-l" id="adHdrL"></div>
+  <header class="masthead">
   <div class="logo">Conc<em>e</em>tto</div>
   <div class="payoff">L'informazione che vuoi. Nel tempo che hai.</div>
 </header>
+  <div class="ad-side ad-side-r" id="adHdrR"></div>
+</div>
 
 <nav class="sections-nav">
   <a href="#card-italia">Italia</a>
@@ -299,9 +470,19 @@
 
 <div class="today-strip" id="todayStrip"></div>
 
+<div class="edition-nav" id="editionNav" hidden>
+  <button type="button" class="ed-btn" id="prevEd">← Edizione precedente</button>
+  <span class="ed-label" id="edLabel"></span>
+  <button type="button" class="ed-btn" id="nextEd">Edizione successiva →</button>
+</div>
+
 <main class="front" id="frontGrid">
   <p class="loading">sto caricando l'edizione di oggi…</p>
 </main>
+
+<section class="curiosita" id="curiosita"></section>
+
+<section class="sources" id="sources"></section>
 
 <div class="overlay-backdrop" id="overlay">
   <span class="overlay-close" id="overlayClose">chiudi ✕</span>
@@ -309,7 +490,7 @@
 </div>
 
 <div class="legal-footer">
-  Concetto è un progetto di <strong>Vangard</strong>, marchio di RASCHETTI SRLS — Via Parravicini 29, 23017 Morbegno (SO) — P.IVA 01082340140 — REA 81343 — <a href="concetto-privacy.html">Privacy Policy</a><br>Le immagini sono foto generiche (Flickr via LoremFlickr, oppure Picsum) e non si riferiscono alle singole notizie.
+  Concetto è un progetto di <a href="https://www.vangard.it" target="_blank" rel="noopener"><strong>Vangard</strong></a> (<a href="https://www.vangard.it" target="_blank" rel="noopener">www.vangard.it</a>), marchio di RASCHETTI SRLS — Via Parravicini 29, 23017 Morbegno (SO) — P.IVA 01082340140 — REA 81343 — <a href="concetto-privacy.html">Privacy Policy</a><br>Le immagini sono foto generiche (Flickr via LoremFlickr, oppure Picsum) e non si riferiscono alle singole notizie.
 </div>
 
 <script>
@@ -320,6 +501,68 @@
     name:     { label: 'nome proprio',          pastel: '#f0bfce', clipClass: 'cat-name'     },
     deepdive: { label: 'approfondimento',       pastel: '#c9c3f2', clipClass: 'cat-deepdive' }
   };
+
+  const PAROLE = [
+    { parola: "saudade", lingua: "portoghese", senso: "Nostalgia struggente per qualcosa o qualcuno che è lontano o che non c'è più." },
+    { parola: "hygge", lingua: "danese", senso: "L'atmosfera calda e accogliente di stare bene insieme, in un posto che ti fa sentire al sicuro." },
+    { parola: "Sehnsucht", lingua: "tedesco", senso: "Un desiderio intenso e malinconico per qualcosa che non si sa bene definire." },
+    { parola: "komorebi", lingua: "giapponese", senso: "La luce del sole che filtra attraverso le foglie degli alberi." },
+    { parola: "tsundoku", lingua: "giapponese", senso: "Comprare libri e lasciarli ad accumularsi senza leggerli." },
+    { parola: "ikigai", lingua: "giapponese", senso: "La ragione per cui vale la pena alzarsi ogni mattina." },
+    { parola: "wabi-sabi", lingua: "giapponese", senso: "La bellezza delle cose imperfette, incomplete e segnate dal tempo." },
+    { parola: "Fernweh", lingua: "tedesco", senso: "La nostalgia di luoghi in cui non si è mai stati: la voglia di partire." },
+    { parola: "Torschlusspanik", lingua: "tedesco", senso: "L'ansia di lasciarsi sfuggire le occasioni mentre il tempo passa." },
+    { parola: "gigil", lingua: "tagalog", senso: "L'impulso irresistibile di stringere qualcosa di troppo tenero o carino." },
+    { parola: "lagom", lingua: "svedese", senso: "La giusta misura: né troppo né troppo poco." },
+    { parola: "sobremesa", lingua: "spagnolo", senso: "Il tempo passato a tavola a chiacchierare dopo aver finito di mangiare." },
+    { parola: "jayus", lingua: "indonesiano", senso: "Una barzelletta raccontata così male che fa ridere lo stesso." },
+    { parola: "ubuntu", lingua: "lingue nguni (Sudafrica)", senso: "\u201CIo sono perché noi siamo\u201D: l'umanità si realizza attraverso gli altri." },
+    { parola: "meraki", lingua: "greco", senso: "Mettere anima, creatività e amore in ciò che si fa." },
+    { parola: "dépaysement", lingua: "francese", senso: "La sensazione di disorientamento di chi si trova in un paese che non è il suo." },
+    { parola: "kilig", lingua: "tagalog", senso: "Il brivido di farfalle nello stomaco per un'emozione romantica." },
+    { parola: "cafuné", lingua: "portoghese brasiliano", senso: "Accarezzare teneramente i capelli di una persona amata." },
+    { parola: "utepils", lingua: "norvegese", senso: "La prima birra bevuta all'aperto in una giornata di sole." },
+    { parola: "friluftsliv", lingua: "norvegese", senso: "Vivere all'aria aperta come modo di stare al mondo." },
+    { parola: "mångata", lingua: "svedese", senso: "La scia di luce della luna riflessa sull'acqua." },
+    { parola: "forelsket", lingua: "norvegese", senso: "L'euforia dei primi momenti d'innamoramento." },
+    { parola: "toska", lingua: "russo", senso: "Un'angoscia spirituale profonda, a volte senza una causa precisa." },
+    { parola: "sisu", lingua: "finlandese", senso: "Determinazione tenace di fronte alle difficoltà, anche oltre il limite apparente." },
+    { parola: "shinrin-yoku", lingua: "giapponese", senso: "Il \u201Cbagno di foresta\u201D: immergersi tra gli alberi per rilassarsi." },
+    { parola: "hiraeth", lingua: "gallese", senso: "Nostalgia struggente di una casa a cui non si può più tornare, o che forse non è mai esistita." },
+    { parola: "Kummerspeck", lingua: "tedesco", senso: "Letteralmente \u201Clardo del dolore\u201D: i chili presi mangiando per consolarsi." },
+    { parola: "Backpfeifengesicht", lingua: "tedesco", senso: "Un viso che sembra chiedere a gran voce uno schiaffo." },
+    { parola: "pochemuchka", lingua: "russo", senso: "Una persona che fa sempre troppe domande." },
+    { parola: "duende", lingua: "spagnolo", senso: "Il potere misterioso e appassionato di un'esibizione o di un'opera che commuove." },
+    { parola: "esprit de l'escalier", lingua: "francese", senso: "La risposta perfetta che ti viene in mente quando la conversazione è ormai finita." },
+    { parola: "Schadenfreude", lingua: "tedesco", senso: "Il piacere provato per le disgrazie altrui." },
+    { parola: "gökotta", lingua: "svedese", senso: "Svegliarsi all'alba per ascoltare il canto degli uccelli." },
+    { parola: "\u02BBohana", lingua: "hawaiano", senso: "La famiglia in senso allargato, dove nessuno viene lasciato indietro." },
+    { parola: "tartle", lingua: "scozzese", senso: "L'esitazione nel presentare qualcuno perché non ricordi il suo nome." },
+    { parola: "yūgen", lingua: "giapponese", senso: "Il senso profondo e misterioso della bellezza dell'universo." },
+  ];
+
+  const PROVERBI = [
+    { testo: "Cadi sette volte, rialzati otto.", origine: "Giappone" },
+    { testo: "Un viaggio di mille miglia comincia con un solo passo.", origine: "Cina" },
+    { testo: "La fretta non porta benedizioni.", origine: "Swahili (Africa orientale)" },
+    { testo: "Fidati, ma verifica.", origine: "Russia" },
+    { testo: "Anche le scimmie cadono dagli alberi.", origine: "Giappone" },
+    { testo: "Il chiodo che sporge viene battuto.", origine: "Giappone" },
+    { testo: "Non esiste cattivo tempo, solo cattivo abbigliamento.", origine: "Scandinavia" },
+    { testo: "L'acqua molle sulla pietra dura, tanto batte finché la fora.", origine: "Portogallo" },
+    { testo: "Non c'è focolare come il proprio focolare.", origine: "Irlanda" },
+    { testo: "A poco a poco l'uccellino fa il suo nido.", origine: "Francia" },
+    { testo: "Le parole del giorno le ascoltano gli uccelli, quelle della notte i topi.", origine: "Corea" },
+    { testo: "Quando le ragnatele si uniscono possono legare un leone.", origine: "Etiopia" },
+    { testo: "Quando bevi l'acqua, ricordati di chi ha scavato il pozzo.", origine: "Vietnam" },
+    { testo: "Chi non rischia non assaggia.", origine: "Brasile" },
+    { testo: "Il mattino è più saggio della sera.", origine: "Russia" },
+    { testo: "Misura sette volte, taglia una sola.", origine: "Russia" },
+    { testo: "Non è il mio circo, non sono le mie scimmie.", origine: "Polonia" },
+    { testo: "Piano piano è l'andatura giusta.", origine: "Swahili (Africa orientale)" },
+    { testo: "Poco alla volta, alla fine diventa una collina.", origine: "Malesia" },
+    { testo: "L'esercizio fa il maestro.", origine: "Germania" },
+  ];
 
   // Un ritaglio evidenziato può essere al massimo di 3 parole: oltre, torna a parole singole
   const MAX_PAROLE_EVIDENZIATE = 3;
@@ -452,27 +695,53 @@
     return map[code] || 'variabile';
   }
 
-  function loadWeather(){
-    const el = document.getElementById('weatherPart');
-    if(!el) return;
-    function apply(lat, lon){
-      fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,weather_code&timezone=auto`)
-        .then(r => r.json())
-        .then(d => {
-          const c = d.current;
-          el.innerHTML = `meteo: <b>${weatherCodeToText(c.weather_code)}, ${Math.round(c.temperature_2m)}°</b>`;
-        })
-        .catch(() => { el.textContent = 'meteo: non disponibile'; });
-    }
-    if(navigator.geolocation){
+  // La posizione viene chiesta una sola volta e serve sia per il meteo sia per il nome del luogo
+  let posPromise = null;
+  function getPosition(){
+    if(posPromise) return posPromise;
+    posPromise = new Promise(resolve => {
+      if(!navigator.geolocation){ resolve(null); return; }
       navigator.geolocation.getCurrentPosition(
-        pos => apply(pos.coords.latitude, pos.coords.longitude),
-        () => apply(41.9028, 12.4964),
+        p => resolve({ lat: p.coords.latitude, lon: p.coords.longitude }),
+        () => resolve(null),
         { timeout: 4000 }
       );
-    }else{
-      apply(41.9028, 12.4964);
+    });
+    return posPromise;
+  }
+
+  async function loadWeather(){
+    const el = document.getElementById('weatherPart');
+    if(!el) return;
+    const pos = await getPosition();
+    const lat = pos ? pos.lat : 41.9028, lon = pos ? pos.lon : 12.4964;   // senza permesso: Roma
+    try{
+      const r = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,weather_code&timezone=auto`);
+      const d = await r.json();
+      const c = d.current;
+      el.innerHTML = `meteo: <b>${weatherCodeToText(c.weather_code)}, ${Math.round(c.temperature_2m)}°</b>`;
+    }catch(err){
+      el.textContent = 'meteo: non disponibile';
     }
+  }
+
+  // Luogo e orario in alto a sinistra: il luogo compare solo se la posizione è disponibile
+  let placeName = '';
+  function updateClock(){
+    const el = document.getElementById('clockPlace');
+    if(!el) return;
+    const ora = new Date().toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' });
+    el.textContent = (placeName ? placeName + ' · ' : '') + ora;
+  }
+  async function loadPlace(){
+    const pos = await getPosition();
+    if(!pos) return;
+    try{
+      const r = await fetch(`https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${pos.lat}&longitude=${pos.lon}&localityLanguage=it`);
+      const d = await r.json();
+      placeName = d.city || d.locality || d.principalSubdivision || '';
+      updateClock();
+    }catch(err){ /* nessun luogo: resta solo l'ora */ }
   }
 
   async function loadSaint(){
@@ -496,37 +765,122 @@
     const dateStr = `${giorni[d.getDay()]} ${d.getDate()} ${mesi[d.getMonth()]} ${d.getFullYear()}`;
     el.innerHTML = `
       <span><b>${dateStr}</b></span>
+      <span id="updatedPart"></span>
       <span id="weatherPart">meteo: …</span>
       <span id="saintPart">santo: …</span>
       <span>motto: "${getMottoDelGiorno()}"</span>
     `;
     loadWeather();
     loadSaint();
+    loadPlace();
+    updateClock();
+    setInterval(updateClock, 20000);
   }
 
-  const dateline = document.getElementById('dateline');
-  (function setDateline(){
-    const d = new Date();
-    const giorni = ['Domenica','Lunedì','Martedì','Mercoledì','Giovedì','Venerdì','Sabato'];
-    const mesi = ['Gennaio','Febbraio','Marzo','Aprile','Maggio','Giugno','Luglio','Agosto','Settembre','Ottobre','Novembre','Dicembre'];
-    dateline.textContent = giorni[d.getDay()] + ' ' + d.getDate() + ' ' + mesi[d.getMonth()] + ' ' + d.getFullYear();
+  // ---------- Statistiche (GoatCounter): si attivano solo inserendo il codice del sito ----------
+  const GOATCOUNTER_CODE = '';
+  if(GOATCOUNTER_CODE){
+    const sc = document.createElement('script');
+    sc.async = true;
+    sc.dataset.goatcounter = `https://${GOATCOUNTER_CODE}.goatcounter.com/count`;
+    sc.src = '//gc.zgo.at/count.js';
+    document.head.appendChild(sc);
+  }
+  function track(nome){
+    try{
+      if(window.goatcounter && window.goatcounter.count){
+        window.goatcounter.count({ path: 'evento/' + nome, title: nome, event: true });
+      }
+    }catch(err){ /* le statistiche non devono mai rompere il sito */ }
+  }
+
+  function esc(str){
+    return String(str == null ? '' : str).replace(/[&<>"]/g, ch => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;' }[ch]));
+  }
+
+  // ---------- Modalità giorno / notte ----------
+  const themeBtn = document.getElementById('themeBtn');
+  function applyTheme(t){
+    document.documentElement.setAttribute('data-theme', t);
+    themeBtn.textContent = t === 'dark' ? 'Modalità giorno' : 'Modalità notte';
+  }
+  (function initTheme(){
+    let t = null;
+    try{ t = localStorage.getItem('concetto-tema'); }catch(err){}
+    applyTheme(t === 'dark' ? 'dark' : 'light');
+    themeBtn.addEventListener('click', () => {
+      const nuovo = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      applyTheme(nuovo);
+      try{ localStorage.setItem('concetto-tema', nuovo); }catch(err){}
+    });
   })();
 
-  const FONT_COUNT = 12;
+  // ---------- Ritagli ----------
+  // Un font diverso per ogni ritaglio (stesso ordine delle classi .f0-.f11 nel CSS)
+  const FONT_SPECS = [
+    { fam:'Abril Fatface',     w:400, st:'normal', f:1.00, up:false },
+    { fam:'Anton',             w:400, st:'normal', f:1.00, up:true  },
+    { fam:'Special Elite',     w:400, st:'normal', f:0.88, up:false },
+    { fam:'Alfa Slab One',     w:400, st:'normal', f:0.82, up:false },
+    { fam:'Playfair Display',  w:900, st:'italic', f:0.98, up:false },
+    { fam:'Old Standard TT',   w:700, st:'normal', f:1.00, up:false },
+    { fam:'Courier Prime',     w:700, st:'normal', f:0.90, up:false },
+    { fam:'Oswald',            w:600, st:'normal', f:0.92, up:true  },
+    { fam:'DM Serif Display',  w:400, st:'italic', f:1.02, up:false },
+    { fam:'Bebas Neue',        w:400, st:'normal', f:1.14, up:true  },
+    { fam:'Archivo Black',     w:400, st:'normal', f:0.78, up:true  },
+    { fam:'Roboto Slab',       w:700, st:'normal', f:0.92, up:false },
+  ];
   const ROT_VARIANTS = ['rot-a','rot-b','rot-c','rot-d','rot-e','rot-f'];
   const NEUTRAL_TONES = ['plain-a','plain-b','plain-c','plain-d','plain-e'];
   const ONLY_PUNCT = /^[.,;:!?)\]»”…]+$/;
 
-  function makeClip(text, type, index, clipSize){
+  // Trasforma i segmenti della frase in una lista di ritagli (usata sia dalla pagina sia dall'immagine da condividere)
+  function buildClipModel(data){
+    const clips = [];
+    let clipIndex = 0, neutralIndex = 0;
+    data.segments.forEach(seg => {
+      const segText = seg.text || '';
+      const nParole = segText.trim().split(/\s+/).filter(Boolean).length;
+      if(seg.type === 'plain' || !CATEGORY_META[seg.type] || nParole > MAX_PAROLE_EVIDENZIATE){
+        segText.split(/\s+/).filter(Boolean).forEach(word => {
+          if(ONLY_PUNCT.test(word) && clips.length){        // la punteggiatura resta attaccata alla parola prima
+            clips[clips.length - 1].text += word;
+            return;
+          }
+          clips.push({ text: word, type: null, index: clipIndex++, tone: neutralIndex++ % NEUTRAL_TONES.length });
+        });
+      }else{
+        clips.push({ text: segText, type: seg.type, detail: seg.detail, index: clipIndex++ });
+      }
+    });
+    return clips;
+  }
+
+  function makeClip(model, clipSize){
     const span = document.createElement('span');
-    const fontClass = 'f' + ((index * 5) % FONT_COUNT);   // font diverso per ogni ritaglio vicino
-    const rotClass = ROT_VARIANTS[(index * 2 + (type ? 1 : 0)) % ROT_VARIANTS.length];
+    const fontClass = 'f' + ((model.index * 5) % FONT_SPECS.length);   // font diverso per ritagli vicini
+    const rotClass = ROT_VARIANTS[(model.index * 2 + (model.type ? 1 : 0)) % ROT_VARIANTS.length];
     span.className = `clip ${fontClass} ${rotClass}`;
     span.style.setProperty('--clip-size', clipSize);
-    span.textContent = text;
+    span.textContent = model.text;
     return span;
   }
 
+  function fraseDi(data){
+    return data.segments.map(sg => sg.text || '').join(' ')
+      .replace(/\s+([.,;:!?)])/g, '$1').replace(/\s+/g, ' ').trim();
+  }
+
+  function dataBreve(iso){
+    if(!iso) return '';
+    const p = String(iso).split('-').map(Number);
+    if(p.length !== 3 || p.some(isNaN)) return String(iso);
+    const mesi = ['gennaio','febbraio','marzo','aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre'];
+    return `${p[2]} ${mesi[p[1] - 1]}`;
+  }
+
+  // ---------- Foto ----------
   function hashStr(str){
     let h = 0;
     for(let i = 0; i < str.length; i++){ h = (h * 31 + str.charCodeAt(i)) >>> 0; }
@@ -557,66 +911,175 @@
     next();
   }
 
+  // ---------- Ascolta (voce femminile, lenta e pacata) ----------
+  let voci = [];
+  function caricaVoci(){
+    if(!('speechSynthesis' in window)) return;
+    voci = (window.speechSynthesis.getVoices() || []).filter(v => /^it([-_]|$)/i.test(v.lang));
+  }
+  if('speechSynthesis' in window){
+    caricaVoci();
+    window.speechSynthesis.addEventListener('voiceschanged', caricaVoci);
+  }
+  const VOCI_FEMMINILI = /elsa|isabella|federica|alice|paola|emma|lucia|silvia|chiara|carla|francesca|giorgia|vittoria|sara|google italiano/i;
+  const VOCI_MASCHILI = /luca|cosimo|diego|giuseppe|marco|lorenzo|stefano|giorgio|\bmale\b/i;
+
+  // Sceglie la voce italiana femminile più naturale tra quelle installate sul dispositivo
+  function sceltaVoce(){
+    if(!voci.length) caricaVoci();
+    const fem = voci.filter(v => VOCI_FEMMINILI.test(v.name) && !VOCI_MASCHILI.test(v.name));
+    const naturali = fem.filter(v => /natural|neural|online|premium|enhanced|siri/i.test(v.name));
+    return naturali[0] || fem[0] || voci.find(v => !VOCI_MASCHILI.test(v.name)) || voci[0] || null;
+  }
+
+  let speakingBtn = null, speakTimer = null;
+  function stopSpeak(){
+    clearTimeout(speakTimer);
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+    if(speakingBtn){ speakingBtn.textContent = 'Ascolta'; speakingBtn = null; }
+  }
+  function pronuncia(testo, btn, onFine){
+    const u = new SpeechSynthesisUtterance(testo);
+    u.lang = 'it-IT';
+    const v = sceltaVoce();
+    if(v){ u.voice = v; u.lang = v.lang; }
+    u.rate = 0.8;       // lenta
+    u.pitch = 1.08;     // leggermente più chiara e giovane
+    u.volume = 0.92;    // morbida
+    u.onend = () => { if(speakingBtn === btn) onFine(); };
+    u.onerror = () => { if(speakingBtn === btn){ btn.textContent = 'Ascolta'; speakingBtn = null; } };
+    window.speechSynthesis.speak(u);
+  }
+  function toggleSpeak(btn, catId, data){
+    if(!('speechSynthesis' in window)) return;
+    const eraQuesto = speakingBtn === btn;
+    stopSpeak();
+    if(eraQuesto) return;
+    speakingBtn = btn;
+    btn.textContent = 'Stop';
+    track('ascolta-' + catId);
+    const fine = () => { btn.textContent = 'Ascolta'; speakingBtn = null; };
+    pronuncia(fraseDi(data), btn, () => {
+      if(!data.aforisma){ fine(); return; }
+      speakTimer = setTimeout(() => {           // pausa serena prima dell'aforisma
+        if(speakingBtn !== btn) return;
+        pronuncia(data.aforisma, btn, fine);
+      }, 1100);
+    });
+  }
+
+  // ---------- Spazi pubblicitari ----------
+  // Tutti gli spazi sono "in vendita": animazione "clicca qui per la tua pubblicità" verso il modulo di contatto
+  const AD_URL = 'https://vangard.it/#contatti';
+  const AD_SLOTS = [
+    { id:'hdr-sx', formato:'mini', pal:'peach' },   // accanto al titolo, a sinistra (solo desktop)
+    { id:'hdr-dx', formato:'mini', pal:'mint'  },   // accanto al titolo, a destra (solo desktop)
+    { id:'sq-3',   formato:'quad', pal:'rose'  },   // dentro il giornale, colonna sinistra
+    { id:'sq-2',   formato:'quad', pal:'lav'   },   // dentro il giornale, colonna destra
+  ];
+
+  function adHTML(id){
+    const slot = AD_SLOTS.find(x => x.id === id);
+    if(!slot) return '';
+    const mini = slot.formato === 'mini';
+    const base = `href="${AD_URL}" target="_blank" rel="noopener sponsored" data-ad="${slot.id}"`;
+    const tag = '<span class="ad-tag">Pubblicità</span>';
+    const cls = `ad ${mini ? 'ad-mini' : 'ad-quad'} pal-${slot.pal} ad-vendita`;
+    if(mini){
+      return `<a class="${cls}" ${base} aria-label="Pubblicità: clicca qui per la tua pubblicità">${tag}
+        <span class="ad-k">Clicca qui</span>
+        <span class="ad-t">per la tua pubblicità</span></a>`;
+    }
+    return `<a class="${cls}" ${base} aria-label="Pubblicità: clicca qui per la tua pubblicità">${tag}
+      <span class="ad-orn">✦ ✦ ✦</span>
+      <span class="ad-k">Clicca qui</span>
+      <span class="ad-t">per la tua<br>pubblicità</span>
+      <span class="ad-cta">Scopri come →</span></a>`;
+  }
+
+  // I due banner ai lati del titolo esistono solo nella versione desktop: su smartphone e tablet non vengono nemmeno creati
+  const desktopMQ = window.matchMedia('(min-width: 1001px)');
+  function mostraBannerTitolo(){
+    document.getElementById('adHdrL').innerHTML = desktopMQ.matches ? adHTML('hdr-sx') : '';
+    document.getElementById('adHdrR').innerHTML = desktopMQ.matches ? adHTML('hdr-dx') : '';
+  }
+  mostraBannerTitolo();
+  if(desktopMQ.addEventListener) desktopMQ.addEventListener('change', mostraBannerTitolo);
+  else if(desktopMQ.addListener) desktopMQ.addListener(mostraBannerTitolo);
+
+  document.addEventListener('click', e => {
+    const a = e.target.closest && e.target.closest('a.ad');
+    if(a) track('ad-' + a.dataset.ad);
+  });
+
+  // ---------- Riquadri ----------
   function renderCard(catId, kind, data){
     const card = document.getElementById('card-' + catId);
     if(!card || !data) return;
     const box = card.querySelector('.section-sentence');
     box.innerHTML = '';
-    let clipIndex = 0, neutralIndex = 0, lastClip = null;
     const clipSize = CLIP_SIZES[kind];
 
-    data.segments.forEach(seg => {
-      const segText = seg.text || '';
-      const nParole = segText.trim().split(/\s+/).filter(Boolean).length;
-      if(seg.type === 'plain' || !CATEGORY_META[seg.type] || nParole > MAX_PAROLE_EVIDENZIATE){
-        segText.split(/\s+/).filter(Boolean).forEach(word => {
-          if(ONLY_PUNCT.test(word) && lastClip){        // la punteggiatura resta attaccata alla parola prima
-            lastClip.textContent += word;
-            return;
-          }
-          const clip = makeClip(word, null, clipIndex++, clipSize);
-          clip.classList.add(NEUTRAL_TONES[neutralIndex++ % NEUTRAL_TONES.length]);
-          box.appendChild(clip);
-          lastClip = clip;
-        });
-      }else{
-        const meta = CATEGORY_META[seg.type];
-        const clip = makeClip(segText, seg.type, clipIndex++, clipSize);
+    buildClipModel(data).forEach(model => {
+      const clip = makeClip(model, clipSize);
+      if(model.type){
+        const meta = CATEGORY_META[model.type];
         clip.classList.add('tagged', meta.clipClass);
-        clip.addEventListener('click', () => openWordDetail(data.label, segText, seg.detail, meta));
-        box.appendChild(clip);
-        lastClip = clip;
+        clip.addEventListener('click', () => { track('ritaglio-' + catId); openWordDetail(data.label, model.text, model.detail, meta); });
+      }else{
+        clip.classList.add(NEUTRAL_TONES[model.tone]);
       }
+      box.appendChild(clip);
     });
 
     const aforisma = card.querySelector('.aforisma');
     aforisma.querySelector('p').textContent = '\u201C' + (data.aforisma || '') + '\u201D';
     aforisma.querySelector('cite').textContent = '\u2014 ' + (data.autore || 'Anonimo');
-    card.querySelector('.approf-link').onclick = () => openApprofondimento(data.label, data.approfondimento);
+
+    card.querySelector('.approf-link').onclick = () => { track('approfondisci-' + catId); openApprofondimento(data.label, data.approfondimento); };
+    const listen = card.querySelector('.act-listen');
+    if('speechSynthesis' in window){ listen.onclick = () => toggleSpeak(listen, catId, data); }
+    else{ listen.remove(); }
+
+    if(data.stale){
+      const note = card.querySelector('.stale-note');
+      note.textContent = 'Sezione non aggiornata oggi: mostra l\u2019edizione del ' + dataBreve(data.stale_da);
+      note.hidden = false;
+    }
+    if(catId === 'concettoplus' && Array.isArray(data.paesi) && data.paesi.length){
+      card.querySelector('.paesi').textContent = 'Titoli da: ' + data.paesi.join(', ');
+    }
     attachPhoto(card.querySelector('.photo'), catId);
   }
 
   function cardHTML(item, kind){
+    const isPlus = item.id === 'concettoplus';
     return `
-      <article class="card card-${kind}" id="card-${item.id}">
+      <article class="card card-${kind}" id="card-${esc(item.id)}">
         <div class="photo"></div>
         <div class="card-body">
-          <div class="kicker">${item.data.label || item.id}</div>
+          <div class="kicker">${esc(item.data.label || item.id)}</div>
+          ${isPlus ? '<div class="subtitle">L\u2019Italia vista dall\u2019estero</div><div class="paesi"></div>' : ''}
+          <div class="stale-note" hidden></div>
           <div class="section-sentence"></div>
           <blockquote class="aforisma"><p></p><cite></cite></blockquote>
-          <div class="approf-link">Approfondisci →</div>
+          <div class="card-actions">
+            <span class="approf-link">Approfondisci →</span>
+            <button type="button" class="act act-listen">Ascolta</button>
+          </div>
         </div>
       </article>`;
   }
 
   function renderFrontPage(payload){
+    stopSpeak();
     const grid = document.getElementById('frontGrid');
     const items = Object.keys(payload.categorie)
       .map(id => ({ id, data: payload.categorie[id] }))
       .filter(x => x.data && Array.isArray(x.data.segments) && x.data.segments.length);
 
     // le notizie più estese vanno al centro (la più lunga è l'apertura)
-    items.forEach(x => { x.len = x.data.segments.map(s => s.text || '').join(' ').length; });
+    items.forEach(x => { x.len = x.data.segments.map(sg => sg.text || '').join(' ').length; });
     items.sort((a, b) => b.len - a.len);
     const center = items.slice(0, 5);
     const lateral = items.slice(5);
@@ -624,16 +1087,104 @@
     const right = lateral.filter((_, i) => i % 2 === 1);
 
     grid.innerHTML = `
-      <div class="col col-left">${left.map(i => cardHTML(i, 'side')).join('')}</div>
+      <div class="col col-left">
+        ${left[0] ? cardHTML(left[0], 'side') : ''}
+        ${adHTML('sq-3')}
+        ${left.slice(1).map(i => cardHTML(i, 'side')).join('')}
+      </div>
       <div class="col col-center">
         ${center[0] ? cardHTML(center[0], 'lead') : ''}
         <div class="center-grid">${center.slice(1).map(i => cardHTML(i, 'mid')).join('')}</div>
       </div>
-      <div class="col col-right">${right.map(i => cardHTML(i, 'side')).join('')}</div>
+      <div class="col col-right">
+        ${right[0] ? cardHTML(right[0], 'side') : ''}
+        ${adHTML('sq-2')}
+        ${right.slice(1).map(i => cardHTML(i, 'side')).join('')}
+      </div>
     `;
 
     center.forEach((x, i) => renderCard(x.id, i === 0 ? 'lead' : 'mid', x.data));
     left.concat(right).forEach(x => renderCard(x.id, 'side', x.data));
+  }
+
+  // ---------- Fonti (in fondo alla pagina, piccole e cliccabili) ----------
+  const ORDINE_SEZIONI = ['italia','esteri','economia','tecnologia','sport','cultura','gossip','ambiente','moda','concettoplus'];
+  function renderSources(payload){
+    const box = document.getElementById('sources');
+    const righe = [];
+    ORDINE_SEZIONI.forEach(id => {
+      const d = payload.categorie[id];
+      if(!d || !Array.isArray(d.fonti) || !d.fonti.length) return;
+      const links = d.fonti
+        .filter(f => f && /^https?:\/\//.test(f.url))
+        .map(f => `<a href="${esc(f.url)}" target="_blank" rel="noopener noreferrer" data-fonte="${esc(f.nome)}">${esc(f.nome)}</a>`)
+        .join(', ');
+      if(links) righe.push(`<p><b>${esc(d.label || id)}</b>: ${links}</p>`);
+    });
+    box.innerHTML = '<h2>Fonti</h2>' +
+      (righe.length ? righe.join('') : '<p>Le fonti di questa edizione non sono disponibili.</p>') +
+      '<p class="src-note">Sintesi generate automaticamente dall\u2019intelligenza artificiale a partire dai titoli delle testate indicate: per i dettagli leggi gli articoli originali.</p>';
+    box.querySelectorAll('a').forEach(a => a.addEventListener('click', () => track('fonte-' + a.dataset.fonte)));
+  }
+
+  // ---------- Curiosità dal mondo ----------
+  function giornoDellAnno(){
+    const start = new Date(new Date().getFullYear(), 0, 0);
+    return Math.floor((new Date() - start) / 86400000);
+  }
+
+  function faseLunare(d){
+    const SYN = 29.530588853;
+    const NUOVA = Date.UTC(2000, 0, 6, 18, 14);
+    let eta = ((d.getTime() - NUOVA) / 86400000) % SYN;
+    if(eta < 0) eta += SYN;
+    const illuminata = Math.round((1 - Math.cos(2 * Math.PI * eta / SYN)) / 2 * 100);
+    const idx = Math.floor((eta / SYN) * 8 + 0.5) % 8;
+    const nomi = ['Luna nuova','Luna crescente','Primo quarto','Gibbosa crescente','Luna piena','Gibbosa calante','Ultimo quarto','Luna calante'];
+    const emoji = ['\uD83C\uDF11','\uD83C\uDF12','\uD83C\uDF13','\uD83C\uDF14','\uD83C\uDF15','\uD83C\uDF16','\uD83C\uDF17','\uD83C\uDF18'];
+    return { nome: nomi[idx], emoji: emoji[idx], illuminata };
+  }
+
+  async function loadOnThisDay(){
+    const el = document.getElementById('curOtd');
+    if(!el) return;
+    const d = new Date();
+    const mm = String(d.getMonth() + 1).padStart(2, '0'), dd = String(d.getDate()).padStart(2, '0');
+    try{
+      let eventi = [];
+      for(const tipo of ['selected', 'events']){
+        const r = await fetch(`https://it.wikipedia.org/api/rest_v1/feed/onthisday/${tipo}/${mm}/${dd}`);
+        if(!r.ok) continue;
+        const j = await r.json();
+        eventi = (j.selected || j.events || []).filter(e => e && e.text && e.year);
+        if(eventi.length) break;
+      }
+      if(!eventi.length) throw new Error('nessun evento');
+      const e = eventi[giornoDellAnno() % eventi.length];   // stesso evento per tutto il giorno
+      const pagina = e.pages && e.pages[0] && e.pages[0].content_urls && e.pages[0].content_urls.desktop && e.pages[0].content_urls.desktop.page;
+      const fonte = (pagina && /^https:\/\//.test(pagina))
+        ? `<a href="${esc(pagina)}" target="_blank" rel="noopener noreferrer">Wikipedia</a>` : 'Wikipedia';
+      el.innerHTML = `<div class="kicker">Accadde oggi</div><div class="cur-word">${esc(e.year)}</div><p>${esc(e.text)}</p><div class="cur-meta">Fonte: ${fonte}</div>`;
+    }catch(err){
+      el.remove();   // se il servizio non risponde, il riquadro semplicemente non compare
+    }
+  }
+
+  function buildCuriosita(){
+    const box = document.getElementById('curiosita');
+    const g = giornoDellAnno();
+    const p = PAROLE[g % PAROLE.length];
+    const pr = PROVERBI[g % PROVERBI.length];
+    const luna = faseLunare(new Date());
+    box.innerHTML = `
+      <h2 class="cur-title">Dal mondo, in breve</h2>
+      <div class="cur-grid">
+        <div class="cur-box"><div class="kicker">Parola intraducibile</div><div class="cur-word">${esc(p.parola)}</div><div class="cur-meta">${esc(p.lingua)}</div><p>${esc(p.senso)}</p></div>
+        <div class="cur-box"><div class="kicker">Proverbio dal mondo</div><p class="cur-quote">\u201C${esc(pr.testo)}\u201D</p><div class="cur-meta">${esc(pr.origine)}</div></div>
+        <div class="cur-box" id="curOtd"><div class="kicker">Accadde oggi</div><p>\u2026</p></div>
+        <div class="cur-box"><div class="kicker">La luna di oggi</div><div class="cur-moon">${luna.emoji}</div><div class="cur-word">${esc(luna.nome)}</div><p>${luna.illuminata}% illuminata</p></div>
+      </div>`;
+    loadOnThisDay();
   }
 
   const overlay = document.getElementById('overlay');
@@ -646,8 +1197,8 @@
   function openWordDetail(categoryLabel, word, detail, meta){
     overlayContent.innerHTML = `
       <div class="postit-card" style="--card-color:${meta.pastel};">
-        <div class="postit-label mono">${categoryLabel} — ${meta.label}</div>
-        <div class="postit-text">${detail || word}</div>
+        <div class="postit-label mono">${esc(categoryLabel)} — ${esc(meta.label)}</div>
+        <div class="postit-text">${esc(detail || word)}</div>
       </div>
     `;
     overlay.classList.add('open');
@@ -656,8 +1207,8 @@
   function openApprofondimento(categoryLabel, text){
     overlayContent.innerHTML = `
       <div class="postit-card" style="--card-color:${'#9c94f5'};">
-        <div class="postit-label mono">${categoryLabel} — approfondimento</div>
-        <div class="postit-text">${text || ''}</div>
+        <div class="postit-label mono">${esc(categoryLabel)} — approfondimento</div>
+        <div class="postit-text">${esc(text)}</div>
       </div>
     `;
     overlay.classList.add('open');
@@ -676,22 +1227,87 @@
     overlay.classList.add('open');
   }
 
-  async function loadEdition(){
+  // ---------- Edizioni e archivio ----------
+  let dateList = [];
+  let currentDate = null;      // null = edizione di oggi
+
+  async function loadIndex(){
     try{
-      const res = await fetch('data/oggi.json', { cache: 'no-store' });
-      if(!res.ok) throw new Error('File non trovato');
-      const payload = await res.json();
-      currentData = payload;
-      renderFrontPage(payload);
+      const res = await fetch('data/archivio/indice.json', { cache: 'no-store' });
+      if(!res.ok) throw new Error('nessun indice');
+      const j = await res.json();
+      dateList = Array.isArray(j.date) ? j.date.slice().sort() : [];
     }catch(err){
-      console.warn('data/oggi.json non ancora disponibile, uso i dati di esempio.', err);
-      currentData = FALLBACK_DATA;
-      renderFrontPage(FALLBACK_DATA);
+      dateList = [];
     }
   }
 
+  function etichettaData(iso){
+    const p = iso.split('-').map(Number);
+    const d = new Date(p[0], p[1] - 1, p[2]);
+    return d.toLocaleDateString('it-IT', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+  }
+
+  function updateEditionNav(){
+    const nav = document.getElementById('editionNav');
+    if(dateList.length < 2){ nav.hidden = true; return; }
+    nav.hidden = false;
+    const idx = currentDate ? dateList.indexOf(currentDate) : dateList.length - 1;
+    document.getElementById('prevEd').disabled = idx <= 0;
+    document.getElementById('nextEd').disabled = idx < 0 || idx >= dateList.length - 1;
+    document.getElementById('edLabel').textContent = currentDate ? 'Archivio: ' + etichettaData(currentDate) : 'Edizione di oggi';
+  }
+
+  function updateUpdated(payload){
+    const el = document.getElementById('updatedPart');
+    if(!el) return;
+    if(payload === FALLBACK_DATA){ el.innerHTML = '<b>dati di esempio</b>'; return; }
+    if(currentDate){ el.innerHTML = 'edizione del <b>' + dataBreve(currentDate) + '</b>'; return; }
+    if(payload.generato_il){
+      const t = new Date(payload.generato_il);
+      if(!isNaN(t)){
+        el.innerHTML = 'aggiornata alle <b>' + t.toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' }) + '</b>';
+        return;
+      }
+    }
+    el.textContent = '';
+  }
+
+  async function loadEdition(date){
+    currentDate = date || null;
+    let payload;
+    try{
+      const url = currentDate ? `data/archivio/${currentDate}.json` : 'data/oggi.json';
+      const res = await fetch(url, { cache: 'no-store' });
+      if(!res.ok) throw new Error('File non trovato');
+      payload = await res.json();
+      if(!payload || !payload.categorie) throw new Error('File non valido');
+    }catch(err){
+      console.warn('Edizione non disponibile, uso i dati di esempio.', err);
+      currentDate = null;
+      payload = FALLBACK_DATA;
+    }
+    currentData = payload;
+    renderFrontPage(payload);
+    renderSources(payload);
+    updateUpdated(payload);
+    updateEditionNav();
+  }
+
+  function vaiA(direzione){
+    const idx = currentDate ? dateList.indexOf(currentDate) : dateList.length - 1;
+    const nuovo = idx + direzione;
+    if(idx < 0 || nuovo < 0 || nuovo >= dateList.length) return;
+    track(direzione < 0 ? 'archivio-precedente' : 'archivio-successiva');
+    loadEdition(nuovo === dateList.length - 1 ? null : dateList[nuovo]);
+    document.getElementById('editionNav').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+  document.getElementById('prevEd').addEventListener('click', () => vaiA(-1));
+  document.getElementById('nextEd').addEventListener('click', () => vaiA(1));
+
   buildTodayStrip();
-  loadEdition();
+  buildCuriosita();
+  loadIndex().then(() => loadEdition(null));
 })();
 </script>
 
