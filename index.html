@@ -7,17 +7,16 @@
 <meta name="description" content="Dieci edizioni quotidiane, ognuna condensata in una sola frase. Generate in automatico ogni giorno, gratuite, senza account.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Instrument+Serif:ital@0;1&family=Space+Mono:wght@400;700&family=Gochi+Hand&family=Caveat:wght@500;700&family=DM+Serif+Display:ital@0;1&family=Archivio+Black&family=Courier+Prime:wght@400;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Bebas+Neue&family=Caveat:wght@500;700&family=Courier+Prime:wght@400;700&family=DM+Serif+Display:ital@0;1&family=Instrument+Serif:ital@0;1&family=Old+Standard+TT:wght@700&family=Oswald:wght@500;600&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Roboto:wght@400;500;700&family=Roboto+Condensed:wght@400;700&family=Roboto+Slab:wght@700&family=Space+Mono:wght@400;700&family=Special+Elite&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&display=swap" rel="stylesheet">
 <style>
   :root{
     --ink:#141414;
-    --ink-70: rgba(20,20,20,0.72);
+    --ink-70: rgba(20,20,20,0.78);
     --rule:#1a1a1a;
-    --rule-light:#c9c2a4;
-    --red:#a3111a;
-    --meta:#5a5a54;
-    --page-bg:#f5f0dd;
-    --tint:#ece3c4;
+    --rule-light:#d9d9d6;
+    --red:#b3121c;
+    --meta:#5f5f5a;
+    --page-bg:#ffffff;
     --gold:#e6b23d;
     --teal:#54c2bb;
     --rose:#e5708a;
@@ -26,121 +25,146 @@
   *{box-sizing:border-box; margin:0; padding:0;}
   html{scroll-behavior:smooth;}
   body{
-    background:
-      linear-gradient(rgba(58,96,168,0.12) 1px, transparent 1px) 0 44px/100% 34px,
-      var(--page-bg);
+    background:var(--page-bg);
     color:var(--ink);
-    font-family:'Source Serif 4', Georgia, serif;
+    font-family:'Roboto', Arial, sans-serif;
     -webkit-font-smoothing:antialiased;
   }
   .mono{font-family:'Space Mono', monospace;}
-  .wrap{max-width:1320px; margin:0 auto; padding:0 28px;}
 
-  /* ---------- Masthead ---------- */
+  /* ---------- Testata (stile quotidiano) ---------- */
   .masthead-top{
-    border-bottom:1px solid var(--rule);
-    padding:9px 28px;
-    font-family:'Space Mono', monospace;
-    font-size:11.5px; color:var(--meta);
+    max-width:1280px; margin:0 auto; padding:8px 20px;
+    font-family:'Roboto Condensed', sans-serif; font-size:12.5px; color:var(--meta);
     display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px;
-    max-width:1320px; margin:0 auto;
+    border-bottom:1px solid var(--rule-light);
   }
-  .masthead{
-    text-align:center; padding:26px 28px 18px;
-    border-bottom:4px solid var(--rule);
-  }
+  .masthead{ text-align:center; padding:22px 20px 14px; }
   .masthead .logo{
-    font-family:'Source Serif 4', serif; font-weight:700;
-    font-size:clamp(46px, 7vw, 76px);
-    letter-spacing:-0.01em;
+    font-family:'Playfair Display', Georgia, serif; font-weight:900;
+    font-size:clamp(48px, 8vw, 88px); line-height:1; letter-spacing:-0.015em;
   }
-  .masthead .logo em{font-style:italic; color:var(--red); font-family:'Instrument Serif', serif;}
+  .masthead .logo em{font-style:italic; color:var(--red); font-weight:700;}
   .masthead .payoff{
-    font-family:'Gochi Hand', cursive; font-size:16px; color:var(--gold);
-    margin-top:2px; transform:rotate(-1deg); display:inline-block;
+    font-family:'Roboto Condensed', sans-serif; font-size:12.5px; letter-spacing:0.16em;
+    text-transform:uppercase; color:var(--meta); margin-top:8px;
   }
-
-  /* ---------- Nota data/meteo (globale, non per sezione) ---------- */
+  .sections-nav{
+    max-width:1280px; margin:0 auto; padding:0 20px;
+    display:flex; flex-wrap:wrap; justify-content:center; gap:4px 22px;
+    border-top:3px solid var(--rule); border-bottom:1px solid var(--rule);
+  }
+  .sections-nav a{
+    font-family:'Roboto Condensed', sans-serif; font-weight:700; font-size:14px;
+    letter-spacing:0.06em; text-transform:uppercase; color:var(--ink);
+    text-decoration:none; padding:11px 0;
+  }
+  .sections-nav a:hover{color:var(--red);}
   .today-strip{
-    display:flex; justify-content:center; gap:22px; flex-wrap:wrap;
-    padding:10px 28px; border-bottom:1px solid var(--rule-light);
-    font-family:'Space Mono', monospace; font-size:11.5px; color:var(--meta);
+    max-width:1280px; margin:0 auto; padding:9px 20px;
+    display:flex; justify-content:center; gap:8px 26px; flex-wrap:wrap;
+    border-bottom:1px solid var(--rule-light);
+    font-family:'Roboto Condensed', sans-serif; font-size:13px; color:var(--meta);
   }
-  .today-strip span b{color:var(--ink); font-weight:600;}
+  .today-strip span b{color:var(--ink); font-weight:700;}
 
-  /* ---------- Griglia prima pagina ---------- */
-  .front-grid{
-    max-width:1320px; margin:0 auto; padding:26px 28px 40px;
-    column-count:4; column-gap:22px;
+  /* ---------- Prima pagina: colonna centrale + laterali ---------- */
+  .front{
+    max-width:1280px; margin:0 auto; padding:24px 20px 44px;
+    display:grid; grid-template-columns:minmax(0,1fr) minmax(0,2.5fr) minmax(0,1fr);
+    gap:0 24px; align-items:stretch;
   }
-  .front-grid > .section-box{
-    break-inside:avoid; page-break-inside:avoid; -webkit-column-break-inside:avoid;
-    margin-bottom:22px;
+  .front > .loading{
+    grid-column:1/-1; text-align:center; color:var(--meta); padding:60px 0;
+    font-family:'Roboto Condensed', sans-serif; font-size:15px;
   }
-  .box-italia{grid-area:italia;}
-  .box-esteri{grid-area:esteri;}
-  .box-concettoplus{grid-area:concettoplus;}
-  .box-economia{grid-area:economia;}
-  .box-tecnologia{grid-area:tecnologia;}
-  .box-sport{grid-area:sport;}
-  .box-cultura{grid-area:cultura;}
-  .box-gossip{grid-area:gossip;}
-  .box-ambiente{grid-area:ambiente;}
-  .box-moda{grid-area:moda;}
+  .col{display:flex; flex-direction:column; gap:26px; min-width:0;}
+  .col-center{
+    border-left:1px solid var(--rule-light); border-right:1px solid var(--rule-light);
+    padding:0 24px;
+  }
+  .col-center > .card-lead{flex:1 1 auto;}
+  .center-grid{
+    display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); grid-auto-rows:1fr;
+    gap:26px 24px; flex:2 1 auto;
+  }
 
-  .section-box{
-    min-width:0;
-    border:1px solid var(--rule-light);
-    background:rgba(255,255,255,0.35);
-    padding:16px 18px 18px;
-    display:flex; flex-direction:column;
+  .card{
+    display:flex; flex-direction:column; min-width:0; scroll-margin-top:14px;
+    padding-bottom:22px; border-bottom:1px solid var(--rule-light);
   }
-  .section-kicker{
-    font-family:'Space Mono', monospace; font-size:11.5px; font-weight:700;
-    letter-spacing:0.07em; text-transform:uppercase; color:var(--red);
-    border-bottom:1px solid var(--rule); padding-bottom:7px; margin-bottom:12px;
+  .col > .card{flex:1 1 auto;}
+  .photo{
+    position:relative; flex:1 1 auto; overflow:hidden;
+    background:linear-gradient(135deg,#e4e0d2,#bfb89f);
   }
-  .box-hero .section-kicker{font-size:12.5px;}
+  .photo img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block;}
+  .card-lead .photo{min-height:340px;}
+  .card-mid  .photo{min-height:190px;}
+  .card-side .photo{min-height:150px;}
+
+  .card-body{padding-top:14px; display:flex; flex-direction:column;}
+  .kicker{
+    font-family:'Roboto Condensed', sans-serif; font-weight:700; font-size:13.5px;
+    letter-spacing:0.09em; text-transform:uppercase; color:var(--red);
+    margin-bottom:12px;
+  }
+  .card-lead .kicker{font-size:15px;}
 
   .section-sentence{
-    display:flex; flex-wrap:wrap; align-items:flex-start; align-content:flex-start; gap:7px 6px;
-    flex:1;
+    display:flex; flex-wrap:wrap; align-items:flex-start; align-content:flex-start;
+    gap:9px 7px; padding:2px 2px 6px;
   }
-  .box-hero .section-sentence{gap:9px 7px;}
-  .box-tall .section-sentence{gap:7px 6px;}
+  .card-lead .section-sentence{gap:12px 9px;}
+  .card-side .section-sentence{gap:8px 6px;}
 
-  .section-aforisma{
-    margin-top:12px; padding-top:10px; border-top:1px dashed var(--rule-light);
-    font-family:'Instrument Serif', Georgia, serif; font-style:italic;
-    color:var(--ink-70); cursor:pointer;
+  .aforisma{
+    margin-top:18px; padding:2px 0 2px 14px; border-left:3px solid var(--red);
+    font-family:'Source Serif 4', Georgia, serif; font-style:italic; font-weight:400;
+    color:#222; line-height:1.4;
   }
-  .box-hero .section-aforisma{font-size:16px;}
-  .box-medium .section-aforisma, .box-tall .section-aforisma{font-size:14px;}
-  .box-small .section-aforisma{font-size:12.5px;}
-
-  .section-approf-link{
-    margin-top:8px; font-family:'Space Mono', monospace; font-size:10.5px;
-    color:var(--violet); text-decoration:underline; cursor:pointer; align-self:flex-start;
+  .card-lead .aforisma{font-size:22px;}
+  .card-mid  .aforisma{font-size:18.5px;}
+  .card-side .aforisma{font-size:16.5px;}
+  .aforisma cite{
+    display:block; margin-top:7px; font-style:normal; font-weight:700; font-size:12px;
+    font-family:'Roboto Condensed', sans-serif; letter-spacing:0.08em;
+    text-transform:uppercase; color:var(--meta);
   }
+  .approf-link{
+    margin-top:14px; align-self:flex-start; cursor:pointer;
+    font-family:'Roboto Condensed', sans-serif; font-weight:700; font-size:13px;
+    letter-spacing:0.06em; text-transform:uppercase; color:#0b4a94;
+    border-bottom:2px solid #0b4a94; padding-bottom:1px;
+  }
+  .approf-link:hover{color:var(--red); border-color:var(--red);}
 
-  /* ---------- Ritagli di carta (collage) ---------- */
+  /* ---------- Ritagli di giornale (lettera del rapitore) ---------- */
   .clip{
     position:relative; display:inline-block;
-    padding:5px 10px 6px;
-    color:#1c1a16;
+    padding:.2em .5em .26em;
+    color:var(--clip-ink, #1c1a16);
     background:var(--paper-tone, #efe9d8);
-    box-shadow:0 2px 0 rgba(0,0,0,0.05), 0 4px 8px rgba(0,0,0,0.22);
-    line-height:1.12; white-space:normal; max-width:100%; text-align:left; user-select:none;
-    font-size: var(--clip-size, 14px);
+    box-shadow:0 1px 0 rgba(0,0,0,0.06), 0 3px 7px rgba(0,0,0,0.28);
+    line-height:1.1; white-space:normal; max-width:100%; text-align:left; user-select:none;
+    font-size:calc(var(--clip-size, 18px) * var(--f, 1));
   }
   .clip.tagged{cursor:pointer; transition:transform .15s ease;}
   .clip.tagged:hover{transform:translateY(-2px) rotate(0deg) !important;}
 
-  .paper-0{ font-family:'DM Serif Display', serif; }
-  .paper-1{ font-family:'Space Mono', monospace; font-weight:700; letter-spacing:-0.01em; }
-  .paper-2{ font-family:'Archivio Black', sans-serif; text-transform:uppercase; letter-spacing:0.01em; }
-  .paper-3{ font-family:'Courier Prime', monospace; }
-  .paper-4{ font-family:'Instrument Serif', serif; font-style:italic; }
+  /* dodici caratteri diversi, uno per ritaglio a rotazione */
+  .f0 { font-family:'Abril Fatface', serif; --f:1.0; }
+  .f1 { font-family:'Anton', sans-serif; text-transform:uppercase; --f:1.0; letter-spacing:0.01em; }
+  .f2 { font-family:'Special Elite', monospace; --f:0.88; }
+  .f3 { font-family:'Alfa Slab One', serif; --f:0.82; }
+  .f4 { font-family:'Playfair Display', serif; font-weight:900; font-style:italic; --f:0.98; }
+  .f5 { font-family:'Old Standard TT', serif; font-weight:700; --f:1.0; }
+  .f6 { font-family:'Courier Prime', monospace; font-weight:700; --f:0.9; }
+  .f7 { font-family:'Oswald', sans-serif; font-weight:600; text-transform:uppercase; --f:0.92; }
+  .f8 { font-family:'DM Serif Display', serif; font-style:italic; --f:1.02; }
+  .f9 { font-family:'Bebas Neue', sans-serif; text-transform:uppercase; --f:1.14; letter-spacing:0.02em; }
+  .f10{ font-family:'Archivo Black', sans-serif; text-transform:uppercase; --f:0.78; }
+  .f11{ font-family:'Roboto Slab', serif; font-weight:700; --f:0.92; }
 
   .rot-a{transform:rotate(-2.4deg);}
   .rot-b{transform:rotate(1.6deg);}
@@ -149,9 +173,11 @@
   .rot-e{transform:rotate(-1.6deg);}
   .rot-f{transform:rotate(0.8deg);}
 
-  .clip.plain-a{--paper-tone:#e9e3d2;}
-  .clip.plain-b{--paper-tone:#ded8c6;}
-  .clip.plain-c{--paper-tone:#e3ddc9;}
+  .clip.plain-a{--paper-tone:#ece6d4;}
+  .clip.plain-b{--paper-tone:#dcd6c4;}
+  .clip.plain-c{--paper-tone:#f7f4ea;}
+  .clip.plain-d{--paper-tone:#1f1f1d; --clip-ink:#f4efe0;}
+  .clip.plain-e{--paper-tone:#e7e1cf;}
   .clip.cat-unusual{--paper-tone:#f3dfa3;}
   .clip.cat-date{--paper-tone:#a9dcd6;}
   .clip.cat-name{--paper-tone:#f0bfce;}
@@ -228,12 +254,21 @@
   .legal-footer a{color:var(--meta);}
 
   /* ---------- Responsive ---------- */
-  @media (max-width:1100px){ .front-grid{column-count:3;} }
-  @media (max-width:760px){ .front-grid{column-count:2;} }
-  @media (max-width:520px){
-    .front-grid{column-count:1;}
-    .masthead-top{font-size:10px;}
-    .today-strip{font-size:10px; gap:12px;}
+  @media (max-width:1000px){
+    .front{grid-template-columns:minmax(0,1fr); gap:26px 0;}
+    .col-center{order:-1; border:0; padding:0;}
+    .photo{flex:none;}
+    .card-lead .photo{height:300px; min-height:0;}
+    .card-mid  .photo{height:210px; min-height:0;}
+    .card-side .photo{height:210px; min-height:0;}
+    .col-left, .col-right{display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:26px 24px;}
+  }
+  @media (max-width:640px){
+    .center-grid, .col-left, .col-right{grid-template-columns:minmax(0,1fr);}
+    .masthead-top{font-size:11px;}
+    .sections-nav{gap:2px 14px;}
+    .sections-nav a{font-size:12.5px; padding:8px 0;}
+    .today-strip{font-size:12px; gap:6px 14px;}
   }
 </style>
 </head>
@@ -244,16 +279,29 @@
   <span>Dieci edizioni al giorno · Generate in automatico · Gratis, senza account</span>
 </div>
 
-<div class="masthead">
+<header class="masthead">
   <div class="logo">Conc<em>e</em>tto</div>
-  <div class="payoff">l'informazione che vuoi. nel tempo che hai.</div>
-</div>
+  <div class="payoff">L'informazione che vuoi. Nel tempo che hai.</div>
+</header>
 
-<div class="today-strip mono" id="todayStrip"></div>
+<nav class="sections-nav">
+  <a href="#card-italia">Italia</a>
+  <a href="#card-esteri">Esteri</a>
+  <a href="#card-economia">Economia</a>
+  <a href="#card-tecnologia">Tecnologia</a>
+  <a href="#card-sport">Sport</a>
+  <a href="#card-cultura">Cultura &amp; Spettacolo</a>
+  <a href="#card-gossip">Gossip</a>
+  <a href="#card-ambiente">Ambiente</a>
+  <a href="#card-moda">Moda &amp; Lifestyle</a>
+  <a href="#card-concettoplus">Concetto+</a>
+</nav>
 
-<div class="front-grid" id="frontGrid">
-  <p class="mono" style="column-span:all; text-align:center; color:var(--meta); padding:40px 0;">sto caricando l'edizione di oggi<span id="loadingDots"></span></p>
-</div>
+<div class="today-strip" id="todayStrip"></div>
+
+<main class="front" id="frontGrid">
+  <p class="loading">sto caricando l'edizione di oggi…</p>
+</main>
 
 <div class="overlay-backdrop" id="overlay">
   <span class="overlay-close" id="overlayClose">chiudi ✕</span>
@@ -261,7 +309,7 @@
 </div>
 
 <div class="legal-footer">
-  Concetto è un progetto di <strong>Vangard</strong>, marchio di RASCHETTI SRLS — Via Parravicini 29, 23017 Morbegno (SO) — P.IVA 01082340140 — REA 81343 — <a href="concetto-privacy.html">Privacy Policy</a>
+  Concetto è un progetto di <strong>Vangard</strong>, marchio di RASCHETTI SRLS — Via Parravicini 29, 23017 Morbegno (SO) — P.IVA 01082340140 — REA 81343 — <a href="concetto-privacy.html">Privacy Policy</a><br>Le immagini sono foto generiche da Flickr (via LoremFlickr) scelte per argomento: non si riferiscono alle singole notizie.
 </div>
 
 <script>
@@ -273,23 +321,16 @@
     deepdive: { label: 'approfondimento',       pastel: '#c9c3f2', clipClass: 'cat-deepdive' }
   };
 
-  const BOX_ORDER = [
-    { id: 'italia', size: 'hero' },
-    { id: 'esteri', size: 'hero' },
-    { id: 'concettoplus', size: 'tall' },
-    { id: 'economia', size: 'small' },
-    { id: 'tecnologia', size: 'small' },
-    { id: 'sport', size: 'small' },
-    { id: 'cultura', size: 'small' },
-    { id: 'gossip', size: 'medium' },
-    { id: 'ambiente', size: 'medium' },
-    { id: 'moda', size: 'medium' },
-  ];
-
   // Un ritaglio evidenziato può essere al massimo di 3 parole: oltre, torna a parole singole
   const MAX_PAROLE_EVIDENZIATE = 3;
 
-  const CLIP_SIZES = { hero: '17px', tall: '15px', medium: '14px', small: '13px' };
+  const CLIP_SIZES = { lead: '27px', mid: '21px', side: '17px' };
+
+  // Parola chiave per la foto generica di ogni sezione
+  const PHOTO_KEYWORDS = {
+    italia:'italy', esteri:'city', economia:'business', tecnologia:'technology', sport:'football',
+    cultura:'theatre', gossip:'redcarpet', ambiente:'forest', moda:'fashion', concettoplus:'rome'
+  };
 
   const AUTHOR_AVATAR = `<svg viewBox="0 0 40 40"><rect width="40" height="40" fill="#c9bd98"/><circle cx="20" cy="16" r="7" fill="#2b2a1a"/><path d="M6 36 C6 27 12 23 20 23 C28 23 34 27 34 36" fill="#2b2a1a"/><path d="M11 15 C11 8 29 8 29 15 C29 11 24 9 20 9 C16 9 11 11 11 15Z" fill="#2b2a1a"/></svg>`;
 
@@ -471,69 +512,116 @@
     dateline.textContent = giorni[d.getDay()] + ' ' + d.getDate() + ' ' + mesi[d.getMonth()] + ' ' + d.getFullYear();
   })();
 
-  const PAPER_VARIANTS = ['paper-0','paper-1','paper-2','paper-3','paper-4'];
+  const FONT_COUNT = 12;
   const ROT_VARIANTS = ['rot-a','rot-b','rot-c','rot-d','rot-e','rot-f'];
-  const NEUTRAL_TONES = ['plain-a','plain-b','plain-c'];
+  const NEUTRAL_TONES = ['plain-a','plain-b','plain-c','plain-d','plain-e'];
+  const ONLY_PUNCT = /^[.,;:!?)\]»”…]+$/;
 
   function makeClip(text, type, index, clipSize){
     const span = document.createElement('span');
-    const paperClass = PAPER_VARIANTS[index % PAPER_VARIANTS.length];
+    const fontClass = 'f' + ((index * 5) % FONT_COUNT);   // font diverso per ogni ritaglio vicino
     const rotClass = ROT_VARIANTS[(index * 2 + (type ? 1 : 0)) % ROT_VARIANTS.length];
-    span.className = `clip ${paperClass} ${rotClass}`;
+    span.className = `clip ${fontClass} ${rotClass}`;
     span.style.setProperty('--clip-size', clipSize);
     span.textContent = text;
     return span;
   }
 
-  function renderBox(catId, boxSize, data){
-    const box = document.querySelector(`.box-${catId} .section-sentence`);
-    const aforismaEl = document.querySelector(`.box-${catId} .section-aforisma`);
-    const approfLink = document.querySelector(`.box-${catId} .section-approf-link`);
-    if(!box || !data) return;
+  function hashStr(str){
+    let h = 0;
+    for(let i = 0; i < str.length; i++){ h = (h * 31 + str.charCodeAt(i)) >>> 0; }
+    return h;
+  }
 
+  function attachPhoto(container, catId){
+    if(!container) return;
+    const seed = hashStr(new Date().toISOString().slice(0, 10) + catId) % 1000;
+    const kw = PHOTO_KEYWORDS[catId] || 'news';
+    const img = new Image();
+    img.alt = '';
+    img.loading = 'lazy';
+    img.onerror = () => img.remove();   // se la foto non arriva resta lo sfondo neutro
+    img.src = `https://loremflickr.com/900/600/${kw}?lock=${seed}`;
+    container.appendChild(img);
+  }
+
+  function renderCard(catId, kind, data){
+    const card = document.getElementById('card-' + catId);
+    if(!card || !data) return;
+    const box = card.querySelector('.section-sentence');
     box.innerHTML = '';
-    let clipIndex = 0, neutralIndex = 0;
-    const clipSize = CLIP_SIZES[boxSize];
+    let clipIndex = 0, neutralIndex = 0, lastClip = null;
+    const clipSize = CLIP_SIZES[kind];
 
     data.segments.forEach(seg => {
       const segText = seg.text || '';
       const nParole = segText.trim().split(/\s+/).filter(Boolean).length;
       if(seg.type === 'plain' || !CATEGORY_META[seg.type] || nParole > MAX_PAROLE_EVIDENZIATE){
         segText.split(/\s+/).filter(Boolean).forEach(word => {
+          if(ONLY_PUNCT.test(word) && lastClip){        // la punteggiatura resta attaccata alla parola prima
+            lastClip.textContent += word;
+            return;
+          }
           const clip = makeClip(word, null, clipIndex++, clipSize);
           clip.classList.add(NEUTRAL_TONES[neutralIndex++ % NEUTRAL_TONES.length]);
           box.appendChild(clip);
+          lastClip = clip;
         });
       }else{
         const meta = CATEGORY_META[seg.type];
-        const clip = makeClip(seg.text, seg.type, clipIndex++, clipSize);
+        const clip = makeClip(segText, seg.type, clipIndex++, clipSize);
         clip.classList.add('tagged', meta.clipClass);
-        clip.addEventListener('click', () => openWordDetail(data.label, seg.text, seg.detail, meta));
+        clip.addEventListener('click', () => openWordDetail(data.label, segText, seg.detail, meta));
         box.appendChild(clip);
+        lastClip = clip;
       }
     });
 
-    if(aforismaEl){
-      aforismaEl.textContent = '\u201C' + (data.aforisma || '') + '\u201D';
-      aforismaEl.onclick = () => openAforisma(data.aforisma, data.autore);
-    }
-    if(approfLink){
-      approfLink.onclick = () => openApprofondimento(data.label, data.approfondimento);
-    }
+    const aforisma = card.querySelector('.aforisma');
+    aforisma.querySelector('p').textContent = '\u201C' + (data.aforisma || '') + '\u201D';
+    aforisma.querySelector('cite').textContent = '\u2014 ' + (data.autore || 'Anonimo');
+    card.querySelector('.approf-link').onclick = () => openApprofondimento(data.label, data.approfondimento);
+    attachPhoto(card.querySelector('.photo'), catId);
+  }
+
+  function cardHTML(item, kind){
+    return `
+      <article class="card card-${kind}" id="card-${item.id}">
+        <div class="photo"></div>
+        <div class="card-body">
+          <div class="kicker">${item.data.label || item.id}</div>
+          <div class="section-sentence"></div>
+          <blockquote class="aforisma"><p></p><cite></cite></blockquote>
+          <div class="approf-link">Approfondisci →</div>
+        </div>
+      </article>`;
   }
 
   function renderFrontPage(payload){
     const grid = document.getElementById('frontGrid');
-    grid.innerHTML = BOX_ORDER.map(b => `
-      <div class="section-box box-${b.id} box-${b.size}">
-        <div class="section-kicker">${(payload.categorie[b.id] && payload.categorie[b.id].label) || b.id}</div>
-        <div class="section-sentence"></div>
-        <div class="section-aforisma"></div>
-        <div class="section-approf-link mono">approfondisci →</div>
-      </div>
-    `).join('');
+    const items = Object.keys(payload.categorie)
+      .map(id => ({ id, data: payload.categorie[id] }))
+      .filter(x => x.data && Array.isArray(x.data.segments) && x.data.segments.length);
 
-    BOX_ORDER.forEach(b => renderBox(b.id, b.size, payload.categorie[b.id]));
+    // le notizie più estese vanno al centro (la più lunga è l'apertura)
+    items.forEach(x => { x.len = x.data.segments.map(s => s.text || '').join(' ').length; });
+    items.sort((a, b) => b.len - a.len);
+    const center = items.slice(0, 5);
+    const lateral = items.slice(5);
+    const left = lateral.filter((_, i) => i % 2 === 0);
+    const right = lateral.filter((_, i) => i % 2 === 1);
+
+    grid.innerHTML = `
+      <div class="col col-left">${left.map(i => cardHTML(i, 'side')).join('')}</div>
+      <div class="col col-center">
+        ${center[0] ? cardHTML(center[0], 'lead') : ''}
+        <div class="center-grid">${center.slice(1).map(i => cardHTML(i, 'mid')).join('')}</div>
+      </div>
+      <div class="col col-right">${right.map(i => cardHTML(i, 'side')).join('')}</div>
+    `;
+
+    center.forEach((x, i) => renderCard(x.id, i === 0 ? 'lead' : 'mid', x.data));
+    left.concat(right).forEach(x => renderCard(x.id, 'side', x.data));
   }
 
   const overlay = document.getElementById('overlay');
