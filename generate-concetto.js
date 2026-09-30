@@ -129,9 +129,10 @@ ${list}
 5. Inventa anche un "autore" per l'aforisma: un nome e cognome di fantasia, chiaramente inventato. Non usare MAI il nome di una persona reale o pubblica esistente.
 6. Scrivi anche un "approfondimento": due frasi (massimo 40 parole in totale) che sviluppano più a fondo il tema "deepdive".
 7. Indica in "fonti" i numeri (massimo 4) dei titoli dell'elenco che hai davvero usato per scrivere la frase.
+8. Indica in "foto" UNA o DUE parole IN INGLESE, concrete e generiche, adatte a cercare una fotografia che illustri il tema di fondo (per esempio "parliament", "storm clouds", "football stadium", "solar panels"). Mai nomi di persone, di squadre o di marchi.
 
 Rispondi SOLO con un oggetto JSON valido, nessun markdown, nessun backtick, nessun testo introduttivo o finale, in questa forma esatta:
-{"segments":[{"text":"...","type":"plain"},{"text":"...","type":"name","detail":"..."}],"aforisma":"...","autore":"...","approfondimento":"...","fonti":[1,4]}
+{"segments":[{"text":"...","type":"plain"},{"text":"...","type":"name","detail":"..."}],"aforisma":"...","autore":"...","approfondimento":"...","fonti":[1,4],"foto":"..."}
 
 Assicurati che la concatenazione di tutti i "text" in ordine ricomponga esattamente la frase, con spazi naturali tra le parole.`;
 }
@@ -231,6 +232,44 @@ function buildFonti(usedNumbers, items) {
   return fonti;
 }
 
+// ---------- Foto illustrativa (Pexels): opzionale, non blocca mai l'edizione ----------
+const PEXELS_KEY = process.env.PEXELS_API_KEY || '';
+
+function pulisciParolaFoto(v) {
+  if (typeof v !== 'string') return '';
+  const parole = v.toLowerCase().replace(/[^a-z\s-]/g, ' ').replace(/\s+/g, ' ').trim().split(' ').filter(Boolean).slice(0, 3);
+  const testo = parole.join(' ');
+  return testo.length >= 3 ? testo : '';
+}
+
+function hashTesto(str) {
+  let h = 0;
+  for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
+  return h;
+}
+
+async function cercaFotoPexels(query, catId) {
+  try {
+    const url = `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=15&orientation=landscape`;
+    const res = await fetch(url, { headers: { Authorization: PEXELS_KEY } });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const j = await res.json();
+    const foto = (j.photos || []).filter(p => p && p.src && p.src.large && String(p.src.large).startsWith('https://images.pexels.com/'));
+    if (!foto.length) return null;
+    const giorno = new Date().toISOString().split('T')[0];
+    const p = foto[hashTesto(giorno + catId) % foto.length];   // la stessa foto per tutto il giorno
+    return {
+      url: p.src.large,
+      autore: p.photographer || '',
+      autore_url: p.photographer_url || '',
+      pagina: p.url || '',
+    };
+  } catch (err) {
+    console.warn(`  ⚠ Foto non trovata per "${query}": ${err.message}`);
+    return null;
+  }
+}
+
 async function generateCategory(cat) {
   console.log(`→ Genero: ${cat.label}`);
   let items;
@@ -252,8 +291,15 @@ async function generateCategory(cat) {
 
   const fonti = buildFonti(parsed.fonti, items);
   delete parsed.fonti;
+  const parolaFoto = pulisciParolaFoto(parsed.foto);
+  delete parsed.foto;
 
   const out = { id: cat.id, label: cat.label, ...parsed, fonti };
+  if (parolaFoto) out.parola_foto = parolaFoto;
+  if (PEXELS_KEY && parolaFoto) {
+    const foto = await cercaFotoPexels(parolaFoto, cat.id);
+    if (foto) out.foto = foto;
+  }
   if (cat.kind === 'plus') {
     out.paesi = [...new Set(items.map(i => i.paese).filter(Boolean))];
   }
