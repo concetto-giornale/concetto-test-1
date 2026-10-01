@@ -11,6 +11,7 @@ on:
 jobs:
   genera:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     permissions:
       contents: write
     steps:
@@ -23,8 +24,11 @@ jobs:
           node-version: '20'
 
       - name: Genera le edizioni di oggi
+        id: genera
         env:
           ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
+          # Facoltativa: se il secret non esiste, le foto usano il metodo alternativo
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: node scripts/generate-concetto.js
 
       - name: Salva i risultati nel repository
@@ -34,3 +38,11 @@ jobs:
           git add data/
           git diff --staged --quiet || git commit -m "Aggiornamento automatico: edizioni del $(date -u +'%Y-%m-%d')"
           git push
+
+      # Se qualche sezione è rimasta a ieri, il run diventa ROSSO (dopo aver salvato il resto)
+      # e GitHub ti manda l'avviso via email.
+      - name: Segnala edizione incompleta
+        if: steps.genera.outputs.incompleto == 'true'
+        run: |
+          echo "::error::Alcune sezioni non sono state aggiornate oggi: vedi il riepilogo del run."
+          exit 1
