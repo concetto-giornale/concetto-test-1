@@ -129,14 +129,30 @@ ${list}
 5. Inventa anche un "autore" per l'aforisma: un nome e cognome di fantasia, chiaramente inventato. Non usare MAI il nome di una persona reale o pubblica esistente.
 6. Scrivi anche un "approfondimento": due frasi (massimo 40 parole in totale) che sviluppano più a fondo il tema "deepdive".
 7. Indica in "fonti" i numeri (massimo 4) dei titoli dell'elenco che hai davvero usato per scrivere la frase.
+8. Indica in "foto" UNA o DUE parole IN INGLESE, concrete e generiche, adatte a cercare una fotografia che illustri il tema di fondo (per esempio "parliament", "storm clouds", "football stadium", "solar panels"). Mai nomi di persone, di squadre o di marchi.
 
 Rispondi SOLO con un oggetto JSON valido, nessun markdown, nessun backtick, nessun testo introduttivo o finale, in questa forma esatta:
-{"segments":[{"text":"...","type":"plain"},{"text":"...","type":"name","detail":"..."}],"aforisma":"...","autore":"...","approfondimento":"...","fonti":[1,4]}
+{"segments":[{"text":"...","type":"plain"},{"text":"...","type":"name","detail":"..."}],"aforisma":"...","autore":"...","approfondimento":"...","fonti":[1,4],"foto":"..."}
 
 Assicurati che la concatenazione di tutti i "text" in ordine ricomponga esattamente la frase, con spazi naturali tra le parole.`;
 }
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+// ---------- Edizione di mattina o di sera (ora di Roma) ----------
+const ARCHIVIO_GIORNI = 7;   // l'archivio tiene solo le edizioni degli ultimi 7 giorni
+
+function dataRoma(d) {
+  return new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Rome', year: 'numeric', month: '2-digit', day: '2-digit' }).format(d);
+}
+function oraRoma(d) {
+  return parseInt(new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Rome', hour: '2-digit', hour12: false }).format(d), 10) % 24;
+}
+function edizioneCorrente(d) {
+  const forzata = (process.env.EDIZIONE || '').toLowerCase();
+  if (forzata === 'mattina' || forzata === 'sera') return forzata;
+  return oraRoma(d) < 14 ? 'mattina' : 'sera';
+}
 
 // Pausa fissa tra una categoria e la successiva (sia in caso di successo che di errore)
 const PAUSA_TRA_CATEGORIE_MS = 8000;
@@ -231,6 +247,44 @@ function buildFonti(usedNumbers, items) {
   return fonti;
 }
 
+// ---------- Foto illustrativa (Pexels): opzionale, non blocca mai l'edizione ----------
+const PEXELS_KEY = process.env.PEXELS_API_KEY || '';
+
+function pulisciParolaFoto(v) {
+  if (typeof v !== 'string') return '';
+  const parole = v.toLowerCase().replace(/[^a-z\s-]/g, ' ').replace(/\s+/g, ' ').trim().split(' ').filter(Boolean).slice(0, 3);
+  const testo = parole.join(' ');
+  return testo.length >= 3 ? testo : '';
+}
+
+function hashTesto(str) {
+  let h = 0;
+  for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
+  return h;
+}
+
+async function cercaFotoPexels(query, catId) {
+  try {
+    const url = `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=15&orientation=landscape`;
+    const res = await fetch(url, { headers: { Authorization: PEXELS_KEY } });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const j = await res.json();
+    const foto = (j.photos || []).filter(p => p && p.src && p.src.large && String(p.src.large).startsWith('https://images.pexels.com/'));
+    if (!foto.length) return null;
+    const giorno = new Date().toISOString().split('T')[0];
+    const p = foto[hashTesto(giorno + catId) % foto.length];   // la stessa foto per tutto il giorno
+    return {
+      url: p.src.large,
+      autore: p.photographer || '',
+      autore_url: p.photographer_url || '',
+      pagina: p.url || '',
+    };
+  } catch (err) {
+    console.warn(`  ⚠ Foto non trovata per "${query}": ${err.message}`);
+    return null;
+  }
+}
+
 async function generateCategory(cat) {
   console.log(`→ Genero: ${cat.label}`);
   let items;
@@ -252,8 +306,15 @@ async function generateCategory(cat) {
 
   const fonti = buildFonti(parsed.fonti, items);
   delete parsed.fonti;
+  const parolaFoto = pulisciParolaFoto(parsed.foto);
+  delete parsed.foto;
 
   const out = { id: cat.id, label: cat.label, ...parsed, fonti };
+  if (parolaFoto) out.parola_foto = parolaFoto;
+  if (PEXELS_KEY && parolaFoto) {
+    const foto = await cercaFotoPexels(parolaFoto, cat.id);
+    if (foto) out.foto = foto;
+  }
   if (cat.kind === 'plus') {
     out.paesi = [...new Set(items.map(i => i.paese).filter(Boolean))];
   }
@@ -312,28 +373,45 @@ async function main() {
   for (const cat of CATEGORIES) {
     const prev = precedente && precedente.categorie && precedente.categorie[cat.id];
     if (!results[cat.id] && prev) {
-      results[cat.id] = { ...prev, stale: true, stale_da: prev.stale_da || precedente.data };
+      results[cat.id] = { ...prev, stale: true, stale_da: prev.stale_da || precedente.data, stale_ed: prev.stale_ed || precedente.edizione || '' };
       console.log(`↺ "${cat.label}": mantenuta la versione precedente.`);
     }
   }
 
   const now = new Date();
-  const dataISO = now.toISOString().split('T')[0];
+  const dataISO = dataRoma(now);
+  const edizione = edizioneCorrente(now);
+  const idEdizione = edizione === 'sera' ? `${dataISO}-sera` : dataISO;
   const erroriList = Object.values(errori);
   const output = {
     generato_il: now.toISOString(),
     data: dataISO,
+    edizione,
+    id_edizione: idEdizione,
     categorie: results,
     errori: erroriList.length ? erroriList : undefined
   };
 
   fs.mkdirSync(archivioDir, { recursive: true });
   fs.writeFileSync(oggiPath, JSON.stringify(output, null, 2));
-  fs.writeFileSync(path.join(archivioDir, `${dataISO}.json`), JSON.stringify(output, null, 2));
+  fs.writeFileSync(path.join(archivioDir, `${idEdizione}.json`), JSON.stringify(output, null, 2));
+
+  // Archivio: solo gli ultimi 7 giorni (oppure svuotato del tutto se richiesto a mano dal workflow)
+  const svuota = String(process.env.SVUOTA_ARCHIVIO || '').toLowerCase() === 'true';
+  const limite = Date.parse(dataISO + 'T00:00:00Z') - ARCHIVIO_GIORNI * 86400000;
+  for (const f of fs.readdirSync(archivioDir)) {
+    if (!/^\d{4}-\d{2}-\d{2}(-sera)?\.json$/.test(f)) continue;
+    const giorno = Date.parse(f.slice(0, 10) + 'T00:00:00Z');
+    const daCancellare = svuota ? f !== `${idEdizione}.json` : giorno < limite;
+    if (daCancellare) {
+      fs.unlinkSync(path.join(archivioDir, f));
+      console.log(`🗑  Archivio: eliminata ${f}`);
+    }
+  }
 
   // Indice delle edizioni disponibili (serve al sito per le frecce "edizione precedente/successiva")
   const date = fs.readdirSync(archivioDir)
-    .filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))
+    .filter(f => /^\d{4}-\d{2}-\d{2}(-sera)?\.json$/.test(f))
     .map(f => f.replace('.json', ''))
     .sort();
   fs.writeFileSync(path.join(archivioDir, 'indice.json'), JSON.stringify({ date }, null, 2));
@@ -341,6 +419,24 @@ async function main() {
   console.log(`\nFatto. ${nuove}/${CATEGORIES.length} categorie generate ora.`);
   if (erroriList.length) {
     console.log('Categorie con errori:', erroriList.map(e => e.categoria).join(', '));
+  }
+
+  // Riepilogo leggibile nella pagina del run su GitHub + segnale per il workflow (se qualche sezione è rimasta a ieri)
+  try {
+    if (process.env.GITHUB_STEP_SUMMARY) {
+      const righe = [`## Edizione del ${dataISO} (${edizione})`, '', `Sezioni aggiornate ora: **${nuove}/${CATEGORIES.length}**`, ''];
+      for (const cat of CATEGORIES) {
+        const r = results[cat.id];
+        const stato = !r ? '❌ mancante' : r.stale ? `⚠️ non aggiornata (da ${r.stale_da || 'ieri'})` : '✅ ok';
+        righe.push(`- ${cat.label}: ${stato}`);
+      }
+      fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, righe.join('\n') + '\n');
+    }
+    if (process.env.GITHUB_OUTPUT) {
+      fs.appendFileSync(process.env.GITHUB_OUTPUT, `incompleto=${erroriList.length ? 'true' : 'false'}\n`);
+    }
+  } catch (err) {
+    console.warn('Riepilogo non scritto:', err.message);
   }
 }
 
