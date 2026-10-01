@@ -2,11 +2,26 @@ name: Genera Concetto del giorno
 
 on:
   schedule:
-    # Ogni giorno alle 6:30 UTC (7:30 in Italia, 8:30 in ora legale)
+    # Edizione del mattino: 6:30 UTC = 8:30 in Italia con l'ora legale (7:30 con l'ora solare)
     - cron: '30 6 * * *'
-  workflow_dispatch: {}
-    # ↑ Permette anche di lanciarlo a mano dalla scheda "Actions" di GitHub,
-    #   utile per testare senza aspettare l'orario programmato.
+    # Edizione della sera: 16:30 UTC = 18:30 in Italia con l'ora legale (17:30 con l'ora solare)
+    - cron: '30 16 * * *'
+  workflow_dispatch:
+    # Permette di lanciarlo a mano dalla scheda "Actions" di GitHub.
+    inputs:
+      svuota_archivio:
+        description: "Cancella tutte le edizioni passate dall'archivio (resta solo quella appena creata)"
+        type: boolean
+        default: false
+      pubblica_social:
+        description: "Pubblica anche sui social (Telegram, Mastodon, Bluesky)"
+        type: boolean
+        default: false
+
+# Evita che due esecuzioni si sovrappongano
+concurrency:
+  group: concetto
+  cancel-in-progress: false
 
 jobs:
   genera:
@@ -23,12 +38,13 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Genera le edizioni di oggi
+      - name: Genera le edizioni
         id: genera
         env:
           ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
           # Facoltativa: se il secret non esiste, le foto usano il metodo alternativo
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          SVUOTA_ARCHIVIO: ${{ inputs.svuota_archivio }}
         run: node scripts/generate-concetto.js
 
       - name: Salva i risultati nel repository
@@ -36,13 +52,30 @@ jobs:
           git config user.name "Concetto Bot"
           git config user.email "actions@github.com"
           git add data/
-          git diff --staged --quiet || git commit -m "Aggiornamento automatico: edizioni del $(date -u +'%Y-%m-%d')"
+          git diff --staged --quiet || git commit -m "Aggiornamento automatico: edizione del $(date -u +'%Y-%m-%d %H:%M') UTC"
           git push
+
+      # Pubblica sui social SOLO per i canali che hanno le chiavi (Secrets) e solo nei lanci
+      # programmati, oppure a mano se spunti "Pubblica anche sui social".
+      - name: Pubblica sui social
+        if: github.event_name == 'schedule' || inputs.pubblica_social
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MASTODON_URL: ${{ secrets.MASTODON_URL }}
+          MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+        run: |
+          # aspetta che il sito si aggiorni, così il link del post mostra già l'edizione nuova
+          sleep 150
+          node scripts/post-social.js
 
       # Se qualche sezione è rimasta a ieri, il run diventa ROSSO (dopo aver salvato il resto)
       # e GitHub ti manda l'avviso via email.
       - name: Segnala edizione incompleta
-        if: steps.genera.outputs.incompleto == 'true'
+        if: always() && steps.genera.outputs.incompleto == 'true'
         run: |
-          echo "::error::Alcune sezioni non sono state aggiornate oggi: vedi il riepilogo del run."
+          echo "::error::Alcune sezioni non sono state aggiornate: vedi il riepilogo del run."
           exit 1
