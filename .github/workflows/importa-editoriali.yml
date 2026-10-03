@@ -1,0 +1,43 @@
+name: Importa editoriali
+
+on:
+  schedule:
+    # Ogni ora, al minuto 17: se c'è un editoriale nuovo (approvato nel Foglio) viene pubblicato
+    - cron: '17 * * * *'
+  workflow_dispatch: {}
+    # Si può lanciare anche a mano da "Actions", per pubblicare subito.
+
+# Un solo lancio alla volta
+concurrency:
+  group: editoriali
+  cancel-in-progress: false
+
+jobs:
+  importa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Scarica il repository
+        uses: actions/checkout@v4
+
+      - name: Imposta Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Importa e pubblica gli editoriali
+        env:
+          EDITORIALI_CSV_URL: ${{ secrets.EDITORIALI_CSV_URL }}
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: node scripts/import-editoriali.js
+
+      - name: Salva nel repository (solo se è cambiato qualcosa)
+        run: |
+          git config user.name "Concetto Bot"
+          git config user.email "actions@github.com"
+          git add data/ editoriali/ sitemap.xml robots.txt feed-editoriali.xml
+          git diff --staged --quiet || git commit -m "Editoriali: aggiornamento automatico"
+          git pull --rebase
+          git push

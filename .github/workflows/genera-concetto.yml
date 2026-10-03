@@ -53,12 +53,14 @@ jobs:
           git config user.email "actions@github.com"
           git add data/
           git diff --staged --quiet || git commit -m "Aggiornamento automatico: edizione del $(date -u +'%Y-%m-%d %H:%M') UTC"
+          # il workflow degli editoriali può aver salvato qualcosa nel frattempo
+          git pull --rebase
           git push
 
       # Pubblica sui social SOLO per i canali che hanno le chiavi (Secrets) e solo nei lanci
       # programmati, oppure a mano se spunti "Pubblica anche sui social".
       - name: Pubblica sui social
-        if: github.event_name == 'schedule' || inputs.pubblica_social
+        if: steps.genera.outcome == 'success' && (github.event_name == 'schedule' || inputs.pubblica_social)
         env:
           SITE_URL: ${{ vars.SITE_URL }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
