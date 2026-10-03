@@ -28,16 +28,16 @@ const CATEGORIES = [
   { id: 'gossip',    label: 'Gossip',               kind: 'search', query: 'gossip vip celebrità' },
   { id: 'ambiente',  label: 'Ambiente',             kind: 'search', query: 'ambiente sostenibilità clima' },
   { id: 'moda',      label: 'Moda & Lifestyle',     kind: 'search', query: 'moda lifestyle design italia' },
-  { id: 'concettoplus', label: 'Concetto+',         kind: 'plus' },
+  { id: 'concettoplus', label: 'Concètto+',         kind: 'plus' },
 ];
 
 // Concetto+ = "L'Italia vista dall'estero": titoli di testate di più paesi che parlano dell'Italia
 const PLUS_FEEDS = [
-  { paese: 'Stati Uniti', q: 'Italy',   hl: 'en-US', gl: 'US', ceid: 'US:en' },
-  { paese: 'Regno Unito', q: 'Italy',   hl: 'en-GB', gl: 'GB', ceid: 'GB:en' },
-  { paese: 'Germania',    q: 'Italien', hl: 'de',    gl: 'DE', ceid: 'DE:de' },
-  { paese: 'Francia',     q: 'Italie',  hl: 'fr',    gl: 'FR', ceid: 'FR:fr' },
-  { paese: 'Giappone',    q: 'イタリア', hl: 'ja',    gl: 'JP', ceid: 'JP:ja' },
+  { paese: 'Stati Uniti', q: 'Italy',   hl: 'en-US', gl: 'US', ceid: 'US:en', bing: 'en-US' },
+  { paese: 'Regno Unito', q: 'Italy',   hl: 'en-GB', gl: 'GB', ceid: 'GB:en', bing: 'en-GB' },
+  { paese: 'Germania',    q: 'Italien', hl: 'de',    gl: 'DE', ceid: 'DE:de', bing: 'de-DE' },
+  { paese: 'Francia',     q: 'Italie',  hl: 'fr',    gl: 'FR', ceid: 'FR:fr', bing: 'fr-FR' },
+  { paese: 'Giappone',    q: 'イタリア', hl: 'ja',    gl: 'JP', ceid: 'JP:ja', bing: 'ja-JP' },
 ];
 
 function googleNewsUrl(cat) {
@@ -64,8 +64,9 @@ function decodeEntities(str) {
     .replace(/&amp;/g, '&');
 }
 
-// Restituisce [{ title, link, nome, sourceUrl }] per ogni articolo del feed
-function extractItems(xmlText, count) {
+// Restituisce [{ title, link, nome, sourceUrl }] per ogni articolo del feed.
+// Funziona con Google News, con i feed delle agenzie (ANSA) e con Bing News.
+function extractItems(xmlText, count, nomeDefault) {
   const items = xmlText.match(/<item>[\s\S]*?<\/item>/g) || [];
   return items
     .slice(0, count)
@@ -74,33 +75,73 @@ function extractItems(xmlText, count) {
       if (!t) return null;
       const l = item.match(/<link>([\s\S]*?)<\/link>/);
       const s = item.match(/<source[^>]*url="([^"]*)"[^>]*>([\s\S]*?)<\/source>/);
+      const bingSource = item.match(/<News:Source>([\s\S]*?)<\/News:Source>/i);
       let title = decodeEntities(t[1]).trim();
-      const nome = s ? decodeEntities(s[2]).trim() : '';
+      const nome = s ? decodeEntities(s[2]).trim() : bingSource ? decodeEntities(bingSource[1]).trim() : (nomeDefault || '');
       // Google News aggiunge " - Testata" in fondo al titolo: lo togliamo
       if (nome && title.endsWith(' - ' + nome)) title = title.slice(0, -(nome.length + 3)).trim();
-      return {
-        title,
-        link: l ? decodeEntities(l[1]).trim() : '',
-        nome,
-        sourceUrl: s ? decodeEntities(s[1]).trim() : '',
-      };
+      let link = l ? decodeEntities(l[1]).trim() : '';
+      // Bing passa da un reindirizzamento: il vero indirizzo dell'articolo è nel parametro "url"
+      if (/bing\.com\/news\/apiclick/i.test(link)) {
+        try { link = new URL(link).searchParams.get('url') || link; } catch (_) { /* resta com'è */ }
+      }
+      return { title, link, nome, sourceUrl: s ? decodeEntities(s[1]).trim() : '' };
     })
     .filter(Boolean);
 }
 
-async function fetchItems(url, count, paese) {
-  try {
-    const res = await fetch(url, {
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; ConcettoBot/1.0; +https://concetto.app)' }
-    });
-    const xml = await res.text();
-    const items = extractItems(xml, count);
-    if (paese) items.forEach(i => { i.paese = paese; });
-    return items;
-  } catch (err) {
-    console.error('Errore nel recupero feed:', url, err.message);
-    return [];
+const AGENTI_UTENTE = [
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+  'Mozilla/5.0 (compatible; ConcettoBot/1.0; +https://concetto.vangard.it)',
+];
+
+// Scarica un feed con 3 tentativi; se non arrivano articoli scrive nel log il PERCHÉ (codice, tipo, inizio della risposta)
+async function scaricaFeed(url, etichetta) {
+  const pause = [4000, 12000, 0];
+  for (let t = 0; t < 3; t++) {
+    try {
+      const res = await fetch(url, {
+        headers: {
+          'User-Agent': AGENTI_UTENTE[t % AGENTI_UTENTE.length],
+          'Accept': 'application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.5',
+          'Accept-Language': 'it-IT,it;q=0.9,en;q=0.6',
+        },
+        redirect: 'follow',
+      });
+      const testo = await res.text();
+      const n = (testo.match(/<item>/g) || []).length;
+      if (res.ok && n > 0) return testo;
+      console.warn(`  ⚠ ${etichetta}: HTTP ${res.status}, ${n} articoli, tipo "${res.headers.get('content-type') || '?'}", inizio: ${testo.slice(0, 140).replace(/\s+/g, ' ')}`);
+    } catch (err) {
+      console.warn(`  ⚠ ${etichetta}: ${err.message}`);
+    }
+    if (pause[t]) await sleep(pause[t]);
   }
+  return null;
+}
+
+async function fetchItems(url, count, paese, etichetta, nomeDefault) {
+  const xml = await scaricaFeed(url, etichetta || url.slice(0, 60));
+  if (!xml) return [];
+  const items = extractItems(xml, count, nomeDefault);
+  if (paese) items.forEach(i => { i.paese = paese; });
+  return items;
+}
+
+// Piani B quando Google News non risponde: feed ANSA (dove esistono) e Bing News
+const ANSA_FEED = {
+  italia: ['politica/politica_rss.xml', 'cronaca/cronaca_rss.xml'],
+  esteri: ['mondo/mondo_rss.xml'],
+  economia: ['economia/economia_rss.xml'],
+  sport: ['sport/sport_rss.xml'],
+  cultura: ['cultura/cultura_rss.xml'],
+};
+const BING_QUERY = {
+  italia: 'notizie italia politica', esteri: 'notizie dal mondo esteri', economia: 'economia finanza mercati',
+  tecnologia: 'tecnologia innovazione', sport: 'sport', cultura: 'cultura spettacolo cinema musica',
+};
+function bingUrl(q, mercato) {
+  return `https://www.bing.com/news/search?q=${encodeURIComponent(q)}&format=rss&setmkt=${mercato}`;
 }
 
 function buildPrompt(items, isPlus, categoryLabel) {
@@ -289,12 +330,35 @@ async function generateCategory(cat) {
   console.log(`→ Genero: ${cat.label}`);
   let items;
 
+  let fonte = 'Google News';
   if (cat.kind === 'plus') {
-    const liste = await Promise.all(PLUS_FEEDS.map(f => fetchItems(plusUrl(f), 6, f.paese)));
-    items = liste.flat();
+    items = [];
+    for (const f of PLUS_FEEDS) {
+      let lista = await fetchItems(plusUrl(f), 6, f.paese, `Google News (${f.paese})`);
+      if (!lista.length) {
+        lista = await fetchItems(bingUrl(f.q, f.bing), 6, f.paese, `Bing News (${f.paese})`);
+        if (lista.length) fonte = 'Google News + Bing News';
+      }
+      items.push(...lista);
+      await sleep(1500);
+    }
   } else {
-    items = await fetchItems(googleNewsUrl(cat), 18);
+    items = await fetchItems(googleNewsUrl(cat), 18, undefined, `Google News (${cat.label})`);
+    if (!items.length && ANSA_FEED[cat.id]) {
+      const liste = [];
+      for (const p of ANSA_FEED[cat.id]) liste.push(await fetchItems(`https://www.ansa.it/sito/notizie/${p}`, 10, undefined, `ANSA (${p})`, 'ANSA'));
+      items = liste.flat();
+      if (items.length) fonte = 'ANSA';
+    }
+    if (!items.length) {
+      const q = BING_QUERY[cat.id] || cat.query;
+      if (q) {
+        items = await fetchItems(bingUrl(q, 'it-IT'), 18, undefined, `Bing News (${cat.label})`);
+        if (items.length) fonte = 'Bing News';
+      }
+    }
   }
+  console.log(`  titoli: ${items.length} (fonte: ${fonte})`);
 
   if (!items.length) {
     throw new Error(`Nessun titolo recuperato per "${cat.label}".`);
