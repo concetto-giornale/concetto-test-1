@@ -1,5 +1,13 @@
 {
-  "aggiornato": null,
-  "totale": 0,
-  "editoriali": []
+  "aggiornato": "2026-10-03",
+  "totale": 1,
+  "editoriali": [
+    {
+      "slug": "l-atelier-dell-ai-che-protegge-l-umanita-dentro-maison-kidokoro-la",
+      "titolo": "L'Atelier dell'AI che protegge l'Umanità: dentro Maison Kidokoro, la \"couture\" sonora che sta conquistando Seoul e Montreux",
+      "autore": "Marco Bergamini",
+      "data": "2026-10-03",
+      "sommario": "Mentre il mondo si riempie di musica e voci generate in automatico da un prompt, un collettivo italiano ha inventato l'esatto opposto: l'Authorial Couture AI. E grandi brand — dallo spot che avete…"
+    }
+  ]
 }
