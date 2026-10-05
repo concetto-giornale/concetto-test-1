@@ -1,5 +1,5 @@
 {
-  "generato_il": "2026-10-05T05:13:56.528Z",
+  "generato_il": "2026-10-05T07:03:22.797Z",
   "data": "2026-10-05",
   "edizione": "mattina",
   "id_edizione": "2026-10-05",
@@ -9,251 +9,226 @@
       "label": "Italia",
       "segments": [
         {
-          "text": "Il Paese affronta un fine settimana tumultuoso con il meteo che si abbatte violento sull'Italia",
+          "text": "La nazione",
           "type": "plain"
         },
         {
-          "text": "Pompei",
+          "text": "Italia",
           "type": "name",
-          "detail": "Sito archeologico in cui si celebrano ritmi e riti della civiltà antica"
+          "detail": "Il paese di riferimento delle notizie."
         },
         {
-          "text": "e un ex capo della procura",
+          "text": "è costantemente scossa da",
           "type": "plain"
         },
         {
-          "text": "Scarpinato",
-          "type": "name",
-          "detail": "Ex pm condannato a sette anni per mafia-appalti e ora senatore del M5S"
+          "text": "conflitti",
+          "type": "deepdive",
+          "detail": "Sia interni che esterni, fisici e politici."
         },
         {
-          "text": "sono al centro di scandali che mettono a dura prova le istituzioni.",
+          "text": "e da eventi tragici,",
+          "type": "plain"
+        },
+        {
+          "text": "maltempo",
+          "type": "unusual",
+          "detail": "Le condizioni atmosferiche mettono a dura prova la popolazione."
+        },
+        {
+          "text": "che costringono",
+          "type": "plain"
+        },
+        {
+          "text": "i governanti",
+          "type": "name",
+          "detail": "Presidenti e politici affrontano sfide complesse."
+        },
+        {
+          "text": "a cercare soluzioni.",
           "type": "plain"
         }
       ],
-      "aforisma": "Il caos è solo il rumore di fondo della storia che si fa.",
-      "autore": "Elena Rostova",
-      "approfondimento": "Tra sventure naturali e scandali istituzionali, emerge una crisi di legittimità che tocca la vita civile e sociale. Il meteo estremo e i conflitti di potere segnalano un momento di profonda turbolenza.",
+      "aforisma": "Il caos non è disordine, è la prova che il sistema sta cercando di sopravvivere.",
+      "autore": "Alessandro Moretti",
+      "approfondimento": "Il conflitto interno politico è spesso paragonato a una guerra civile. L'ambiente esterno, con guerre e disastri naturali, aggiunge strati di complessità alla gestione statale.",
       "fonti": [
+        {
+          "nome": "il Giornale",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOazVfS3FteWd0OE10emVlckpRVzZCcUlhbU05clFILVlUWUFETjhkbHdUVjI4ZU1HMnBKMTFXTG9ibGlseFZJMVBSUzMwQTZOVW5xTUotdEpVZmlBbF9zcUFpNmxHeG1ZMUhULXM0RU93VmtvSmxrN0ZHYmNNUTI5cHYyeThPbjJXdk8yQlZ5aWxPMGtlSjFOVVhDMTF0MjNodEZJNUxtb3ZSemFrV21vQWpzVjlTY1YxWFFndw?oc=5"
+        },
         {
           "nome": "Sky TG24",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVm1KcmtJMFp1ckR4RUVwMkljZG1jYUl2ZEF0dDhnT2tTNmNBRHBfMUxtSGowYmxkSVVGRmloWER6MlNUYi1qN3ZjcmNyMWROSDFGRnV5dThDWGJIMmlUbGxOMERWR1ZOQlFiUGlYQU13anNQWFBZZVVtZ1lZTUI1SG93?oc=5"
         },
         {
-          "nome": "Vatican News",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNY2xUQWcwbjJPeE1nZXc5clFxYU1LNmV5eVZxeXJhY0o4bTR4X1Rub3JjbGlDS2I3ZF82RmtMSzRqN01DcGhNUWRxZGVzWndYSWx6TVktNldpZjFUMDFfRHVFMU1raWJ6NHZBcHVRczBZM0VkcmZPUDdTYzRZbDIzZHNyNkpIeHNkQjlSY1ZoaVlIaW5ESEJsdVE4ZlhVR2hrU3dPTEF4VHFJQVRLV1E?oc=5"
+          "nome": "Corriere Roma",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcS1lYVRFV18yQVdXTUo2ajFTU2pud0Fiem9Wc3NrMGxHakVtQlM2Ync2Nm5OZEJ4QVBSOGlYYVAwU1dDc19jdzB6NzhKc2cyLXk3eFFrVTRoVm95S2tiRjBYVjNHUVNrd0VzMzhwcHk0dU13VWF1SnYyNTdLeUd3T0k4TlRTR3ZnU1c1dk1SVURqQVBEQV9QV2QyWlBUTEF3RDdaSkF0SjMyUmxVVWVaS0RtbkM2eEhJbUxaMnpBOGdfQnRzRGNsM3NGQUp5VlVqV3dNWlNB0gHbAUFVX3lxTE4wV3NyN1lLUm45V21SelBPR19rRWJvcGZBaU9FLTB5bjZuNjViOUI0Qk1ZY1lJcmJlakNBTEZDRHFpekw0MEw5QW8zUnJWNjVtbm0yaV9iMlllVzAtNm1KbTRBektwUWc4ci13NTNTb0JacVRMdjZLRjdndUJPbXc4NWlEdEJ6QmUzVFhUYVl2UkQ1UEw5LXhGS2pRMzRHU0hJNmJIUEFYVVFWZFdmRWpvMnBzUVl5NTBWSldPMFVjdkFfN0pPZzZFNFVfMnhCQlgwV3pLbkR2QlplMA?oc=5"
         },
         {
           "nome": "Corriere della Sera",
-          "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQU3ZKeTNwa1ZiU2lvU0YybHVuNTRlTUhWM21jaG5VQ21NNjlDTWQ5NjN4Y2VyckRCSldEWE5ZajdNb0lGdk1UZ1d1bEdRNjh4VEExclNNS01md0plcjFHZUhWSG1oR2dSaDdBWnhvLVIzX2c2WHp3UGNTdWc5S1NNdFJabC1fWjUyalFhaTdybEg3NEdGc3IxVzZhaVBTMTNHTE1kbzdnal9rTnUxOXE2ZEJUbC1KRVBkRXA2UncwYmlwNlUxZTFBNDZFSkZ4UzFSWlcteDh5OTBuUjFFNmZLQUJfZUs4MF83ZTRtR2IwLVFzb1hGZTIyeWFqUERKbjZpMEU3czAxZ3JrNFg1RlZoU183YktmXzNWdDBnaVVrZ0tseTVKVGfSAasCQVVfeXFMTWk3MmJpc2lkY01fckMtRmRTUkFfa2hjM0RidlF6Z1RNSjdoZHFrNllfRWNWdW1fb280WlJWaS1pWnVKMU9iYi0zcXhPLUNBNzIyWmtjUkZyQlc3aEhTdUpVU0YtY0kwRHpKblZ0S2g4R1VQRXBVUVkwOW03UmZEbllPbmJDRlMwenJ0MFJVWW1PTU90aE8tTzRZeEdPTG9BSXROXzB2SUtRMTc1b1lLTVZobnVTOU82dWI0cDZ6UTBsQjVTdDlvaWs4RGNRYTl3RHBJaXhWZnloUlBDek90U25oRmN0X3JaeVBpSXptWUdraS1fUUZIbTVueEI4cHBBeFpta2l2SGNucGhwSlBaVkZoajRUNHNUZjN0blBvMjVGQ3NmSEt3UnN0Qk0?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONGNtZnAxdDVrbXB2Y20zdzhHbnlrV2VBQkVmNmZjczZaNk1rd3hvZWZ5TjlwdGNCbnhaX0JUTFpEQUVqaVJwcVdfR2EyV3VNV2ZFcG1nZXRGTEFuajdkbVVzR1N1aG1TbnE2Q1pzenBjTmhCQWJxMkowdmJnR2hxS2ptSVNtaTdYdlVBVmdCRzNoZ2J3RVdGQVBsaUpIN0NobERJOFozMFA0dWF4bm5tNHF3cU82NHRFMTYwSVVveDVSeXp1S3lTLTNVamsxbHN6bFphTi130gHbAUFVX3lxTE5WX2V6QWE2VzZLMERKejVHQUU4UG4xZ1FBa0lJUVVDRlQzTEJ1OW5meDRDVzJoaVhTNUE4ZEdNYUFHVF9lb1Rsby00Q3RfUGF1MXZtOXZBcndSMWpNZWRLMjJocWtQc3RxTG91OHVIZk9oMEVmOUh3ZWVsQlFmTUpkSXE1Nm5XejNINTh0dThOTGlUd0ZoNWk2a1c3Z2llYzJTNjZsZmxScE9yQ1g4bG1XVnJwVWQ1TVRZNFMwRDgxcThoWnNFZVZ4eUVrRGt2WUFhQjU4QVlGa0V5NA?oc=5"
         }
       ],
       "parola_foto": "storm clouds"
-    },
-    "esteri": {
-      "id": "esteri",
-      "label": "Esteri",
-      "segments": [
-        {
-          "text": "Un mondo in conflitto e caos dominano l'agenda globale: dal voto anticipato spagnolo alla guerra in Ucraina, fino alle proteste in Brasile e Spagna.",
-          "type": "plain"
-        },
-        {
-          "text": "Ucraina",
-          "type": "name",
-          "detail": "Teatro principale di tensioni geopolitiche e scontri"
-        },
-        {
-          "text": "Guerre",
-          "type": "deepdive",
-          "detail": "Conflitti che sfidano la pace mondiale e l'ordine internazionale"
-        },
-        {
-          "text": "Merz",
-          "type": "name",
-          "detail": "Cancelliere tedesco coinvolto direttamente nelle crisi ucraine"
-        },
-        {
-          "text": "Bolsonaro Jr",
-          "type": "name",
-          "detail": "Esponente politico brasiliano in lotta per il potere"
-        },
-        {
-          "text": "proteste",
-          "type": "unusual",
-          "detail": "Manifestazioni di massa che scuotono le nazioni"
-        }
-      ],
-      "aforisma": "La pace non è un dono, ma una condizione che va difesa ogni giorno.",
-      "autore": "Aldo Fabbri",
-      "approfondimento": "Le tensioni globali mostrano come le decisioni politiche locali influenzino direttamente i conflitti internazionali.",
-      "fonti": [
-        {
-          "nome": "la Repubblica",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTGVvUVR0U3pUYkxiMkdFTTZkM3hHd1NtbFBJZ2M2Y2N0OEZXVmhlb1RYX1Y2UGwzOVVHdFhEYWZGdjN4SDltTEVvUWJTYmx2OGhST3Bpd3dwZVJqVTh1aVJya1lFdjlWWUxha1JrUE9oS2hfNDdwb0lsbEk1MDJUVFo4TU1iUXJob09aY1d3YS1WSGo3OG5DdVBR?oc=5"
-        },
-        {
-          "nome": "ANSA",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNYnhTYk5ib3ZkSTE5S2lZWW96WGlDQlJRN21McUE5Y0YwWDNXcWZyWWxnVkZmZnRVYXgtMjQtdmduY2Q5QlpLN2NDdGE0dmNoRmxTNlVleDVVeWl2TWV4dlllbUlNbWVBZVRMMWUzVHY0ZUVCNFJtRjlOU0R5NDl5bnpSUk1ocXpVYkNLRHNiWnpNdlc1TVhGTElWRmNTMjFBSzJoTUFkQlVKM1FJRHRULXlpZTltNThNRlhvYWhOYTZsSkNfeG8xVHVGVlpxa28yN0xTNW5QLUVGSGdkM3IzOWMwWk9VdDFuUVA1R29xVlE2TTFFME5J0gH8AUFVX3lxTE53NnRnY2hMcHh0eTNMZjF1YnBmNi1URGxYWVU3Wk9oNUc3YTRvV2VFQkZCR3Y5THFxaFJPV1FGdHZVdkVscFZxN082dkNCUUkyNEZlUUhoN194UGNEZmF6TW1GMlo3d3NHd1c0RGkzV0pmQmFuOHZxNHM2TXUxZWxKellpTlRBSHhhT1BZWkMzV0xicXExRWRYS050MGM5OUxoRmdrRFdSaXBLYkVKWjlZUU5BRVlRdEpqNHNhdzRFU3dCWkxnTTR5eXlZaWF0ZFlVLW1NakVFeUtwdTVhZDl1djhsMzVRZ0NvdmRnaTlqMnp3YUk1MnVMRlczaw?oc=5"
-        },
-        {
-          "nome": "Corriere della Sera",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQ3haSERGY2pSbDdLaU5PYS1wM0JjUFNOakxfS09tb1NXbE1ndEhKQUVaVURjVFMzd2NOcUdNcUJ5bXBGM01tSFZDS3lSaHM5VVBBalRJMmdKODFqSkJkNUJDdGFDU0VaNkNEcy00ZnkyNm5wZDlDM3ZNeUpyR0RHbmFUbExXaWlsMlUxdFp4amt5dS1pYklQUkVJNk41TU5hX1lRbkNKT3Z6TkZjTm5XSTZLUEhOaGJmSjJKVlJnN1QtNGtGUFQ2dXNkRGVCUdIB0wFBVV95cUxNVzlWZTlrVGF4MmRHSllNNTdoYzJ3LUNDUVE1NWFvWlhiLTViajVhSFhEdHVUdFhudm5rMnRORzh6QUYtUE5Pei1LRDZJR3lPbFZVYU50WWx4dVJ4R2EtNjdGSjJSc3pkUllkdEYxeHgxVGZ5Wm50S1hkYUc4bzBya2xyN1dNS0pJNEY5UjcyYlRtdnMxaDFHWlFCaHR4blk2Ykl4X2RXN3dIR2ZQYkVDSm5kZVl0REl2U25nblV1Zm1RVHkxMmpJTkNVS0JzMHhpY09N?oc=5"
-        },
-        {
-          "nome": "Il Messaggero",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOEpBYmpsLXlhTUJ4M2lLWWlRRUs4eWJuMkQtNWRSUXZ0MVpVQXMxSUY3WVVWLTVQcWpHdU8wOXNIUERQRzlxOTNEbkhmaGsyNTk1Y3hQMXp1ZnBLMVhwYVk4YjRVYVlKUVJHRk5pRnA0MU5XWFFuYTNlNER6WGNXWUxma2xUTklJcklObW1jdW05YzB5MEg4SUotNNIBoAFBVV95cUxPRjFqcmlydnF2RFNnLTRBSk5wVXJvMTE4anAtejMxOUpYNVJ3VDlVSVg1bmpLQkFNQ3hmRjVFZnMtS291ODJVenJPX1A3SDZ3RGROZmwyQkhBUkJycF9tQTBlVUxRMGY3cDNUSGpkdWFndUN5ZUFHUEJMLW1VQzdsT2l0Mndua3ZBektlS0ZIeDJfcDVZV0pjUmZUTGc4Z0V4?oc=5"
-        }
-      ],
-      "parola_foto": "tornados and flags"
     },
     "economia": {
       "id": "economia",
       "label": "Economia",
       "segments": [
         {
-          "text": "Mentre i mercati globali temono una tempesta perfetta di debiti e inflazione, l'economia italiana fatica a gestire la stangata autunnale e il caro bollette.",
+          "text": "Mentre le borse europee si rialzano, la Francia",
           "type": "plain"
         },
         {
-          "text": "Intesa Sanpaolo",
+          "text": "preme",
+          "type": "unusual",
+          "detail": "esprime un'urgenza eccessiva o un peso"
+        },
+        {
+          "text": "per cautela sui tassi",
+          "type": "plain"
+        },
+        {
+          "text": "e si verifica una tempesta globale sui titoli di Stato",
+          "type": "plain"
+        },
+        {
+          "text": "con Draghi",
           "type": "name",
-          "detail": "La banca che indaga su Mps e preoccupa i mercati."
+          "detail": "ex governatore della BCE che guida le opinioni"
         },
         {
-          "text": "6 ottobre",
-          "type": "date",
-          "detail": "Data di applicazione dei nuovi prezzi del gasolio."
+          "text": "che invita alla prudenza",
+          "type": "plain"
         },
         {
-          "text": "Bce",
-          "type": "name",
-          "detail": "La banca centrale europea che lotta contro l'inflazione."
-        },
-        {
-          "text": "Cautela",
+          "text": "mentre l'inflazione",
           "type": "deepdive",
-          "detail": "Consiglio di Giorgetti su vulnerabilità e debiti sovrani."
+          "detail": "la crescita dei prezzi è un ostacolo per la stabilità economica"
+        },
+        {
+          "text": "e la Mps",
+          "type": "name",
+          "detail": "il banco di credito italiano al centro dell'attenzione"
+        },
+        {
+          "text": "attirano gli sguardi dei mercati",
+          "type": "plain"
         }
       ],
-      "aforisma": "Le onde dell'economia non si calmano mai, ci si impara solo a nuotare.",
-      "autore": "Marco Veltin",
-      "approfondimento": "L'incertezza sui rendimenti dei bond e le politiche della BCE mettono sotto pressione le banche e le famiglie, mentre l'Italia affronta aumenti diretti e strutturali.",
+      "aforisma": "Il gelo dei mercati è spesso solo un preambolo all'uragano. — Alessandro Moroni",
+      "autore": "Alessandro Moroni",
+      "approfondimento": "La Francia richiede cautela sui tassi di interesse per contenere l'inflazione. La tempesta sui rendimenti dei titoli di Stato spinge le autorità a una gestione prudente.",
       "fonti": [
         {
-          "nome": "ANSA",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdC1JeVNoODFVNElwME1EcnVjMTdzSVBZTHRpMHM5eVo5cXBENFVOUGc2akZidklubkxaSHhsTmE5MFJLdmgxZXp2RVlzZWJIZHdfbkZid2gzMHNBSUltUFhGU2p3ODlmSklmNW9lWWJzREM1Umlsc3JrRnRTR0FsWkxDRmZjY0dLc2JkQ0NzR2ZFTE9yR1k0RkN4WFd5anItNXhOWEJHOFNSRW5GX0lkZE1VTTIwY1VFME1XNzVSVEVYSGpyS2V6U2lqRnA2TWVnSkY4S0lSY2tkZFl4UXJRcWlJYWs1S2hj0gHuAUFVX3lxTE9UOUNidHl0b2VKWnctYzJKbERRSVRKTHMtSGdzVmkwdHpJTFA2eVZsbUd6SEZyc2tJMUllTlR0MjZucmNjVzRaRDJhR1FlbndBdThkbDg4cy1tNUxQR0lKU1dBcW1LZm9QQnhqYjhRMjhJbHc2bUlGYm85UUUxQjFiTHNzbjRfb1UwUjhfdXliUkEydlh3ODBucGtJR1FFYXp3RVh5eUZDZDZVcUkwQ2ZPZlZyeW03MlRWc0s4SDNubEl3dGdwQ0tmUmdjMFRSdlVNZGthSzQzMm81UTZCN3haaTJPcjViNDVEWHpmZVE?oc=5"
-        },
-        {
           "nome": "la Repubblica",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWGdLNnFFMmxmRDNMV3o0Y2w0cXdhb0NScERZcXMyNWZ3SjdoRGtIVnFUWnMzcGFYOWQyNFd5eXh1WGdEZFpVeThJUGpLSzd3WnBwbEF0QUlvaFc0aUxfcElIT3VxcGwtQmhqWjM2aUZneDB6MzQwdVJDMGR6SHJQTFFSZlgtdUFMWlpWYWlOa0s5VW96d0xHN2dvbXcwUlpQeXY5Z0R1Z2ZDQQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTHBieWNKTFY1TTJsQzZlaG5vVDNUeWI1Q2hRX1M2Tk9nWE9rMEV6dVhFWkpyVXNyRUFBbVhmOTlqRkVoc0ZrWnBNMHFfSE5CMXBlZUVxZlY2R0sta2dVdkZqWm5nRllwUm1JVFRfX3Z6SVhGdXRScjlzOVlJdXM2ejhkNTRSWi1jTmp5SGdland0V2F0d3hfOEVEM1I2Y0FxVVUySWZweDlWUmlxb2c?oc=5"
         },
         {
-          "nome": "L'Eco di Bergamo",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdTh3RTBxdWF2dkI2eWVCOVE4dEVESlRQbm9PdG5jLXU1eEdHMGxHeWZPbF9ONmszU2xKUjU0dk5CcGNwVFhDNHp3c2daUzF3OUJmNG1ZSUg1dDF6Yk9zeVJmejdWaUpBbkVTNTNnN2Nfei05Ujk5VVFEN2ZNN3VpMFpOLXRhRFV2SjhFdWxxYkdTV05xSm90U254akI4M0tDUWdfQUhUZ01TUm9keWJNb29neTZrTHZfUU5KTWpjZGwxRXM?oc=5"
+          "nome": "Borsa Italiana",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQckNfQi1LeTJ2RFdTV0VYbDhmamM4dmdLZWh2Rlk5MGlGQjBHcExPc3dpZUlEU0hmdDhnSmZ2N3EtQkg2RWlkWjhjSXFyUXpOZENJM1RLYUV3ZHBxdnJicTBZbkU3bkxTaWZYOTB2UndTMmF3M081WTNYcU5ETENfUEZadUYyUnRnZlJ2RTI0ZVlsNmstZEhkUEZNcmJJS1k4V0NsUHRhOXZBRkVfdkFTcEw4WTdHTXlHeXptY0o3Y2RwVU12NXBBTkpvbjAtZE0yOGVjVnFpcjFYNmNLQUR0Z1U1ZU9lNmZtMGg0?oc=5"
+        },
+        {
+          "nome": "Corriere Roma",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSGRqcmxRc25Vd2hkZjYwdFVvVy1PcDNudERpaWVzdHBBV3B1SVlOTkJ6WDljajRHLU9PczVzbVl6bF9XbTN4NzJ1VFUzVndWMGRFd1hhc0FVN3BzMGJBWWJTalpPa3ZkZDNrQWdNU0t0WUhPOXFaLWZhckJ2bGtMRDY4LU93M3BOY1pJMUJlOHNYeHhuZk1hMVNxRGJIWEthU0NKR0lHeHFvUnVWeHNoSVY0ejM0a3JEaVZRdy00U3pzNzgzcDVoM3ZJX25HRWFuRjEw0gHYAUFVX3lxTE1IZG5oRl93MEx1ZElWY0JWclBTQ3BIeThaY3BFQllDc0VfTV9ZN3V1Mkp0a1EtVjkzN3pNOGw0ZU5LY0VaamVzbU9MZ21VYVJvZHd2b2RLSUszMU8xV2I0U3Z3bkpRUklBalMzZ2d1ZGt2LUc2TDd0WlZ5d25vaF9VdUszNzN4MXpMOWhjdFpNTl9vZVRIT3FtUXZWOU9leE1Oam1pVHZIZGFNVDNBcEFrSWRIXzl3VEQ0ZWlFcGJSQmRObjIxeGZlbkRESGM5cDdWd25BdlhUTw?oc=5"
         }
       ],
-      "parola_foto": "storm clouds"
+      "parola_foto": "financial crisis"
     },
     "tecnologia": {
       "id": "tecnologia",
       "label": "Tecnologia",
       "segments": [
         {
-          "text": "Tra le crescenti tensioni tra le grandi aziende tecnologiche e le loro decisioni strategiche, l'IA emerge come protagonista indiscusso.",
+          "text": "Il nuovo zar dell'Intelligenza artificiale",
           "type": "plain"
         },
         {
-          "text": "OpenAI",
-          "type": "name",
-          "detail": "L'azienda di ricerca AI che ha visto l'uscita di un dirigente per motivi etici."
+          "text": "voglia",
+          "type": "unusual",
+          "detail": "Voglia di potere sfrenata che spinge i leader a puntare tutto sull'IA"
         },
         {
-          "text": "Anthropic",
-          "type": "name",
-          "detail": "Un concorrente che sta investendo pesantemente per formare nuovi ingegneri."
+          "text": "e",
+          "type": "plain"
         },
         {
-          "text": "Google",
-          "type": "name",
-          "detail": "Il gigante tecnologico con il modello Gemini 4 Argon."
-        },
-        {
-          "text": "Samsung",
-          "type": "name",
-          "detail": "Un altro leader nel mercato che ha recentemente alzato i prezzi."
-        },
-        {
-          "text": "Il mercato tecnologico",
+          "text": "l'umanità",
           "type": "deepdive",
-          "detail": "Un complesso eppure affascinante ecosistema in rapida evoluzione."
+          "detail": "Il complesso rapporto tra tecnologia e specie umana"
+        },
+        {
+          "text": "di fronte agli scenari apocalittici",
+          "type": "plain"
+        },
+        {
+          "text": "che",
+          "type": "plain"
+        },
+        {
+          "text": "potrebbero",
+          "type": "plain"
+        },
+        {
+          "text": "ucciderci",
+          "type": "plain"
+        },
+        {
+          "text": ".",
+          "type": "plain"
         }
       ],
-      "aforisma": "L'evoluzione tecnologica accelera ma l'etica umana deve restare al passo.",
-      "autore": "Marco Rossi",
-      "approfondimento": "Il settore è un campo di battaglia per l'innovazione, con giganti come OpenAI, Anthropic e Google in competizione per la supremazia dell'IA. Questo si riflette in decisioni strategiche come i licenziamenti e gli investimenti massivi in formazione.",
+      "aforisma": "La tecnologia è uno specchio: riflette la nostra paura più di quanto non rifletta noi stessi.",
+      "autore": "Elena Moretti",
+      "approfondimento": "L'IA non è solo uno strumento, ma una forza che sta ridefinendo i confini tra il potere umano e quello macchina.",
       "fonti": [
         {
+          "nome": "RaiNews",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQbGxVTkZfVzRjUXJNZXkyMHJlNzVmLW5iUEU4S0NoRnNobWhucHlIMEJhUlRJd0FVNzdnem9aOTR2ZVNzWFdRX0g0QTFYQWR6eElqaUlEUE1PQm9DRVl3eXJHTks4cW1BUnFMRzZ3N1lXV0lEQjlZUXNHNGdJSVYtWUlxdFAxaWZQV2h2UmZMMDIxTjRHMU4wMHlvSGpXVDdLVEdhZk9rWTE2X1BCZVhVVXBXeVJqLW44eS1oOWdBUlpWRElmZnpUbWtDb1Zzd0F1MTFKMEgxWFZyczhjRlFVTGR5WDY4Y3hwM2p1aUJVbmhMUllLa3BEVE1mNNIBgAJBVV95cUxQYXM4eFBnNldCVVNkVWc4My05ei04ZFFfbmVvRmh6YTJiM0szX0w2Vll0RXpERWV5dnRhNHpacHRTWGgxOFZtSXk5V2YwSENSVmtUTGZ2QWhFWktNcW9yMW5OazlZR0xpaVJEb3REWDczRXVoajZiWG95OV9kRU9xck5NUHg0VDQzNUpuZU9CQWtQMmxabHFEYlFxUlg0X1poZnRFeFp5dk1idk9odE9yS1ZkTlV2REZUZlFpZ2x2MHFpb3h3Z19zMEt0NUQxNDZGbTByTzg4Ql8tTGMwRkdRYjFXcTQ0Q0JuSllqczNkU2JrRXQ4OHc5S2xTU2dtVDdq?oc=5"
+        },
+        {
           "nome": "Corriere della Sera",
-          "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNekQ3QWFpOEpDQ2pZdnJjZWNkTjdaak5QYVQ3R0p1NFhBaUZkTVlXREY1dERhWUhWU2FvMFZyTWlwNUFHSU5hazg0NzNJZUNwYkExMG5vODBiLTQ2TDd2T1lOM292SUp4ajBQSFR2ODNqRmJSYm5DN1pIWFJOaUMtMlIzUFRwY2hHUEtMczBGZnNhaEZaMlcxSndyY0hka0hXQ3BGcW5lbFk5T29HbXlEOThKOEpCUFBoZzczXzg2d05md0N5THctdEpaTDB6VXF5ZGVPN3dTSXhXdTRkZWo5ZlZFMk5PQkVwaEw4YkZSWWoxWS1uWGNpTlJNT2ZDcERFSFhiTk5ZUWNGaVBGajNOQkpsSGt4WGtlVWNlSTZJUUZHdHpmZ2QtaWE1aUlTdFV0cm5PMXVGZlBWYVdFSUdPQkVn0gHHAkFVX3lxTE1NT1ZwZlFGb05Ed0VyTW95akV6eTNyUkEwZDZWdUNlNmhGRHl0THd6NDVaMWcwOGFnV1F2NWNYXzJ5VktrX29ZT00tLTJfWm5lZzBlUGc2MHN5aFdxSGhKX0trdGxLQlZySXpFZy1oRGdGMFF1ZE5kbHA4eXBaQTVvb3FvMlI1Z0ZlMDlUa3NyOGd5Q2dSOVE5U2xoX2hpOUZqdENuNWtiQmlCOFZyMFVDcWRNU1Mya3FfTURUQWVNRE95anNpQmlvZXhCeXMzbl9zc0l2LXh2cy15ZTgydEdhUTh3X1liVmVuLV96dVlfc2R1TFhibGtta2d2VUJUTXhkYlZ3cXdTekp5XzhIRnhTbmxMMmdNaExZLV9saTR6QnZEVkRfVjhnWF9MYzlVaHBtUjlyREpYRWxDeTBjUmZmelQ4MERxWQ?oc=5"
-        },
-        {
-          "nome": "la Repubblica",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQRk1ubzk1SE8tb2VsdVkyOWVPalZfMU5rdkt5cHRiU1hqRV9XY3VaLTlabFBRRUktcnhLSzFqQzZWaUNoQ0pNUVhxWXhIcDRBOFJpNF9GRmZkWHIyUjduMzRYZGZUb2NvVjVnaGpzVWRybzFVZDlJeXFYS2lOcWNBR2JWVG84WlpRSFE0eW5QNHRLSmJMRXFxSzBQSTJtMEZBMVFlcjhRMXFvSkh2VU42YThrZHExM0tBT3QtZ1l1MWYtTUVqMFJTdklZSmxyeXhMb1E2Z1E1WmZVOHdDN1lRZmFONXIwUDJTMnNjLW9iSXRMUQ?oc=5"
-        },
-        {
-          "nome": "Libero",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNamUybnZOTzM0SEtLZWIwNlRTYUI0bFZMQTNPRVh2U28xSnNYcVFjT3VBQjJRQjNDbmhPUGIzTjZDdUU0TmhLMkFrdWdWdUJiT3VjS2F2UnFYMld6eWJsRGxyclFnUm5WdC15UklIRU8ySFIwVktxY0dMN00teW5hcVN3bEVYMmtMMXhSajU3Y2NkVDN40gGaAUFVX3lxTE40Z3o3ZlQtQk5RTDFHb2IzRlFtX3RTVG1INVZSVjRCa1ZJSjdpdy15ZjJ4RTEzQTVFWlFmV0lVWDF6MVZBWmtTa3RKVkRlSDgtbEpNNDFYdGVIWnFCMTQxR0trN0ZZcE5EM3JwYjl4dXppbDZ6TVN6VHIxWHdjNUxmeTlWT0dub2JwZllZZmFaRWgySjkxV0dDTUE?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPdWFISmFUbVVVLUxDTzZfazhLdXd5WTVxZGhRRmxxdGh0eXNfVWlaS2VkRTdHTGt2ZXBFMDJZeVhvcncxdThKaXNiWGN5WHRvQk9oVDRyelJ2UHFpV3BlZE9yQTlsazAwQmlxbGlVa3RVOW9zZUNzZEI3Um1aRmFoeURvR2tNaXJtcUhybWFIdDFodFZZVWdlRGxsM2JPSnUxQzRERUYzV1BaVUlHeUxpVnJ1VVFMdC1iUk9GcFYzT1JxNXFmNVNlOU5PRFJuUFFIVlBQWU00R3Rhamt4VFA5TmYtWkxHQmZOaGQ2akVTeGNIZzYzUjNhTW45Zmp5eUk4N2hobWdQUmtoaEF2Qk1oeklXYTRhTS03bWNNeG04aE1XR05WTWfSAasCQVVfeXFMTmNHZzNsaTA1ZkxLenp1TjV0NFRzeERZZE5lMUNOQVVLcEFxaExGR3pla2U1M3QwZENyTVVKUXI4cFJPeHdpbzJBN2lxeDhPajBMNGllazIxZVFFXzFqOTR2alRvVmJBX01ET1N1czVWN3haVzl5UlBsTEhzaC1oQlRrRWZMZXdFRTRyamFIRC1EMEw2X0R3QzA0dXJNMVNsMEtVZ3Z6QXluNGpCbEZHQnNKY0dPcnRsZWVRYm1aM3RTN21ybTFVbmJ6aHBZN1ZZSjJJbVM5M0Q2UTJCZFZoTjhzQUFVNFJzQmZYbWY4ckJPRk9mMlNrQTlGREpOQmF2ZDhNQXFvVVRzSDl0RkQ3RlFkMFF2cUlmTUZjYzBKakx0RGlJNHJuUU1DTTg?oc=5"
         }
       ],
-      "parola_foto": "tech innovation"
+      "parola_foto": "artificial intelligence"
     },
     "sport": {
       "id": "sport",
       "label": "Sport",
       "segments": [
         {
-          "text": "Sardegna",
-          "type": "name",
-          "detail": "Luogo in cui si disputa il Rally Italia Sardegna."
-        },
-        {
-          "text": "spinge",
-          "type": "unusual",
-          "detail": "Verbo usato per indicare la forza e la rapidità di Solberg."
-        },
-        {
-          "text": "Solberg",
-          "type": "name",
-          "detail": "Nome del pilota norvegese che si distingue nel rally."
-        },
-        {
-          "text": "in testa",
-          "type": "unusual",
-          "detail": "Posizione di vantaggio nel corso di una gara."
-        },
-        {
-          "text": "mentre il",
+          "text": "L'atletica agonizza in Italia, mentre il tennis e la F1 dominano i palcoscenici mondiali.",
           "type": "plain"
         },
         {
-          "text": "football",
-          "type": "name",
-          "detail": "Sport in cui il Milan e la Nazionale italiana si disputano i match."
+          "text": "Mondiale",
+          "type": "unusual",
+          "detail": "Riferimento al titolo 3, al sogno del campionato di Formula 1"
         },
         {
-          "text": "Italia",
+          "text": "Antonelli",
           "type": "name",
-          "detail": "Paese rappresentato da Nazionale e squadre di calcio."
+          "detail": "Pilota di Formula 1, protagonista del titolo 3"
         },
         {
-          "text": "ha",
+          "text": "spera",
           "type": "plain"
         },
         {
-          "text": "lottato",
+          "text": "Djokovic",
+          "type": "name",
+          "detail": "Tennista serbo protagonista del titolo 4"
+        },
+        {
+          "text": "di",
+          "type": "plain"
+        },
+        {
+          "text": "semifinale",
           "type": "unusual",
-          "detail": "Termine generico che sottolinea la fatica e la competizione."
+          "detail": "Riferimento al titolo 4, il traguardo raggiunto a Pechino"
         },
         {
           "text": "a",
@@ -262,157 +237,124 @@
         {
           "text": "Pechino",
           "type": "name",
-          "detail": "Città in cui si svolge un evento sportivo."
+          "detail": "Luogo del torneo ATP citato nel titolo 4"
         },
         {
-          "text": "per",
+          "text": "con un pugno chiuso, mentre l'Italia vince il Mondiale di calcio",
           "type": "plain"
         },
         {
-          "text": "Zverev",
+          "text": "Pechino",
           "type": "name",
-          "detail": "Tennista che ha subito una sconfitta a Pechino."
-        },
-        {
-          "text": "e",
-          "type": "plain"
-        },
-        {
-          "text": "Conte",
-          "type": "name",
-          "detail": "Nome del ciclista che ha perso la volata agli Europei."
-        },
-        {
-          "text": "con",
-          "type": "plain"
-        },
-        {
-          "text": "Scaroni",
-          "type": "name",
-          "detail": "Ciclista italiano che ha concluso terzo."
+          "detail": "Ripetuto per corrispondenza con il titolo 4"
         }
       ],
-      "aforisma": "La corsa non finisce mai, solo si cambia direzione.",
-      "autore": "Marco Veloce",
-      "approfondimento": "Il rally in Sardegna richiede una grande resistenza fisica e mentale. Il calcio e il tennis sono sport che mescolano strategia ed emozioni forti.",
+      "aforisma": "La gloria è il sale della vita, ma la fatica è il pane.",
+      "autore": "Giovanni Esposito",
+      "approfondimento": "Il calcio italiano vive un momento di gloria con la vittoria al Mondiale, unica notizia di rilievo in un panorama sportivo dominato da sport individuali e internazionali come la Formula 1 e il tennis.",
       "fonti": [
         {
-          "nome": "Rally Italia Sardegna 2026",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPM0tncmg3RTVtR0lZSUF0clYwZEVjVk02M1BtR2lWY3ozLUhvWmlxWEwyaWkxSmFQa2l0T2htVVhCQVdzOTM3UDB2aEprMllLR2FnUXZpOHhIVmhDWkdLY1RjYk9VLWFLY1c4RVM1NF9UNXBHbjgwcmlLXzgxcUtmSGFjN1hraTEwcGQ1NENKRmlHbUY3TmZzZHg3TjFUa2c?oc=5"
+          "nome": "Corriere dello Sport",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPc3hCTnFiaGlQZlprNnVmYjJyaTJOYUpsS3dIVDhXNjN5eVlOOFdxN09tRmF0eDJQLUJVbmdvZ012WjYxOHh6UXR5bnFLclBaa3hmVVR3WnU4NTFFeXJwWTYyRGNMNk8zNWxzaXVOR2lVR3FZOHVIdnExcE9hZkRRVXJaSk1vbWZ5UVo3THpfSXQtazVTMjBDcUlfTWM2Y292RW1yQUJpV1FjZl81c25VR1FKbHVuUkNTbTlGdXlHTkFpZ0dSWU9NZzNPbW1odGlVQmg5WTBoR3Y2V1RqS2I2bEdBYWZQZWFTOUxZbUxZQjI2b1IzR0tuVlJYRlUzalo0UEEwYkhmTjh5RGxKbDc2b0VvWjNvUQ?oc=5"
         },
         {
-          "nome": "Sky Sport",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZFdWLXBULTkzVC1sQXJBejhUcS0tbmhjNVhWNEFwcWpxVjM5dXd1Q2s2ZGUyZTV3d1lBNXpWSnR1R2ljVFlhdEszMjE0WEYyanprZ0Nmblp0VTVlOUJ2S2Mxa29aNnBPR1B6VExiNmU3MVh5UVJubDQ5SjloTnhkbE53RjZ6SVZwb29obXVwVHBkYjZSTmh3NTV3U2dNNldTM0E?oc=5"
-        },
-        {
-          "nome": "La Gazzetta dello Sport",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaURHWXUxY0hiY2hpSjVwY3hFaEFpVmVDVWUzYTJJRzNPdG9QMk5OMlNxcm5kb25GSFpLdW5DTm9VZlFUZG94OGtvR2l6Q1ctdGprYWtmeXZZWXlua01DTGtHNVpnQ1psYWVqbVRNU0Fob29ram9tUGFESVJFV01RdnZoRDAwcl9hYXZOWUctSW5nQzZSY2cyN09sX2RQbTFZUUwtaVJCVHc4Qk50Q3dYNk96b0k5R1ZVQk41V0lqcFBqOU5oLVHSAcsBQVVfeXFMTzVCXzVFbGh1UVhTUUJTZS1PaXJWVURhZFN5OGlsd3hEQ2EyZWg1Q0dCcmk5REJfUldRb3FyQzNkaFhlQ0FiQnpaNE9UcjJfM056dFE3M2F3QmpkLXhpZ1JwQ2hVS0JMUXVFckNHTmYxX3I2bzZKc1FMOGdoQ2VscGdPVTZFUENNYnNXOGp6bTljZDVoSXppUXRfbXYwY2RGVTVKLVN2cXo5aTB4OWJnVUd0ZEJCbkNXSFUzdnJBYlQ2Q19iY0ZiQmVZems?oc=5"
-        },
-        {
-          "nome": "Il Fatto Quotidiano",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRFZHTkI4Mi1lb01SNWtqMFFEYjdENjVRS3NsYU5zVkx5ekdpMEdTT0ZBdl9BNkVTSVhkeDRHbk5TeEFpdVQzaFVDVGhxaXR1TVl5N1pwa0VsMU82YkpmTXR2bzkzamNHeXRVR2RCSVUyMkZOVDBWQ21aMm1oMjE4NGVnYjgwdzVPaTQzV242MmJEYmowUUJZcVdFbVExQjFZUDh4TXVSbjNZUmhDWlVOekdmMHdnRXdpbWVUN3dB?oc=5"
+          "nome": "SuperTennis",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOS1BycUFuNEh4WVdyQmwzQ2xlVWJFOXVSSU8wV3dkOE9Zd083b1pZQUxIVzZPUllRUGR2UTVDc0tMMXpxTy1GZ1ZqbmRfRFFUT1pPbU1XcjFrRGxFMnNSeDU0V1A2UFNDeDZUSmR6bDFHT1JZS1h2U2g1ZFBMcGJSV3Q4YnhkMy1NQzktcV9qYU4?oc=5"
         }
       ],
-      "parola_foto": "racing car"
+      "parola_foto": "football stadium"
     },
     "cultura": {
       "id": "cultura",
       "label": "Cultura & Spettacolo",
       "segments": [
         {
-          "text": "La scena musicale italiana è calda e tormentata, dove la resilienza e l'abbraccio tra artisti si intrecciano con le incertezze del cuore e le sfide del pubblico, portando l'attenzione su storie di dolore e speranza.",
+          "text": "La Campiello 2026 premia Marcello Fois con 'L’immensa distrazione', un anno d'oro per Einaudi, mentre il mondo dello spettacolo è scosso dalle polemiche di Elena Sofia Ricci sugli orari delle fiction, dai tradimenti di Filippo Bisciglia e dai contrasti di Noemi Bocchi sul rapporto con Francesco Totti, nonché dalle vittorie di 'Ballando' e 'Tu Si Que Vales' in una serata di ascolti travolgente.",
           "type": "plain"
         },
         {
-          "text": "Max Pezzali",
+          "text": "San Francesco",
           "type": "name",
-          "detail": "Un grande dell'italiana"
+          "detail": "Il tema centrale dell'evento di Benigni, pur non essendo un inedito, sottolinea la rivendicazione di un'attualità spirituale."
         },
         {
-          "text": "e",
-          "type": "plain"
-        },
-        {
-          "text": "Mauro Repetto",
+          "text": "Einaudi",
           "type": "name",
-          "detail": "Il compagno storico"
+          "detail": "La casa editrice protagonista dell'anno d'oro segnalato dalla vittoria di Fois."
         },
         {
-          "text": "si abbracciano alla premiere di Sky, mentre la cronaca giudiziaria del dramma di Luca Varani e la riflessione sulla sicurezza personale di Noemi Bocchi sullo sfondo creano un quadro complesso.",
+          "text": "Ballando",
+          "type": "name",
+          "detail": "Il programma di Barbara D'Urso, al centro di pagelle contrastanti ma vittorioso in termini di ascolti."
+        },
+        {
+          "text": "Tu Si Que Vales",
           "type": "plain"
-        },
-        {
-          "text": "affrontare l'abisso",
-          "type": "deepdive",
-          "detail": "Il concetto di dolore profondo"
         }
       ],
-      "aforisma": "La luce più forte nasce proprio dalle ferite che non si chiudono.",
+      "aforisma": "L'arte trascende la cronaca quando racconta l'anima di un tempo.",
       "autore": "Elena Moretti",
-      "approfondimento": "L'abbraccio di Pezzali e Repetto simboleggia l'unità perduta e ritrovata del popolo italiano, in contrasto con la violenza narrata nell'omicidio di Luca Varani.",
+      "approfondimento": "Il Premio Campiello conferma la vitalità della narrativa italiana, mentre il melodramma televisivo continua a essere il barometro della società contemporanea, svelando insicurezze e aspettative collettive.",
+      "fontesi": [
+        4,
+        5,
+        13
+      ],
       "fonti": [
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQTnFpVV9TYlF2dWwtX3RRaDB5QU8wOUxGYm5DT29YZ3gyRFdCYWdDSHM2SE1mUUZfOUNTTjN6VjQzbDc4VWdTWk9EdDdyek5tbS1NNm9vNm1WTEpUanVYOE5TTHhtd0dXOFhfYVFrT3dVY0FwZDdqWFhFMHhLUkFuaXA3cWlKeHFlMy1wRnlVWC1vSHhSNjhSMmR5QW11aFdNakxrZm52bnhfcUVRN2h3NlAtNzRxeGQxUkxfcGhvYmlfMUR6Qjd2QnM2NTJmVVFianJxSE8teHM4bVFaRjB0aDZhTnFlWk9fMllGRWU2aVlBVm5QaUlaRlViZmZONXl3V210NUh1QVJETVVSSDNENjNCONIBmAJBVV95cUxOc1VpUGRXMzU0QmV4N212OHJaaDR1WUxhLTNOUVJRUUMxSkRWVnhGVXI1Y1J6QllGZVFGaC1JaU1UYUZnR2VhR001bHgyRXNOMVphSjB6UHVSalNWQ0dtQlg0WmhQMHFIZ1g4MjFTdU8zYUM1ZFZXbmEySzZLZXNOT2ZYSWh3cFhmSThjbTZmX0lQR2JicWc0cER0dW1ONDZ4R0FvTDk3cWVhN0ZMLXVuMGtQdGgzc01ma251VTZUOFJpRmhiS0tVdV90UDQ4R3BjYlZ3Z3NqWl95SmdDdjZCbzBoeDV0U3VXYllaSzA3aTVmUGlWRWFXRFdzRDhpVHZaZHpCeWpPQ3c5dndmT1JKUU5QNDZnWlVf?oc=5"
+        },
         {
           "nome": "Sky TG24",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSWxXT0tpeTVkMXFLc2taZDZTdmJibi1HTl9BLVJBZklJdEozVDBGREZMQzFaell5Z3lzRGVnWk1ZUjkwbzkzNmhVV2lhVVBQSUJkSzZNaFZDclh4R0pwWUpDVy1ucWFEbFo2cUxpcjVNM0NSWXZraDhIYkRyR2hrVGhkdTV0dHIyNUFJR2YxX2ZFeEw4Tmdvc3lJSE5vS052Q2Z1OGluWHM1R1JG?oc=5"
-        },
-        {
-          "nome": "Corriere della Sera",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbVpaSTlyZnBzWEdIWDlDY2EwNW93RG85VTJqX3B6VzVQblVDak1td08xTjRjNG5RRHl5TUZKNUxmRW1KWUpGbEZUT04tT3ZLcEcxdGtQRVNaQ2k5VzFZN1dTeHpsQ1pjYzNyN0JBSGgwRGt3b0RHQnN6NFNwamE4cWcwVUdHUy1TMGFTRXVWVExwdlZ4Sm9LT0dlX3RDTmt2ZGJKbXJBMHhxbUs3VmJBNWFRLVVHeU5ZV1pzTUxWVFRmUHUtTnhWVWJoUlpHR0dLbFJKM2lLSHFmUQ?oc=5"
-        },
-        {
-          "nome": "Vanity Fair Italia",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNdHBaTkp3SWJfcmgtaDBNRk5OUmM3ckxTbHREcVdtUFlKNlZhQjNFV1YyTERPa3BTaUNyYWFERGVoTU4teXpackpsdTJSeGx0VjFHREZiX1M4dmFkQzdJTG9Ua0dKOXU3cnhuQkdaSUZaLU9IU1FaNUVrYXVuUVdGUWNUYVVTWVhlbURsVXJna09sMVI4cWVHLVhDaWxhVUFHelVaMWpkUjVYbEp6TFBKRmRqVzlWMXlUNXozR3JnXzQ0RU02TlV5b1J2R24xUGJmdXFSZDU1SW9kWl85YjcyT2JfMzlSWUNyT21BZGdxeTBFQQ?oc=5"
         }
       ],
-      "parola_foto": "concert crowd"
+      "parola_foto": "television studio lights"
     },
     "gossip": {
       "id": "gossip",
       "label": "Gossip",
       "segments": [
         {
-          "text": "I vip sono ovunque",
+          "text": "Venezia 2026",
+          "type": "date",
+          "detail": "Anno e città di eventi di punta nel mondo dello spettacolo."
+        },
+        {
+          "text": "Vip",
+          "type": "name",
+          "detail": "Celebrità che dominano i media e i social in questo periodo."
+        },
+        {
+          "text": "danno il tono al gossip con eventi di lusso, vacanze e relazioni",
           "type": "plain"
-        },
-        {
-          "text": "Mostra del Cinema",
-          "type": "name",
-          "detail": "Evento internazionale di moda e cinema"
-        },
-        {
-          "text": "Milano Fashion Week",
-          "type": "name",
-          "detail": "Settimana di moda e spettacolo"
-        },
-        {
-          "text": "Isola dei Famosi",
-          "type": "name",
-          "detail": "Reality show di concorrenza"
         },
         {
           "text": "Coachella",
           "type": "name",
-          "detail": "Festival musicale"
+          "detail": "Festival musicale e culturale che attrae le star internazionali."
         },
         {
-          "text": "si divertono",
+          "text": "e",
           "type": "plain"
         },
         {
-          "text": "Mondiali di FIFA 2026",
-          "type": "plain"
+          "text": "Isola dei Famosi",
+          "type": "name",
+          "detail": "Programma di reality show che genera grande curiosità e notizie."
         },
         {
-          "text": "conquistano l'attenzione globale",
+          "text": "creano un calendario di eventi che avvolge il pubblico in un vortice di curiosità",
           "type": "plain"
         }
       ],
-      "aforisma": "La vita dei famosi è uno spettacolo senza pubblico.",
-      "autore": "Elisa Vivaldi",
-      "approfondimento": "Dallo spettacolo cinematografico alla moda, fino alla musica e allo sport, i personaggi pubblici dominano il dibattito pubblico. Le loro vite, dai successi alle relazioni, creano un costante flusso di notizie che cattura l'attenzione del pubblico.",
+      "aforisma": "Il fascino della celebrità risiede nella sua capacità di essere un riflesso del nostro stesso desiderio di vedere il mondo dall'alto.",
+      "autore": "Elena Vivaldi",
+      "approfondimento": "Il fenomeno del gossip si nutre della vicinanza simulata con i personaggi famosi. Eventi come la Mostra del Cinema o Coachella non sono solo occasioni di svago, ma teatri sociali dove le relazioni, i vestiti e le vacanze vengono monitorati e interpretati come indicatori di tendenze culturali.",
       "fonti": [
         {
-          "nome": "cosmopolitan.com",
+          "nome": "Cosmopolitan",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVXJ0dTZaczkyZVU2UlpjbUZXMl9SaUNBYVV6QkFZQndyMzlQLXhqUE9yUXpmR2RFOHJaeFUwUnFiakpNVFYtaWxlVTFoMEZ5N2VQc1pBN1A3WGx1WjJicWl3V2Y5dDVfdjFGdlJ3Zno1b1c4VW9yUkJ4M3pPM1JTWndYY1dycWF5eUVucm1yZ18xZTIxcVBuSVczNXZ4MF92Y2ctWFF4blRCdw?oc=5"
         },
         {
@@ -420,155 +362,237 @@
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOLVM5ZkN1Vm9MZG84aDBJRklnTVQ1cDJGSjl5dzNXeU5zTFItc3ZsUmtBOGtpcDlwTGY2RVhJR24wRTdTeGxHX2lrYm8wcUllMk5XYjVQN09UWVp0X2NfcjVkTHU2WFF3N0JRZ2J5SHBLRlNiZlZ3RWlldHZDdTA5RFRFZ05NeDVidDM1ZWx3?oc=5"
         }
       ],
-      "parola_foto": "red carpet"
+      "parola_foto": "fashion show"
     },
     "ambiente": {
       "id": "ambiente",
       "label": "Ambiente",
       "segments": [
         {
-          "text": "Sul fronte ambientale, tra convegni e progetti europei, la Puglia",
+          "text": "Il tema principale è la sostenibilità ambientale e il clima, con progetti, eventi e accordi per un futuro più green.",
           "type": "plain"
         },
         {
-          "text": "",
-          "type": "plain"
-        },
-        {
-          "text": "promuove",
-          "type": "unusual",
-          "detail": "Attivare un programma divulgativo per la gestione sostenibile dei rifiuti"
-        },
-        {
-          "text": "",
-          "type": "plain"
-        },
-        {
-          "text": "la sostenibilità",
-          "type": "deepdive",
-          "detail": "Concetto centrale che unisce gestione delle risorse e clima"
-        },
-        {
-          "text": "",
-          "type": "plain"
-        },
-        {
-          "text": "con il tema della transizione climatica",
-          "type": "plain"
-        }
-      ],
-      "aforisma": "Il clima non aspetta che la nostra azione.",
-      "autore": "Aldo Saverio",
-      "approfondimento": "Le iniziative locali puntano a integrare la cultura ambientale con le politiche pubbliche europee, affrontando sfide come la qualità urbana e l'adattamento ai cambiamenti.",
-      "fontesi": [
-        1,
-        3,
-        6,
-        13
-      ],
-      "fonti": [
-        {
-          "nome": "Regione Puglia",
-          "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNNkd3VW5PeGJnVlFDY2MzZEd2R1ZhNzhTM1BnNXlBV01sSVFFSDBlYVRubzU1aG8xb1lQdmt3RGVWMmhJbjh2aVpJcVBQTTBXSEpnbzN5TzhBalFPV1Roa2hkSjd6X2J4ejlJU01FXzhZb0lMY090XzF6YjlYVFRHSDM1dXNTWXFJbnlVcWJXUE5PUkxGdUJ6SnlPcFlQWTF4NmdLNUk3eEI2RGFsRzlZR1Nuem1aRVhXMVdJaGQzSngxWVczM1JpdVJ3bFZKZTVCSUlxbVo2RUUyaFlOc2lpWlRRckRRbUVqMDNETHFDVjFoUmg3dDg0SndFblNZb0tBbWgxWm4zTWp6M20wTmJRZTg2UGwtaXhLalhhNFNqNEsyUlFCb0k1QUxGVWlHRENJSmpaV2oxMXk1ODlYdkt0bjh5TjNqcEFsVW5NcS1aODc0RFhwcDlkRW00dw?oc=5"
-        },
-        {
-          "nome": "Comune di Oristano",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSUhRaEFzR0s1MW10b2FDaDBXQTAtNy02TmR1OEEtTFhYSHM1S1V0bWZNQWJYVmppdDBTNGRmb0dadkZrTFNVOTdQdlpTOHRnRHp5MmZycFoyNWNfM1BsWWR2T1ZZaTZORFF6NzNOV2VnamF6ODdUMnZXdmFoU1laMW5oU1JJZUhQWWpVRHhBVXluQkVxblB3S0tseGRscEV4Tm5OcEhBRHNxeVM1SlZaVjNxa3dNZkkwNnJCVFI3MXo4Z2J5c0ZSeVpDcl9JdXRScmc?oc=5"
-        },
-        {
-          "nome": "Radio Pico",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZjdSeWVDRTJXbmNEY05JQlFEdlh1cHRBNlZQZl9MZGRvLXBuUHZHT0E5bllCc0lBYVZlN180OHE2RFl0SGpqSGxGM3k5M3hxZ3pOaXJuMVE3aUswcXY0QTJJVmpBY3NtTGNSaDE1U0JzdWN4RG9PZUFhV3VYenpEQzNES0ZYUHRESWowWnFCU1NSai1FclF5azZxQ1B5aEhRblNLXzBLSy13dw?oc=5"
-        }
-      ],
-      "parola_foto": "green city"
-    },
-    "moda": {
-      "id": "moda",
-      "label": "Moda & Lifestyle",
-      "segments": [
-        {
-          "text": "La Milano Design Week diventa il palcoscenico imperdibile dove la moda e il design si fondono in collaborazioni strategiche e progetti di lusso",
-          "type": "plain"
-        },
-        {
-          "text": "Fast fashion",
-          "type": "unusual",
-          "detail": "un settore in evoluzione che si estende oltre l'abbigliamento"
-        },
-        {
-          "text": "2026",
-          "type": "date",
-          "detail": "l'anno chiave per questi eventi"
-        },
-        {
-          "text": "Milano",
+          "text": "Sostenibilità",
           "type": "name",
-          "detail": "la capitale italiana del design"
-        },
-        {
-          "text": "Fashion Design",
-          "type": "deepdive",
-          "detail": "l'arte di creare vestiti e stili"
-        }
-      ],
-      "aforisma": "Il lusso è il design che si veste.",
-      "autore": "Elena Vanzetti",
-      "approfondimento": "La fusione tra moda e design spinge i brand a creare ambienti completi, trasformando l'arredo in una vera e propria opera d'arte. Gli eventi del 2026 evidenzieranno questa convergenza.",
-      "fonti": [
-        {
-          "nome": "cosmopolitan.com",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdGo1Vi1iZmcxTmpkXzZYU0pxc0hRd0FCMFZkaWxGM193QjZqZkRRNG9mTVpyZ0NXeEtQUktocFpwWHQtajg2S2tLNnRnTXJocUxmN3p6dEEtSXhqSzA5bi10S1N5Z2lBQXhuanl3dnpJNm9tRWRUdmRCWEh1c09hRW1aa2xMM000aUZ0U21ZMlk4VTVrVk9OWGZUUTcxbXdJazkzVmdmbVdnY1VzMkRLdmZGQQ?oc=5"
-        },
-        {
-          "nome": "Vogue",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81RlJJelF4ZmVLdjNUU1lmN2FMczdPUnk4ODJPTE9TOF84UC03RS1OU3NZWDZmMy1qaHFuVXh5bDF3UUk0T29Rdk9ldHFYdFRISDVYZkpIbng5NTA?oc=5"
-        },
-        {
-          "nome": "FashionNetwork Italia",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaU9kcVNHT1d3RnNjMXRNMWR4cG84azBPTDBDdWgzQUc1SDVhcThRZmJSbFo1Z0JlLWRIVlJsX0JBbFdlWFpiVG1vVVFEZWNoRjM3bF94UC05MUFnZ2hUZ2x6bVcwRWYyUTlEdm1yWXNHMUM4Yk5DZWdsSmJvQXd0MHVBZWUtejM3bjU2c3M0Q1FkeVFtNGFuaEs5aDI0Zw?oc=5"
-        },
-        {
-          "nome": "Studenti.it",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZHUwQmZxc1paS0VPVzMtX3ZFZXpHTFVWTl91QWpaTndId1RvNHFPRGRianFfVnBadHlmNWQ2VUhxWlR3ZE84RFJraTFDcXhLQ1Y5NjlqUkpMazh5cVBuRFhzQ0g0aXp6MHBqR0p4M3ExeDY1Zkc2TXB2bU5wQzMwc2JnRjlEVDJCSjIxM2pDVkhsTGoxNUh2Z3ZsM0ZxWFpabTdlVHJObERlUTBYb19oWjd3?oc=5"
-        }
-      ],
-      "parola_foto": "fashion runway"
-    },
-    "concettoplus": {
-      "id": "concettoplus",
-      "label": "Concètto+",
-      "segments": [
-        {
-          "text": "La situazione italiana",
-          "type": "deepdive",
-          "detail": "Un mix di sfide sociali, sportive e culturali che toccano la quotidianità"
-        },
-        {
-          "text": "condivide ora",
-          "type": "plain"
-        },
-        {
-          "text": "l'ansia",
-          "type": "unusual",
-          "detail": "Un sentimento diffuso, tanto nel calcio quanto nella società civile"
+          "detail": "Un concetto che unisce ambiente, economia e società per un futuro equo."
         },
         {
           "text": "e",
           "type": "plain"
         },
         {
-          "text": "i problemi climatici",
+          "text": "clima",
           "type": "deepdive",
-          "detail": "La crisi ambientale impatta anche sull'agricoltura e sulla sicurezza dei turisti"
+          "detail": "Le sfide globali che richiedono azioni immediate e condivise."
         },
         {
-          "text": "che mettono in crisi il turismo.",
+          "text": "con",
+          "type": "plain"
+        },
+        {
+          "text": "patti territoriali",
+          "type": "unusual",
+          "detail": "Accordi locali per la gestione sostenibile delle risorse."
+        },
+        {
+          "text": "e",
+          "type": "plain"
+        },
+        {
+          "text": "progetti",
+          "type": "name",
+          "detail": "Iniziative concrete per ridurre l'impatto ambientale."
+        },
+        {
+          "text": "in",
+          "type": "plain"
+        },
+        {
+          "text": "Puglia",
+          "type": "name",
+          "detail": "Una regione che promuove la divulgazione e le buone pratiche."
+        },
+        {
+          "text": "per",
+          "type": "plain"
+        },
+        {
+          "text": "un futuro",
+          "type": "unusual",
+          "detail": "Un termine metaforico che rappresenta l'orizzonte verso cui puntiamo."
+        },
+        {
+          "text": "più green",
+          "type": "unusual",
+          "detail": "Un'espressione colloquiale per indicare un ambiente sano e sostenibile."
+        },
+        {
+          "text": "con eventi e iniziative",
+          "type": "plain"
+        },
+        {
+          "text": "che celebrano",
+          "type": "plain"
+        },
+        {
+          "text": "la natura",
+          "type": "name",
+          "detail": "L'elemento fondamentale che dobbiamo proteggere e valorizzare."
+        },
+        {
+          "text": "come cura per le città",
+          "type": "plain"
+        },
+        {
+          "text": "e",
+          "type": "plain"
+        },
+        {
+          "text": "la salute",
+          "type": "name",
+          "detail": "Il legame indissolubile tra ambiente e benessere umano."
+        }
+      ],
+      "aforisma": "Il clima non aspetta, e noi dobbiamo imparare a camminare su di esso senza distruggere il sentiero.",
+      "autore": "Elena Bianchi",
+      "approfondimento": "La sostenibilità richiede un cambiamento di paradigma, integrando la protezione ambientale nelle politiche pubbliche e nelle scelte quotidiane. Gli accordi locali e i progetti europei sono strumenti fondamentali per trasformare le intenzioni in azioni concrete.",
+      "fonti": [
+        {
+          "nome": "regione.puglia.it",
+          "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNNkd3VW5PeGJnVlFDY2MzZEd2R1ZhNzhTM1BnNXlBV01sSVFFSDBlYVRubzU1aG8xb1lQdmt3RGVWMmhJbjh2aVpJcVBQTTBXSEpnbzN5TzhBalFPV1Roa2hkSjd6X2J4ejlJU01FXzhZb0lMY090XzF6YjlYVFRHSDM1dXNTWXFJbnlVcWJXUE5PUkxGdUJ6SnlPcFlQWTF4NmdLNUk3eEI2RGFsRzlZR1Nuem1aRVhXMVdJaGQzSngxWVczM1JpdVJ3bFZKZTVCSUlxbVo2RUUyaFlOc2lpWlRRckRRbUVqMDNETHFDVjFoUmg3dDg0SndFblNZb0tBbWgxWm4zTWp6M20wTmJRZTg2UGwtaXhLalhhNFNqNEsyUlFCb0k1QUxGVWlHRENJSmpaV2oxMXk1ODlYdkt0bjh5TjNqcEFsVW5NcS1aODc0RFhwcDlkRW00dw?oc=5"
+        },
+        {
+          "nome": "Lombardia Notizie Online",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0yZm8yV29tZzJrb1BVYURZUFBzTDFXdzJ6UEo3RTNPTEVqSG5xSzNRRk5DWWU3Z3NhQXVDZnJ3dEpGS0VDNzB1ZGttMTZLMFhQZGJsWk45RndRbVlweE90aDBaV0tudTV1NDNhZWJGT2dNRjRJVzZ4TA?oc=5"
+        },
+        {
+          "nome": "Comune di Napoli",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOcFRLWldBQUVSQVU5MlBiMGJNRHctTlhzM0N0Z1F4ejJnWm9EdlhqQjlMaUphUFlRWTZYaU5NRmUzSU12QzU4aGxYd0hHTGtkV1kzT05UcF9iTGNENFc2dWZKeWRRd1Q3SFJDNGxsMGhYU3hieFlCY3FTN3BBOTlHQ3NLWV9DOUVPazVtUUg4RkNuNExSOGlpZVdLR211eG12bElYb195bHFfdjUybFpvZndWb1pPeVFseDhoX2pPc0RMRThpSHpxWHVCSnFxNHRtS1FlQmtwcnZ0UWZOcG10V2NGNGR0bmFLYnNGQ1BJQzJiVFFGWE55d2VCLTMxNHYtRlE?oc=5"
+        },
+        {
+          "nome": "Regione Autonoma della Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNV1BJUUwwV3liSTF2X0pyeTNYNmpmQi1VQll5c19ncXNHbDNtb045Um95blJCMUgzMTBlSGM1UFNuTTlncUtaNkk2eE5KQ0ZsSVZIU25oanQzRHFqcDl6djdzSTJRUW9NaWVVbWtHUFZKVnlyY1dDcks3ZU1nLWpLdExJVU9GVVNmdWc1VlpXOU9ybUZEUW1oOXdjNEtUVGRGcXhJMG9qOWNFS2ROOFpoa2hOWnhBQQ?oc=5"
+        }
+      ],
+      "parola_foto": "sustainable city"
+    },
+    "moda": {
+      "id": "moda",
+      "label": "Moda & Lifestyle",
+      "segments": [
+        {
+          "text": "La moda e il design si fondono sempre più",
+          "type": "plain"
+        },
+        {
+          "text": "Milano Design Week",
+          "type": "name",
+          "detail": "evento chiave di design"
+        },
+        {
+          "text": "arreda",
+          "type": "plain"
+        },
+        {
+          "text": "Versace",
+          "type": "name",
+          "detail": "collega moda a arredo"
+        },
+        {
+          "text": "e ospita corsi universitari",
+          "type": "plain"
+        },
+        {
+          "text": "Fuorimoda",
+          "type": "name",
+          "detail": "progetto di formazione"
+        },
+        {
+          "text": "per le nuove generazioni",
           "type": "plain"
         }
       ],
-      "aforisma": "Il caldo non solo scalda, ma annulla le frontiere e i limiti.",
-      "autore": "Ermanno Mercurio",
-      "approfondimento": "L'ansia emerge sia in campo calcistico che sociale, mentre il cambiamento climatico ridefinisce il paesaggio agricolo e turistico italiano.",
+      "aforisma": "Il lusso non è solo vestire, ma abitare l'anima.",
+      "autore": "Elena Vantablack",
+      "approfondimento": "L'intersezione tra moda e design sposta il focus sull'esperienza abitativa, trasformando gli oggetti di arredo in capi di moda e le collezioni di design in statement di stile.",
+      "fonti": [
+        {
+          "nome": "pambianconews.com",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUi1VOHoxSFRnVlNNM1ZUN3lMd2tDeXdwWF8zWk0xdC1TWmw4RTI1QURmQk9iSXp1MlBjcFJ5cjdaeEVTZVdxWHE5UDhrQmktVV92a3BjaDlwX1ZsMkdiVnBmajJpVXQ2ak1HcUNFTHpOMWlLdTJVS3pFNXBSYl80Ym5BOHlVWTRZWkFGanZDLW9tNkRxSnhLT1FUXy1qN3BMQkd2dHROVFI5bUJ0a2tQWmVhZVBra1hlTFRIbk5pS2xJUl9vZ0hfckVZQ1FfbGJ4emJ3TnBLTmRZdw?oc=5"
+        },
+        {
+          "nome": "FashionNetwork Italia",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbkFXY1V6TjBkMXZMZUVjMDBXTW42NldBREZZMjQ4QXR6MTk2NGNvQmN4aXY3dmNKVVNaZHdVYlZfUktJdVhKdU5GaFhCTlF5dlR5ZjhndjdJNjNpYnlkSHZfR293cGVMUUFJUVVYdDlsSUp0bEY3cWxFeWg1TGlqdy1jXzNvM0hmaDYtTHIteFFCSTg2bGEzRUt6TGdwVTNPa0xBNGdYZmVfbkU?oc=5"
+        },
+        {
+          "nome": "Studenti.it",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZHUwQmZxc1paS0VPVzMtX3ZFZXpHTFVWTl91QWpaTndId1RvNHFPRGRianFfVnBadHlmNWQ2VUhxWlR3ZE84RFJraTFDcXhLQ1Y5NjlqUkpMazh5cVBuRFhzQ0g0aXp6MHBqR0p4M3ExeDY1Zkc2TXB2bU5wQzMwc2JnRjlEVDJCSjIxM2pDVkhsTGoxNUh2Z3ZsM0ZxWFpabTdlVHJObERlUTBYb19oWjd3?oc=5"
+        },
+        {
+          "nome": "Vogue",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1DQzRzS1pic2t2cF8ySWVtYjNfWWpmazFYRG9HYlZod3Z2em9NQXM0ZjV4clBXTU5GemgzR0dRMmR6SDRaVElwZ01hdDAxdDEtS1J6TWVINDlSUGUxMzBJbWJvbm9xT3Qwc0o3RF9QYU1zMzFuWFNjNDh6TE10QQ?oc=5"
+        }
+      ],
+      "parola_foto": "fashion show"
+    },
+    "concettoplus": {
+      "id": "concettoplus",
+      "label": "Concètto+",
+      "segments": [
+        {
+          "text": "L'Italia si confronta con sfide diverse, dal ",
+          "type": "plain"
+        },
+        {
+          "text": "calo fisico",
+          "type": "deepdive",
+          "detail": "La stanchezza del team nazionale"
+        },
+        {
+          "text": " del ",
+          "type": "plain"
+        },
+        {
+          "text": "Mancini",
+          "type": "name",
+          "detail": "Il tecnico della nazionale"
+        },
+        {
+          "text": " al ",
+          "type": "plain"
+        },
+        {
+          "text": "Nations League",
+          "type": "unusual",
+          "detail": "Competizione calcistica di alto livello"
+        },
+        {
+          "text": " contro la ",
+          "type": "plain"
+        },
+        {
+          "text": "Turchia",
+          "type": "name",
+          "detail": "La nazione avversaria"
+        },
+        {
+          "text": ", alle difficoltà economiche e al turismo in ",
+          "type": "plain"
+        },
+        {
+          "text": "dimostrazione",
+          "type": "unusual",
+          "detail": "Esposizione pubblica di problemi interni"
+        },
+        {
+          "text": ".",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "La crisi non è il fallimento, ma l'opportunità di riscrivere la partita.",
+      "autore": "Elena Vivaldi",
+      "approfondimento": "Il team nazionale affronta ansie e infortuni, mentre il Paese deve gestire problemi economici e massicci flussi turistici.",
       "fonti": [
         {
           "nome": "espn.com",
@@ -581,17 +605,17 @@
           "paese": "Regno Unito"
         },
         {
-          "nome": "Euronews.com",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRVcwMjZlZjdXUkM3VzV2Nk9wMUE0LXIwTU81THFzR1k1bUJVUkhYVXRKTzJlUTRuaFJJRDJwTkt3TmxmU3B1Zko4eGhSYVFrdU51Q1loWDJ6ZTN5S05fYUtrRXJhd3VJR0s0Mkxhd0pGVHVlcGI1QU1GQWZ5a245SFhrUmptODBOcEFBMWRhYjhzT1lSTVhrdGk5YjR6eU45STJJU0oxQkhxME50Y2hkcFJnakxOeDEzYU1Qbg?oc=5",
-          "paese": "Stati Uniti"
+          "nome": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBjaUFfLUtjaFhpd1BoQ2FURlIyQ1llWmJ0MWJYckRtVHBlc1l2XzBHTko3MV9xbkJJa2lnRUxsODhNNlg2U25kckRhWWJmSzdzT1BEMWduLU80cnhndnlPZ0tROXppdw?oc=5",
+          "paese": "Regno Unito"
         },
         {
-          "nome": "Spiegel",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcUVrUDJad3FYSnpiX1Rsa2paa2k1SlktTGJvMndybldBel9IMXp5YXhnejBDYVZqWHlKbU1ETVc1cTBIaWhyZ2w5akZHclloV2RLbWZnSkd0dTBEM2JFVzBtRUtWdkdQb1J3blNpcEpENkFzWnBqNkEzdXRLTFUydjRGN0p4RWR6Y1JDek9BOXNCRnNvaDRpRlFKRUlsVlprblM3NG9DQnJrMklkUmVoMDBmYlJtSW1GUU1TMUxVS2R4VzR3RU9PWGVJeExxNmgwWVIwWExn?oc=5",
-          "paese": "Germania"
+          "nome": "Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdG41dG1IV1BFcllDVGc3YVQyNWEyLVpTdXM1bVlFeENuMlMwM3FpeVlXcXVqNGhaX2JvYjV4SmQ1ejRzcjBJQ1JJQ1JiMTdLWXpjTzZNUmt1VjdDQXNNREprX1BmazRZU3EydUZzWVRJQWRIbUxZZ0xxVUxtMTZnRTllTXQ?oc=5",
+          "paese": "Stati Uniti"
         }
       ],
-      "parola_foto": "anxious crowd",
+      "parola_foto": "football stadium",
       "paesi": [
         "Stati Uniti",
         "Regno Unito",
@@ -599,6 +623,52 @@
         "Francia",
         "Giappone"
       ]
+    },
+    "esteri": {
+      "id": "esteri",
+      "label": "Esteri",
+      "segments": [
+        {
+          "text": "Il mondo",
+          "type": "plain"
+        },
+        {
+          "text": "mercoledì",
+          "type": "date",
+          "detail": "Giorno in cui si sono verificati gli eventi principali menzionati"
+        },
+        {
+          "text": "è stato sconvolto",
+          "type": "unusual",
+          "detail": "Espressione forte per indicare una forte reazione emotiva e destabilizzazione"
+        },
+        {
+          "text": "dagli attacchi russi a Kharkiv",
+          "type": "plain"
+        },
+        {
+          "text": "e dalla visita di Merz a Kiev",
+          "type": "plain"
+        },
+        {
+          "text": "che ha chiesto la fine della guerra",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il conflitto non risolve i conflitti, solo ne crea altri.",
+      "autore": "Elena Vittoria",
+      "approfondimento": "Gli attacchi russi a Kharkiv segnalano una fase di intensificazione della guerra, mentre le visite internazionali mirano a rafforzare la resistenza ucraina.",
+      "fonti": [
+        {
+          "nome": "ANSA",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNjVBc2xWSTNFaWxRS1J2OVVoQ1ZWaDBfNlpUUzVrT3VDZ2Q2Ym54VjRpQ1JGLXVHNzlENTJRYXNkaHhmSU5ULXNwRmNjSy00VUpQTzBMME1LNXJEbkQ0UFVxNWZRRjRYMWQxa0NUblB3MFBNOVp2UkppZmxCM3A1dVdOLUFVTFFJVUlmRHp2VlZMdWNIVWZmSnQwNXB5NnFYUkRhV2dpcHM3bWp6OWozSGRzOUZjWnROLXRrbDVuRVpLY2RqTG1nSUp2ejFuS1R0emVBYklpNGs2akFPY0YwVFU5dDRzY3otQUlHRW9IMmp3Z9IB9wFBVV95cUxNRzg4RXZWQkhXVk9VaDVIaHZQWHE2TTk4TlNfOEh2SHMtOW0zU0l6SW5SWjNMS1ZKSGZGVzJsaGNzOHdWXzZucC1obTB1RnF6Vy1YN3JtT2d6MEEwZGtxUjY4WDlETl9faGZBdmZpUWlEQXdWV19wLS1rLUZRdkU4UXduaEtWWUVlX3IyN0NEVU9oUGRHeU16YTA3QUNtT3lWZHhBR0sweUJRa2diMlBLdlpkM2lSU0RGbWZ0Z1lpUXNRNVA0MHJENFlXQ1RwQVpiWG9kcWk3NjV0NWFlcWtWNW9pS1lCRHRFTkRNRUVPLTlIY2ZLOVpR?oc=5"
+        },
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLWM2X2xpM2U4WjlWRTVwVXdRQXJVT3R0TEV5VmJDUGs4NUZqZnBiX3pqUTI1SS1HVGhSLUtGdTRRMlRtSjdmMnJrR3M2Q3NDcE42ZjEtUUFLanpBSlpRRldrT1lTUXh1YXNlMlNtdkRqb0FMOVU5YnJFVEc2eHhUT0VJWGRNOTYtM2RSamczVHlobWJPRFNMMkdxLUljdE9ScHRjUUZwZFdHbEZBeUdLVDk4a3JHbVBU0gG-AUFVX3lxTE5XSDJZdmNraVdrcU9ScF85Z1FsWFQ3Nl9EcXAxVG5SMW9JZ3BseXF4OTk4VTVxQ0dHWDVhV2ZQUDdDMVpRVHJ4WEo0d2V4dmFja0VKalR5QVV4amhpZnZRMDZtdzJvU3NUMkg1c01oVG9mT0R0UUFZUWd2SnVwenc3VGdHN1IyXzlWMU5HTGRhcUY5WGJsSk5SZkwzOFpFUjhzR01DNjJvZEJyN0RaQ2pTUkhUcS1vVzJEWVdrc1E?oc=5"
+        }
+      ],
+      "parola_foto": "war map"
     }
   }
 }
