@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Concètto — l'informazione che vuoi, nel tempo che hai</title>
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="concetto-icona.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#141414">
+<meta name="description" content="Dieci edizioni quotidiane, ognuna condensata in una sola frase. Generate in automatico ogni giorno, gratuite, senza account.">
+<!--SEO-->
+<!--/SEO-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Bebas+Neue&family=Caveat:wght@500;700&family=Courier+Prime:wght@400;700&family=DM+Serif+Display:ital@0;1&family=Instrument+Serif:ital@0;1&family=Old+Standard+TT:wght@700&family=Oswald:wght@500;600&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Roboto:wght@400;500;700&family=Roboto+Condensed:wght@400;700&family=Roboto+Slab:wght@700&family=Space+Mono:wght@400;700&family=Special+Elite&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#141414;
+    --ink-soft:#222222;
+    --rule:#1a1a1a;
+    --rule-light:#d9d9d6;
+    --red:#b3121c;
+    --meta:#5f5f5a;
+    --link:#0b4a94;
+    --page-bg:#ffffff;
+    --photo-1:#e4e0d2;
+    --photo-2:#bfb89f;
+    --gold:#e6b23d;
+    --teal:#54c2bb;
+    --rose:#e5708a;
+    --violet:#9c94f5;
+  }
+  [data-theme="dark"]{
+    --ink:#f1efe8;
+    --ink-soft:#e6e3d9;
+    --rule:#e8e5da;
+    --rule-light:#34332f;
+    --red:#ff7075;
+    --meta:#a9a79c;
+    --link:#8dbbff;
+    --page-bg:#141413;
+    --photo-1:#2d2c28;
+    --photo-2:#1e1d1a;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--page-bg);
+    color:var(--ink);
+    font-family:'Roboto', Arial, sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:'Space Mono', monospace;}
+
+  /* ---------- Testata (stile quotidiano) ---------- */
+  .masthead-top{
+    max-width:1280px; margin:0 auto; padding:8px 20px;
+    font-family:'Roboto Condensed', sans-serif; font-size:12.5px; color:var(--meta);
+    display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px;
+    border-bottom:1px solid var(--rule-light);
+  }
+  .masthead{ text-align:center; padding:22px 20px 14px; }
+  .masthead .logo{
+    font-family:'Playfair Display', Georgia, serif; font-weight:900;
+    font-size:clamp(48px, 8vw, 88px); line-height:1; letter-spacing:-0.015em;
+  }
+  .masthead .logo em{font-style:italic; color:var(--red); font-weight:700;}
+  .masthead .logo{line-height:0; color:var(--ink);}
+  .logo-svg{height:clamp(50px, 7.2vw, 84px); width:auto; display:inline-block; overflow:visible;}
+  .logo-svg .ink{fill:currentColor;}
+  .logo-svg .rosso{fill:var(--red);}
+  .masthead .payoff{
+    font-family:'Roboto Condensed', sans-serif; font-size:12.5px; letter-spacing:0.16em;
+    text-transform:uppercase; color:var(--meta); margin-top:8px;
+  }
+  .sections-nav{
+    max-width:1280px; margin:0 auto; padding:0 20px;
+    display:flex; flex-wrap:wrap; justify-content:center; gap:4px 22px;
+    border-top:3px solid var(--rule); border-bottom:1px solid var(--rule);
+  }
+  .sections-nav a{
+    font-family:'Roboto Condensed', sans-serif; font-weight:700; font-size:14px;
+    letter-spacing:0.06em; text-transform:uppercase; color:var(--ink);
+    text-decoration:none; padding:11px 0;
+  }
+  .sections-nav a:hover{color:var(--red);}
+  .today-strip{
+    max-width:1280px; margin:0 auto; padding:9px 20px;
+    display:flex; justify-content:center; gap:8px 26px; flex-wrap:wrap;
+    border-bottom:1px solid var(--rule-light);
+    font-family:'Roboto Condensed', sans-serif; font-size:13px; color:var(--meta);
+  }
+  .today-strip span b{color:var(--ink); font-weight:700;}
+
+  /* ---------- Prima pagina: colonna centrale + laterali ---------- */
+  .front{
+    max-width:1280px; margin:0 auto; padding:24px 20px 44px;
+    display:grid; grid-template-columns:minmax(0,1fr) minmax(0,2.5fr) minmax(0,1fr);
+    gap:0 24px; align-items:stretch;
+  }
+  .front > .loading{
+    grid-column:1/-1; text-align:center; color:var(--meta); padding:60px 0;
+    font-family:'Roboto Condensed', sans-serif; font-size:15px;
+  }
+  .col{display:flex; flex-direction:column; gap:26px; min-width:0;}
+  .col-center{
+    border-left:1px solid var(--rule-light); border-right:1px solid var(--rule-light);
+    padding:0 24px;
+  }
+  .col-center > .card-lead{flex:1 1 auto;}
+  .center-grid{
+    display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); grid-auto-rows:1fr;
+    gap:26px 24px; flex:2 1 auto;
+  }
+
+  .card{
+    display:flex; flex-direction:column; min-width:0; scroll-margin-top:14px;
+    padding-bottom:22px; border-bottom:1px solid var(--rule-light);
+  }
+  .col > .card{flex:1 1 auto;}
+  .photo{
+    position:relative; flex:1 1 auto; overflow:hidden;
+    background:linear-gradient(135deg,var(--photo-1),var(--photo-2));
+  }
+  .photo img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block;}
+  .photo-credit{
+    position:absolute; right:6px; bottom:6px; z-index:2; text-decoration:none;
+    font-family:'Roboto Condensed', sans-serif; font-size:10.5px; letter-spacing:0.03em;
+    color:#fff; background:rgba(0,0,0,0.5); padding:2px 7px; border-radius:3px;
+  }
+  .photo-credit:hover{background:rgba(0,0,0,0.75);}
+  .card.evidenzia{outline:2px solid var(--red); outline-offset:8px;}
+  .card-lead .photo{min-height:340px;}
+  .card-mid  .photo{min-height:190px;}
+  .card-side .photo{min-height:150px;}
+
+  .card-body{padding-top:14px; display:flex; flex-direction:column;}
+  .kicker{
+    font-family:'Roboto Condensed', sans-serif; font-weight:700; font-size:13.5px;
+    letter-spacing:0.09em; text-transform:uppercase; color:var(--red);
+    margin-bottom:12px;
+  }
+  .card-lead .kicker{font-size:15px;}
+
+  .section-sentence{
+    display:flex; flex-wrap:wrap; align-items:flex-start; align-content:flex-start;
+    gap:9px 7px; padding:2px 2px 6px;
+  }
+  .card-lead .section-sentence{gap:12px 9px;}
+  .card-side .section-sentence{gap:8px 6px;}
+
+  .aforisma{
+    margin-top:18px; padding:2px 0 2px 14px; border-left:3px solid var(--red);
+    font-family:'Source Serif 4', Georgia, serif; font-style:italic; font-weight:400;
+    color:var(--ink-soft); line-height:1.4;
+  }
+  .card-lead .aforisma{font-size:22px;}
+  .card-mid  .aforisma{font-size:18.5px;}
+  .card-side .aforisma{font-size:16.5px;}
+  .aforisma cite{
+    display:block; margin-top:7px; font-style:normal; font-weight:700; font-size:12px;
+    font-family:'Roboto Condensed', sans-serif; letter-spacing:0.08em;
+    text-transform:uppercase; color:var(--meta);
+  }
+  .approf-link{
+    margin-top:14px; align-self:flex-start; cursor:pointer;
+    font-family:'Roboto Condensed', sans-serif; font-weight:700; font-size:13px;
+    letter-spacing:0.06em; text-transform:uppercase; color:var(--link);
+    border-bottom:2px solid var(--link); padding-bottom:1px;
+  }
+  .approf-link:hover{color:var(--red); border-color:var(--red);}
+  .card-actions .approf-link{margin-top:0;}
+
+  /* ---------- Ritagli di giornale (lettera del rapitore) ---------- */
+  .clip{
+    position:relative; display:inline-block;
+    padding:.2em .5em .26em;
+    color:var(--clip-ink, #1c1a16);
+    background:var(--paper-tone, #efe9d8);
+    box-shadow:0 1px 0 rgba(0,0,0,0.06), 0 3px 7px rgba(0,0,0,0.28);
+    line-height:1.1; white-space:normal; max-width:100%; text-align:left; user-select:none;
+    font-size:calc(var(--clip-size, 18px) * var(--f, 1));
+  }
+  .clip.tagged{cursor:pointer; transition:transform .15s ease;}
+  .clip.tagged:hover{transform:translateY(-2px) rotate(0deg) !important;}
+
+  /* dodici caratteri diversi, uno per ritaglio a rotazione */
+  .f0 { font-family:'Abril Fatface', serif; --f:1.0; }
+  .f1 { font-family:'Anton', sans-serif; text-transform:uppercase; --f:1.0; letter-spacing:0.01em; }
+  .f2 { font-family:'Special Elite', monospace; --f:0.88; }
+  .f3 { font-family:'Alfa Slab One', serif; --f:0.82; }
+  .f4 { font-family:'Playfair Display', serif; font-weight:900; font-style:italic; --f:0.98; }
+  .f5 { font-family:'Old Standard TT', serif; font-weight:700; --f:1.0; }
+  .f6 { font-family:'Courier Prime', monospace; font-weight:700; --f:0.9; }
+  .f7 { font-family:'Oswald', sans-serif; font-weight:600; text-transform:uppercase; --f:0.92; }
+  .f8 { font-family:'DM Serif Display', serif; font-style:italic; --f:1.02; }
+  .f9 { font-family:'Bebas Neue', sans-serif; text-transform:uppercase; --f:1.14; letter-spacing:0.02em; }
+  .f10{ font-family:'Archivo Black', sans-serif; text-transform:uppercase; --f:0.78; }
+  .f11{ font-family:'Roboto Slab', serif; font-weight:700; --f:0.92; }
+
+  .rot-a{transform:rotate(-2.4deg);}
+  .rot-b{transform:rotate(1.6deg);}
+  .rot-c{transform:rotate(-1.2deg);}
+  .rot-d{transform:rotate(2deg);}
+  .rot-e{transform:rotate(-1.6deg);}
+  .rot-f{transform:rotate(0.8deg);}
+
+  .clip.plain-a{--paper-tone:#ece6d4;}
+  .clip.plain-b{--paper-tone:#dcd6c4;}
+  .clip.plain-c{--paper-tone:#f7f4ea;}
+  .clip.plain-d{--paper-tone:#1f1f1d; --clip-ink:#f4efe0;}
+  .clip.plain-e{--paper-tone:#e7e1cf;}
+  .clip.cat-unusual{--paper-tone:#f3dfa3;}
+  .clip.cat-date{--paper-tone:#a9dcd6;}
+  .clip.cat-name{--paper-tone:#f0bfce;}
+  .clip.cat-deepdive{--paper-tone:#c9c3f2;}
+
+  /* ---------- Overlay condiviso (post-it / aforisma) ---------- */
+  .overlay-backdrop{
+    position:fixed; inset:0; background:rgba(20,18,14,0.6);
+    display:none; align-items:center; justify-content:center; z-index:200;
+    padding:24px;
+  }
+  .overlay-backdrop.open{display:flex;}
+  .overlay-close{
+    position:absolute; top:18px; right:22px; font-family:'Space Mono', monospace;
+    font-size:13px; color:#f1ede0; cursor:pointer; letter-spacing:0.04em;
+  }
+
+  .postit-card{
+    position:relative;
+    background:#f6df4d;
+    background-image:repeating-linear-gradient(rgba(0,0,0,0.015) 0 2px, transparent 2px 4px);
+    color:#2b2a1a;
+    padding:26px 30px 24px;
+    max-width:440px;
+    box-shadow:0 18px 36px rgba(0,0,0,0.45);
+    transform:rotate(-1deg);
+  }
+  .postit-card::before{
+    content:''; position:absolute; top:-11px; left:calc(50% - 32px);
+    width:64px; height:20px;
+    background:linear-gradient(120deg, rgba(255,255,255,0.75), rgba(255,255,255,0.35));
+    box-shadow:0 2px 4px rgba(0,0,0,0.12);
+    transform:rotate(-2deg);
+  }
+  .postit-label{
+    font-family:'Space Mono', monospace; font-size:10.5px; letter-spacing:0.05em;
+    color:var(--card-color, var(--gold)); margin-bottom:8px; text-transform:uppercase;
+    filter:brightness(0.55);
+  }
+  .postit-text{
+    font-family:'Caveat', cursive; font-weight:600;
+    font-size:23px; line-height:1.3; color:#1d3f8f;
+  }
+
+  .aphorism-card{
+    position:relative;
+    background:#e7dfc4; color:#2a2620;
+    padding:26px 30px 24px; max-width:440px; text-align:center;
+    box-shadow:0 18px 36px rgba(0,0,0,0.45);
+    transform:rotate(0.8deg);
+  }
+  .aphorism-card::before{
+    content:''; position:absolute; top:-9px; left:calc(50% - 24px);
+    width:48px; height:16px; background:rgba(230,200,120,0.75);
+    transform:rotate(2deg);
+  }
+  .aphorism-card p{
+    font-family:'Instrument Serif', Georgia, serif; font-style:italic; font-size:19px; line-height:1.5;
+  }
+  .aphorism-card p::before{content:'\201C';}
+  .aphorism-card p::after{content:'\201D';}
+  .aphorism-author{
+    margin-top:14px; display:flex; align-items:center; justify-content:center; gap:9px;
+  }
+  .aphorism-author .avatar{width:30px; height:30px; border-radius:50%; overflow:hidden; background:#d8cfb6;}
+  .aphorism-author .avatar svg{width:100%; height:100%; display:block;}
+  .aphorism-author .name{font-family:'Caveat', cursive; font-weight:700; font-size:16px;}
+
+  /* ---------- Footer ---------- */
+  .legal-footer{
+    text-align:center; padding:20px 28px 30px; border-top:1px solid var(--rule-light);
+    font-family:'Space Mono', monospace; font-size:9.5px; color:var(--meta); line-height:1.7;
+  }
+  .legal-footer a{color:var(--meta);}
+
+
+  /* ---------- Novità: orologio, tema, archivio, azioni, curiosità, fonti ---------- */
+  .mt-right{display:flex; gap:6px 16px; align-items:center; flex-wrap:wrap; justify-content:flex-end;}
+  .clock{font-weight:700; color:var(--ink);}
+  .theme-btn, .ed-btn{
+    font-family:'Roboto Condensed', sans-serif; font-size:12.5px; color:var(--meta);
+    background:none; border:1px solid var(--rule-light); padding:2px 10px; cursor:pointer; border-radius:3px;
+  }
+  .theme-btn:hover, .ed-btn:hover:not(:disabled){color:var(--red); border-color:var(--red);}
+  .ed-btn:disabled{opacity:.35; cursor:default;}
+  .edition-nav{
+    max-width:1280px; margin:0 auto; padding:8px 20px;
+    display:flex; align-items:center; justify-content:center; gap:16px; flex-wrap:wrap;
+    border-bottom:1px solid var(--rule-light);
+    font-family:'Roboto Condensed', sans-serif; font-size:13px; color:var(--meta);
+  }
+  .edition-nav[hidden]{display:none;}
+  .edition-nav .ed-label{font-weight:700; color:var(--ink);}
+
+  .subtitle{
+    font-family:'Source Serif 4', Georgia, serif; font-style:italic; font-size:17px;
+    color:var(--ink-soft); margin:-6px 0 4px;
+  }
+  .paesi{font-family:'Roboto Condensed', sans-serif; font-size:12px; color:var(--meta); margin-bottom:10px;}
+  .stale-note{font-family:'Roboto Condensed', sans-serif; font-size:12px; color:var(--meta); margin:-6px 0 10px;}
+
+  .card-actions{display:flex; flex-wrap:wrap; align-items:center; gap:10px 16px; margin-top:14px;}
+  .act{
+    font-family:'Roboto Condensed', sans-serif; font-weight:700; font-size:12.5px;
+    letter-spacing:0.06em; text-transform:uppercase; color:var(--ink);
+    background:none; border:1px solid var(--rule-light); padding:4px 10px; cursor:pointer; border-radius:3px;
+  }
+  .act:hover:not(:disabled){border-color:var(--red); color:var(--red);}
+  .act:disabled{opacity:.5; cursor:wait;}
+
+  .curiosita{max-width:1280px; margin:0 auto; padding:8px 20px 30px;}
+  .cur-title{
+    font-family:'Playfair Display', Georgia, serif; font-weight:900; font-size:28px;
+    border-top:3px solid var(--rule); padding-top:12px; margin-bottom:16px;
+  }
+  .cur-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(230px, 1fr)); gap:22px;}
+  .cur-box{border-top:1px solid var(--rule-light); padding-top:12px; min-width:0;}
+  .cur-box p{font-family:'Source Serif 4', Georgia, serif; font-size:16.5px; line-height:1.45; color:var(--ink-soft);}
+  .cur-word{font-family:'Abril Fatface', serif; font-size:34px; line-height:1.1; margin:2px 0 2px; overflow-wrap:anywhere;}
+  .cur-moon{font-size:46px; line-height:1.1;}
+  .cur-quote{font-style:italic; font-size:18px !important;}
+  .cur-meta{font-family:'Roboto Condensed', sans-serif; font-size:12.5px; letter-spacing:0.05em; text-transform:uppercase; color:var(--meta); margin:4px 0 8px;}
+  .cur-meta a{color:var(--link);}
+
+  .sources{
+    max-width:1280px; margin:0 auto; padding:16px 20px 22px;
+    border-top:1px solid var(--rule-light);
+    font-family:'Roboto', Arial, sans-serif; font-size:11.5px; line-height:1.6; color:var(--meta);
+  }
+  .sources h2{font-family:'Roboto Condensed', sans-serif; font-size:12px; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:6px;}
+  .sources p{margin:0 0 3px;}
+  .sources b{color:var(--ink); font-weight:500;}
+  .sources a{color:var(--meta); text-decoration:underline;}
+  .sources a:hover{color:var(--red);}
+  .sources .src-note{margin-top:8px; font-style:italic;}
+
+
+  /* ---------- Spazi pubblicitari ---------- */
+  .masthead-row{
+    max-width:1280px; margin:0 auto; padding:0 20px;
+    display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);
+    grid-template-areas:"l logo r"; align-items:center; gap:10px 22px;
+  }
+  .masthead-row .masthead{grid-area:logo; padding:22px 0 14px;}
+  .ad-side{display:flex; min-width:0;}
+  .ad-side-l{grid-area:l; justify-content:flex-start;}
+  .ad-side-r{grid-area:r; justify-content:flex-end;}
+
+  .ad{
+    position:relative; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    text-align:center; overflow:hidden; text-decoration:none; color:#23262d;
+    isolation:isolate; border-radius:10px; container-type:inline-size;
+    background:linear-gradient(135deg, var(--a,#ffe7d8), var(--b,#ffd2e1)); background-size:220% 220%;
+    border:1px solid rgba(35,38,45,0.07);
+    box-shadow:0 6px 18px rgba(60,50,90,0.10);
+    animation:adDrift 12s ease-in-out infinite alternate;
+    transition:transform .25s ease, box-shadow .25s ease;
+  }
+  .ad:hover{transform:translateY(-2px); box-shadow:0 10px 24px rgba(60,50,90,0.16);}
+  .ad-mini{width:100%; max-width:240px; aspect-ratio:2.4/1; padding:8px 14px;}
+  .ad-quad{width:100%; aspect-ratio:1/1; padding:8cqw 7cqw; flex:none;}
+  .ad *{position:relative; z-index:3;}
+  .ad .ad-tag{
+    position:absolute; top:7px; left:11px; z-index:4;
+    font-family:'Roboto Condensed', sans-serif; font-weight:500; font-size:9.5px;
+    letter-spacing:0.16em; text-transform:uppercase; color:rgba(35,38,45,0.5);
+  }
+  /* due bagliori bianchi morbidi che fluttuano piano */
+  .ad::before, .ad::after{content:''; position:absolute; border-radius:50%; z-index:1; pointer-events:none;}
+  .ad::before{
+    width:60%; aspect-ratio:1; left:-18%; top:-28%;
+    background:radial-gradient(circle, rgba(255,255,255,0.9), rgba(255,255,255,0) 68%);
+    animation:adFloatA 9s ease-in-out infinite alternate;
+  }
+  .ad::after{
+    width:54%; aspect-ratio:1; right:-16%; bottom:-26%;
+    background:radial-gradient(circle, rgba(255,255,255,0.75), rgba(255,255,255,0) 68%);
+    animation:adFloatB 11s ease-in-out infinite alternate;
+  }
+
+  /* palette pastello, una per spazio */
+  .pal-peach {--a:#ffe7d8; --b:#ffd2e1;}
+  .pal-mint  {--a:#d8f5e7; --b:#d4ebff;}
+  .pal-lav   {--a:#e8e2ff; --b:#d8ecff;}
+  .pal-rose  {--a:#ffdfe9; --b:#efe2ff;}
+
+  .ad-k{
+    font-family:'Roboto Condensed', sans-serif; font-weight:700; letter-spacing:0.2em;
+    text-transform:uppercase; color:rgba(35,38,45,0.6);
+  }
+  .ad-t{
+    font-family:'Playfair Display', Georgia, serif; font-style:italic; font-weight:700;
+    color:#23262d; line-height:1.15;
+  }
+  .ad-orn{color:rgba(35,38,45,0.32); letter-spacing:0.5em; font-size:11px; animation:adPulse 3.4s ease-in-out infinite;}
+  .ad-mini .ad-k{font-size:10.5px;}
+  .ad-mini .ad-t{font-size:clamp(14px, 7.6cqw, 18px); margin-top:3px;}
+  .ad-quad .ad-k{font-size:clamp(10.5px, 5cqw, 14px);}
+  .ad-quad .ad-t{font-size:clamp(21px, 11cqw, 31px); margin:8px 0 12px;}
+  .ad-cta{
+    display:inline-block; font-family:'Roboto Condensed', sans-serif; font-weight:700;
+    font-size:clamp(11px, 5cqw, 14px); letter-spacing:0.08em; text-transform:uppercase;
+    color:#23262d; background:#ffffff; padding:0.55em 1.25em; border-radius:999px;
+    box-shadow:0 2px 8px rgba(35,38,45,0.14); animation:adBtn 3s ease-in-out infinite;
+  }
+
+  @keyframes adDrift{0%{background-position:0% 50%} 100%{background-position:100% 50%}}
+  @keyframes adFloatA{to{transform:translate(28%,18%)}}
+  @keyframes adFloatB{to{transform:translate(-30%,-16%)}}
+  @keyframes adPulse{0%,100%{opacity:0.35} 50%{opacity:0.9}}
+  @keyframes adBtn{0%,100%{box-shadow:0 2px 8px rgba(35,38,45,0.14)} 50%{box-shadow:0 5px 16px rgba(35,38,45,0.26)}}
+  @media (prefers-reduced-motion: reduce){
+    .ad, .ad::before, .ad::after, .ad *{animation:none !important;}
+  }
+
+  .col-center > .center-grid{flex:2 1 auto;}
+  .col > .ad-quad{flex:none;}
+
+
+  /* ---------- Lingue e versione testuale (SEO) ---------- */
+  .lingue{max-width:1280px; margin:0 auto; padding:6px 20px; text-align:right; font-family:'Roboto Condensed', sans-serif; font-size:13px; color:var(--meta); border-bottom:1px solid var(--rule-light);}
+  .lingue a{color:var(--link); text-decoration:none;}
+  .lingue a:hover{text-decoration:underline;}
+  .lingua-attuale{font-weight:700; color:var(--ink);}
+  .testo-edizione{max-width:1280px; margin:0 auto; padding:6px 20px 20px; font-family:'Roboto', Arial, sans-serif; font-size:14px; line-height:1.55; color:var(--meta);}
+  .testo-edizione summary{cursor:pointer; font-weight:700; color:var(--ink);}
+  .testo-edizione article{margin:12px 0; padding-top:8px; border-top:1px solid var(--rule-light);}
+  .testo-edizione h3{font-size:14px; margin-bottom:2px; color:var(--ink);}
+  .testo-edizione blockquote{margin:4px 0 4px 12px; font-style:italic;}
+  .testo-edizione a{color:var(--link);}
+
+  /* ---------- Responsive ---------- */
+  @media (max-width:1000px){
+    .front{grid-template-columns:minmax(0,1fr); gap:26px 0;}
+    .col-center{order:-1; border:0; padding:0;}
+    .photo{flex:none;}
+    .card-lead .photo{height:300px; min-height:0;}
+    .card-mid  .photo{height:210px; min-height:0;}
+    .card-side .photo{height:210px; min-height:0;}
+    .col-left, .col-right{display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:26px 24px;}
+  }
+  @media (max-width:1000px){
+    .ad-side{display:none;}
+    .masthead-row{grid-template-columns:minmax(0,1fr); grid-template-areas:"logo";}
+    .masthead-row .masthead{padding:16px 0 6px;}
+  }
+  @media (max-width:640px){
+    .center-grid, .col-left, .col-right{grid-template-columns:minmax(0,1fr);}
+    .masthead-top{font-size:11px;}
+    .sections-nav{gap:2px 14px;}
+    .sections-nav a{font-size:12.5px; padding:8px 0;}
+    .today-strip{font-size:12px; gap:6px 14px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="masthead-top">
+  <span id="clockPlace" class="clock"></span>
+  <span class="mt-right">
+    <span>10 edizioni · aggiornate mattina e sera · riassunte in automatico da AI · gratis, senza account</span>
+    <button type="button" class="theme-btn" id="themeBtn">Modalità notte</button>
+  </span>
+</div>
+
+<!--LINGUE-->
+<!--/LINGUE-->
+
+<div class="masthead-row">
+  <div class="ad-side ad-side-l" id="adHdrL"></div>
+  <header class="masthead">
+  <div class="logo" role="img" aria-label="Concètto"><svg class="logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="-21.2 -764.8 3844.1 844.6" aria-hidden="true" focusable="false"><path class="ink" d="M397.9 9.8Q233.4 9.8 141.1 -77.6Q48.8 -165 48.8 -319.8Q48.8 -487.8 137 -575Q225.1 -662.1 397.5 -662.1Q511.2 -662.1 633.3 -629.4L636.2 -472.2H592.3L578.6 -566.9Q514.2 -610.8 428.7 -610.8Q315.4 -610.8 263.2 -540.3Q210.9 -469.7 210.9 -321.3Q210.9 -184.1 265.6 -112.3Q320.3 -40.5 424.8 -40.5Q480 -40.5 521.2 -55.2Q562.5 -69.8 585.9 -89.8L601.6 -197.3H646L643.1 -31.2Q599.1 -14.2 528.8 -2.2Q458.5 9.8 397.9 9.8ZM1178.2 -231.9Q1178.2 -108.4 1125.2 -49.3Q1072.3 9.8 963.4 9.8Q857.9 9.8 806.2 -50Q754.4 -109.9 754.4 -231.9Q754.4 -353.5 806.9 -412.4Q859.4 -471.2 967.3 -471.2Q1076.2 -471.2 1127.2 -410.4Q1178.2 -349.6 1178.2 -231.9ZM1035.2 -231.9Q1035.2 -339.4 1019.3 -380.6Q1003.4 -421.9 964.4 -421.9Q926.8 -421.9 912.1 -382.3Q897.5 -342.8 897.5 -231.9Q897.5 -119.1 912.4 -79.1Q927.2 -39.1 964.4 -39.1Q1002.9 -39.1 1019 -81.3Q1035.2 -123.5 1035.2 -231.9ZM1422.4 -418.9 1455.6 -436Q1523.9 -471.2 1578.6 -471.2Q1705.6 -471.2 1705.6 -335.9V-43.9L1751.5 -32.2V0H1523.4V-32.2L1564.5 -43.9V-316.9Q1564.5 -357.9 1547.1 -380.9Q1529.8 -403.8 1497.6 -403.8Q1460.4 -403.8 1423.3 -387.2V-43.9L1465.3 -32.2V0H1237.3V-32.2L1282.2 -43.9V-415L1237.3 -426.8V-459H1415.5ZM2179.7 -27.8Q2157.7 -10.3 2118.9 -0.5Q2080.1 9.3 2039.1 9.3Q1916.5 9.3 1855.7 -49.8Q1794.9 -108.9 1794.9 -230.5Q1794.9 -306.2 1822.5 -360.1Q1850.1 -414.1 1901.4 -442.6Q1952.6 -471.2 2020.5 -471.2Q2088.9 -471.2 2169.4 -454.1V-318.4H2134.3L2113.8 -398.9Q2097.2 -411.1 2081.1 -416Q2064.9 -420.9 2038.6 -420.9Q2009.8 -420.9 1986.3 -397.9Q1962.9 -375 1950 -333.3Q1937 -291.5 1937 -233.4Q1937 -135.3 1967.5 -93.3Q1998 -51.3 2064.5 -51.3Q2131.8 -51.3 2179.7 -65.4Z"/><path class="rosso" d="M2620.6 -371.1Q2620.6 -327.1 2588.4 -290Q2556.2 -252.9 2495.4 -229Q2434.6 -205.1 2357.4 -199.2Q2355 -189.5 2355 -166Q2355 -50.8 2443.4 -50.8Q2479.5 -50.8 2510.3 -64.7Q2541 -78.6 2567.9 -96.7L2589.4 -65.9Q2546.4 -29.8 2496.1 -10Q2445.8 9.8 2399.4 9.8Q2313 9.8 2267.6 -33.7Q2222.2 -77.1 2222.2 -161.1Q2222.2 -245.1 2257.8 -316.9Q2293.5 -388.7 2352.1 -429.9Q2410.6 -471.2 2473.6 -471.2Q2541 -471.2 2580.8 -444.1Q2620.6 -417 2620.6 -371.1ZM2365.2 -248Q2424.8 -254.4 2463.1 -291.3Q2501.5 -328.1 2501.5 -377.4Q2501.5 -397.9 2491.5 -408.2Q2481.4 -418.5 2467.8 -418.5Q2434.1 -418.5 2405 -368.7Q2376 -318.8 2365.2 -248ZM2514.6 -545.9 2359.9 -676.8 2363.3 -694.8H2492.7L2559.6 -561.5L2556.6 -545.9Z"/><path class="ink" d="M2850.6 9.8Q2784.7 9.8 2748.8 -20Q2712.9 -49.8 2712.9 -106V-408.2H2652.8V-439.9L2723.6 -459L2780.8 -563H2854V-459H2950.7V-408.2H2854V-114.7Q2854 -83 2867.2 -66.9Q2880.4 -50.8 2901.9 -50.8Q2927.7 -50.8 2965.3 -58.6V-17.1Q2950.7 -6.8 2915.3 1.5Q2879.9 9.8 2850.6 9.8ZM3177.7 9.8Q3111.8 9.8 3075.9 -20Q3040 -49.8 3040 -106V-408.2H2980V-439.9L3050.8 -459L3107.9 -563H3181.2V-459H3277.8V-408.2H3181.2V-114.7Q3181.2 -83 3194.3 -66.9Q3207.5 -50.8 3229 -50.8Q3254.9 -50.8 3292.5 -58.6V-17.1Q3277.8 -6.8 3242.4 1.5Q3207 9.8 3177.7 9.8ZM3752.9 -231.9Q3752.9 -108.4 3700 -49.3Q3647 9.8 3538.1 9.8Q3432.6 9.8 3380.9 -50Q3329.1 -109.9 3329.1 -231.9Q3329.1 -353.5 3381.6 -412.4Q3434.1 -471.2 3542 -471.2Q3650.9 -471.2 3701.9 -410.4Q3752.9 -349.6 3752.9 -231.9ZM3609.9 -231.9Q3609.9 -339.4 3594 -380.6Q3578.1 -421.9 3539.1 -421.9Q3501.5 -421.9 3486.8 -382.3Q3472.2 -342.8 3472.2 -231.9Q3472.2 -119.1 3487.1 -79.1Q3502 -39.1 3539.1 -39.1Q3577.6 -39.1 3593.8 -81.3Q3609.9 -123.5 3609.9 -231.9Z"/></svg></div>
+  <div class="payoff">L'informazione che vuoi. Nel tempo che hai.</div>
+</header>
+  <div class="ad-side ad-side-r" id="adHdrR"></div>
+</div>
+
+<nav class="sections-nav">
+  <a href="#card-italia">Italia</a>
+  <a href="#card-esteri">Esteri</a>
+  <a href="#card-economia">Economia</a>
+  <a href="#card-tecnologia">Tecnologia</a>
+  <a href="#card-sport">Sport</a>
+  <a href="#card-cultura">Cultura &amp; Spettacolo</a>
+  <a href="#card-gossip">Gossip</a>
+  <a href="#card-ambiente">Ambiente</a>
+  <a href="#card-moda">Moda &amp; Lifestyle</a>
+  <a href="#card-concettoplus">Concètto+</a>
+</nav>
+
+<div class="today-strip" id="todayStrip"></div>
+
+<div class="edition-nav" id="editionNav" hidden>
+  <button type="button" class="ed-btn" id="prevEd">← Edizione precedente</button>
+  <span class="ed-label" id="edLabel"></span>
+  <button type="button" class="ed-btn" id="nextEd">Edizione successiva →</button>
+</div>
+
+<main class="front" id="frontGrid">
+  <p class="loading">sto caricando l'edizione di oggi…</p>
+</main>
+
+<section class="curiosita" id="curiosita"></section>
+
+
+<section class="sources" id="sources"></section>
+
+<div class="overlay-backdrop" id="overlay">
+  <span class="overlay-close" id="overlayClose">chiudi ✕</span>
+  <div id="overlayContent"></div>
+</div>
+
+<!--TESTO-->
+<!--/TESTO-->
+
+<div class="legal-footer">
+  Concètto è un progetto di <a href="https://www.vangard.it" target="_blank" rel="noopener"><strong>Vangard</strong></a> (<a href="https://www.vangard.it" target="_blank" rel="noopener">www.vangard.it</a>), marchio di RASCHETTI SRLS — Via Parravicini 29, 23017 Morbegno (SO) — P.IVA 01082340140 — REA 81343 — <a href="concetto-privacy.html">Privacy Policy</a><br>Le immagini sono foto illustrative (Pexels, oppure Flickr e Picsum) scelte per tema: non ritraggono necessariamente i fatti della notizia.
+</div>
+
+<script>
+(function(){
+  const CATEGORY_META = {
+    unusual:  { label: 'parola non comune',     pastel: '#f3dfa3', clipClass: 'cat-unusual'  },
+    date:     { label: 'riferimento temporale', pastel: '#a9dcd6', clipClass: 'cat-date'     },
+    name:     { label: 'nome proprio',          pastel: '#f0bfce', clipClass: 'cat-name'     },
+    deepdive: { label: 'approfondimento',       pastel: '#c9c3f2', clipClass: 'cat-deepdive' }
+  };
+
+  const PAROLE = [
+    { parola: "saudade", lingua: "portoghese", senso: "Nostalgia struggente per qualcosa o qualcuno che è lontano o che non c'è più." },
+    { parola: "hygge", lingua: "danese", senso: "L'atmosfera calda e accogliente di stare bene insieme, in un posto che ti fa sentire al sicuro." },
+    { parola: "Sehnsucht", lingua: "tedesco", senso: "Un desiderio intenso e malinconico per qualcosa che non si sa bene definire." },
+    { parola: "komorebi", lingua: "giapponese", senso: "La luce del sole che filtra attraverso le foglie degli alberi." },
+    { parola: "tsundoku", lingua: "giapponese", senso: "Comprare libri e lasciarli ad accumularsi senza leggerli." },
+    { parola: "ikigai", lingua: "giapponese", senso: "La ragione per cui vale la pena alzarsi ogni mattina." },
+    { parola: "wabi-sabi", lingua: "giapponese", senso: "La bellezza delle cose imperfette, incomplete e segnate dal tempo." },
+    { parola: "Fernweh", lingua: "tedesco", senso: "La nostalgia di luoghi in cui non si è mai stati: la voglia di partire." },
+    { parola: "Torschlusspanik", lingua: "tedesco", senso: "L'ansia di lasciarsi sfuggire le occasioni mentre il tempo passa." },
+    { parola: "gigil", lingua: "tagalog", senso: "L'impulso irresistibile di stringere qualcosa di troppo tenero o carino." },
+    { parola: "lagom", lingua: "svedese", senso: "La giusta misura: né troppo né troppo poco." },
+    { parola: "sobremesa", lingua: "spagnolo", senso: "Il tempo passato a tavola a chiacchierare dopo aver finito di mangiare." },
+    { parola: "jayus", lingua: "indonesiano", senso: "Una barzelletta raccontata così male che fa ridere lo stesso." },
+    { parola: "ubuntu", lingua: "lingue nguni (Sudafrica)", senso: "\u201CIo sono perché noi siamo\u201D: l'umanità si realizza attraverso gli altri." },
+    { parola: "meraki", lingua: "greco", senso: "Mettere anima, creatività e amore in ciò che si fa." },
+    { parola: "dépaysement", lingua: "francese", senso: "La sensazione di disorientamento di chi si trova in un paese che non è il suo." },
+    { parola: "kilig", lingua: "tagalog", senso: "Il brivido di farfalle nello stomaco per un'emozione romantica." },
+    { parola: "cafuné", lingua: "portoghese brasiliano", senso: "Accarezzare teneramente i capelli di una persona amata." },
+    { parola: "utepils", lingua: "norvegese", senso: "La prima birra bevuta all'aperto in una giornata di sole." },
+    { parola: "friluftsliv", lingua: "norvegese", senso: "Vivere all'aria aperta come modo di stare al mondo." },
+    { parola: "mångata", lingua: "svedese", senso: "La scia di luce della luna riflessa sull'acqua." },
+    { parola: "forelsket", lingua: "norvegese", senso: "L'euforia dei primi momenti d'innamoramento." },
+    { parola: "toska", lingua: "russo", senso: "Un'angoscia spirituale profonda, a volte senza una causa precisa." },
+    { parola: "sisu", lingua: "finlandese", senso: "Determinazione tenace di fronte alle difficoltà, anche oltre il limite apparente." },
+    { parola: "shinrin-yoku", lingua: "giapponese", senso: "Il \u201Cbagno di foresta\u201D: immergersi tra gli alberi per rilassarsi." },
+    { parola: "hiraeth", lingua: "gallese", senso: "Nostalgia struggente di una casa a cui non si può più tornare, o che forse non è mai esistita." },
+    { parola: "Kummerspeck", lingua: "tedesco", senso: "Letteralmente \u201Clardo del dolore\u201D: i chili presi mangiando per consolarsi." },
+    { parola: "Backpfeifengesicht", lingua: "tedesco", senso: "Un viso che sembra chiedere a gran voce uno schiaffo." },
+    { parola: "pochemuchka", lingua: "russo", senso: "Una persona che fa sempre troppe domande." },
+    { parola: "duende", lingua: "spagnolo", senso: "Il potere misterioso e appassionato di un'esibizione o di un'opera che commuove." },
+    { parola: "esprit de l'escalier", lingua: "francese", senso: "La risposta perfetta che ti viene in mente quando la conversazione è ormai finita." },
+    { parola: "Schadenfreude", lingua: "tedesco", senso: "Il piacere provato per le disgrazie altrui." },
+    { parola: "gökotta", lingua: "svedese", senso: "Svegliarsi all'alba per ascoltare il canto degli uccelli." },
+    { parola: "\u02BBohana", lingua: "hawaiano", senso: "La famiglia in senso allargato, dove nessuno viene lasciato indietro." },
+    { parola: "tartle", lingua: "scozzese", senso: "L'esitazione nel presentare qualcuno perché non ricordi il suo nome." },
+    { parola: "yūgen", lingua: "giapponese", senso: "Il senso profondo e misterioso della bellezza dell'universo." },
+  ];
+
+  const PROVERBI = [
+    { testo: "Cadi sette volte, rialzati otto.", origine: "Giappone" },
+    { testo: "Un viaggio di mille miglia comincia con un solo passo.", origine: "Cina" },
+    { testo: "La fretta non porta benedizioni.", origine: "Swahili (Africa orientale)" },
+    { testo: "Fidati, ma verifica.", origine: "Russia" },
+    { testo: "Anche le scimmie cadono dagli alberi.", origine: "Giappone" },
+    { testo: "Il chiodo che sporge viene battuto.", origine: "Giappone" },
+    { testo: "Non esiste cattivo tempo, solo cattivo abbigliamento.", origine: "Scandinavia" },
+    { testo: "L'acqua molle sulla pietra dura, tanto batte finché la fora.", origine: "Portogallo" },
+    { testo: "Non c'è focolare come il proprio focolare.", origine: "Irlanda" },
+    { testo: "A poco a poco l'uccellino fa il suo nido.", origine: "Francia" },
+    { testo: "Le parole del giorno le ascoltano gli uccelli, quelle della notte i topi.", origine: "Corea" },
+    { testo: "Quando le ragnatele si uniscono possono legare un leone.", origine: "Etiopia" },
+    { testo: "Quando bevi l'acqua, ricordati di chi ha scavato il pozzo.", origine: "Vietnam" },
+    { testo: "Chi non rischia non assaggia.", origine: "Brasile" },
+    { testo: "Il mattino è più saggio della sera.", origine: "Russia" },
+    { testo: "Misura sette volte, taglia una sola.", origine: "Russia" },
+    { testo: "Non è il mio circo, non sono le mie scimmie.", origine: "Polonia" },
+    { testo: "Piano piano è l'andatura giusta.", origine: "Swahili (Africa orientale)" },
+    { testo: "Poco alla volta, alla fine diventa una collina.", origine: "Malesia" },
+    { testo: "L'esercizio fa il maestro.", origine: "Germania" },
+  ];
+
+  // Un ritaglio evidenziato può essere al massimo di 3 parole: oltre, torna a parole singole
+  const MAX_PAROLE_EVIDENZIATE = 3;
+
+  const CLIP_SIZES = { lead: '27px', mid: '21px', side: '17px' };
+
+  // Parola chiave per la foto generica di ogni sezione
+  const PHOTO_KEYWORDS = {
+    italia:'italy', esteri:'city', economia:'business', tecnologia:'technology', sport:'football',
+    cultura:'theatre', gossip:'redcarpet', ambiente:'forest', moda:'fashion', concettoplus:'rome'
+  };
+
+  const AUTHOR_AVATAR = `<svg viewBox="0 0 40 40"><rect width="40" height="40" fill="#c9bd98"/><circle cx="20" cy="16" r="7" fill="#2b2a1a"/><path d="M6 36 C6 27 12 23 20 23 C28 23 34 27 34 36" fill="#2b2a1a"/><path d="M11 15 C11 8 29 8 29 15 C29 11 24 9 20 9 C16 9 11 11 11 15Z" fill="#2b2a1a"/></svg>`;
+
+  // Dati di esempio: usati solo se data/oggi.json non è ancora raggiungibile
+  // (es. prima ancora che l'automazione GitHub Actions abbia generato la prima edizione).
+  const FALLBACK_DATA = {
+    data: 'esempio',
+    categorie: {
+      italia: { label: 'Italia', segments: [
+        { text: 'Il governo discute la manovra mentre', type: 'plain' },
+        { text: 'la Corte Costituzionale', type: 'name', detail: 'Organo di garanzia chiamato a valutare la legittimità di alcuni articoli contestati.' },
+        { text: 'valuta un ricorso su una norma chiave, in attesa di una decisione prevista per', type: 'plain' },
+        { text: 'fine mese', type: 'date', detail: 'Termine entro cui la Corte dovrebbe pronunciarsi secondo le tempistiche previste.' },
+        { text: '.', type: 'plain' },
+      ], aforisma: 'Le leggi cambiano il paese più lentamente di quanto vorremmo credere.', autore: 'Dario Fenoglio',
+        approfondimento: 'Il ricorso riguarda una norma introdotta due anni fa che molti giuristi ritengono in contrasto con un principio costituzionale consolidato. Una bocciatura avrebbe effetti retroattivi su migliaia di casi già chiusi.' },
+
+      esteri: { label: 'Esteri', segments: [
+        { text: 'A Bruxelles i ministri europei discutono un nuovo', type: 'plain' },
+        { text: 'meccanismo di solidarietà energetica', type: 'unusual', detail: 'Sistema con cui gli Stati membri si impegnano a condividere risorse in caso di crisi improvvisa.' },
+        { text: ', mentre cresce la pressione di', type: 'plain' },
+        { text: 'Berlino', type: 'name', detail: 'La Germania spinge per condizioni più stringenti prima di dare il proprio assenso definitivo.' },
+        { text: 'per rivedere alcune clausole prima del voto finale.', type: 'plain' },
+      ], aforisma: 'L\u2019Europa trova sempre un accordo, di solito un minuto prima della scadenza.', autore: 'Ilka Sorensen',
+        approfondimento: 'Il meccanismo prevede quote obbligatorie di riserve energetiche condivise, un tema sensibile per i paesi che hanno investito di più in infrastrutture proprie. Il negoziato rischia di trascinarsi oltre i tempi previsti.' },
+
+      concettoplus: { label: 'Concètto+', segments: [
+        { text: 'Il turismo di lusso italiano conquista i titoli asiatici, mentre a Londra l\u2019istituto', type: 'plain' },
+        { text: 'Meridian Insights', type: 'name', detail: 'Centro studi indipendente spesso citato dalla stampa finanziaria occidentale su temi legati all\u2019Italia.' },
+        { text: 'segnala un persistente', type: 'plain' },
+        { text: 'divario Nord-Sud', type: 'deepdive', detail: 'Il tema economico più ricorrente quando la stampa estera analizza le prospettive di crescita italiane.' },
+        { text: 'nelle prospettive di crescita del paese.', type: 'plain' },
+      ], aforisma: 'Il mondo si innamora dell\u2019Italia che racconta, più che di quella che costruisce.', autore: 'Ingrid Solmark',
+        approfondimento: 'Gli osservatori esteri notano che il divario Nord-Sud non è solo economico ma demografico: la fuga dei giovani laureati svuota le regioni che avrebbero più bisogno di competenze per crescere.' },
+
+      economia: { label: 'Economia', segments: [
+        { text: 'Lo spread scende sotto quota', type: 'plain' },
+        { text: '110 punti', type: 'date', detail: 'Livello più basso registrato dall\u2019inizio dell\u2019anno, letto come segnale di fiducia dei mercati.' },
+        { text: 'mentre le imprese attendono i dati sull\u2019inflazione di', type: 'plain' },
+        { text: 'settembre', type: 'date', detail: 'Rilevazione attesa nei prossimi giorni, considerata decisiva per le prossime mosse della BCE.' },
+      ], aforisma: 'I mercati non prevedono il futuro, scommettono su di esso.', autore: 'Marcello Tinari',
+        approfondimento: 'Un calo dello spread riduce il costo del debito pubblico ma non garantisce automaticamente investimenti privati: molti analisti restano cauti sulla tenuta del trend nel medio periodo.' },
+
+      tecnologia: { label: 'Tecnologia', segments: [
+        { text: 'Un nuovo modello di intelligenza artificiale sviluppato da', type: 'plain' },
+        { text: 'una startup torinese', type: 'name', detail: 'Azienda emersa negli ultimi mesi, ancora poco nota al grande pubblico ma seguita dagli addetti ai lavori.' },
+        { text: 'promette di ridurre drasticamente i consumi energetici dei data center.', type: 'plain' },
+      ], aforisma: 'Ogni tecnologia nuova promette di risparmiare quello che la precedente sprecava.', autore: 'Nils Eberhardt',
+        approfondimento: 'La tecnica si basa su un\u2019architettura più efficiente nel calcolo distribuito, un ambito dove finora i grandi player asiatici e americani hanno avuto il vantaggio principale.' },
+
+      sport: { label: 'Sport', segments: [
+        { text: 'La nazionale si prepara alla sfida decisiva di', type: 'plain' },
+        { text: 'novembre', type: 'date', detail: 'Mese in cui si giocherà la partita che deciderà la qualificazione al torneo.' },
+        { text: 'con diversi dubbi di formazione legati agli infortuni dell\u2019ultima settimana.', type: 'plain' },
+      ], aforisma: 'Ogni squadra ha un piano, finché non inizia la partita.', autore: 'Corrado Villese',
+        approfondimento: 'Gli infortuni riguardano due titolari chiave del centrocampo, una zona di campo già fragile nelle ultime uscite. Il commissario tecnico valuta soluzioni alternative mai provate prima.' },
+
+      cultura: { label: 'Cultura & Spettacolo', segments: [
+        { text: 'Una mostra dedicata al', type: 'plain' },
+        { text: 'Futurismo', type: 'unusual', detail: 'Movimento artistico italiano di inizio Novecento, tornato al centro dell\u2019attenzione critica internazionale.' },
+        { text: 'apre a Milano con opere mai esposte prima in Italia.', type: 'plain' },
+      ], aforisma: 'L\u2019arte del passato continua a spiegarci il presente meglio di quanto vorremmo.', autore: 'Selene Marchetti',
+        approfondimento: 'Molte delle opere provengono da collezioni private europee mai rese pubbliche. Gli organizzatori parlano di un evento irripetibile per la quantità di materiale riunito in un solo luogo.' },
+
+      gossip: { label: 'Gossip', segments: [
+        { text: 'Una nota coppia dello spettacolo italiano conferma la rottura dopo', type: 'plain' },
+        { text: 'sette anni', type: 'date', detail: 'Durata della relazione più volte smentita e poi confermata dai diretti interessati nel corso degli anni.' },
+        { text: ', mentre cresce l\u2019attesa per l\u2019intervista esclusiva che', type: 'plain' },
+        { text: 'Lidia Franceschi', type: 'name', detail: 'Storica agente dello spettacolo, spesso al centro delle trattative per le interviste più discusse della stagione.' },
+        { text: 'avrebbe già negoziato con un noto rotocalco nazionale.', type: 'plain' },
+      ], aforisma: 'Le storie d\u2019amore finiscono, i titoli sui giornali restano per settimane.', autore: 'Ottavio Pressenda',
+        approfondimento: 'Le indiscrezioni sulla rottura circolavano da mesi sui social, ma nessuna delle due parti aveva mai commentato direttamente fino a questa settimana. L\u2019intervista esclusiva è attesa per il prossimo numero.' },
+
+      ambiente: { label: 'Ambiente', segments: [
+        { text: 'Un rapporto internazionale segnala il progressivo ritiro dei ghiacciai alpini, con la', type: 'plain' },
+        { text: 'Marmolada', type: 'name', detail: 'Ghiacciaio simbolo delle Dolomiti, tra i più monitorati d\u2019Europa per il tasso di scioglimento.' },
+        { text: 'tra i casi più critici osservati quest\u2019anno.', type: 'plain' },
+      ], aforisma: 'I ghiacciai scrivono la loro storia sciogliendosi, e noi la leggiamo troppo tardi.', autore: 'Bjorn Halvorsen',
+        approfondimento: 'Il ritmo di scioglimento osservato quest\u2019anno supera le medie storiche degli ultimi trent\u2019anni. Gli scienziati collegano il fenomeno sia al riscaldamento globale sia a un inverno con precipitazioni nevose inferiori alla norma.' },
+
+      moda: { label: 'Moda & Lifestyle', segments: [
+        { text: 'La settimana della moda milanese punta quest\u2019anno su una', type: 'plain' },
+        { text: 'sartorialità circolare', type: 'unusual', detail: 'Approccio che reintroduce tecniche artigianali tradizionali combinate a materiali riciclati o rigenerati.' },
+        { text: ', con diversi brand storici che presentano le prime collezioni certificate.', type: 'plain' },
+      ], aforisma: 'La moda cambia ogni stagione tranne quando racconta chi la indossa.', autore: 'Ottavia Renzetti',
+        approfondimento: 'La certificazione richiede tracciabilità completa della filiera, un processo che molte maison considerano ancora troppo costoso da adottare su larga scala nel breve termine.' },
+    }
+  };
+
+  let currentData = null;
+
+  const MOTTI_DEL_GIORNO = [
+    "Chi va piano va sano e va lontano", "Non è tutto oro quel che luccica",
+    "Chi semina vento raccoglie tempesta", "L'unione fa la forza",
+    "A caval donato non si guarda in bocca", "Meglio tardi che mai",
+    "Chi dorme non piglia pesci", "Tra il dire e il fare c'è di mezzo il mare",
+    "Il tempo è galantuomo", "Chi cerca trova",
+    "Ogni promessa è debito", "Chi ha tempo non aspetti tempo",
+    "L'erba del vicino è sempre più verde", "Non tutti i mali vengono per nuocere",
+    "Chi si loda si imbroda", "Val più la pratica della grammatica",
+    "Rosso di sera bel tempo si spera", "Chi trova un amico trova un tesoro",
+    "Batti il ferro finché è caldo", "Can che abbaia non morde",
+  ];
+
+  function getMottoDelGiorno(){
+    const start = new Date(new Date().getFullYear(), 0, 0);
+    const dayOfYear = Math.floor((new Date() - start) / 86400000);
+    return MOTTI_DEL_GIORNO[dayOfYear % MOTTI_DEL_GIORNO.length];
+  }
+
+  function weatherCodeToText(code){
+    const map = {
+      0:'sereno', 1:'poco nuvoloso', 2:'nuvoloso', 3:'coperto',
+      45:'nebbia', 48:'nebbia', 51:'pioviggine', 53:'pioviggine', 55:'pioviggine',
+      61:'pioggia debole', 63:'pioggia', 65:'pioggia forte',
+      71:'neve debole', 73:'neve', 75:'neve forte',
+      80:'rovesci', 81:'rovesci', 82:'rovesci forti', 95:'temporale'
+    };
+    return map[code] || 'variabile';
+  }
+
+  // La posizione viene chiesta una sola volta e serve sia per il meteo sia per il nome del luogo
+  let posPromise = null;
+  function getPosition(){
+    if(posPromise) return posPromise;
+    posPromise = new Promise(resolve => {
+      if(!navigator.geolocation){ resolve(null); return; }
+      navigator.geolocation.getCurrentPosition(
+        p => resolve({ lat: p.coords.latitude, lon: p.coords.longitude }),
+        () => resolve(null),
+        { timeout: 4000 }
+      );
+    });
+    return posPromise;
+  }
+
+  async function loadWeather(){
+    const el = document.getElementById('weatherPart');
+    if(!el) return;
+    const pos = await getPosition();
+    const lat = pos ? pos.lat : 41.9028, lon = pos ? pos.lon : 12.4964;   // senza permesso: Roma
+    try{
+      const r = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,weather_code&timezone=auto`);
+      const d = await r.json();
+      const c = d.current;
+      el.innerHTML = `meteo: <b>${weatherCodeToText(c.weather_code)}, ${Math.round(c.temperature_2m)}°</b>`;
+    }catch(err){
+      el.textContent = 'meteo: non disponibile';
+    }
+  }
+
+  // Luogo e orario in alto a sinistra: il luogo compare solo se la posizione è disponibile
+  let placeName = '';
+  function updateClock(){
+    const el = document.getElementById('clockPlace');
+    if(!el) return;
+    const ora = new Date().toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' });
+    el.textContent = (placeName ? placeName + ' · ' : '') + ora;
+  }
+  async function loadPlace(){
+    const pos = await getPosition();
+    if(!pos) return;
+    try{
+      const r = await fetch(`https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${pos.lat}&longitude=${pos.lon}&localityLanguage=it`);
+      const d = await r.json();
+      placeName = d.city || d.locality || d.principalSubdivision || '';
+      updateClock();
+    }catch(err){ /* nessun luogo: resta solo l'ora */ }
+  }
+
+  async function loadSaint(){
+    const el = document.getElementById('saintPart');
+    if(!el) return;
+    try{
+      const res = await fetch('https://www.santodelgiorno.it/santi.json');
+      const data = await res.json();
+      const main = (data.find(s => s.default === '1')) || data[0];
+      el.innerHTML = `santo: <b>${main.nome}</b>`;
+    }catch(err){
+      el.textContent = 'santo: —';
+    }
+  }
+
+  function buildTodayStrip(){
+    const el = document.getElementById('todayStrip');
+    const d = new Date();
+    const giorni = ['domenica','lunedì','martedì','mercoledì','giovedì','venerdì','sabato'];
+    const mesi = ['gennaio','febbraio','marzo','aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre'];
+    const dateStr = `${giorni[d.getDay()]} ${d.getDate()} ${mesi[d.getMonth()]} ${d.getFullYear()}`;
+    el.innerHTML = `
+      <span><b>${dateStr}</b></span>
+      <span id="updatedPart"></span>
+      <span id="weatherPart">meteo: …</span>
+      <span id="saintPart">santo: …</span>
+      <span>motto: "${getMottoDelGiorno()}"</span>
+    `;
+    loadWeather();
+    loadSaint();
+    loadPlace();
+    updateClock();
+    setInterval(updateClock, 20000);
+  }
+
+  // ---------- Statistiche (GoatCounter): si attivano solo inserendo il codice del sito ----------
+  const GOATCOUNTER_CODE = '';
+  if(GOATCOUNTER_CODE){
+    const sc = document.createElement('script');
+    sc.async = true;
+    sc.dataset.goatcounter = `https://${GOATCOUNTER_CODE}.goatcounter.com/count`;
+    sc.src = '//gc.zgo.at/count.js';
+    document.head.appendChild(sc);
+  }
+  function track(nome){
+    try{
+      if(window.goatcounter && window.goatcounter.count){
+        window.goatcounter.count({ path: 'evento/' + nome, title: nome, event: true });
+      }
+    }catch(err){ /* le statistiche non devono mai rompere il sito */ }
+  }
+
+  function esc(str){
+    return String(str == null ? '' : str).replace(/[&<>"]/g, ch => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;' }[ch]));
+  }
+
+  // ---------- Modalità giorno / notte ----------
+  const themeBtn = document.getElementById('themeBtn');
+  function applyTheme(t){
+    document.documentElement.setAttribute('data-theme', t);
+    themeBtn.textContent = t === 'dark' ? 'Modalità giorno' : 'Modalità notte';
+  }
+  (function initTheme(){
+    let t = null;
+    try{ t = localStorage.getItem('concetto-tema'); }catch(err){}
+    applyTheme(t === 'dark' ? 'dark' : 'light');
+    themeBtn.addEventListener('click', () => {
+      const nuovo = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      applyTheme(nuovo);
+      try{ localStorage.setItem('concetto-tema', nuovo); }catch(err){}
+    });
+  })();
+
+  // ---------- Ritagli ----------
+  // Un font diverso per ogni ritaglio (stesso ordine delle classi .f0-.f11 nel CSS)
+  const FONT_SPECS = [
+    { fam:'Abril Fatface',     w:400, st:'normal', f:1.00, up:false },
+    { fam:'Anton',             w:400, st:'normal', f:1.00, up:true  },
+    { fam:'Special Elite',     w:400, st:'normal', f:0.88, up:false },
+    { fam:'Alfa Slab One',     w:400, st:'normal', f:0.82, up:false },
+    { fam:'Playfair Display',  w:900, st:'italic', f:0.98, up:false },
+    { fam:'Old Standard TT',   w:700, st:'normal', f:1.00, up:false },
+    { fam:'Courier Prime',     w:700, st:'normal', f:0.90, up:false },
+    { fam:'Oswald',            w:600, st:'normal', f:0.92, up:true  },
+    { fam:'DM Serif Display',  w:400, st:'italic', f:1.02, up:false },
+    { fam:'Bebas Neue',        w:400, st:'normal', f:1.14, up:true  },
+    { fam:'Archivo Black',     w:400, st:'normal', f:0.78, up:true  },
+    { fam:'Roboto Slab',       w:700, st:'normal', f:0.92, up:false },
+  ];
+  const ROT_VARIANTS = ['rot-a','rot-b','rot-c','rot-d','rot-e','rot-f'];
+  const NEUTRAL_TONES = ['plain-a','plain-b','plain-c','plain-d','plain-e'];
+  const ONLY_PUNCT = /^[.,;:!?)\]»”…]+$/;
+
+  // Trasforma i segmenti della frase in una lista di ritagli (usata sia dalla pagina sia dall'immagine da condividere)
+  function buildClipModel(data){
+    const clips = [];
+    let clipIndex = 0, neutralIndex = 0;
+    data.segments.forEach(seg => {
+      const segText = seg.text || '';
+      const nParole = segText.trim().split(/\s+/).filter(Boolean).length;
+      if(seg.type === 'plain' || !CATEGORY_META[seg.type] || nParole > MAX_PAROLE_EVIDENZIATE){
+        segText.split(/\s+/).filter(Boolean).forEach(word => {
+          if(ONLY_PUNCT.test(word) && clips.length){        // la punteggiatura resta attaccata alla parola prima
+            clips[clips.length - 1].text += word;
+            return;
+          }
+          clips.push({ text: word, type: null, index: clipIndex++, tone: neutralIndex++ % NEUTRAL_TONES.length });
+        });
+      }else{
+        clips.push({ text: segText, type: seg.type, detail: seg.detail, index: clipIndex++ });
+      }
+    });
+    return clips;
+  }
+
+  function makeClip(model, clipSize){
+    const span = document.createElement('span');
+    const fontClass = 'f' + ((model.index * 5) % FONT_SPECS.length);   // font diverso per ritagli vicini
+    const rotClass = ROT_VARIANTS[(model.index * 2 + (model.type ? 1 : 0)) % ROT_VARIANTS.length];
+    span.className = `clip ${fontClass} ${rotClass}`;
+    span.style.setProperty('--clip-size', clipSize);
+    span.textContent = model.text;
+    return span;
+  }
+
+  function fraseDi(data){
+    return data.segments.map(sg => sg.text || '').join(' ')
+      .replace(/\s+([.,;:!?)])/g, '$1').replace(/\s+/g, ' ').trim();
+  }
+
+  function dataBreve(iso){
+    if(!iso) return '';
+    const p = String(iso).slice(0, 10).split('-').map(Number);
+    if(p.length !== 3 || p.some(isNaN)) return String(iso);
+    const mesi = ['gennaio','febbraio','marzo','aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre'];
+    return `${p[2]} ${mesi[p[1] - 1]}`;
+  }
+
+  // ---------- Foto ----------
+  function hashStr(str){
+    let h = 0;
+    for(let i = 0; i < str.length; i++){ h = (h * 31 + str.charCodeAt(i)) >>> 0; }
+    return h;
+  }
+
+  function attachPhoto(container, catId, data){
+    if(!container) return;
+    const seed = hashStr(new Date().toISOString().slice(0, 10) + catId) % 1000;
+    const f = data && data.foto;
+    const pexels = f && typeof f.url === 'string' && f.url.indexOf('https://images.pexels.com/') === 0;
+    // parola in inglese scelta per la notizia (solo la prima), altrimenti quella fissa della sezione
+    const kw = ((data && data.parola_foto ? String(data.parola_foto).split(' ')[0] : '') || PHOTO_KEYWORDS[catId] || 'news')
+      .replace(/[^a-z-]/gi, '');
+    // 1) foto scelta dallo script per la notizia (Pexels)  2) foto per parola chiave (LoremFlickr)
+    // 3) se nulla arriva entro 5 secondi: foto casuale sempre disponibile (Picsum)
+    const sources = [];
+    if(pexels) sources.push(f.url);
+    sources.push(`https://loremflickr.com/900/600/${kw || 'news'}?lock=${seed}`);
+    sources.push(`https://picsum.photos/seed/${catId}${seed}/900/600`);
+    const img = new Image();
+    img.alt = '';
+    let step = 0, timer = null;
+    function next(){
+      clearTimeout(timer);
+      if(step >= sources.length){ img.remove(); return; }   // resta lo sfondo neutro
+      img.src = sources[step++];
+      if(step < sources.length){ timer = setTimeout(next, 5000); }
+    }
+    img.onload = () => {
+      clearTimeout(timer);
+      // il credito al fotografo compare solo se si vede davvero la foto di Pexels
+      if(pexels && img.src === f.url && f.autore && /^https:\/\//.test(f.pagina || '')){
+        const cr = document.createElement('a');
+        cr.className = 'photo-credit';
+        cr.href = f.pagina;
+        cr.target = '_blank';
+        cr.rel = 'noopener noreferrer';
+        cr.textContent = 'Foto: ' + f.autore + ' · Pexels';
+        container.appendChild(cr);
+      }
+    };
+    img.onerror = next;
+    container.appendChild(img);
+    next();
+  }
+
+  // ---------- Ascolta (voce femminile, lenta e pacata) ----------
+  let voci = [];
+  function caricaVoci(){
+    if(!('speechSynthesis' in window)) return;
+    voci = (window.speechSynthesis.getVoices() || []).filter(v => /^it([-_]|$)/i.test(v.lang));
+  }
+  if('speechSynthesis' in window){
+    caricaVoci();
+    window.speechSynthesis.addEventListener('voiceschanged', caricaVoci);
+  }
+  const VOCI_FEMMINILI = /elsa|isabella|federica|alice|paola|emma|lucia|silvia|chiara|carla|francesca|giorgia|vittoria|sara|google italiano/i;
+  const VOCI_MASCHILI = /luca|cosimo|diego|giuseppe|marco|lorenzo|stefano|giorgio|\bmale\b/i;
+
+  // Sceglie la voce italiana femminile più naturale tra quelle installate sul dispositivo
+  function sceltaVoce(){
+    if(!voci.length) caricaVoci();
+    const fem = voci.filter(v => VOCI_FEMMINILI.test(v.name) && !VOCI_MASCHILI.test(v.name));
+    const naturali = fem.filter(v => /natural|neural|online|premium|enhanced|siri/i.test(v.name));
+    return naturali[0] || fem[0] || voci.find(v => !VOCI_MASCHILI.test(v.name)) || voci[0] || null;
+  }
+
+  let speakingBtn = null, speakTimer = null;
+  function stopSpeak(){
+    clearTimeout(speakTimer);
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+    if(speakingBtn){ speakingBtn.textContent = 'Ascolta'; speakingBtn = null; }
+  }
+  function pronuncia(testo, btn, onFine){
+    const u = new SpeechSynthesisUtterance(testo);
+    u.lang = 'it-IT';
+    const v = sceltaVoce();
+    if(v){ u.voice = v; u.lang = v.lang; }
+    u.rate = 0.8;       // lenta
+    u.pitch = 1.08;     // leggermente più chiara e giovane
+    u.volume = 0.92;    // morbida
+    u.onend = () => { if(speakingBtn === btn) onFine(); };
+    u.onerror = () => { if(speakingBtn === btn){ btn.textContent = 'Ascolta'; speakingBtn = null; } };
+    window.speechSynthesis.speak(u);
+  }
+  function toggleSpeak(btn, catId, data){
+    if(!('speechSynthesis' in window)) return;
+    const eraQuesto = speakingBtn === btn;
+    stopSpeak();
+    if(eraQuesto) return;
+    speakingBtn = btn;
+    btn.textContent = 'Stop';
+    track('ascolta-' + catId);
+    const fine = () => { btn.textContent = 'Ascolta'; speakingBtn = null; };
+    pronuncia(fraseDi(data), btn, () => {
+      if(!data.aforisma){ fine(); return; }
+      speakTimer = setTimeout(() => {           // pausa serena prima dell'aforisma
+        if(speakingBtn !== btn) return;
+        pronuncia(data.aforisma, btn, fine);
+      }, 1100);
+    });
+  }
+
+  // ---------- Spazi pubblicitari ----------
+  // Tutti gli spazi sono "in vendita": animazione "clicca qui per la tua pubblicità" verso il modulo di contatto
+  const AD_URL = 'https://vangard.it/';
+  const AD_MERCATO = 'it';
+  const adLink = slot => `${AD_URL}?utm_source=concetto-${AD_MERCATO}&utm_medium=adspace&utm_campaign=${slot.id}#contatti`;
+  const AD_SLOTS = [
+    { id:'it-hdr-sx', codice:'IT-A', formato:'mini', pal:'peach' },   // accanto al titolo, a sinistra (solo desktop)
+    { id:'it-hdr-dx', codice:'IT-B', formato:'mini', pal:'mint'  },   // accanto al titolo, a destra (solo desktop)
+    { id:'it-sq-3', codice:'IT-C',   formato:'quad', pal:'rose'  },   // dentro il giornale, colonna sinistra
+    { id:'it-sq-2', codice:'IT-D',   formato:'quad', pal:'lav'   },   // dentro il giornale, colonna destra
+  ];
+
+  function adHTML(id){
+    const slot = AD_SLOTS.find(x => x.id === id);
+    if(!slot) return '';
+    const mini = slot.formato === 'mini';
+    const base = `href="${adLink(slot)}" target="_blank" rel="noopener sponsored" data-ad="${slot.id}"`;
+    const tag = `<span class="ad-tag">Pubblicità · ${slot.codice}</span>`;
+    const cls = `ad ${mini ? 'ad-mini' : 'ad-quad'} pal-${slot.pal} ad-vendita`;
+    if(mini){
+      return `<a class="${cls}" ${base} aria-label="Pubblicità: clicca qui per la tua pubblicità">${tag}
+        <span class="ad-k">Clicca qui</span>
+        <span class="ad-t">per la tua pubblicità</span></a>`;
+    }
+    return `<a class="${cls}" ${base} aria-label="Pubblicità: clicca qui per la tua pubblicità">${tag}
+      <span class="ad-orn">✦ ✦ ✦</span>
+      <span class="ad-k">Clicca qui</span>
+      <span class="ad-t">per la tua<br>pubblicità</span>
+      <span class="ad-cta">Scopri come →</span></a>`;
+  }
+
+  // I due banner ai lati del titolo esistono solo nella versione desktop: su smartphone e tablet non vengono nemmeno creati
+  const desktopMQ = window.matchMedia('(min-width: 1001px)');
+  function mostraBannerTitolo(){
+    document.getElementById('adHdrL').innerHTML = desktopMQ.matches ? adHTML('it-hdr-sx') : '';
+    document.getElementById('adHdrR').innerHTML = desktopMQ.matches ? adHTML('it-hdr-dx') : '';
+  }
+  mostraBannerTitolo();
+  if(desktopMQ.addEventListener) desktopMQ.addEventListener('change', mostraBannerTitolo);
+  else if(desktopMQ.addListener) desktopMQ.addListener(mostraBannerTitolo);
+
+  document.addEventListener('click', e => {
+    const a = e.target.closest && e.target.closest('a.ad');
+    if(a) track('ad-' + a.dataset.ad);
+  });
+
+  // ---------- Riquadri ----------
+  function renderCard(catId, kind, data){
+    const card = document.getElementById('card-' + catId);
+    if(!card || !data) return;
+    const box = card.querySelector('.section-sentence');
+    box.innerHTML = '';
+    const clipSize = CLIP_SIZES[kind];
+
+    buildClipModel(data).forEach(model => {
+      const clip = makeClip(model, clipSize);
+      if(model.type){
+        const meta = CATEGORY_META[model.type];
+        clip.classList.add('tagged', meta.clipClass);
+        clip.addEventListener('click', () => { track('ritaglio-' + catId); openWordDetail(data.label, model.text, model.detail, meta); });
+      }else{
+        clip.classList.add(NEUTRAL_TONES[model.tone]);
+      }
+      box.appendChild(clip);
+    });
+
+    const aforisma = card.querySelector('.aforisma');
+    aforisma.querySelector('p').textContent = '\u201C' + (data.aforisma || '') + '\u201D';
+    aforisma.querySelector('cite').textContent = '\u2014 ' + (data.autore || 'Anonimo');
+
+    card.querySelector('.approf-link').onclick = () => { track('approfondisci-' + catId); openApprofondimento(data.label, data.approfondimento); };
+    const listen = card.querySelector('.act-listen');
+    if('speechSynthesis' in window){ listen.onclick = () => toggleSpeak(listen, catId, data); }
+    else{ listen.remove(); }
+
+    if(data.stale){
+      const note = card.querySelector('.stale-note');
+      note.textContent = 'Sezione non aggiornata: mostra l\u2019edizione del ' + dataBreve(data.stale_da) + (data.stale_ed ? ' (' + data.stale_ed + ')' : '');
+      note.hidden = false;
+    }
+    if(catId === 'concettoplus' && Array.isArray(data.paesi) && data.paesi.length){
+      card.querySelector('.paesi').textContent = 'Titoli da: ' + data.paesi.join(', ');
+    }
+    attachPhoto(card.querySelector('.photo'), catId, data);
+  }
+
+  function cardHTML(item, kind){
+    const isPlus = item.id === 'concettoplus';
+    return `
+      <article class="card card-${kind}" id="card-${esc(item.id)}">
+        <div class="photo"></div>
+        <div class="card-body">
+          <div class="kicker">${esc(item.data.label || item.id)}</div>
+          ${isPlus ? '<div class="subtitle">L\u2019Italia vista dall\u2019estero</div><div class="paesi"></div>' : ''}
+          <div class="stale-note" hidden></div>
+          <div class="section-sentence"></div>
+          <blockquote class="aforisma"><p></p><cite></cite></blockquote>
+          <div class="card-actions">
+            <span class="approf-link">Approfondisci →</span>
+            <button type="button" class="act act-listen">Ascolta</button>
+          </div>
+        </div>
+      </article>`;
+  }
+
+  function renderFrontPage(payload){
+    stopSpeak();
+    const grid = document.getElementById('frontGrid');
+    const items = Object.keys(payload.categorie)
+      .map(id => ({ id, data: payload.categorie[id] }))
+      .filter(x => x.data && Array.isArray(x.data.segments) && x.data.segments.length);
+
+    // le notizie più estese vanno al centro (la più lunga è l'apertura)
+    items.forEach(x => { x.len = x.data.segments.map(sg => sg.text || '').join(' ').length; });
+    items.sort((a, b) => b.len - a.len);
+    const center = items.slice(0, 5);
+    const lateral = items.slice(5);
+    const left = lateral.filter((_, i) => i % 2 === 0);
+    const right = lateral.filter((_, i) => i % 2 === 1);
+
+    grid.innerHTML = `
+      <div class="col col-left">
+        ${left[0] ? cardHTML(left[0], 'side') : ''}
+        ${adHTML('it-sq-3')}
+        ${left.slice(1).map(i => cardHTML(i, 'side')).join('')}
+      </div>
+      <div class="col col-center">
+        ${center[0] ? cardHTML(center[0], 'lead') : ''}
+        <div class="center-grid">${center.slice(1).map(i => cardHTML(i, 'mid')).join('')}</div>
+      </div>
+      <div class="col col-right">
+        ${right[0] ? cardHTML(right[0], 'side') : ''}
+        ${adHTML('it-sq-2')}
+        ${right.slice(1).map(i => cardHTML(i, 'side')).join('')}
+      </div>
+    `;
+
+    center.forEach((x, i) => renderCard(x.id, i === 0 ? 'lead' : 'mid', x.data));
+    left.concat(right).forEach(x => renderCard(x.id, 'side', x.data));
+  }
+
+  // ---------- Fonti (in fondo alla pagina, piccole e cliccabili) ----------
+  const ORDINE_SEZIONI = ['italia','esteri','economia','tecnologia','sport','cultura','gossip','ambiente','moda','concettoplus'];
+  function renderSources(payload){
+    const box = document.getElementById('sources');
+    const righe = [];
+    ORDINE_SEZIONI.forEach(id => {
+      const d = payload.categorie[id];
+      if(!d || !Array.isArray(d.fonti) || !d.fonti.length) return;
+      const links = d.fonti
+        .filter(f => f && /^https?:\/\//.test(f.url))
+        .map(f => `<a href="${esc(f.url)}" target="_blank" rel="noopener noreferrer" data-fonte="${esc(f.nome)}">${esc(f.nome)}</a>`)
+        .join(', ');
+      if(links) righe.push(`<p><b>${esc(d.label || id)}</b>: ${links}</p>`);
+    });
+    box.innerHTML = '<h2>Fonti</h2>' +
+      (righe.length ? righe.join('') : '<p>Le fonti di questa edizione non sono disponibili.</p>') +
+      '<p class="src-note">Sintesi generate automaticamente dall\u2019intelligenza artificiale a partire dai titoli delle testate indicate: per i dettagli leggi gli articoli originali.</p>';
+    box.querySelectorAll('a').forEach(a => a.addEventListener('click', () => track('fonte-' + a.dataset.fonte)));
+  }
+
+  // ---------- Curiosità dal mondo ----------
+  function giornoDellAnno(){
+    const start = new Date(new Date().getFullYear(), 0, 0);
+    return Math.floor((new Date() - start) / 86400000);
+  }
+
+  function faseLunare(d){
+    const SYN = 29.530588853;
+    const NUOVA = Date.UTC(2000, 0, 6, 18, 14);
+    let eta = ((d.getTime() - NUOVA) / 86400000) % SYN;
+    if(eta < 0) eta += SYN;
+    const illuminata = Math.round((1 - Math.cos(2 * Math.PI * eta / SYN)) / 2 * 100);
+    const idx = Math.floor((eta / SYN) * 8 + 0.5) % 8;
+    const nomi = ['Luna nuova','Luna crescente','Primo quarto','Gibbosa crescente','Luna piena','Gibbosa calante','Ultimo quarto','Luna calante'];
+    const emoji = ['\uD83C\uDF11','\uD83C\uDF12','\uD83C\uDF13','\uD83C\uDF14','\uD83C\uDF15','\uD83C\uDF16','\uD83C\uDF17','\uD83C\uDF18'];
+    return { nome: nomi[idx], emoji: emoji[idx], illuminata };
+  }
+
+  async function loadOnThisDay(){
+    const el = document.getElementById('curOtd');
+    if(!el) return;
+    const d = new Date();
+    const mm = String(d.getMonth() + 1).padStart(2, '0'), dd = String(d.getDate()).padStart(2, '0');
+    try{
+      let eventi = [];
+      for(const tipo of ['selected', 'events']){
+        const r = await fetch(`https://it.wikipedia.org/api/rest_v1/feed/onthisday/${tipo}/${mm}/${dd}`);
+        if(!r.ok) continue;
+        const j = await r.json();
+        eventi = (j.selected || j.events || []).filter(e => e && e.text && e.year);
+        if(eventi.length) break;
+      }
+      if(!eventi.length) throw new Error('nessun evento');
+      const e = eventi[giornoDellAnno() % eventi.length];   // stesso evento per tutto il giorno
+      const pagina = e.pages && e.pages[0] && e.pages[0].content_urls && e.pages[0].content_urls.desktop && e.pages[0].content_urls.desktop.page;
+      const fonte = (pagina && /^https:\/\//.test(pagina))
+        ? `<a href="${esc(pagina)}" target="_blank" rel="noopener noreferrer">Wikipedia</a>` : 'Wikipedia';
+      el.innerHTML = `<div class="kicker">Accadde oggi</div><div class="cur-word">${esc(e.year)}</div><p>${esc(e.text)}</p><div class="cur-meta">Fonte: ${fonte}</div>`;
+    }catch(err){
+      el.remove();   // se il servizio non risponde, il riquadro semplicemente non compare
+    }
+  }
+
+  function buildCuriosita(){
+    const box = document.getElementById('curiosita');
+    const g = giornoDellAnno();
+    const p = PAROLE[g % PAROLE.length];
+    const pr = PROVERBI[g % PROVERBI.length];
+    const luna = faseLunare(new Date());
+    box.innerHTML = `
+      <h2 class="cur-title">Dal mondo, in breve</h2>
+      <div class="cur-grid">
+        <div class="cur-box"><div class="kicker">Parola intraducibile</div><div class="cur-word">${esc(p.parola)}</div><div class="cur-meta">${esc(p.lingua)}</div><p>${esc(p.senso)}</p></div>
+        <div class="cur-box"><div class="kicker">Proverbio dal mondo</div><p class="cur-quote">\u201C${esc(pr.testo)}\u201D</p><div class="cur-meta">${esc(pr.origine)}</div></div>
+        <div class="cur-box" id="curOtd"><div class="kicker">Accadde oggi</div><p>\u2026</p></div>
+        <div class="cur-box"><div class="kicker">La luna di oggi</div><div class="cur-moon">${luna.emoji}</div><div class="cur-word">${esc(luna.nome)}</div><p>${luna.illuminata}% illuminata</p></div>
+      </div>`;
+    loadOnThisDay();
+  }
+
+  const overlay = document.getElementById('overlay');
+  const overlayContent = document.getElementById('overlayContent');
+  document.getElementById('overlayClose').addEventListener('click', closeOverlay);
+  overlay.addEventListener('click', (e) => { if(e.target === overlay) closeOverlay(); });
+
+  function closeOverlay(){ overlay.classList.remove('open'); }
+
+  function openWordDetail(categoryLabel, word, detail, meta){
+    overlayContent.innerHTML = `
+      <div class="postit-card" style="--card-color:${meta.pastel};">
+        <div class="postit-label mono">${esc(categoryLabel)} — ${esc(meta.label)}</div>
+        <div class="postit-text">${esc(detail || word)}</div>
+      </div>
+    `;
+    overlay.classList.add('open');
+  }
+
+  function openApprofondimento(categoryLabel, text){
+    overlayContent.innerHTML = `
+      <div class="postit-card" style="--card-color:${'#9c94f5'};">
+        <div class="postit-label mono">${esc(categoryLabel)} — approfondimento</div>
+        <div class="postit-text">${esc(text)}</div>
+      </div>
+    `;
+    overlay.classList.add('open');
+  }
+
+  function openAforisma(text, autore){
+    overlayContent.innerHTML = `
+      <div class="aphorism-card">
+        <p>${text || ''}</p>
+        <div class="aphorism-author">
+          <div class="avatar">${AUTHOR_AVATAR}</div>
+          <div class="name">${autore || 'Anonimo'}</div>
+        </div>
+      </div>
+    `;
+    overlay.classList.add('open');
+  }
+
+  // ---------- Edizioni e archivio ----------
+  let dateList = [];
+  let currentDate = null;      // null = edizione di oggi
+
+  async function loadIndex(){
+    try{
+      const res = await fetch('data/archivio/indice.json', { cache: 'no-store' });
+      if(!res.ok) throw new Error('nessun indice');
+      const j = await res.json();
+      dateList = Array.isArray(j.date) ? j.date.slice().sort() : [];
+    }catch(err){
+      dateList = [];
+    }
+  }
+
+  function etichettaData(id){
+    const sera = /-sera$/.test(id);
+    const p = String(id).slice(0, 10).split('-').map(Number);
+    const d = new Date(p[0], p[1] - 1, p[2]);
+    return d.toLocaleDateString('it-IT', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }) +
+      (sera ? ' · sera' : ' · mattina');
+  }
+
+  function updateEditionNav(){
+    const nav = document.getElementById('editionNav');
+    if(dateList.length < 2){ nav.hidden = true; return; }
+    nav.hidden = false;
+    const idx = currentDate ? dateList.indexOf(currentDate) : dateList.length - 1;
+    document.getElementById('prevEd').disabled = idx <= 0;
+    document.getElementById('nextEd').disabled = idx < 0 || idx >= dateList.length - 1;
+    const ultima = dateList[dateList.length - 1];
+    document.getElementById('edLabel').textContent = currentDate
+      ? 'Archivio: ' + etichettaData(currentDate)
+      : (ultima ? 'Ultima edizione: ' + etichettaData(ultima) : 'Edizione di oggi');
+  }
+
+  function updateUpdated(payload){
+    const el = document.getElementById('updatedPart');
+    if(!el) return;
+    if(payload === FALLBACK_DATA){ el.innerHTML = '<b>dati di esempio</b>'; return; }
+    if(currentDate){ el.innerHTML = 'edizione del <b>' + dataBreve(currentDate) + (/-sera$/.test(currentDate) ? ' · sera' : ' · mattina') + '</b>'; return; }
+    if(payload.generato_il){
+      const t = new Date(payload.generato_il);
+      if(!isNaN(t)){
+        el.innerHTML = 'aggiornata alle <b>' + t.toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' }) + '</b>';
+        return;
+      }
+    }
+    el.textContent = '';
+  }
+
+  function aggiornaIndirizzo(){
+    try{
+      if(!history.replaceState) return;
+      const u = new URL(location.href);
+      if(currentDate) u.searchParams.set('data', currentDate); else u.searchParams.delete('data');
+      history.replaceState(null, '', u.pathname + u.search + u.hash);
+    }catch(err){ /* l'indirizzo resta com'è */ }
+  }
+
+  function vaiAllaSezione(){
+    const h = location.hash;
+    if(!h || h.indexOf('#card-') !== 0) return;
+    const el = document.getElementById(h.slice(1));
+    if(!el) return;
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    el.classList.add('evidenzia');
+    setTimeout(() => el.classList.remove('evidenzia'), 2800);
+  }
+
+  async function loadEdition(date){
+    currentDate = date || null;
+    let payload;
+    try{
+      const url = currentDate ? `data/archivio/${currentDate}.json` : 'data/oggi.json';
+      const res = await fetch(url, { cache: 'no-store' });
+      if(!res.ok) throw new Error('File non trovato');
+      payload = await res.json();
+      if(!payload || !payload.categorie) throw new Error('File non valido');
+    }catch(err){
+      if(currentDate){                 // edizione richiesta non trovata: si apre quella di oggi
+        console.warn('Edizione non trovata, apro quella di oggi.', err);
+        return loadEdition(null);
+      }
+      console.warn('Edizione non disponibile, uso i dati di esempio.', err);
+      payload = FALLBACK_DATA;
+    }
+    Object.keys(payload.categorie).forEach(id => {
+      const c = payload.categorie[id];
+      if(c && typeof c.label === 'string') c.label = c.label.replace(/Concetto/g, 'Concètto');
+    });
+    currentData = payload;
+    renderFrontPage(payload);
+    renderSources(payload);
+    updateUpdated(payload);
+    updateEditionNav();
+    aggiornaIndirizzo();
+  }
+
+  function vaiA(direzione){
+    const idx = currentDate ? dateList.indexOf(currentDate) : dateList.length - 1;
+    const nuovo = idx + direzione;
+    if(idx < 0 || nuovo < 0 || nuovo >= dateList.length) return;
+    track(direzione < 0 ? 'archivio-precedente' : 'archivio-successiva');
+    loadEdition(nuovo === dateList.length - 1 ? null : dateList[nuovo]);
+    document.getElementById('editionNav').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+  document.getElementById('prevEd').addEventListener('click', () => vaiA(-1));
+  document.getElementById('nextEd').addEventListener('click', () => vaiA(1));
+
+  buildTodayStrip();
+  buildCuriosita();
+  loadIndex().then(() => {
+    // indirizzo con ?data=AAAA-MM-GG: apre quella edizione; con #card-sport: scorre fino a quella sezione
+    let richiesta = new URLSearchParams(location.search).get('data');
+    if(!/^\d{4}-\d{2}-\d{2}(-sera)?$/.test(richiesta || '')) richiesta = null;
+    if(richiesta && dateList.length && richiesta === dateList[dateList.length - 1]) richiesta = null;   // è quella di oggi
+    return loadEdition(richiesta);
+  }).then(vaiAllaSezione);
+})();
+</script>
+
+</body>
+</html>
