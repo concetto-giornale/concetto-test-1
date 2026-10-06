@@ -1,0 +1,74 @@
+name: Genera edizioni internazionali e SEO
+
+on:
+  schedule:
+    # Ogni ora, al minuto 40. Lo script guarda l'ora LOCALE di ogni paese: dopo le 8 genera l'edizione del
+    # mattino, dopo le 18 quella della sera, e salta i paesi già aggiornati. Se un lancio salta, recupera il successivo.
+    - cron: '40 * * * *'
+  workflow_dispatch:
+    # Lancio a mano da "Actions".
+    inputs:
+      mercato:
+        description: "Mercati da generare ORA: fr, us, uk (anche più, separati da virgola) oppure tutti. Vuoto = solo quelli in scadenza"
+        required: false
+        default: ''
+      svuota_archivio:
+        description: "Cancella le edizioni passate dall'archivio dei mercati generati (resta solo quella nuova)"
+        type: boolean
+        default: false
+
+# Un solo lancio alla volta
+concurrency:
+  group: mercati
+  cancel-in-progress: false
+
+jobs:
+  genera:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: write
+    steps:
+      - name: Scarica il repository
+        uses: actions/checkout@v4
+
+      - name: Imposta Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Genera le edizioni dei mercati in scadenza
+        id: genera
+        env:
+          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          # Variabile facoltativa: elenco dei mercati attivi (predefinito: fr,us,uk)
+          MERCATI_ATTIVI: ${{ vars.MERCATI_ATTIVI }}
+          MERCATO: ${{ inputs.mercato }}
+          SVUOTA_ARCHIVIO: ${{ inputs.svuota_archivio }}
+        run: node scripts/generate-mercato.js
+
+      # SEO e GEO: canonical, hreflang, dati strutturati, testo leggibile dai motori, sitemap e robots.
+      # Gira anche se la generazione ha avuto problemi, così le pagine restano coerenti.
+      - name: Aggiorna SEO (sitemap, hreflang, testo per i motori di ricerca)
+        if: ${{ !cancelled() }}
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+          INDICIZZA: ${{ vars.INDICIZZA }}
+        run: node scripts/seo.js
+
+      - name: Salva nel repository (solo se è cambiato qualcosa)
+        if: ${{ !cancelled() }}
+        run: |
+          git config user.name "Concetto Bot"
+          git config user.email "actions@github.com"
+          git add data/ index.html fr.html us.html uk.html sitemap.xml robots.txt
+          git diff --staged --quiet || git commit -m "Edizioni internazionali e SEO: aggiornamento automatico"
+          git pull --rebase
+          git push
+
+      - name: Segnala edizioni incomplete
+        if: always() && steps.genera.outputs.incompleto == 'true'
+        run: |
+          echo "::error::Alcune sezioni o mercati non sono stati aggiornati: vedi il riepilogo del run."
+          exit 1
