@@ -1,0 +1,594 @@
+{
+  "generato_il": "2026-10-11T16:52:37.023Z",
+  "data": "2026-10-11",
+  "edizione": "sera",
+  "id_edizione": "2026-10-11-sera",
+  "categorie": {
+    "italia": {
+      "id": "italia",
+      "label": "Italia",
+      "segments": [
+        {
+          "text": "A Roma si registra un'emergenza povertà, il 43% dei nuovi richiedenti è al primo soccorso sociale.",
+          "type": "plain"
+        },
+        {
+          "text": "Greta Astarita",
+          "type": "name",
+          "detail": "Giovane donna incinta deceduta per un tragico incidente stradale"
+        },
+        {
+          "text": "un incidente",
+          "type": "plain"
+        },
+        {
+          "text": "L'Italia",
+          "type": "name",
+          "detail": "Il contesto nazionale che subisce anche fatti di cronaca nera e minacce"
+        },
+        {
+          "text": "ha un cuore",
+          "type": "deepdive",
+          "detail": "La complessità di una società in cui si alternano tragedie, lutti e disastri"
+        },
+        {
+          "text": "senza un filo di lana",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "La tragedia non è la rovina, ma la rovina senza aiuto.",
+      "autore": "Elio Moretti",
+      "approfondimento": "Il calo delle risorse per i servizi sociali crea una spirale di precarietà. Il numero crescente di chi chiede aiuto per la prima volta indica una nuova povertà diffusa.",
+      "fonti": [
+        {
+          "nome": "RomaToday",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSzd0U3BlX1VVeUdVWGJNNnJJZ2N2WTlUSnduQVllTEt4b2xMczQxWktHcFU4aVlWVGZTVzJ5bTROUEVUaGs5NW1GcTRVQzJYMGdtRE5pME4zTm1iSS03Y2h2aWFzaDY3QlB5dXlCZmNYVVNyYjFydmJ1bktFTGY0alZR?oc=5"
+        },
+        {
+          "nome": "Il Fatto Quotidiano",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUmVuLXRkZS1pYUFSMEYwenJmRlVGcVlyTEdSaGExcnJIN0N3SUdjcUNQd2x2OTZMR0RwdWxhUTZVdDdjc1JFU1JBYkJKSWpDeVBnZmgwNjBZZDBaNnRVRHQxSXNpVDFiSmlSY2FuTXJSbnFwS2UzTTZBTFdCdlhqRWU5S3pRenhyMENpWlZQZmJ0RzZSdFFveWYwWV93SS1teUpCZkVZekJkdw?oc=5"
+        },
+        {
+          "nome": "BolognaToday",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUGdEdVI2aVB0SWhib1U4X25Xak5ocWRSZV9EM2V3ZExQSFFiTkR1a2JkWDZZNjFYQ044SHdIcEdLR2J3d1IwM3hGMUhkN2MtYldOZWJwR1B4czRKYXVzUjdiWFJqWjBQd2JuQ2c0Y0hzczl4bXJqOC1VVTBYcXkzdnQ4eE1vckpmNkxJcHJ6cThORktYTHpPNzJHUUhTZElh?oc=5"
+        },
+        {
+          "nome": "Sky TG24",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE13ZnkyNXFjU2lBWi1uNExIcUlRTFdBNEVmVmRzS0JfOW02c1BqN0VQaWo2T2pfODN0OWRqUDNKOThDT0k2MnRpWUV0UW92ajlERTBWbkNyeHpXYmQyMnVONG9la1hlWWFtTzhZcHVOcURvMGxMajM1d1FRRQ?oc=5"
+        }
+      ],
+      "parola_foto": "urban poverty"
+    },
+    "esteri": {
+      "id": "esteri",
+      "label": "Esteri",
+      "segments": [
+        {
+          "text": "La guerra globale",
+          "type": "deepdive",
+          "detail": "Un conflitto complesso e in evoluzione che coinvolge potenze globali e diversi teatri."
+        },
+        {
+          "text": "si estende",
+          "type": "plain"
+        },
+        {
+          "text": "dal Medio Oriente",
+          "type": "plain"
+        },
+        {
+          "text": "alla Russia",
+          "type": "plain"
+        },
+        {
+          "text": "e all'Europa",
+          "type": "plain"
+        },
+        {
+          "text": "con lo Yemen",
+          "type": "unusual",
+          "detail": "Uno dei fronti principali del conflitto tra Arabia Saudita e Iran."
+        },
+        {
+          "text": "e il suo presidente",
+          "type": "plain"
+        },
+        {
+          "text": "Donald Trump",
+          "type": "name",
+          "detail": "Il presidente degli Stati Uniti interviene sulla guerra in Ucraina."
+        },
+        {
+          "text": "sostenendo una tregua",
+          "type": "plain"
+        },
+        {
+          "text": "con la Russia",
+          "type": "name",
+          "detail": "La tregua energetica tra Russia e Ucraina, ancora non confermata da Zelensky."
+        },
+        {
+          "text": "mentre il mondo",
+          "type": "plain"
+        },
+        {
+          "text": "spera per la pace",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "La pace non è un dono, è un lavoro costante.",
+      "autore": "Elena Voskovec",
+      "approfondimento": "Il conflitto in Yemen rappresenta il cuore del scontro tra Iran e Arabia Saudita. In Ucraina, la situazione rimane incerta con il sostegno occidentale che continua.",
+      "fonti": [
+        {
+          "nome": "Il Fatto Quotidiano",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQU0lRd3BJOEtQbHBLR0QtUWM1Wlh0Ny1OQTRnbzRCWktJdmJmalpSOVN0SmVyZUcyalZGNGM4SnRfR1VVek1NVVVxbEYyWmVMdE9JeVJGQkJEdHVUWmlaSzVNQ0Zvd3BYVjJsR0RCMHdNTVo3c2FpZzNkWU9wRGt6UDlycloxYTBuQ2doSWh6V1Z6S2hkTU9aX1lfSS05S0xrTU5Vb0xUTkRmYTFHVmRDbkhoRkdKUGxEMVhjZEhYQmZMaWpoN0xxeFdKUkR4MTFucGVfUUlFWThYNjl6TElHNFN3dWxQY2lacVdpelRGdG8yUFdONm5WYmJDa2ZsSEU?oc=5"
+        },
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQc2NBLTR4djBwVDhSN3lYc3hYWGxDdGZwMUNGQUJoMnpXVHd3MV9RaXFqREp1djBaM1FXMnFiRDE3czdYVUVGc0hVZXpjd2h3VEFQTk5mcVZpNmVLMWdNWUU5M2pYR2pUeGZfZGtFRWljQXdmRzlOYUhoMzdkRkt4RTlYMlIwbkE3MndHcUJlaUFpYktVaFVXSzZBeVpNRmJiclczRkZxMFl3SVhnaG5CaXhwQTBodGRGZ004aA?oc=5"
+        },
+        {
+          "nome": "HuffPost Italia",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ2pxMmhBVGxQWDh0N284U0NjMWQ5Yy1WTlEzR0ZGdk1VakstNnZ0RGRRSGhVd2JaT2gxYk1uQXJ5c2xjdVI2ZnZZN0M1VDdUT1h1UUpCYXdBM0NqaDNoQVl2WXZqY1BLd3hzNlZMazdkTFhTWFFMV3VEdlhzY0hqTVZ3NVRJTU5zTHh5aFdGU0hka1hXcklXNzZKSU9va05QeldVaU05cWVuWWM?oc=5"
+        },
+        {
+          "nome": "Libero Quotidiano",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcFZmaEgxZHBfaWk0OXNYeUdpVlhYc0VrM3hQVFA1Q0VvYWxTajl0RERXNHpKdkY4TjhjNUxnNUMzZUEwQ2NvdWFWbFVQcUVaekVRQ0NrTHBhaHpPYW5PM29TTjhoc2JWdzhvVGJ6MnlsSlQzVm5HUDdzNTBNVFA5eVY5YUFuaFpvNGJ6MGl2RkYyWUFZd2ZSRHp6VFpNbGxuZ2ZOeS12TUxpbHBpa1c4S0w1XzNheHZJcjNDdUwyc003MDhSUnfSAcoBQVVfeXFMTVJ3VldGd2l5NC1ZWmJIbHhsaWQzSmpxcmJLeDlyS2t3TUtHQWExTUd1UEYwNjZ0RDhKLUt2Z3o4QmdJRzRpdVNrcjN1ajVSZFVfUV9PbXNhN0ZqVDhPYUx6OEd0UGdULVV4RGdwS2NwNHdSSVoyTktIbzVtZDhMNnhBcXMwaUo4TGQ0VXl0ZG9IXzdmNWFaZkVOX25HeDZ1cTlnT1hwSzlwOE5hb3h6X1pXZzlKX0Zrc1A0Z1pyb3JnektxdXgydlh2UQ?oc=5"
+        }
+      ],
+      "parola_foto": "war zone"
+    },
+    "economia": {
+      "id": "economia",
+      "label": "Economia",
+      "segments": [
+        {
+          "text": "Gli investitori europei reagiscono alla ridefinizione dei rendimenti obbligazionari e al calo del carburante, ma l'economia italiana affronta sfide profonde come la flessione dei consumi e le tempistiche fiscali.",
+          "type": "plain"
+        },
+        {
+          "text": "Inflazione",
+          "type": "deepdive",
+          "detail": "La pressione sui prezzi che influenza i mercati e la politica economica."
+        },
+        {
+          "text": "29 ottobre",
+          "type": "date",
+          "detail": "Il prossimo incontro della BCE è un punto di svolta."
+        },
+        {
+          "text": "Tassi",
+          "type": "unusual",
+          "detail": "Il livello dei tassi di interesse e la loro influenza sul mercato."
+        }
+      ],
+      "aforisma": "Il mercato è un temporale: tra il sole e la tempesta c'è solo l'attesa.",
+      "autore": "Egidio Velluti",
+      "approfondimento": "La recente volatilità dei rendimenti dei titoli di Stato evidenzia la tensione tra la necessità di contenere l'inflazione e il sostegno all'economia reale. Le previsioni per il prossimo incontro della BCE sono cruciali per definire la rotta.",
+      "fonti": [
+        {
+          "nome": "Il Fatto Quotidiano",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPQkpOeGhaUmkwbG9mV3o2OXBuZWdHVnFLRVRxOFFZazlMbl9IbXdUS0RFUGxpazVlNHNwbEF0TG03T0N6SFhxem9sUVBlbGdyMXlGaWgyY2h6QzdXTTlGSnNDSjBDQ2R6dzRiUUJPNTZ2ZEcwMk9SNW1JbE1KM2tsai0zaDhueXlQUXUxcFhrLXM2Z240SUR4enhLbkF4VWVTdEk2MkJaM29BRFBCbExKcGVLdlJYTDdEcDNhV1hDNnFWanZUMTdZSzRaZE5BN0lPaEtjUmJpSll3RmdEZjMyd2h5V2RpQ19PZlVBaTJKTjJVbzhUUTNN?oc=5"
+        },
+        {
+          "nome": "Facile.it",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9JQlc5aG5oVFFUQy1DNnVTNXF0NTRwaUhMVVVkeFlQUERnSGJHc1NiUDlkWFA4c3hvNE5IdlFDZFNIbElhRHhjWTAtbjBjTHVJSU1mQ1Noaml6cW5qV2xKUmdheE4wLUU2Y2x2T3dFSHltX3VHdXFr?oc=5"
+        }
+      ],
+      "parola_foto": "stock market chart"
+    },
+    "sport": {
+      "id": "sport",
+      "label": "Sport",
+      "segments": [
+        {
+          "text": "Nel paddock di Singapore",
+          "type": "plain"
+        },
+        {
+          "text": "Leclerc",
+          "type": "name",
+          "detail": "Secondo in classifica al GP di Singapore"
+        },
+        {
+          "text": "si fa aspettare",
+          "type": "plain"
+        },
+        {
+          "text": "Antonelli",
+          "type": "name",
+          "detail": "Candidato al mondiale con il match point a Austin"
+        },
+        {
+          "text": "e la Lazio",
+          "type": "name",
+          "detail": "Inferiore al Monza in Serie A"
+        },
+        {
+          "text": "non riesce a sorprendere",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "La vittoria è spesso un momento, la costanza una maratona.",
+      "autore": "Marco Briceno",
+      "approfondimento": "Le classifiche si muovono a piccoli passi, ma le storie si scrivono con la costanza.",
+      "fonti": [
+        {
+          "nome": "la Repubblica",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMDlFd283dUR4ZFNPcEJYSWR6cUtCQW1BaDlFZkpYWkZDbHpMakJ3YjNBTFJXVEZTSzFwZ0pjdUtQY1ZIVUhDOXFCM1RmTjdBUTJLWFlvNW5CSTh1UVhmWklBTjNKR2N4SDJDaGMyVTU0SW8tUlJhcHdyNU1BVDBHWTByaU9YbW1MOG5IN0VTQTNSVmdoYlJ6YWVwVURDRzFBeFhZcjhHVTQ1NGEzOUZGb3hoeXcyUzdWVDRrMmt4OUQ3NURRYXZwbVR30gHPAUFVX3lxTE5mNmpnVWd1TUlIaHlDTlJzSF8tYXF5b2h0UWZRSld0S3FGcFk4UGx2WnJRcWU0ZXRwd3B6Vm5BZ0M5VF90NG81aEVFaEJ2STQzM1FVdExOck5TejFfLWo0RFEwY3hDM1hPZDMta3BlTm96U0k3N0VMNU16OHFyTWFzTWx1NloyYVFnOXQ0LVQ3UGNkTmthbE1ReTN5aUVicUtIMHQtbENiUU1lUUd6bk5PRHliZ0hVM2ItTHEteUpUNjNZVHZPVk0ySHg1bU9yMA?oc=5"
+        },
+        {
+          "nome": "Il Fatto Quotidiano",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMmphdS1XbmVQd0dGRE9PdUdhUWZYdnhTbGcwb19jTjNPbjZXcENrOGFheGh3MENFQ0RzTy1GeXdXWWQzbF8tbHRscFZuSl9UV0JiU0xnZVRSQTJ6NVJvd21qcm1yanZUdHlUS293TVJvRk9rbEc3R0hNTHJ4bmw3Z1J5dEdnX0plcEMzUGJ5VjR6NldiLWo3MmZpN3RrWkFqNkpPQVNLU3VuSm1xMHFGZ0hFV2gxOTN4dXNXLWVGQWFKeTN4SHNzR214dGhoUQ?oc=5"
+        },
+        {
+          "nome": "ANSA",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUHhsMGlsUV91WnJTRGdWc0NFWWVrVi1lb3RuN3MxVHRqN2liRUJwcXhlT1RMS2prLW1CM3BuTnRjMEJGaEtfX0kzcFNZU05yU19iTmx2UHQ0LWRPM0hudEZOdVlXemlDcTVPUFFzcTBoajk1eTV5SUlXV2xmMkcwdjd2UFFkdEV3dlZ3VUpFMEp2Y2lkLUI4Rm9PNnQ1ZzFOTTZNYmFsMVZOYy1fcm10cXNzYm9RN2xiUVBtcjZOZzA1VktJN0ZqcDJsZTdaUUdYSFRKdVRfNjlNQTJYYzAtSTh5ZnYxaXNpOHhjeXdkUEhTQQ?oc=5"
+        }
+      ],
+      "parola_foto": "race track"
+    },
+    "cultura": {
+      "id": "cultura",
+      "label": "Cultura & Spettacolo",
+      "segments": [
+        {
+          "text": "Ballando con le Stelle",
+          "type": "plain"
+        },
+        {
+          "text": "è in crisi",
+          "type": "plain"
+        },
+        {
+          "text": "affollato",
+          "type": "unusual",
+          "detail": "Si riferisce al fatto che il genere televisivo è molto competitivo."
+        },
+        {
+          "text": "dove",
+          "type": "plain"
+        },
+        {
+          "text": "le spettacolarità",
+          "type": "unusual",
+          "detail": "Le produzioni televisive che cercano di attirare l'attenzione."
+        },
+        {
+          "text": "non bastano più per",
+          "type": "plain"
+        },
+        {
+          "text": "la sopravvivenza",
+          "type": "deepdive",
+          "detail": "Il concetto di come il pubblico si stanca delle stesse cose."
+        },
+        {
+          "text": "di una trasmissione.",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "L'immortalità non sta nell'essere sempre al centro, ma nel non essere mai dimenticati.",
+      "autore": "Elisa Vignali",
+      "approfondimento": "Il declino di 'Ballando con le Stelle' segna la fine di un'era televisiva basata puramente sullo spettacolo. L'attenzione del pubblico si sposta verso contenuti più autentici.",
+      "fonti": [
+        {
+          "nome": "Sky TG24",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNODdLQ2lEd3ktM2c0Y0dyV3Q2MC0zUE9IZ1pTUjdNMzF0NHBvcmRVRldVUk4tQUlmUmxiaDA4MzJTWU5mQVZHWTY1TDYyX0RMNWFPd0tYQmtLcGEtX0x1V1JUUlRBSTg5d2xsTUcyR2QyN19rY3RQQS1Dd0FyNzM0MA?oc=5"
+        },
+        {
+          "nome": "Libero",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE41R1p3Tzc5bTZTeXFkTmhxNDdWU0NzZmtmWm9Mek5BX1ZPM1NRa2lFLUNOV1htalJNUEZraFhyM2pOdVB3VWlSTW81SzJKemRiX0tlZlBsZ2U3VmQtUGpqZ2RHNjZ0ZmZBZnR6NkdlTS1WZ9IBd0FVX3lxTE1BakJudXlEZlJFWlkzeEFRc3dMdDBRTVhJNVZLSmhJU19PMWdCQV83dnBqY2t4MENlV1haV0RWV0RsUFRmMVRvcmhNTDY5SllrRFJ6N1d5cDFIekVSbU9ZNHhlTE5RWkFLZ2tmWWZFd1hiT3MtUlhJ?oc=5"
+        },
+        {
+          "nome": "Il Fatto Quotidiano",
+          "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxNUmhuWHpXc0RqNXdELUl4RWxGbGRNckpIVGtxZElqZ3NNMkk3eUJnN2I5WVVSTm9VZWFySEtobUFfWklmNlVPWVA5WEw2MzEzVFozb2Vhc18xQnZtVlF5ZmxlSjN2bWJhWWZjcVBPMlRPSEppU0FESFpXNW1zd0NIeFQwODN2dGJ0MlJkalBYaEtuUjl3QVFUWHFHWHdKWC1qaU9vQmpuWktkNnp5YmFDMmRfVTNWUUNEQ1Z4NFJOV1FfTHU1OU1vb2Z4QTlVeWpLZTRncm5yYzNqRGNEWE54YlU0X3BrTzl1Y2FHZFNHZV93VngwVktoazNzRjJDcWs3X1l4VmVwbkxfbnJzT19fSnZmRnhDQXFJWWRKbGFkMjJRU21iQlAzZ2FTcVltQjZHZnJIcjRRT0U2SGZRQ3lKSjEwRFdoZUpLM2VNeGhNQ1ZMSjdkVW5PaVh2X2NoRkdHT2hwaA?oc=5"
+        }
+      ],
+      "parola_foto": "television studio lights"
+    },
+    "gossip": {
+      "id": "gossip",
+      "label": "Gossip",
+      "segments": [
+        {
+          "text": "Tutti i vip si recano a Milano Fashion Week per difendere il gioielliere Roggero mentre in televisione si preparano le nuove stagioni di Celebrity Bake Off e Isola dei Famosi, alimentando il gossip del 2026",
+          "type": "plain"
+        },
+        {
+          "text": "Celebrity Bake Off",
+          "type": "name",
+          "detail": "nuova trasmissione televisiva con Giulia Salemi e altri concorrenti"
+        },
+        {
+          "text": "Isola dei Famosi",
+          "type": "name",
+          "detail": "trasmissione di reality show con Selvaggia Lucarelli"
+        },
+        {
+          "text": "Roggero",
+          "type": "name",
+          "detail": "gioielliere al centro di un conflitto di interessi tra vip"
+        },
+        {
+          "text": "Milano Fashion Week",
+          "type": "name",
+          "detail": "evento di moda con presenze di star internazionali"
+        }
+      ],
+      "aforisma": "Il vero show delle celebrità non sta sul palcoscenico, ma nei retroscena dietro le quinte.",
+      "autore": "Marco Rinaldi",
+      "approfondimento": "Il mondo dello spettacolo è una macchina perfetta per escludere gli outsider, costringendo i vip a difendere le proprie posizioni e creando leggende metropolitane. Le trasmissioni televisive diventano il terreno di battaglia per l'immagine e l'attenzione pubblica.",
+      "fontesi": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "fonti": [
+        {
+          "nome": "Cosmopolitan",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMGcySTQxLWVCRUpTN2k2N09Hc1BIYThSNVB5aGltRjU2bi0xYzNQaXYydGdwMVE3Zy1aUTIxWk5PUzJRUG05SHg3SWdkbmJsSzI3Z3VMc1MzVGx6NDNDLURubS1JaUFWcFF6WERzaFFpT0M0YkJ1aXU0bXJ0czZPdzRtWldFcU9STFQ3RENDNXAxQk12Y1dWZGxmX1RFVUJwbnhvREJzNU85aENBUE1qYmwwMGM2UQ?oc=5"
+        },
+        {
+          "nome": "Today",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBTbnVvdnB2eE94NDNWbU9Jamx2MW1MLTVVRXhlZTdCakxpTjZUd3RBZnhleUdoTjhrRlVBaERaME42eXpWeVY5RXNUa1lmS2toOWxKY2Z6XzBqUmZxRUd2TTBXNF9rZ2I1djJZUEkyZEJHQWdn0gF0QVVfeXFMTmk0bTA3VExILWc4VXJXWVIxT0JzSEZDTUU5YWpEY1lla1JnV21weEFsd2dpSlFjU0N6UTUzUGtILVpJbGRLeDBDdEhwX3N5eGNzcmVVbVhpdEtwZXV3UHpuM1pDTHJnWnZyQVZBcmt5WWRUTDY?oc=5"
+        },
+        {
+          "nome": "Oggi",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSzR5MURfU2VxUEU1bVo4ZzZqS0JDZTBYaWIweHNMdEpDTlNqZzhkNmljUHVOY2FLejJOQkh3cTBUTGQ2MmVrQXMtRXd1X2lhM0hHanJKci1QNW9OT2xWb2lsZ0hDUUZHOHp0ZWhCS0hJeHRRaEhVeVpzRjB2WHdHQ29ZNVZldHRpOWFKY012TnpibUxNNk9Wbk5BUmZRUWRyZThncS00OUhIZTJZWnE0Z09RNjFoQU5SMGRyZEhZNTB3OGZydDlMbHByUV92Xy05U25fMTB6T2d1QWd0eDBpVXhlcFZwUQ?oc=5"
+        }
+      ],
+      "parola_foto": "celebrity red carpet"
+    },
+    "ambiente": {
+      "id": "ambiente",
+      "label": "Ambiente",
+      "segments": [
+        {
+          "text": "La Lombardia",
+          "type": "name",
+          "detail": "Regione italiana coinvolta nei Patti territoriali di sostenibilità"
+        },
+        {
+          "text": "",
+          "type": "plain"
+        },
+        {
+          "text": "",
+          "type": "plain"
+        },
+        {
+          "text": "sostiene",
+          "type": "plain"
+        },
+        {
+          "text": "",
+          "type": "plain"
+        },
+        {
+          "text": "",
+          "type": "plain"
+        },
+        {
+          "text": "i",
+          "type": "plain"
+        },
+        {
+          "text": "‘Patti territoriali di sostenibilità’",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il clima non aspetta che si decida di respirarlo.",
+      "autore": "Elena Vento",
+      "approfondimento": "Questi patti rappresentano un passo fondamentale verso la gestione collettiva delle risorse. I comuni e le regioni collaborano attivamente per raggiungere gli obiettivi europei di riduzione delle emissioni.",
+      "fontusi": [
+        8
+      ],
+      "fonti": [
+        {
+          "nome": "Regione Puglia",
+          "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxPZ0pDaVhJa0hHUDdXSzQ2OU0weVczRWFuVTBSek9UbU8wRF83SGlhemlvNFNoTUJnQ1daeUhza19UUTVkSnJCT2Y3THlFMUFUdndmSEZRbWExQ0NnSldrSmNrbHY5bnhDdjltZWlCYnR1NFNGNzlDRUZMY2ZacnZDZjduZUtpWVFpajFCQTFlWERGVms1cDVWQnFqRVNJQ0VmSDcxNWQtQTFYRTJBeHlYdDk1TWMyRUc0eGpGQXljTHpvUGtOOWQ1RjA5WU04TEFSQmF3UFNTWWs0QjlPNVlZRmlodkwzUWVqOTlSbE1nOXV3VmZFek5YMHFnTm9ycnBFbmwzbmZIZEk4UnE3RlB6aENvYUZYbVZoU3ZXb1hDdUxDWk5lU2ZWV1RTWlVyd0EzN1U5eldncE1qZWZKSGdPaXlKRDYwbEQzRWd5Q0pqaTJucmdrcHV6eGlR?oc=5"
+        },
+        {
+          "nome": "Comune di Oristano",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSUhRaEFzR0s1MW10b2FDaDBXQTAtNy02TmR1OEEtTFhYSHM1S1V0bWZNQWJYVmppdDBTNGRmb0dadkZrTFNVOTdQdlpTOHRnRHp5MmZycFoyNWNfM1BsWWR2T1ZZaTZORFF6NzNOV2VnamF6ODdUMnZXdmFoU1laMW5oU1JJZUhQWWpVRHhBVXluQkVxblB3S0tseGRscEV4Tm5OcEhBRHNxeVM1SlZaVjNxa3dNZkkwNnJCVFI3MXo4Z2J5c0ZSeVpDcl9JdXRScmc?oc=5"
+        }
+      ],
+      "parola_foto": "city council"
+    },
+    "moda": {
+      "id": "moda",
+      "label": "Moda & Lifestyle",
+      "segments": [
+        {
+          "text": "Il connubio tra moda e design",
+          "type": "plain"
+        },
+        {
+          "text": "Milano",
+          "type": "name",
+          "detail": "Città d'arte e capitale del design che ospita eventi globali"
+        },
+        {
+          "text": "celebra il futuro del lusso",
+          "type": "plain"
+        },
+        {
+          "text": "2026",
+          "type": "date",
+          "detail": "Anno di Design Week e nuovi percorsi formativi"
+        },
+        {
+          "text": "con borse di studio e collaborazioni strategiche",
+          "type": "plain"
+        },
+        {
+          "text": "arredamento",
+          "type": "deepdive",
+          "detail": "Il crossover che trasforma capi in ambienti abitativi"
+        },
+        {
+          "text": "e progetti innovativi",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "L'abito non fa il monaco, ma il contesto ne definisce l'essenza.",
+      "autore": "Elara Vance",
+      "approfondimento": "Il confine tra abbigliamento e arredamento si assottiglia sempre di più, con brand che lanciano collezioni per la casa. Università e scuole private preparano i futuri professionisti a gestire questa transizione.",
+      "fontesi": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "fonti": [
+        {
+          "nome": "Vogue",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81RlJJelF4ZmVLdjNUU1lmN2FMczdPUnk4ODJPTE9TOF84UC03RS1OU3NZWDZmMy1qaHFuVXh5bDF3UUk0T29Rdk9ldHFYdFRISDVYZkpIbng5NTA?oc=5"
+        },
+        {
+          "nome": "Cosmopolitan",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdGo1Vi1iZmcxTmpkXzZYU0pxc0hRd0FCMFZkaWxGM193QjZqZkRRNG9mTVpyZ0NXeEtQUktocFpwWHQtajg2S2tLNnRnTXJocUxmN3p6dEEtSXhqSzA5bi10S1N5Z2lBQXhuanl3dnpJNm9tRWRUdmRCWEh1c09hRW1aa2xMM000aUZ0U21ZMlk4VTVrVk9OWGZUUTcxbXdJazkzVmdmbVdnY1VzMkRLdmZGQQ?oc=5"
+        },
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNGt4dldsWHAtRVNRS21hLTBkWWo3Ry1RTWREd3VPTTVCbkp4OU5NSE9rYUJueEhlZVN3dTVJeVBaWnIxY0I0cU9JOTJFYU80WGhoSmdzQURYVXpLaDhFWnNtUWJleGQ0dEZNNXJQNlN2aDR3Sk1CSjI2QUxmR3luV2VEekhhYlpFYjhkUFdmdDB2eFFqNWNfRnM1MA?oc=5"
+        }
+      ],
+      "parola_foto": "luxury interior"
+    },
+    "concettoplus": {
+      "id": "concettoplus",
+      "label": "Concètto+",
+      "segments": [
+        {
+          "text": "Un furto di 30.000 bottiglie di vino antico nel cuore della Toscana",
+          "type": "plain"
+        },
+        {
+          "text": "Meloni",
+          "type": "name",
+          "detail": "Premier italiano, centrodestra"
+        },
+        {
+          "text": "affronta contrasti",
+          "type": "plain"
+        },
+        {
+          "text": "e sfide",
+          "type": "unusual",
+          "detail": "complessi dilemmi nazionali"
+        },
+        {
+          "text": "come il deficit di Roma",
+          "type": "plain"
+        },
+        {
+          "text": "e richieste estere",
+          "type": "plain"
+        },
+        {
+          "text": "che mettono sotto pressione il turismo",
+          "type": "plain"
+        },
+        {
+          "text": "e la cultura italiana",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "L'Italia vanta bellezza senza pari, ma non sempre riesce a difenderla.",
+      "autore": "Mario Moretti",
+      "approfondimento": "La Toscana è la culla del vino italiano, ma il furto colpisce un'azienda storica. Rome's deficit worries investors.",
+      "fonti": [
+        {
+          "nome": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbnZXd0tTbENHeVlPVFU3SXNjRjMwWlNzcnNrQnhaWlBGRUNsZkR4UWFGSk4tTHM3U0dleXV2N09PcUFLZmlmR0pGbHFoRy1WeGJiQVJWNmRjT2NzRHhxY1BXX0RMN01RSnFrNHJGX1c4S05XMldRZGxNaXMwdGwyMUtnM3NMaVFWaDFwcFVwRDA?oc=5",
+          "paese": "Stati Uniti"
+        },
+        {
+          "nome": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbzFiYWVmZTFGbUxQeG56SHg1Y192Mk5QUV9GRDdYcjVXZS1rVy1jRXVNSUJQN3ZTZldrdFdUMDgzcDVFVmZVd2hDa05JTWFNQ3FIbWFaZllhcUhJZWVVZEQtWTBNN2pZdUpYVHRaTzU5c08yYlhHUnJXX0MyRjV6QlZnTTNBWmd1UDJzUFA2MWFfVHfSAZgBQVVfeXFMUG9LaUd5VmUtTExpekVpb1BqSUF3czg2S2g5Rkptc2lmZGZoc3puODRQa3lETFFVcm96RU5ONVAzdmFlOEhyczk3dkpzanJZZWJUUFFfY3N5SEVWV0N4WGdsWVNhbzVueVFSQ19GMzZCcTM3bjFJS2xhOEpPNGRMbzVyazhpMnhWSDBlenBEclNVbzBhYXRBYmI?oc=5",
+          "paese": "Stati Uniti"
+        },
+        {
+          "nome": "Ynetnews",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ub0NZQzhZT0ZjYXVVaGxURGJ6UUNHOEpaZ2hUUS10LTB3UFc0VGZCVXYyUW9OXzdxSG9FQ3JHWGxFZl9JSFlqNVA2c3NsSlNsMERqanZxVUZfSUlWVHBvOHEwVHo4T2xT?oc=5",
+          "paese": "Regno Unito"
+        },
+        {
+          "nome": "Grazia",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQUlZkVmwxNFhqak9OTzRua1NncUhFWFZqWnZSTGlpZ3haWTl6V1RpZFE4WHplTnBrUGthbDhZWXplTXJhcWZ1eVZDSUtvVGgxTnJ3bks5M1pTZFVCMkhZdlA2VHdXWHZES1RvWHRrZHU2UTFnQ3BkMkRDWWU2UklMMlJrbTJLQnRUbEM5VHV4bGR1NEc3dGJaVGlaZVZFOXdfc0lqR2Y4OEZobHBiVTBZZXB2bGVVX1lQRTVVc2MzRVllZGtVaVhnV0Y0RFdYSjJfUEtMV29PeW1mempERjQzLVBJSzZPbVZnSGI3LWVIMXltY0E?oc=5",
+          "paese": "Francia"
+        }
+      ],
+      "parola_foto": "wine bottles",
+      "paesi": [
+        "Stati Uniti",
+        "Regno Unito",
+        "Germania",
+        "Francia",
+        "Giappone"
+      ]
+    },
+    "tecnologia": {
+      "id": "tecnologia",
+      "label": "Tecnologia",
+      "segments": [
+        {
+          "text": "Il futuro tecnologico si fonde su una doppia linea: la sovranità digitale e l'etica dell'IA, con Mosca a rischio blackout e l'Europa a decidere i nuovi confini dell'intelligenza artificiale",
+          "type": "plain"
+        },
+        {
+          "text": "sovranità digitale",
+          "type": "deepdive",
+          "detail": "La capacità di un paese di controllare i propri sistemi critici e dati senza dipendenze esterne"
+        },
+        {
+          "text": "etica dell'IA",
+          "type": "deepdive",
+          "detail": "Il dibattito sui limiti morali e comportamentali da imporre alle macchine apprendenti"
+        },
+        {
+          "text": "Mosca",
+          "type": "name",
+          "detail": "La capitale russa, coinvolta in attacchi cyber e tensioni geopolitiche"
+        },
+        {
+          "text": "Europa",
+          "type": "name",
+          "detail": "L'Unione Europea come protagonista e regista di normative globali"
+        }
+      ],
+      "aforisma": "L'informatica è diventata la nuova frontiera della politica, dove i server decidono più di quanto facciano i parlamenti.",
+      "autore": "Elio Pistoletto",
+      "approfondimento": "Il rischio blackout in Russia evidenzia la fragilità delle infrastrutture critiche, mentre le decisioni di Anthropic e le normative UE pongono l'IA al centro della sovranità globale.",
+      "fonti": [
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPa01PZGpzOFIzU2pvQjk4RklKdUVNWHMxekh3ckVTZ3NsbnV2ZklPSTRSM0dqa3pUc2ZBZW1LZm1SWmNPVl9yOTQ5X3U0R0pEaEg2WlFWN0xLcWJSTzA1TDYwNTJtRXJ5aFUxUzJuZjJ1bGdwUzNrZG9QWklab2J5T0k1ZU5fcGFsNmV6Rkw4RmRDdmVkbjFrSkh2bmd5dWRjRFYzaXdsUVhrZnZscVZTcy1KZkxvVjl4a0JsMnRHNmtQdU5GWGlBM1FUbDVyeG84eE1XZ0YyQ244cFBGNUlsVUxHU2xlaDhCTUdpZm55MnBsdFF5dzBwbUstbVNYVzA2emRfMXRHNUMyazMwMmfSAZMCQVVfeXFMTWxRRS1FMHg2YzBMMHJFaDJlUFVtMEZhNDM5UUtYQ25VWTZpUXRsMG5ydFJhYjVZc2V6S3BORVhuNkdMZFp5LWU4TXU4X2hLem8tTEtZZklRLVFrR1c2VWZIX0NZOGRHWHBEY1BTMEVrR0pBSU1BaEVpOUhxeEtzZEJ0by1zVzVmSlhkUExUc3ktRVFDVi1WQ2x3RHgwUXpZTXhuY21fWXdNZVQyWjRjdXA4Nk9xUlRDNWo5R250dnFOZU9OQnBzbjdDR0Nzb205cEdqZDc1Zmx5Ym5CaFBlcEVDU2hWMG1XNVFmVVprdlFuQjM4bkNNN212a0hlZ0I1WndQUVhTYzdYejJ0WkdodTNDdDA?oc=5"
+        },
+        {
+          "nome": "Il Fatto Quotidiano",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZmNwUWJmLXNpTEo1UnVueFZYOWhOTDVseGxGRHl0UTNOS2U1LUpSa0RZOFh6NXNuamg5WTlkNXI4SlVvVVE5YUgtNm5fSFBQMEFCV1RlOGt2RW1leW8yc3NEZk0xNlVPdHFEd3NNMmRlM3NUbVY2VlkyOUR4Q3pBcnlzTS1jSjRCa0c0Q1R2M0ZJUQ?oc=5"
+        }
+      ],
+      "parola_foto": "server room"
+    }
+  }
+}
