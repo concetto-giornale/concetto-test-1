@@ -1,0 +1,586 @@
+{
+  "generato_il": "2026-10-12T16:54:12.979Z",
+  "data": "2026-10-12",
+  "edizione": "sera",
+  "id_edizione": "2026-10-12-sera",
+  "categorie": {
+    "italia": {
+      "id": "italia",
+      "label": "Italia",
+      "segments": [
+        {
+          "text": "Mentre il",
+          "type": "plain"
+        },
+        {
+          "text": "Vaticano",
+          "type": "name",
+          "detail": "Luigi Carbone è il dottore di Papa Leone"
+        },
+        {
+          "text": "affronta complessi dilemmi di governo, il Paese è scosso da una sequenza di eventi tragici e tensioni politiche, dalla disastrosa frana in Sardegna ai malori mortali e alle violenze a Milano, con la Commissione d'inchiesta che sospetta la mano della 'Ndrangheta dietro l'omicidio di Rossi e il giallo di Reggio Children.",
+          "type": "plain"
+        },
+        {
+          "text": "e",
+          "type": "plain"
+        },
+        {
+          "text": "Gennaio",
+          "type": "date",
+          "detail": "Riferimento temporale per la morte di Giorgio Bracardi"
+        },
+        {
+          "text": "chiude con la scomparsa del comico",
+          "type": "plain"
+        },
+        {
+          "text": "Giorgio Bracardi",
+          "type": "name",
+          "detail": "Crea Scarpantibus e Max Vinella, muore a 93 anni"
+        },
+        {
+          "text": ".",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "La vita è un dramma che si recita anche tra le pieghe della politica.",
+      "autore": "Aldo Merli",
+      "approfondimento": "Le tensioni politiche interne si intrecciano con gravi questioni sociali e di sicurezza. Il caso 'Ndrangheta e il giallo di Reggio Children evidenziano come le istituzioni siano sottoposte a pressioni forti da diverse parti.",
+      "fonti": [
+        {
+          "nome": "la Repubblica",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUF9LVHhoWl8zdE1LWmJlNG9acVB1aUhXOEY4aS1hWEFMQXFqM3YxM0tTME90QzFZRVBGU3A2MEtWSVBydzFiaEVQS08yenQ4OFlJa1M1QzBmN2pJeGxwN2FfMWpVa3EtbFhtNVVfbUl6NjJTMlF3NnptcWt0U2dNN3I1UlA3UUh3LWEyUUQwTVJ2MVVEdU9sOXd3T192dkZjNHE2b9IBqgFBVV95cUxOb096THktYjhRb3JKN3FjVlg2U0pNc0U0Z0REZXdHMXlER0V2ZVpNdHhPb0dWYVJhVWlacHZBU1d2REt4M1VheE04MGdXMDI5Q2Q3NVhBUThLQ0NoZlk3MU5MLXplV29qSTltV1JmUzFPVHBtZUxJR3NCSXh0c3kyeVJFalZHWlFyYUxIdmJuOEhuejZKSU1YR3VkT3V0d0dYeDN4ZHRJcUIzZw?oc=5"
+        },
+        {
+          "nome": "Sky TG24",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQm5EbndFS2l4MzhublFQdWdUS2s2blRvMXVNRGUyVS03ckk2MS11YjFYMFFsSG9XTUdaNkNGWFFIbkNUbjR3SGJxZktzbkM4dTB6STFPX3FSenNRZ3d4RUxSZGR0UUV2WWp4THE1TUZnQ18wUWV0cXdvUTFPSXY4bV9UUndobVU?oc=5"
+        },
+        {
+          "nome": "ANSA",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNZndiTExfV2FZWEZTaXJscHZ4SUl2dENZamtxZ0ZrVGlkWkN1YVpxVXhSWHlMeTF3SWtzRzhVdk1jeVJFMmVUZC1pbGV3U3c2bDBYSjc0eFFfakp5RkpoZTcyVEIzeWxkWTJPWVJuZ0VrMWdFN09UWkdfVmxpSWNwakxmNjZUdC1xS19FcFdjMEdhb1JTcHFibWp1U1RnTG0zUW1ramZsa1FVZGJaVnRLdFd1cXRfZUozc0hnRWV1S1ZBSU1lakZxdG03Vk43cnE3aXJ5NzFCcWxxZ3Q3M3V4R0stSzVwVUhwSW1KWjdDQzVSRWdISkpv?oc=5"
+        },
+        {
+          "nome": "Corriere Fiorentino",
+          "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNS20zZzI4QUlQV09hMWJVRU11SHl2dnVMWmZVWWVDNmlYLWhTbnVuTHZxZS1qSHVjM095RkN0N3NzdVQ0OUxYaGZVVU5Xbkl1RGxDVDZPS3lTejA2d3ctMW93bHZmSXlhZHZKTG5ZQm10VDZ4amUtTEdBVzZ4MUNiZk5ydmdjZGktR2RJNHNqZ1ExanlndTQ0d3BzSDQwVVl4VEttUWUtbXpLYkJtRFdhTDdaeXpXMGNjV3dlSFRwLWFlZ2ptV1E1QW0ycG5XdGRITUV0R2tCYkR1T1lmRmYzOU5IV0toLTR6cHlaNWFJaHkwczdpQWRtWjljTFJvRDdjbnhEdWVTeHBDSlhSNHA5VW5UUUJzUFRORU1ZbElkQl82WmdIUlF0UXgzUm1ndU1Gdk9HTG5RdVVRdFNjdTl4ZHJULWJlcnc1TUFQX1Y1WVpBUHNGSkh3REQwZ9IB4AJBVV95cUxNdmdjTFNoX3g1TU92UzNQZlp6UFdkYjhPSi1UekJSUExzQlBJU2RQS1AwTXVyR0JGbFFnYi0xMG01YTdlbExvZHRsb1NYWHhnRmExQkFCbjhId0E0X3JiaE1yV001UTNKXzNGTWlpanMyOFAyZVhvalNqRFIyekxyd3h2aHFqbXV1UTVKVFZJYmxZMURiLUwwX2g3bGx4czBuYVBPUk4tTjl1U3FIbDB3cDQyS1dtLWNaWUJCNGNDQ2tnYUJ4eGk0Y1VvcEp3M0hUS1hKekJ1R3hNR3NiZENiV1FRTzJXTG15MnUycGo3R3FSYmZweklWRDI1d0RURDVWLXdZcHpTcDB1dlhOSzZ2STN3SEVDMEpiWEVCYTdGR0g4elloZUIyNm1uOFJ4VG5VSDhhMDB0bWNMbG05YVFNYmJPQ2VZMkxyX1ZBZUYzdG5wblhWclEzUW44SGNvbkRU?oc=5"
+        }
+      ],
+      "parola_foto": "tension and politics"
+    },
+    "esteri": {
+      "id": "esteri",
+      "label": "Esteri",
+      "segments": [
+        {
+          "text": "L'Europa naviga in acque turbolente mentre la Russia intensifica le sue azioni belliche e diplomatiche, portando il conflitto fin dentro l'industria europea della difesa, mentre la deputata americana Ilhan Omar e i rapporti internazionali creano nuove tensioni politiche.",
+          "type": "plain"
+        },
+        {
+          "text": "Trump",
+          "type": "name",
+          "detail": "Il nome chiave per la politica estera globale"
+        },
+        {
+          "text": "zona franca",
+          "type": "unusual",
+          "detail": "Un concetto geopolitico critico"
+        }
+      ],
+      "aforisma": "Il potere non è mai neutrale, è solo la forza che decide di non usarsi.",
+      "autore": "Elio Valtellina",
+      "approfondimento": "La guerra ibrida russa minaccia direttamente la sovranità industriale europea, mentre le tensioni interne e la geopolitica globale si intrecciano in un momento di crisi senza precedenti.",
+      "fontesi": [
+        1,
+        5,
+        15,
+        16
+      ],
+      "fonti": [
+        {
+          "nome": "Sky TG24",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9zZ0NZUm55WC1hVlhpSE83MzJSU09RYlU1Q1daekkzTmZCaDZ4cnp1MzBXcEtBV254Zk5odDl5TEVHWW5Vc3ZWQWtnT2huOFBCVmdpQWVYZ1FEQjV5M1BTMmkxQXZJSGZDLWFsUzRobW5oSTlvbkl2dVNGZw?oc=5"
+        },
+        {
+          "nome": "RaiNews",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNTm5TRzl1d3VqMG03WDRBcF9ZNGdQSEUtZG45NkpQOWszRkhRTHdtS1V6WGp0UG9oaU5ENkVNQlVlMjFGWjJ6TE9pSllheEw3a2lFWlpiMmhzdllCQldaQVJEYW5SVWpoN01KZnM1OWhZYUNlOTdSRm1NREx3Y2xrUG1Md2JkYkhHRnlFRHpCME1IeVpQb1gxMEYxSGRHVEZWWmszd2RPQTZQMzJvTFVWNmI2RG5CX20tV3diLXhrdGZBQW9mTzZoNWNNa2hFR1pfeVNaZGFFbk5CNUdGVS10UTRtdTZxYXJvbHNPaVhsQ216UGd5RTU0ajJxNzA2a0lqYXNz0gGIAkFVX3lxTE9rOURjRGhhaDdrbTRtWWhwUXhOTmdFY3FKWjZEMk9RVmtsT3hrTkFvdlJXRGJrOU1QTGZqLTB3ZkNfelVNVkpqNmZDM3JKbzRoclFhMWRkV1lJWlhRY0tFeU5uUzkzXzhHM1dMNEdNb01Ocmh3d2pqNkVUWlU3YWUwaXl4Y1hmZ1J1UFFrOVZ0ZTFPaW1MaDB3R085ckthdjdyV1FSWTdPaUlSb05ZZE5EWEtpQjNZMmxsYmxKTFYxZURIMHBiY3d6aWN1UEJOUkVqMERoaWxXbGxNU2tQemh0R1M0Z1F6RFJad1lPdC11NHRocXFSbTBYUGc4b3VQX2JEZ2g2WmdJMQ?oc=5"
+        },
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNUkIyVUs3SjZMUkZFdlRVUTJxb21ZclgzZHdaTHN3bXBJODZrdXh3V290bWJCUnNpUklTOGhMaFpzQ3diZlR4bVBRTjhTTUh3VG9GVWs1X21EbjNVRFpXci1GSjdxOWd1S3gtYTlBMElCeHhUaWp5ZVltWjF3RHIzNURHRzdEcmc4cGJ1cWx0Z1dKSGRlaDdBa244QXpKenRaa1BybTR5NTlVbVJDOHZadkpoUlFZbjdoenFjdk1GM1pUZEpuSzRQeGZOaWhKMkVsTDZIRVBXdUtpRjI3bFVIa01yQmFhcDBWRnJsUnhnS2tJeG1MbDBhbEgwTklXMlZSQzRmeTRrSmJFbkdsak9zLU04eXM4SFJrYU9PQmdpdHd0clFja2tLYmpSVDRmWlE3dTZBX19yeXZTLTQxdWdJ?oc=5"
+        }
+      ],
+      "parola_foto": "war clouds"
+    },
+    "economia": {
+      "id": "economia",
+      "label": "Economia",
+      "segments": [
+        {
+          "text": "Stellantis",
+          "type": "name",
+          "detail": "Gruppo automobilistico protagonista del Salone di Parigi e in evoluzione con nuovi modelli"
+        },
+        {
+          "text": "Borse europee",
+          "type": "name",
+          "detail": "Mercato finanziario in crescita, attento al ritorno dell'inflazione e agli eventi geopolitici"
+        },
+        {
+          "text": "e ai temi energetici come il gas russo",
+          "type": "plain"
+        },
+        {
+          "text": "gas russo",
+          "type": "unusual",
+          "detail": "Risorsa strategica al centro del dibattito politico-economico europeo"
+        },
+        {
+          "text": "di Mirafiori",
+          "type": "plain"
+        },
+        {
+          "text": "Gas russo",
+          "type": "name",
+          "detail": "Il tema dell'energia riapre i dibattiti con priorità data alla competitività"
+        },
+        {
+          "text": "affrontando sfide come l'intelligenza artificiale e l'evasione fiscale",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il futuro si guida guardando dove l'economia investe oggi, non dove ha investito ieri.",
+      "autore": "Elena Veronese",
+      "approfondimento": "Il panorama economico europeo oscilla tra rinnovamento industriale e sfide strutturali. L'automotive e i mercati finanziari sono in forte rialzo, ma le questioni energetiche e la competitività rimangono ostacoli significativi.",
+      "fonti": [
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeTBIX3R0dVBlUHpibEJ5Yy1LMDNDVm9nZGxxZnBNb1lfMGhERndVUnNxazVyNFl5dnRWa0piODlwWGFkU1JWeDFLam5sMFdfOG9xZkwtNi1MTXU5b1NTVHNOeGxKT2xDTkphYnVOV1JidGRmU1g3d2VTT1FGY3RPd3Y4RlJ3bXZmdHAyLXRRSUhONWM?oc=5"
+        },
+        {
+          "nome": "la Repubblica",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSnFhbF80LUFPcUw1eXpvUUQzclJBTzc0WnFxY3dJeXd3TjlfcEFpSWNEamdtTVM5SkVfRXRlX0RZZlI3SHdYTjVyWUJhWWxKdU03Vi1uNVZDR2FXNF9YNWhmZEZkNHVFUHhVQjFQVHZQSUp1ZFl1UnNGNFNCRHQ2YUc2a1RXQm1QNDJtQmdmU0VtS2RCODltbnlpUE5fWDJDclF4UjR2QQ?oc=5"
+        },
+        {
+          "nome": "Borsa Italiana",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPTF9ZcjVGMjAzb2xBVEdrd3ltU2hzQ0UxaHZsV1BlN0dBNThNSEF0R2JhQlVMd2prUjFRYm82WUJoMUM4VEF4QnViWXF5Y3hQcVJYSk9WZHU5TlpFLUJOb0lmT0xhaVRvUTg0YzVnV2xGenl3NkFUZXBIV3pfcXhjY29Ual9vYkNiY00zMmVBTUlONkhOMGQwUVVUWTVfWFJ2Z3hoQ0hvT1liMENNOWZYUkdkYV95NlZTQzNiTDdTTkFJRWFqZWx1a1YwMjJyendBNHVnWHNxUVRacW9rX1AtVm85TElQM0RKaEhfcGhQdFNESXJLeGlVR0NXQ1ZIeFNwZUd3QWU0aw?oc=5"
+        },
+        {
+          "nome": "QuiFinanza",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVEFVdVFUS196UDh0RUhoYmZmbTJxOU1GWnZHclJhVllUUTFHYjJRV3BPQUxhSUxVVEtMSl91YkVIRzV5X28wNTBSMnN1LUhCcXJWa052ZmI4NzdNUmZQWm5sVHhTSVZRMDFlWS1GRjFWNVYxOEZOM2pDSnBINWJjMEhmeDPSAYoBQVVfeXFMT2c3MGNYYWZVclJTbV9mRFZHTWNRMVExZUNTQVdtdlF5SVFPNUtaWHpyaEFoaGd0a0xBb2JlcjNLU2xHbGYzZGd0cFc0Mms2NVVhRkYzNmVwQVZaOEZ4WnRYT0k5U3JUcUpMYnUzRmVOV0pST0w3Z3NJTkFZSF83cWJQVW4wUWtJNkh3?oc=5"
+        }
+      ],
+      "parola_foto": "car factory"
+    },
+    "tecnologia": {
+      "id": "tecnologia",
+      "label": "Tecnologia",
+      "segments": [
+        {
+          "text": "La tecnologia",
+          "type": "plain"
+        },
+        {
+          "text": "di guerra",
+          "type": "unusual",
+          "detail": "referente agli usi bellici"
+        },
+        {
+          "text": "e l'IA",
+          "type": "name",
+          "detail": "intelligenza artificiale"
+        },
+        {
+          "text": "generano",
+          "type": "plain"
+        },
+        {
+          "text": "pericoli",
+          "type": "deepdive",
+          "detail": "molteplici e complessi"
+        },
+        {
+          "text": "che mettono a rischio l'umanità",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "La tecnologia è una mazza: con essa possiamo costruire o distruggere.",
+      "autore": "Marco Valtorta",
+      "approfondimento": "La tecnologia di guerra sta evolvendo rapidamente, mentre l'IA offre potenti strumenti ma anche nuovi rischi. La sfida è bilanciare innovazione e sicurezza globale.",
+      "fonti": [
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVnR3a2lCMzRMc2ZLd1J3T2RBcVJ0YkZFb0dvcTRsNklnc2FZY2t4YUVCR2RfaDA2ZlVDaHpmZElQRzhFWlhZZXpzSUhrcTBDbGRXOUdHdzR5WklieS1KT01Ca25uejhIeUVjUzFXdHVNQ2dVQkhnVFk5eFpxSmM4X3dCWmFqSEdyNlJkeWhMWnNpMkR4TmMyQzRDOTVPWW43T3M2UnpyblAzMC10MTlLWXJB?oc=5"
+        },
+        {
+          "nome": "Libero",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQ3hjRFZXZW0zclF6Y0R0OE9Nam5sbzFzMGNrZVlaUW1VY3RKX0ZNYmpzQzdxaHhOUlNGa0E0czZaU3BHbVJwWTRteXZ5c08tMTlBQlo1OEhVLUdSalJzcHQ2LTVFbndzTnBzMzB0YkhEWlBZS24yWGFNUkZOWTc1UGs1SU9Yc1Jw0gGOAUFVX3lxTE03Y0p6OVdBZ1AtYWtMblBaenlKdm9wdi1ZQkVIRXJUU3NTZm9JMnFkRFRReUl2ZmhHbjFTck01ajY2eVc1TW1PZUlvYnIyWEZPaEc0bU5jMVNlRkJFYXRrWllXUDZsM3N2bk1HOFdDOVRyb0VYbnd0aGNZTGdmSlBsZ0xGeVBYLVdNcEhiYWc?oc=5"
+        },
+        {
+          "nome": "Sky TG24",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE44VWV5Vi1uX0h5QUNFOWV5Sy1nZ1hubl9TcXlSbnhucFE1T0VTSnFFeDd0a0dBcE1wNktHeDdLUWRZSmtEYWtiWU00NUR3UUNEY196dFlQOUZMMWtiMHNPa3YxQktuQXRXMG5JMl9OVW44dw?oc=5"
+        },
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYXo1dkZyYjRWcFVJcHdWWHB3WWJBeUNGSkc1blJPQ2FOMXNHUFBCSXdZa3FMZ3NZME5QTjFxZzc2YkJBT05JNm5rZDMzWEw0Uy1jZkk5Zk1WVlUxck11RXM0UUVpTmRfd2dsVG9fZUdUbTZnUUgwVklSa2NkZWRSYklhZG5TVWVGTkV6b3BGR0Q2bkZRLUI0RWJqc19rdjVlZ3FLQVZBZXUxZWgtMkFyZXhvODh4UQ?oc=5"
+        }
+      ],
+      "parola_foto": "warfare technology"
+    },
+    "sport": {
+      "id": "sport",
+      "label": "Sport",
+      "segments": [
+        {
+          "text": "Le formazioni di Torino e Udinese sono pronte per la partita di Serie A, con notizie aggiornate su convocazioni, arbitri e trasmissioni televisive, mentre l'Inter riceve un sospiro di sollievo per Calhanoglu e l'Atalanta affronta il Venezia con Raspadori in rosa.",
+          "type": "plain"
+        },
+        {
+          "text": "Sport",
+          "type": "name",
+          "detail": "Categoria di notizie in evidenza"
+        },
+        {
+          "text": "Brillante",
+          "type": "unusual",
+          "detail": "Terminazione araldica di una regata nautica"
+        },
+        {
+          "text": "Domenica",
+          "type": "date",
+          "detail": "Giorno della competizione calcistica"
+        }
+      ],
+      "aforisma": "Il gioco è fatto quando si guarda alla vittoria senza averne paura.",
+      "autore": "Giancarlo Verdi",
+      "approfondimento": "Il calcio è la sintesi perfetta di tattica e passione. La preparazione atletica, come per Calhanoglu, e la strategia, come nelle convocazioni di Torino, sono fondamentali per il successo. La regata Barcolana dimostra come la squadra, come una squadra, possa vincere.",
+      "fonti": [
+        {
+          "nome": "La Gazzetta dello Sport",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTlJFQ3lZZkFILUN6azBWMEFaeUdIcDFCalRYU3Jua2ZwdUN4VFRTNGVNTU9ONjJ3TkJLV3hBczAzSUV6T3d6WEI3S2VfM0Z6N1Q0eWo1anlxMVk1c3hTN2FUU2lXLVBnVDZyMDhiVWRVTnBQelRkMzlXWTBGb3BZd2NDSUFQY2lLRW1QTjFXcWJkblVuWDl2eEpwWnphalZNbklZTURUVVZQOHM5WVdoNWR3MzBUbzFydFVtVWtYVDNyRFZMaHJPT0tnSdIB0AFBVV95cUxORTlTbVlyeXlQNTJHdWNVWjIzSkZlV0d4WTFkT1BncHpGSXljUng4Z1c4S1h3R1Z1RWJlTFlkWHJ1eTFrUkhyamNFV0lqekFDTy03WEdNN2NCV1dtbTdHeVo5akJHSGg2bjYzbF9hdkVpenVJcWRCVmpYd3V2dEtMZGtDM1Blcms1SUZHWHh2QTZ1RWt6b3NtcnhhbHBOWW5uR1ppUlkxNy1NOFg5LUhPTVlUbkRUMXYzZXF4TVZVOG56V2hwd3dLbV8zdHQ0d0Fz?oc=5"
+        },
+        {
+          "nome": "Goal.com",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYWRKaGtSSFFwOGVyVWpFajdHSTZQMGlFUDBoTlJmVTdMbjlWZ2YyNzFIVC04NkFrYzJiOXhfQUpVeDREdmlhRHAydHMtMkxVRVNWXy1tSmtwMGhJdUVFOWktdUpnRmRlSjlSY0NESlZuelhIYi1PU0xybWtJODVLZzFidlRpenc3a25tY3pYbDM4THJlTkJOVm0zTnh4dXVpejVFckhVdnAyY0xOa2RZUTl0elYxeDc5NUtGMGZlV0VLemxtWXdYSG1fMXp3a3BsdDYw?oc=5"
+        },
+        {
+          "nome": "GPOne.com",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNd3pGYmR0bkhZTC1rdVR6VGMyLWlkRXZiamNoSVNuZ0V0S1A2QWJYZW9XdHdpbkoyaW1reXQ1WmlwTTFCWF9sZVRhSUE4SU1lczdpV3dtZF9RNkZaUm5YRXVYWjY2ZzJ5dGFIeUpNV0x0R2h4cnpwT2RrcDRYVWdRbXVnR0VzYzVER2ZubmRvZDE3T2NmLWpSUnUtV2pBdDVORF9vTg?oc=5"
+        },
+        {
+          "nome": "Il Piccolo",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVFZPUGNCSnJyMk5tN25ZUEpwSkY5NGgycGlaRUFoWW9zVUZSa0JIWG5fZnlFcTBlX3RWN00tUnpHcHptZExtZWdUdVE0QWhlZ0dXM2FWWE1leHhFSkM2bjlTb3Z2SmhCSXk5LTZaZlRPbTJtTFJrTm5aQksxUFVyR2VSSzBYRnA3WlByejZwVDEtNVN4Zjg1dW9qbUhkMkk1amtxRXJ0UQ?oc=5"
+        }
+      ],
+      "parola_foto": "football stadium"
+    },
+    "cultura": {
+      "id": "cultura",
+      "label": "Cultura & Spettacolo",
+      "segments": [
+        {
+          "text": "Giornali e TV di spettacolo raccontano un lunedì di ottobre 2026 in cui il mondo della cultura si lascia alle spalle le perdite e i drammi per tornare a confrontarsi su cronaca, inganni e nuovi inizi.",
+          "type": "plain"
+        },
+        {
+          "text": "Grande Fratello Vip",
+          "type": "name",
+          "detail": "Programma di realtà con 9 puntate in onda."
+        },
+        {
+          "text": "Caterina Balivo",
+          "type": "name",
+          "detail": "Conduttrice di Ballando con le stelle."
+        },
+        {
+          "text": "Ballando con le stelle",
+          "type": "plain"
+        },
+        {
+          "text": "Amici",
+          "type": "name",
+          "detail": "Ritorno di Maria De Filippi."
+        },
+        {
+          "text": "Pechino Express",
+          "type": "name",
+          "detail": "Nuova edizione con Elisabetta Gregoraci."
+        },
+        {
+          "text": "Verissimo",
+          "type": "name",
+          "detail": "Trasmissione dove parla Cristel Carrisi."
+        },
+        {
+          "text": "The Traitors",
+          "type": "name",
+          "detail": "Format di sfida con Lorella Cuccarini."
+        },
+        {
+          "text": "Barbara D’Urso",
+          "type": "name",
+          "detail": "Giurata di Ballando con le stelle."
+        },
+        {
+          "text": "Lunedì 12 ottobre 2026",
+          "type": "plain"
+        },
+        {
+          "text": "Aforisma",
+          "type": "deepdive",
+          "detail": "L'arte del raccontarsi: ogni storia è un frammento di verità."
+        },
+        {
+          "text": "Profondo",
+          "type": "deepdive",
+          "detail": "La vita dei personaggi pubblici è un mix di tristezze e vittorie."
+        }
+      ],
+      "aforisma": "La vita è un teatro, non un documentario.",
+      "autore": "Fabrizio Rinaldi",
+      "approfondimento": "I media di intrattenimento riflettono la nostra necessità di vicinanza e distrazione, mescolando cronaca nera e sogni. I personaggi pubblici sono sempre più sotto la lente d'ingrandimento, che li vede da eroi a comuni umani con difetti.",
+      "fonti": [
+        {
+          "nome": "la Repubblica",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUlotc2JHV1otemVPOFBVMWVXVDBqRFVrZ3h4bnBTTWNFdW9pTEJBTV81el9ZNXNnenNTYkNraldsVHV6YWxlZ0xWLUNHbGwzRkVHUGtjUEU0TEtEeWJrU2szZTdEaEItLXYxcG0yNF8ycUhtQzZERzhHUlZ6dE1zOHozdmd5RjBManZidXhJTWZiYXVVc0VoWTJZbWNkUm50Nm9nRXNfbGxnRnEtaWVqc1RuZElTVUhBSWV0TkZRQTlnWGw4Q1E?oc=5"
+        },
+        {
+          "nome": "Libero",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdVVLMDZlemc5bS1JSFpTT3V1LTBxLUNRT0lyWE5XNjgtdXNaNHhTaUpSa3IxRGJrRkE5X1ZtUTVLelNCTVprbmNhdjRMWUtTUUdFbWZnMGdFckFjZ2VwRE9JQlE0T01mc2JhVG5vVm1wX3ZyU1hVbjZGWHB3TFRTdm4xU1RkbTZzRHdsd0dkXzfSAZYBQVVfeXFMTThoTXZNV1FLMkprZnFiQlR0MERwaGFmUjc2VjU1X2trdHJ6M3V6U01Tc1RLM2xmSlZkY0V2MkN0NFFvck1WbzF0Z1JDT3pySllhN3BmZ3JkeGJ1MDg3bzg5SUlVMWc1SHB2dDJzMnVXV1dnR0V3d0ExX05VZVp4OVhXamphNGo0VWhNcEwxaEkzTWdFMWtB?oc=5"
+        },
+        {
+          "nome": "Tgcom24",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNjBTTHBuazRmVW9KeW1faE41UDJrS0p5eHc3QUNseUFsaHhDUTBLdHMzNGRzSWdNZUdVWHQyLUU0ZVlEVDZrTDlZdXNHaUw3VWVIa3FnYld6TjlNTzVROV9aVzB3eVREYWwxM1FCLUQ3Z1NsNDYxTm9kbUY4ZUlXZFYyWFE1XzFER1FhVnZBbE9JNk1WNndGZzAzYS04cXdaRTZjcmFJeVB4dTllRF9GdnE5ZUhoOHV2bWJpcW1UZDdmaGxqeEliUjFqTXB0U092UWdhdVNzb9IBaEFVX3lxTE9xZFBndWp3bm5LYVcyZFdfeTc1b1ZubmNQOVVGV29nTVFubU1SQ0FsQmpoTHdGcUp6ZVp4SDJjYy1Wc3gycktvaGFJX01ERDMxWEtXWUdHNXFtQlFBdDJfQmd6aUt5SExG?oc=5"
+        },
+        {
+          "nome": "Il Fatto Quotidiano",
+          "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQOW1lV0F6MEhJOE11OEFGaXloTWlDQ3hVdnFkb3RhbnU2U3Z6M2RpdmpDQ2ZRcDl0RkxWU0ZYN1U3R3dfbUVYemQzQ080Qjl4a0RsUm8tZ1dpbnRyVFJ1RHpNcGdpak10MUFib1E4amJyMXB4RHhEa0dQQXJPTHd2Z0ZfclNoWUo4TmFCTkhTSjJ4OFRhVTVmS3JVaW1wYWt4MHkxTGFiMF9rZW9rUXJNLWxZUlVUb1ZENXl0RFVzbWM5S3o4ZmJiV2NJdmh2cU9MU1hRcm9PQTVHb0NKVXFLdHpZWlE5RUxQUVNyaVc5dWo3TjV1Q3BmVzJIcHZUTG1OWnEzWHhWMTFFVUUwVUpud1kyTVRFemJXWXNJSDZCRURPZw?oc=5"
+        }
+      ],
+      "parola_foto": "tv studio lights"
+    },
+    "gossip": {
+      "id": "gossip",
+      "label": "Gossip",
+      "segments": [
+        {
+          "text": "Tutti i vip che",
+          "type": "plain"
+        },
+        {
+          "text": "Milano Fashion Week",
+          "type": "name",
+          "detail": "Evento di moda in cui sono state avvistate le star."
+        },
+        {
+          "text": "e le vacanze estive,",
+          "type": "plain"
+        },
+        {
+          "text": "2026",
+          "type": "date",
+          "detail": "Anno futuro citato per eventi e trend in arrivo."
+        },
+        {
+          "text": "sono il",
+          "type": "unusual",
+          "detail": "Termine collettivo che indica il mix di tendenze e svaghi."
+        },
+        {
+          "text": "centro dell'attenzione del gossip,",
+          "type": "plain"
+        },
+        {
+          "text": "dove anche curiosità come",
+          "type": "plain"
+        },
+        {
+          "text": "come cuocere un uovo sodo",
+          "type": "plain"
+        },
+        {
+          "text": "riscuotono grande successo.",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Dietro le luci dei riflettori c'è sempre un mondo che brucia.",
+      "autore": "Elena Mazzanti",
+      "approfondimento": "Il gossip contemporaneo mescola eventi mondani e dettagli quotidiani per mantenere vivo l'interesse del pubblico. Le storie vere si intrecciano spesso con aneddoti leggeri, creando un universo narrativo complesso e accessibile.",
+      "fonti": [
+        {
+          "nome": "Cosmopolitan",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMGcySTQxLWVCRUpTN2k2N09Hc1BIYThSNVB5aGltRjU2bi0xYzNQaXYydGdwMVE3Zy1aUTIxWk5PUzJRUG05SHg3SWdkbmJsSzI3Z3VMc1MzVGx6NDNDLURubS1JaUFWcFF6WERzaFFpT0M0YkJ1aXU0bXJ0czZPdzRtWldFcU9STFQ3RENDNXAxQk12Y1dWZGxmX1RFVUJwbnhvREJzNU85aENBUE1qYmwwMGM2UQ?oc=5"
+        },
+        {
+          "nome": "Oggi",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSzR5MURfU2VxUEU1bVo4ZzZqS0JDZTBYaWIweHNMdEpDTlNqZzhkNmljUHVOY2FLejJOQkh3cTBUTGQ2MmVrQXMtRXd1X2lhM0hHanJKci1QNW9OT2xWb2lsZ0hDUUZHOHp0ZWhCS0hJeHRRaEhVeVpzRjB2WHdHQ29ZNVZldHRpOWFKY012TnpibUxNNk9Wbk5BUmZRUWRyZThncS00OUhIZTJZWnE0Z09RNjFoQU5SMGRyZEhZNTB3OGZydDlMbHByUV92Xy05U25fMTB6T2d1QWd0eDBpVXhlcFZwUQ?oc=5"
+        },
+        {
+          "nome": "DiariodelWeb.it",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQ1YtaGs0NUEyd2liRDdkcC1OaFJ4NVB5bldDSW9mbnQzWTd4ZHJfQ05oRUpxUWVfRkpqWUx6NVk2b0YwVzhORnhmRkFXVmlfQ0RRZFFFb3NSOWZYRGp4ZjBHMFZselFuZV91NGhNRm5mSzR1VHc1ZWgyOFNNTkoxZ3htdGxZNUNwT1hwcFJMcmprclhPVUt1M2FHcGRROURlVUxZ?oc=5"
+        }
+      ],
+      "parola_foto": "celebrity lifestyle"
+    },
+    "ambiente": {
+      "id": "ambiente",
+      "label": "Ambiente",
+      "segments": [
+        {
+          "text": "L'attenzione globale si concentra sulla sostenibilità ambientale e sul clima con iniziative regionali e progetti comunitari.",
+          "type": "plain"
+        },
+        {
+          "text": "Puglia",
+          "type": "name",
+          "detail": "Regione italiana promotrice di programmi educativi per la gestione dei rifiuti."
+        },
+        {
+          "text": "Giornata Mondiale dell'Ambiente 2026",
+          "type": "plain"
+        },
+        {
+          "text": "PAESC",
+          "type": "unusual",
+          "detail": "Piano d'Azione per l'Energia Sostenibile e il Clima, strumento strategico regionale."
+        },
+        {
+          "text": "Sant'Anna",
+          "type": "name",
+          "detail": "Istituzione scientifica italiana che coordina studi su clima e sostenibilità."
+        },
+        {
+          "text": "Patti territoriali di sostenibilità",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Sostenere il futuro significa costruire oggi le radici che non verranno mai tagliate.",
+      "autore": "Elena Vorel",
+      "approfondimento": "Le regioni stanno investendo in educazione e finanziamenti per ridurre l'impronta ambientale. Gli studi scientifici puntano sulla resilienza delle città e sulla salute umana legata ai cambiamenti climatici.",
+      "fonti": [
+        {
+          "nome": "Regione Puglia",
+          "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxPZ0pDaVhJa0hHUDdXSzQ2OU0weVczRWFuVTBSek9UbU8wRF83SGlhemlvNFNoTUJnQ1daeUhza19UUTVkSnJCT2Y3THlFMUFUdndmSEZRbWExQ0NnSldrSmNrbHY5bnhDdjltZWlCYnR1NFNGNzlDRUZMY2ZacnZDZjduZUtpWVFpajFCQTFlWERGVms1cDVWQnFqRVNJQ0VmSDcxNWQtQTFYRTJBeHlYdDk1TWMyRUc0eGpGQXljTHpvUGtOOWQ1RjA5WU04TEFSQmF3UFNTWWs0QjlPNVlZRmlodkwzUWVqOTlSbE1nOXV3VmZFek5YMHFnTm9ycnBFbmwzbmZIZEk4UnE3RlB6aENvYUZYbVZoU3ZXb1hDdUxDWk5lU2ZWV1RTWlVyd0EzN1U5eldncE1qZWZKSGdPaXlKRDYwbEQzRWd5Q0pqaTJucmdrcHV6eGlR?oc=5"
+        },
+        {
+          "nome": "LiveUniCT – Notizie su Catania e Università",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeFEzZXg0X0o1TzEtbWllaFZUWDdZVXJlM1d4dzd1czB2VzZ2blB3RWxIR1d6ZGgyUHg4NmR4WkU0MWVNb05fX01WUEd1WFB1YzRDNWJLVlltZWsxaWR6c1dFeHRKUXNHWTlKWUprcmdLNkFKRUl0VEJMdWN0MzdvbGRLUDNUSUFB0gGOAUFVX3lxTE5PTVJ6and1V1dvYkZ3T3FjOWJoRjRiVWtUcVVacXB2cEVUdkZvU0J0X0VqUWIwM2VJRVBVdFk5amZGSjFaelZJUUJFY3A2X3BEVVUxaWUyendfTU03bWU0Y2Mtb1Z1cjNiTVFzdk50ZTFvR1kxMWg1a21hd0JYcXA5RnlVY0dZVUMwWTRBRlE?oc=5"
+        },
+        {
+          "nome": "Comune di Napoli",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOcFRLWldBQUVSQVU5MlBiMGJNRHctTlhzM0N0Z1F4ejJnWm9EdlhqQjlMaUphUFlRWTZYaU5NRmUzSU12QzU4aGxYd0hHTGtkV1kzT05UcF9iTGNENFc2dWZKeWRRd1Q3SFJDNGxsMGhYU3hieFlCY3FTN3BBOTlHQ3NLWV9DOUVPazVtUUg4RkNuNExSOGlpZVdLR211eG12bElYb195bHFfdjUybFpvZndWb1pPeVFseDhoX2pPc0RMRThpSHpxWHVCSnFxNHRtS1FlQmtwcnZ0UWZOcG10V2NGNGR0bmFLYnNGQ1BJQzJiVFFGWE55d2VCLTMxNHYtRlE?oc=5"
+        },
+        {
+          "nome": "La Nazione",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQzZEUTJrMVpBZHBEWV9sQm9UREh4dV85Z2tEa2dybEQ1NG03NHliSXFuSGJ4QmVRY0FpR0xhcENmWk9hbE1lSDJiRF9veE15ZEVzSkwwNXkyOG5zOHhkZEFTMEJobVRiT3pNMXFXY2pDZXFLUS00M0VrSVdMTEtmRWNzYk54a09HV3lrVUNkZVZUNlJINERnRHFuOTNQSVhaZnhHVmd1REZsZXdfUVFkaVpBdng4aHBNZGk3T1MtckEwdWhIMmNqSE9tbw?oc=5"
+        }
+      ],
+      "parola_foto": "climate action"
+    },
+    "moda": {
+      "id": "moda",
+      "label": "Moda & Lifestyle",
+      "segments": [
+        {
+          "text": "La linea di confine tra moda e arredo si assottiglia sempre di più, con grandi progetti che spingono il dialogo tra i due mondi",
+          "type": "plain"
+        },
+        {
+          "text": "Milano Design Week",
+          "type": "name",
+          "detail": "Settore chiave per le collaborazioni tra moda e design"
+        },
+        {
+          "text": "2026",
+          "type": "date",
+          "detail": "Anno di riferimento per i prossimi eventi"
+        },
+        {
+          "text": "Fuorimoda",
+          "type": "name",
+          "detail": "Progetto di formazione universitaria per il settore"
+        },
+        {
+          "text": "crescono",
+          "type": "unusual",
+          "detail": "Verbo ricercato per esprimere espansione e sviluppo"
+        }
+      ],
+      "aforisma": "Vestire il mondo è l'ultimo passo prima di costruirlo.",
+      "autore": "Aldo Vignelli",
+      "approfondimento": "L'integrazione continua tra moda e design ridefinisce i confini creativi. I grandi brand trasformano la moda in oggetti abitabili.",
+      "fonti": [
+        {
+          "nome": "Pambianconews",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUi1VOHoxSFRnVlNNM1ZUN3lMd2tDeXdwWF8zWk0xdC1TWmw4RTI1QURmQk9iSXp1MlBjcFJ5cjdaeEVTZVdxWHE5UDhrQmktVV92a3BjaDlwX1ZsMkdiVnBmajJpVXQ2ak1HcUNFTHpOMWlLdTJVS3pFNXBSYl80Ym5BOHlVWTRZWkFGanZDLW9tNkRxSnhLT1FUXy1qN3BMQkd2dHROVFI5bUJ0a2tQWmVhZVBra1hlTFRIbk5pS2xJUl9vZ0hfckVZQ1FfbGJ4emJ3TnBLTmRZdw?oc=5"
+        },
+        {
+          "nome": "Esquire",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaFNXM1J5TDU4ZDdpdmJlSjFpeVpGdk1qeVhoN0VEMGE1eEJyMmFGeXRQS0VvMU5NZzM1V2dUR2gxajJCSUhFekxsRTlVSnZpMlVKeFoxQ1dCQnFJeVVmcmVDY0hPVjBSRnk2dGQ4Q25kTXQtckpWYlRsVkNxbDduOFdDamlnQm1MUDBtOGJ5bXY4SGdsODRvNFF3WkE0Vlh3WUdDSWFn?oc=5"
+        },
+        {
+          "nome": "Studenti.it",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZHUwQmZxc1paS0VPVzMtX3ZFZXpHTFVWTl91QWpaTndId1RvNHFPRGRianFfVnBadHlmNWQ2VUhxWlR3ZE84RFJraTFDcXhLQ1Y5NjlqUkpMazh5cVBuRFhzQ0g0aXp6MHBqR0p4M3ExeDY1Zkc2TXB2bU5wQzMwc2JnRjlEVDJCSjIxM2pDVkhsTGoxNUh2Z3ZsM0ZxWFpabTdlVHJObERlUTBYb19oWjd3?oc=5"
+        }
+      ],
+      "parola_foto": "fashion runway"
+    },
+    "concettoplus": {
+      "id": "concettoplus",
+      "label": "Concètto+",
+      "segments": [
+        {
+          "text": "L'Italia si trova al centro di un'attenzione globale che va dalle grandi operazioni finanziarie internazionali alle audaci rapine di vino e agli affascinanti misteri archeologici, in un paese dove la storia antica si intreccia con una quotidianità affascinante e imprevedibile.",
+          "type": "plain"
+        },
+        {
+          "text": "KKR",
+          "type": "name",
+          "detail": "Kohlberg Kravis Roberts & Co. (fondazione di private equity)"
+        },
+        {
+          "text": "preziosi",
+          "type": "unusual",
+          "detail": "riferito a beni di alto valore"
+        },
+        {
+          "text": "3.000",
+          "type": "unusual",
+          "detail": "quantità di bottiglie rubate"
+        },
+        {
+          "text": "Cave of Venuses",
+          "type": "name",
+          "detail": "luogo archeologico preistorico"
+        }
+      ],
+      "aforisma": "Il valore di una civiltà si misura non solo nel denaro che scorre nei portafogli, ma nel vino che viene rubato e nei segreti che la terra custodisce.",
+      "autore": "Giovanni Venturini",
+      "approfondimento": "Il gigante finanziario KKR investe 22 miliardi di euro nella rete telecomunicativa italiana, un'operazione che segna un punto di svolta per il mercato nazionale. Parallelamente, la recente scoperta di camere nascoste vicino alla 'Grotta delle Vene' promette di svelare nuovi capitoli sulla presenza umana preistorica.",
+      "fonti": [
+        {
+          "nome": "Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeFgyY0h0ZE9kU3hyS3JmYXNLM2N6NXJfc3FVTFFFVkY2bU1IeG5OcGdHUFdUdzdGaVVyTXlXVkFVaUZiTnZuNUVTYURZbDZ4ZkJ2UzZQZzYxNThCdmY5bzczQmNHdjdUYzlFblFZWE04dS1za3ZJYXJCODRheFQyNlJTMUU?oc=5",
+          "paese": "Stati Uniti"
+        },
+        {
+          "nome": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBxRnp1a2lTU0FydUZHRy1WcndNenRWaDE2SVQyVWJKa01hT3Qtc0llUldLVXQ5VFhzWm5xaU9HaW9TODltM2drdk1SbVE2RzBtZnJ2X25fR1c5YVU?oc=5",
+          "paese": "Stati Uniti"
+        },
+        {
+          "nome": "Archaeology News Online Magazine",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRGoxdlBlT19IVUEzUVZvV1VsRXF3YUVrZ2hnc3lCNlF0NTRhYTRSMzducTAtUVdhektVYmg3UEhMR0VEMm5SZGlpOXV0LTZEbkJfVUhRbHhpamtjcFVpbHJIM2dqaXBmdE43TXhaSzZRR3JCYVRUWlN3RGZDNHRFQjREajk?oc=5",
+          "paese": "Stati Uniti"
+        }
+      ],
+      "parola_foto": "wine bottles",
+      "paesi": [
+        "Stati Uniti",
+        "Regno Unito",
+        "Germania",
+        "Francia",
+        "Giappone"
+      ]
+    }
+  }
+}
