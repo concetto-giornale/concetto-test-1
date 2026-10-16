@@ -1,0 +1,709 @@
+{
+  "generato_il": "2026-10-16T07:32:26.544Z",
+  "data": "2026-10-16",
+  "edizione": "mattina",
+  "id_edizione": "2026-10-16",
+  "categorie": {
+    "italia": {
+      "id": "italia",
+      "label": "Italia",
+      "segments": [
+        {
+          "text": "Il clima di incertezza e conflitto investe l'Italia",
+          "type": "plain"
+        },
+        {
+          "text": "Papa Leone XIV",
+          "type": "name",
+          "detail": "Il nuovo Papa è preoccupato ma confida nella scienza medica."
+        },
+        {
+          "text": "e l'autotrasporto",
+          "type": "plain"
+        },
+        {
+          "text": "Enav",
+          "type": "name",
+          "detail": "L'ente per l'aviazione civile ha un guasto che rallenta il traffico aereo."
+        },
+        {
+          "text": "è in crisi con il caro gasolio e le minacce di sciopero nazionale",
+          "type": "plain"
+        },
+        {
+          "text": "Villa Gordiani",
+          "type": "name",
+          "detail": "È il nome della banda di estorsori che sta terrorizzando la capitale."
+        },
+        {
+          "text": "a Napoli un incendio divampa nel cuore della città",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il caos è lo stato naturale di chi cerca di governare senza ascoltare.",
+      "autore": "Elena Masetti",
+      "approfondimento": "Le recenti tensioni politiche e sociali mostrano come le istituzioni siano sotto pressione. Il divario tra i problemi reali e le soluzioni proposte si allarga, alimentando sfiducia.",
+      "fonti": [
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQX05MeXkyT2tISXh0M2laTFFHNmNHUGFxNjVyTWlZd2g5NXhDTHdIdktZVWJFdEhLTVVmQk5rT0UxclBXcnFZeXNXLWYwYS0tZzdidDJ3SlZzTmYzeVVQWkFBdmlNSXRPZTdoNHBxdW52bXFuNmdLV1czU29DTnRaVVNwQ3RwRW96Sy1qV0tXNmZrZ3NzbDYtNWZ4N3ptSWE0TG1JQ3dVWXFzbnNxU2szQ2NzMTFISS1HX0t6eg?oc=5"
+        },
+        {
+          "nome": "RaiNews",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOc2pTUENSY29RbFZuTWtkRi1kcEFIdDVaSE1BSE5sWUkwVFI5dG5aOW1PMGNfZDlsRElqOWpKNm0wMWlWRFJQRktSS0ljRUQ3Y0xLcm53dEZzZzVYTmdyLXVYMTZxcXlhNDNMbGpTdS1RSWxpZV8zT3pDSnNsTzF5VzNpaHAtZzNmU3pIOE5NV3FiR01HZHdwdjdSb0VqWl9Cd1FrUTh5WTUwME9SU25iT2NYOExqR2NjaTJITUJ5ZVVaelJUb1FCclBOS1BXdDRHTGltZEQ3XzMyXzZmZkHSAeMBQVVfeXFMTklzZ3hXVGlaYkdmY0ttN1FIQlZjVlBmUHZoeVRqb0RxT2hnSUVhbGxPaUpWdUVqSVNwWDNIeS0zLWlnUXV5WDYzRXBXemdreUZBcjNEUzZOVTkxQXE5bTBKTWdPLWRYWjNRYVNZUzluMlVEMkdkX3RmQWh4TEszQ2JTNklRT3hlS2E1S1dQNUFtckVVVkRSRkZmM3pDbVVkOTExUVZSZldMMlJ6amlrYlVEdEtCSEpQSkI2TkQwVU9SeHM1WGNyY1BqaTVBZXZEb3dmNzJBWTdkZXI3U1hZS3RyZDg?oc=5"
+        },
+        {
+          "nome": "Adnkronos",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTGZPR1JSaE1sMWxrdU1XQzVQRXFjbFJ5RHEwdGE1RHlNdmQxT1M4S0dSOGw2TG05V1QyVjRMNUJSN3UyTGNGRXFnY21OYnA0dktzU1VpVi12YXZxWWtaajZ6ek1aMElHMEo0Nm1CTEotcHBpZlhVaGI1UjJGWmR5Z2lXZXpnUUdNM2dra2owUlgxaXRZNDNoa2NpSQ?oc=5"
+        },
+        {
+          "nome": "RomaToday",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaVJsOGVOOVVVRTU1amdOelFIa3ptMU9xbmMtLTRPaFhZYkhVbTNwOFFIeFFPdmdENktGX0d1bTdidTg3TDE5SzBqVnZZUFptR3h6TUhHUjlzTDJ6dTNEX0JwVktHaDAweGRxYXVnRGxDekc0ZTJURFdFVjRidENLR0lYWndPVzN5RHRxNDgyX2tkVnczVGJ0d01B?oc=5"
+        }
+      ],
+      "parola_foto": "chaos city"
+    },
+    "esteri": {
+      "id": "esteri",
+      "label": "Esteri",
+      "segments": [
+        {
+          "text": "Il vertice Ue a Bruxelles",
+          "type": "plain"
+        },
+        {
+          "text": "Zelensky",
+          "type": "name",
+          "detail": "Il presidente ucraino è presente alla riunione."
+        },
+        {
+          "text": "vede",
+          "type": "plain"
+        },
+        {
+          "text": "Trump",
+          "type": "name",
+          "detail": "Il candidato repubblicano è critico nei suoi confronti."
+        },
+        {
+          "text": "condannare",
+          "type": "unusual",
+          "detail": "L'espressione indica un giudizio severo e pesante."
+        },
+        {
+          "text": "la mancanza di munizioni",
+          "type": "plain"
+        },
+        {
+          "text": "mentre",
+          "type": "plain"
+        },
+        {
+          "text": "Europa",
+          "type": "name",
+          "detail": "L'Unione sta cercando soluzioni per aiutare Kiev."
+        },
+        {
+          "text": "e",
+          "type": "plain"
+        },
+        {
+          "text": "Stati Uniti",
+          "type": "name",
+          "detail": "Discutono sbloccare i beni congelati alla Russia."
+        },
+        {
+          "text": "danneggiano il grano",
+          "type": "plain"
+        },
+        {
+          "text": "con",
+          "type": "plain"
+        },
+        {
+          "text": "droni",
+          "type": "name",
+          "detail": "Le nuove tecnologie di guerra stanno cambiando i conflitti."
+        }
+      ],
+      "aforisma": "La guerra trasforma i mercanti di grano in bersagli.",
+      "autore": "Egidio Varesi",
+      "approfondimento": "La mancanza di missili Patriot mette in crisi la difesa di Kiev. Gli Stati Uniti cercano di sbloccare i beni congelati russi per finanziare l'Ucraina.",
+      "fonti": [
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMTEtYm1TOGdTdzUzOS12ZXNEWEhHYnd2clAzcjYzeHFJQ0d4SHlqZHdBQ1MwTktlMTBCMW1BekdKcVZEeU5WZVlpQ200S2tRVTlPMDZGd3RxVndPQUVNZHlaRHdGRVJjSnBHLXZTVm1uMkV0Z1JyZExZUG9tUTlnek5DNEJ2V3V2T1BtOEpoWXg2YXBsaXNEYXRKRmJRaHNuNVE?oc=5"
+        },
+        {
+          "nome": "RaiNews",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNYWMyOUphRWpKam5GWTJuejQzQ0RTSkNoR2hOQ0Z0TFZ4dTRIdkxYREl5NHB5VzQxSUVfTEtlVEoxQ2dESjRuZTBfWnNwVmhoeTJnTjNCT3JKbVlLRFJ6bGtHSmtrR0R1V0hxS21rLTN6MXpSeUJfUXFsa1NYSmJldmlyQkcyMnMxTE1yaU16Nl83OUxzN2lnTHY4SFo4dzRuMnRCUWt0TWpia0tsOGJZZDdSampxQTFXbWtHblRkSTg0ZElrOGJyUDJZVjZfZDNaRGQwcDJ5Rjk0UF9kMUduWUx0SFFMQ2d4dU1xTnRjZkpXZEswUzRTN1hDUWhiSU9ER1HSAYcCQVVfeXFMT1Mzb2VtNy1oWEJZOUFmeFFaZ1RaRVUtbzFxVWdYQlpiV1AxSExZQl9oalJ2aGk0SFlvLWFDWEQ2c2RLZ1NwZjNEaXZ6aXI4MlBIeE1jTHJpb0psSDRpQm1MbjAxbjJlNjE3QVN2QURTaTdvM3hRVGlMQS0zOFpZMmM4aWVLVTZLTHNNSzRzMlpySEJMb0JFV0lTV1FLdDNIOXdaVl9vdFBfdExyc2k3dzVuT1NybC16YXlmaGtfbE40N2JaaUR5cGItUFRoVkV2cWd5M0pRdjNvcGF2d0tiYmVGSkI1S1VZNmdzZkZwdWVvNUtPSE9HRC1GTWZTc0cxb0NBU2dWX0k?oc=5"
+        },
+        {
+          "nome": "AGI",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQTNOeVR1NlNfNW1oeldWTWxINzJ6b2YtMVhySlg2YlprRGV6NWhfZ2ZqVldnclhaVEp3WVRXT2JfelJDVnVpS3NJc3VlRDU3dzUwWjc3V3RIbE9pMEJWY1ZVUEJFMmYwMkd2al8xTUpMemQxeGJoVk14WXJSWUJ2N2U3bTJXRWdDRm05UDBRSDU3LTdT?oc=5"
+        },
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOU1MtWWcxVVpEdVhvQ0NYWlZPOXplLWlNVmltNEN6YS0xSHRfaXJ1RGpCNEpvX1lGT3hfMnNLcTRDWEtvdzhNNy1fMXIxRTA0cDhrSDVIeTlSS2NzTzF0MXlOUnoyNHl6THhlZnRTMlFsdjc1ODZtazY2eER5OE4yaHM0SFhPZmp5YWg0WjE1RGNNZkNscGI0Z0dDX1NUazRncWR4ei02MTJFWXNpUTBQN0hzRHE?oc=5"
+        }
+      ],
+      "parola_foto": "war zone"
+    },
+    "economia": {
+      "id": "economia",
+      "label": "Economia",
+      "segments": [
+        {
+          "text": "Le borse italiane e europee",
+          "type": "plain"
+        },
+        {
+          "text": "Unicredit",
+          "type": "name",
+          "detail": "L'istituto bancario al centro di un'attenzione globale e di una potenziale fusione"
+        },
+        {
+          "text": "recuperano",
+          "type": "plain"
+        },
+        {
+          "text": "grazie",
+          "type": "plain"
+        },
+        {
+          "text": "alla riduzione delle attese sui tassi Fed",
+          "type": "plain"
+        },
+        {
+          "text": "sebbene",
+          "type": "unusual",
+          "detail": "Un avverbio che introduce una concessione, sottolineando una situazione complessa e non lineare"
+        },
+        {
+          "text": "Tech",
+          "type": "name",
+          "detail": "Il settore tecnologico, che fa da barometro per l'economia globale, attraversa una fase di incertezza"
+        },
+        {
+          "text": "vada in crisi",
+          "type": "plain"
+        },
+        {
+          "text": "a causa dei dubbi sull'AI",
+          "type": "plain"
+        },
+        {
+          "text": "e dei crolli dei titoli dei chip",
+          "type": "plain"
+        },
+        {
+          "text": "mentre",
+          "type": "plain"
+        },
+        {
+          "text": "Stellantis",
+          "type": "name",
+          "detail": "L'industria automobilistica europea registra una flessione economica"
+        },
+        {
+          "text": "registra una cassa in calo",
+          "type": "plain"
+        },
+        {
+          "text": "che",
+          "type": "plain"
+        },
+        {
+          "text": "impedisce",
+          "type": "unusual",
+          "detail": "Un verbo di forte carica negativa che denota un ostacolo insormontabile"
+        },
+        {
+          "text": "il successo",
+          "type": "plain"
+        },
+        {
+          "text": "della nuova Roadster",
+          "type": "name",
+          "detail": "L'auto futuristica di Tesla, che promette di rivoluzionare il mondo automobilistico"
+        },
+        {
+          "text": "a Milano",
+          "type": "plain"
+        },
+        {
+          "text": "e",
+          "type": "plain"
+        },
+        {
+          "text": "in Europa",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "L'economia globale è un grande campo di battaglia, dove ogni vittoria è anche una sconfitta.",
+      "autore": "Elio Vittorini",
+      "approfondimento": "Le incertezze geopolitiche e tecnologiche influenzano pesantemente gli investimenti. Le fusioni bancarie sono strategie per resistere a questa turbolenza.",
+      "fonti": [
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTlZGekh0anhQb0p2TjNYTGpNS2N1VXpRWDlvQWllUzFLdUNXVkpTZzZVbFpWS1ZnVXhWOER4R2ZnSWtOeEJwM2xBR2Z5UDFjM25RQ052bVhRdnRvdkdpVTdwai14czh2aVJQMmhOMERCRXl6N2tQMmRrOXpOajZSWjBwdU9BR1pXM3lJYWxNUVhaS1EzMjJLRlpheGJSZldCSGU2N0RVS3pHSUJpZXdxaTlrVUdHUXVDa3pLeXFDYw?oc=5"
+        },
+        {
+          "nome": "Borsa Italiana",
+          "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPZ3JzbkltWEJlM3Z0YjM3YTRQRW1PT2V6cVNFc0xWVUNHemhucHhJZ3ZLdUUwSC05TFdxbll1M3oyUkpoX1NMVjdHc0N2T2JsNVdLZ09PYi1mXzRNVmtnNjVuempLaVY3RGlxZjYwVDh2Rk1jXzVPVmxUeTMyZ1hheU54LVhTcFR5Vk0xcFE4djQzS2RsMDA3NFk2R3NjOV92OFF0U1BZXzRENEs0amt4WHVscVkzN2RjSTQwOFQyZTFwQTVNejhHelFzLUdJQ3V2SzRhWHRvRHBVdlV3Ym5ULUtrS1NPVmtkU2pGcVBsNHZ0STdDSkpVSkNsdzdZX2tPbG5BYlg1SUNtMWhOcEh1SW9aZzlMX1dwX1F0Wg?oc=5"
+        },
+        {
+          "nome": "la Repubblica",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdjBpaERFa0NvNmNGZEJuVE9HbjlzNWdVcFZ0WWdGMnItVDVSRkpqVW82YW1UM25NRm12R2FvY3FGQkVpTkFWNS1aMUJURjNOM2RSWmFKRlBTNm8xRTdadG5SZ1JjNDduMG5BZXNwcW5CSzhwMW9mVDRYRk9tUTc0SF9KVXJkZEJVdm5fOG5CSld3ZDU2ZEtJczRXc0dTMXBLWV8wZVdDLXp4OXFwSEl6amZ5cHR4MEk4WEFnM2JqaFhWWDJiLUFvY9IBzgFBVV95cUxNVkRQOU9JWENlWVRnMEprdGk3Z3c2MWlobEtIYU1uUWo2cE5RUko2UkFCTmhGdnhLMzdETGZQaUdJZVpHNFpMYWNkeUUycGZyTEM1eElPdDRiYjZ4bUl5M1FmZVoydEFuX3hoeTJQbmxiYWl1M3ZNckgzbXpLZmJIUUpPbGhtOXJsbEZWZE8yTGlhYVRlUnBrQkt3T2RLREJna0k0NmxVUWdMbHNGWGZMckZfVkxrOTlTZEJhTXN3ZnpSVlNMTGp1ci1vXy0zdw?oc=5"
+        }
+      ],
+      "parola_foto": "stock market trading"
+    },
+    "sport": {
+      "id": "sport",
+      "label": "Sport",
+      "segments": [
+        {
+          "text": "L'Europa League sconvolge l'Italia con la rimonta del Celta Vigo contro la Juventus, mentre le difese italiane falliscono in Champions e le squadre soffrono per il calendario estenuante.",
+          "type": "plain"
+        },
+        {
+          "text": "L'Italia",
+          "type": "name",
+          "detail": "La nazionale e le squadre di club affrontano difficoltà critiche."
+        },
+        {
+          "text": "Europa",
+          "type": "deepdive",
+          "detail": "Il continente è protagonista di una stagione di alti e bassi."
+        },
+        {
+          "text": "Champions",
+          "type": "name",
+          "detail": "La massima competizione europea per club."
+        },
+        {
+          "text": "Europa",
+          "type": "name",
+          "detail": "Il continente è protagonista di una stagione di alti e bassi."
+        },
+        {
+          "text": "Rimonta",
+          "type": "unusual",
+          "detail": "Risultato sportivo in cui una squadra recupera lo svantaggio."
+        }
+      ],
+      "aforisma": "La corsa non si vince mai stando fermi, ma a volte si perde correndo troppo.",
+      "autore": "Mario Doria",
+      "approfondimento": "Il Celta Vigo ha dimostrato che la resistenza fisica può sconfiggere l'esperienza, mentre il blocco italiano fatica a gestire i ritmi serrati e le convulsioni della competizione europea.",
+      "fontesi": [
+        1,
+        4
+      ],
+      "fonti": [
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQnlBTkRUYVptSUlqR1RjZ3R5WUUzWi1NWE1TdXVEN3puTlhvNG5wMFBESlB0Y2daYnl2SldZaGptNS1RRVdyeXlrTEJ1VlVuMW5FdFRaLUI2X2N3N25Eb3J1OTZMZFAxaElScVpSVlFnUmVlM2xMVVhpWkJDTXBKdGlQLW14N2ZBRjF0b3BlRXJVZFRxLXdGSU9wS1VRZ081dXU0Mlk2U3hhZ2tDVWJPeVI5b2sxU3lfQV9vbkFHY242V2hmWEZCWDZwRVJUTFItWm1j0gHYAUFVX3lxTFBMV1BsM2JsOHV4WmtMUnNGaERCbDlXVmI2bGVGbHdsaDZxcjR6RG9RLTVhTnp4blF6VWhtZE04RUpvNkZjRWpQb05Va1RPdkkxQW52Q1ZEMmJ2eHVDcGVZWE9oWFJ0U3lzbVJPY2ljZUtiNGFqWXc2eTc4WmtFd0tuRnd3OFpfRkUtXy04aGM5UWtVNVIxNG1xaGNmamhxWDBNZjZLYV8yNzVTUUtpUm1lRE9HUklzcWMzTHR3cWREemhUTzZua0hwcjU2QXBYZ3dJeEprbDFtWg?oc=5"
+        },
+        {
+          "nome": "La Gazzetta dello Sport",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ2JWNXdUT3FLZ0xaUHk2bm9FcnZMQ0pONlY4V2FVVDVJMExiblRWd2RLOEJDQ05CMUhEa2RXQkIwZW4xeDR6UVBVYko1djFiU2ZJQzFKa1BLWGNGT200LUg3cmZNLXFiM3JNR3hMcXlwWEN1UGVWZjJUVklpUWRCSmo3cUtTN0pSdlpMYmp3YmdjU0c0SkNVMVAwbkhacjhXOHNmR1ZRRzJEZmIzdk1mbUx2amZjTk1scW1j0gHAAUFVX3lxTE52WmVWMjFXVzh3WnJ3TGZSRzQ5dkNJam1SX3RpTW05X2pCekJBZ1RZeU0wOWlZOElCM0k4QUZkcWJSckVLTGk5QUNfNG16ZUNkOEJnYXBZaDZMOENVUHlYd21vUmo1NFpiejdhOXBOY3hXVWFzallXaFB3cHFIUUN0T0dQdGJoLUkyUWpqTUVUd1o4c01xM0NqSlVqbGVUWDVORWpTTXZBaGVkZnd1Zms3dXJWOVk2LVdVUV90LWJWbA?oc=5"
+        },
+        {
+          "nome": "Il Fatto Quotidiano",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTXc4OGktZDBtR3AzVFlRTmdzY21XYnMwTlNSYWlzTDJVUU5veTRBcXp6bU5NRjNXbVNIbHhTblphcmpjTGhnU0x6OTJtVmpDbEh4bm1oZmxyZDRRcmNpWUE1UTFtNTc1X2NUeGdiSERhdUpvZ3gzWlVHZk1Cclc1MHp1ZTB3VmQ0dnlRakwzU1lfRGV5a0JpbC1oMFd4S1NXQUdxMmk1VVNqcDRhdDI3LWlpWUo?oc=5"
+        }
+      ],
+      "parola_foto": "football stadium"
+    },
+    "cultura": {
+      "id": "cultura",
+      "label": "Cultura & Spettacolo",
+      "segments": [
+        {
+          "text": "Sylvester Stallone",
+          "type": "name",
+          "detail": "Leggenda del cinema"
+        },
+        {
+          "text": "spiega",
+          "type": "plain"
+        },
+        {
+          "text": "come",
+          "type": "plain"
+        },
+        {
+          "text": "il suo",
+          "type": "plain"
+        },
+        {
+          "text": "famoso",
+          "type": "plain"
+        },
+        {
+          "text": "successo",
+          "type": "deepdive",
+          "detail": "Sfida le aspettative"
+        },
+        {
+          "text": "non fosse",
+          "type": "plain"
+        },
+        {
+          "text": "un caso",
+          "type": "deepdive",
+          "detail": "Riflette la realtà"
+        },
+        {
+          "text": "ma un",
+          "type": "plain"
+        },
+        {
+          "text": "miracolo",
+          "type": "unusual",
+          "detail": "Evento eccezionale"
+        },
+        {
+          "text": "durante",
+          "type": "plain"
+        },
+        {
+          "text": "la",
+          "type": "plain"
+        },
+        {
+          "text": "Festa del Cinema di Roma",
+          "type": "plain"
+        },
+        {
+          "text": ".",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il successo non è un traguardo, ma una sfida continua.",
+      "autore": "Aldo Rossi",
+      "approfondimento": "La carriera di Stallone dimostra che la perseveranza e la determinazione possono trasformare le difficoltà in grandi opportunità.",
+      "fonti": [
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOelRKREY4VmtRRHBBbzFNbmZHVTlMQWhQVVBYTnVJMlNyUHhSU01VVi1ZVG42Umt5dHRTdnhFVXhvdFNVOTAwR3lTVHJhY3hFSkRuSVMwdVdZaE8wUjNINnZ5cG9ReWJNQTFTOHNuLUUzaUx1bFYzU0lDczU4ZjdVUkRtX2lBcUstOFhrajVtcUs3eWtEamd4OXlSRU12N1BpdzJHem82TEdFTV9sWTZfa011STgwa0Z5OEdubGpR0gHDAUFVX3lxTE5SWE1XNENXUl9TVjRLVG9MZkZxVnpHbTc2ajI5ZXA1d1VZeHQ2YTloQXJ3YU9sYnBtN0h4QjJiVy1JUkhaTmNRb1RWVHgzdnl2dzNsVjlWVC11T25CU2xWNHdGa21NSFctUTV2WktBdDNnWGUxU3U4aFZmRVRYREFjamlONF8wTi1pbm5fclhsSlNneUdFVU5UUm1ZeEotc0ZOLVI1bWVhVDdBbFpBZGdDNU1BUlVFWi1CX1RHMlhHUHNwdw?oc=5"
+        },
+        {
+          "nome": "Libero",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONHBESzdyNHdwejZTX2ZiYl92aVZycU1JMThQWVltN2RVYWNGSzRSQVd2VnNGbGVzWUY5ZnRBWXVaOU8zNUZpamhEY2xWMUswalpDNnUzWlNudm5CLVR5RVU2M1lNZk11Rk5HeHlkN3dOZjlnejRtQVJCZFhuZHRWbzhLUmFYVTNoUzd0QjJWUVRNQWtOczk4ZE9xdG9PTFBfZ2pYYjkzbjlvRUdCZFdvdXhRX0JpNHFqN0daaFRFTW0yOHJNQk1vTW9hc3hzSjNiUDBvbGRuT3E5WlJ4VWJ6bmhERkLSAeoBQVVfeXFMUExTZDVDQ0NPdjhzUVdoaEgzT2V4RVpIbWhNRGVNc2V2cXZ3TTdkVGlhajI1NnpDREd2M1JqRFVPUE1nTG5wSHhwME9HQjVEYUtxZkRpdXlZZ0kwQmY4c21WTHFKSFBiT3NGRUk5dThSSk9DVnJWRW15a1Exd0lTR0lGSDBrZVBfcDZSSFVTS2xzV0ctVG04R3d3ZzEtb2dsX2xRd19keG5vUmhKWUl2ZUlhTE81ZG41ZmF4Rm0xWk9aUlo5VWlyX2I0bHN1MzJ5UEt6M3dMaFVjd3JIcXRNVkZxUVlBaEJSc0ZR?oc=5"
+        }
+      ],
+      "parola_foto": "cinema premiere"
+    },
+    "gossip": {
+      "id": "gossip",
+      "label": "Gossip",
+      "segments": [
+        {
+          "text": "Le notizie di gossip 2026",
+          "type": "plain"
+        },
+        {
+          "text": "2026",
+          "type": "date",
+          "detail": "Anno di riferimento per le novità."
+        },
+        {
+          "text": "Roggero",
+          "type": "name",
+          "detail": "Il gioielliere al centro dell'attenzione."
+        },
+        {
+          "text": "Belen Rodriguez",
+          "type": "name",
+          "detail": "La celebrità in un momento di crisi."
+        },
+        {
+          "text": "Isola dei Famosi",
+          "type": "name",
+          "detail": "Il reality che domina i pettegolezzi."
+        },
+        {
+          "text": "fanno piazza pulita dei tabù",
+          "type": "plain"
+        },
+        {
+          "text": "delle celebrità",
+          "type": "plain"
+        },
+        {
+          "text": "Deep Dive",
+          "type": "deepdive",
+          "detail": "Il concetto di sfondare i confini."
+        }
+      ],
+      "aforisma": "Dietro le luci da stadio, la vera scena è fatta di ombre.",
+      "autore": "Elena Bianchi",
+      "approfondimento": "Il gossip 2026 esplora la crisi pubblica di Belen Rodriguez e il successo di Roggero, mentre la sfida di Isola dei Famosi e i mondi di Coachella e FIFA mostrano come la famosa e l'anonimo si mescolino.",
+      "fonti": [
+        {
+          "nome": "Today",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBTbnVvdnB2eE94NDNWbU9Jamx2MW1MLTVVRXhlZTdCakxpTjZUd3RBZnhleUdoTjhrRlVBaERaME42eXpWeVY5RXNUa1lmS2toOWxKY2Z6XzBqUmZxRUd2TTBXNF9rZ2I1djJZUEkyZEJHQWdn0gF0QVVfeXFMTmk0bTA3VExILWc4VXJXWVIxT0JzSEZDTUU5YWpEY1lla1JnV21weEFsd2dpSlFjU0N6UTUzUGtILVpJbGRLeDBDdEhwX3N5eGNzcmVVbVhpdEtwZXV3UHpuM1pDTHJnWnZyQVZBcmt5WWRUTDY?oc=5"
+        },
+        {
+          "nome": "DiariodelWeb.it",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQ1YtaGs0NUEyd2liRDdkcC1OaFJ4NVB5bldDSW9mbnQzWTd4ZHJfQ05oRUpxUWVfRkpqWUx6NVk2b0YwVzhORnhmRkFXVmlfQ0RRZFFFb3NSOWZYRGp4ZjBHMFZselFuZV91NGhNRm5mSzR1VHc1ZWgyOFNNTkoxZ3htdGxZNUNwT1hwcFJMcmprclhPVUt1M2FHcGRROURlVUxZ?oc=5"
+        },
+        {
+          "nome": "Cosmopolitan",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSVRJN3V5SWMtV1VVeFZqaU50bDZoSzloZnlGNlBUeUUzbHR0Q1UyMHIwS1AxRU1ZVzZDeXFXZXVWVThDeXdPX2M5b1dubTNubEJkeUU2MzJvQW51b0tYSUFrc0I1ZW9ZMlRWMTU5WHduTVBVZWwzUGFZdHZLTUV6dHQ3TlAxZlVraFNvbEhhSTh4S2FGSmlkQWpTUU03QmthY0pYeXdPMzBNVG9sNnZXRVBCbmg0Z1BWQ2lDX3Zwa3VrUTZHc2ZEOEc4MllVY3pkcjdUelpNTG01Q1VVUDRtMA?oc=5"
+        },
+        {
+          "nome": "ComingSoon.it",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRjlhQ0VLb01PbmxVenRsdkpfSXhjak9fa3p3WnQ1eVhYcDVUbGJYR1ZycWxUMDNzaTVxV2dDUnpJNXdwVUg2MHhwN3A0dlJwNnA5aURTU3VQbC1EVVkyX2hwclNXRlpiRFlDVkJXeTd2NkdGUU9sYUR5Qmk3SklobGoyTjRzaEhCX0I5STU4MW55RXFiZHZfT0dRYU1zYzR6SlY0UlZDMGg2R1N1U3NYMmNZNA?oc=5"
+        }
+      ],
+      "parola_foto": "red carpet"
+    },
+    "ambiente": {
+      "id": "ambiente",
+      "label": "Ambiente",
+      "segments": [
+        {
+          "text": "L’Europa affronta l’urgenza climatica con un pacchetto di riforme, mentre la Puglia promuove un programma educativo per la gestione sostenibile dei rifiuti e il centro Sant’Anna lavora alla transizione energetica.",
+          "type": "plain"
+        },
+        {
+          "text": "Puglia",
+          "type": "name",
+          "detail": "Regionale italiana con iniziative locali sulla sostenibilità"
+        },
+        {
+          "text": "Centro Sant’Anna",
+          "type": "name",
+          "detail": "Istituto di ricerca per la sostenibilità e il clima"
+        },
+        {
+          "text": "Transizione energetica",
+          "type": "deepdive",
+          "detail": "Cambiamento fondamentale verso fonti rinnovabili ed energetica pulita"
+        }
+      ],
+      "aforisma": "L’ambiente non è solo un paesaggio, è il terreno su cui costruiamo il nostro futuro.",
+      "autore": "Elena Verità",
+      "approfondimento": "La sfida climatica globale richiede azioni congiunte a livello europeo e locali. Le politiche ambientali, dalla gestione dei rifiuti alla transizione energetica, sono le leve principali per un futuro sostenibile.",
+      "fonti": [
+        {
+          "nome": "ildenaro.it",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNTBnS2RJQXowLTN6M0JQX2VGcGZROTFhUUQ0RG0xZ2NNRjFESWgyZDR6Z2pLczlsSnc4bmxPUnZicnM4c2doUm96VDFZTEtTMFRlR1YtZmRfU2xkQXB2aENqTU1CbWFLMU5BMEctb3lJNEFGdEhIOEQzY2o4LUVSQzA0NWx1LW9Hdy10TlRHNHNTclBmaGQ4cHVrUjNRcTJWVTgyZUNlV0JXRW1IdjFPd1B4bEdENVgwY3R0LUZydGMzU0Y1NlB3OXZlbTFNSnRHU0JV?oc=5"
+        },
+        {
+          "nome": "Regione Puglia",
+          "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxPZ0pDaVhJa0hHUDdXSzQ2OU0weVczRWFuVTBSek9UbU8wRF83SGlhemlvNFNoTUJnQ1daeUhza19UUTVkSnJCT2Y3THlFMUFUdndmSEZRbWExQ0NnSldrSmNrbHY5bnhDdjltZWlCYnR1NFNGNzlDRUZMY2ZacnZDZjduZUtpWVFpajFCQTFlWERGVms1cDVWQnFqRVNJQ0VmSDcxNWQtQTFYRTJBeHlYdDk1TWMyRUc0eGpGQXljTHpvUGtOOWQ1RjA5WU04TEFSQmF3UFNTWWs0QjlPNVlZRmlodkwzUWVqOTlSbE1nOXV3VmZFek5YMHFnTm9ycnBFbmwzbmZIZEk4UnE3RlB6aENvYUZYbVZoU3ZXb1hDdUxDWk5lU2ZWV1RTWlVyd0EzN1U5eldncE1qZWZKSGdPaXlKRDYwbEQzRWd5Q0pqaTJucmdrcHV6eGlR?oc=5"
+        },
+        {
+          "nome": "La Nazione",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQzZEUTJrMVpBZHBEWV9sQm9UREh4dV85Z2tEa2dybEQ1NG03NHliSXFuSGJ4QmVRY0FpR0xhcENmWk9hbE1lSDJiRF9veE15ZEVzSkwwNXkyOG5zOHhkZEFTMEJobVRiT3pNMXFXY2pDZXFLUS00M0VrSVdMTEtmRWNzYk54a09HV3lrVUNkZVZUNlJINERnRHFuOTNQSVhaZnhHVmd1REZsZXdfUVFkaVpBdng4aHBNZGk3T1MtckEwdWhIMmNqSE9tbw?oc=5"
+        }
+      ],
+      "parola_foto": "solar panels"
+    },
+    "moda": {
+      "id": "moda",
+      "label": "Moda & Lifestyle",
+      "segments": [
+        {
+          "text": "L'evoluzione della moda italiana si espande con la ",
+          "type": "plain"
+        },
+        {
+          "text": "collaborazioni di lusso",
+          "type": "unusual",
+          "detail": "Progetti innovativi che uniscono design e fashion"
+        },
+        {
+          "text": " ",
+          "type": "plain"
+        },
+        {
+          "text": "Versace",
+          "type": "name",
+          "detail": "Marchio famoso che affida i suoi arredi a Lifestyle Design"
+        },
+        {
+          "text": " e ",
+          "type": "plain"
+        },
+        {
+          "text": "Istituto Marangoni",
+          "type": "name",
+          "detail": "Istituto di moda con campus a Riyadh"
+        },
+        {
+          "text": " ",
+          "type": "plain"
+        },
+        {
+          "text": "Design Week",
+          "type": "name",
+          "detail": "Evento di design che ospita la moda"
+        },
+        {
+          "text": " ",
+          "type": "plain"
+        },
+        {
+          "text": "Milano",
+          "type": "name",
+          "detail": "Città ospitante degli eventi"
+        },
+        {
+          "text": " per il ",
+          "type": "plain"
+        },
+        {
+          "text": "futuro",
+          "type": "deepdive",
+          "detail": "Scenario di innovazione e sviluppo"
+        },
+        {
+          "text": " del fashion design",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Moda e design: il tessuto che intreccia il nostro futuro.",
+      "autore": "Elena Vittori",
+      "approfondimento": "Le collaborazioni tra marchi di moda e case di design sono sempre più frequenti. Le università italiane mantengono un alto livello di eccellenza globale.",
+      "fonti": [
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNGt4dldsWHAtRVNRS21hLTBkWWo3Ry1RTWREd3VPTTVCbkp4OU5NSE9rYUJueEhlZVN3dTVJeVBaWnIxY0I0cU9JOTJFYU80WGhoSmdzQURYVXpLaDhFWnNtUWJleGQ0dEZNNXJQNlN2aDR3Sk1CSjI2QUxmR3luV2VEekhhYlpFYjhkUFdmdDB2eFFqNWNfRnM1MA?oc=5"
+        },
+        {
+          "nome": "FashionNetwork Italia",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbkFXY1V6TjBkMXZMZUVjMDBXTW42NldBREZZMjQ4QXR6MTk2NGNvQmN4aXY3dmNKVVNaZHdVYlZfUktJdVhKdU5GaFhCTlF5dlR5ZjhndjdJNjNpYnlkSHZfR293cGVMUUFJUVVYdDlsSUp0bEY3cWxFeWg1TGlqdy1jXzNvM0hmaDYtTHIteFFCSTg2bGEzRUt6TGdwVTNPa0xBNGdYZmVfbkU?oc=5"
+        },
+        {
+          "nome": "NordestNews |",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ3JHN09HNVhkVWd2aDdFRW9xS1lIM2M5WVlxb3hnOFEyNjBLQzh4dFBJOXJ0cnJhem9nTDBfM1pQUHh3VFlibC1ZLXo4a3dCb2tqaXAtYjlrTWZSb1ljZENpUjIwbmFMU2RPRUt2SGdfUlBYOHZLOEdqSzd6RjBwN1p4dmdDdi1uM3ZXZVpqeG1lMnFma1lqZk53?oc=5"
+        },
+        {
+          "nome": "Harper's BAZAAR",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRjVQZG8zWE90LUZMWVZVb3lyWHNvN2xFZ081dGZMSUllczVpRnhOOUV2QzBhcDdnRjJNTURTc2ZMejRLbGItNjQ4ckU5bmRZODh4eUFPRFR6U0FydkxnN3NRZXZ3cll2UUZCQkY4a3lYdEVHVUUzTmVFVnhuR1ZhMDVxa2JpZ0k1REZJUXdZZmczMkQxTnFaUENCak5qTXBv?oc=5"
+        }
+      ],
+      "parola_foto": "fashion design"
+    },
+    "concettoplus": {
+      "id": "concettoplus",
+      "label": "Concètto+",
+      "segments": [
+        {
+          "text": "L'Italia è al centro di molteplici sviluppi globali, dai problemi logistici agli accordi economici.",
+          "type": "plain"
+        },
+        {
+          "text": "il controllo di Commerzbank",
+          "type": "plain"
+        },
+        {
+          "text": "dalla crisi dell'olio d'oliva",
+          "type": "plain"
+        },
+        {
+          "text": "fino all'interesse turistico per piccoli borghi atmosferici",
+          "type": "plain"
+        },
+        {
+          "text": "e al trionfo sportivo del calcio italiano",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "L'Italia è un mosaico di contraddizioni dove il passato e il futuro si scontrano.",
+      "autore": "Luigi Moretti",
+      "approfondimento": "L'economia italiana riscontra sfide sia nel settore bancario, con l'approvazione dell'acquisizione di Commerzbank, che in quello agricolo, minacciato dalla crisi dell'olio d'oliva. Parallelamente, la cultura e lo sport continuano a generare successo, come dimostrano il successo turistico di borghi remoti e le vittorie sportive internazionali.",
+      "fonti": [
+        {
+          "nome": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUVFTa1VwRXR2TUlHR2FGRG9UU0xMY04yZU5JeGlqajl2T29mZGJqalB3TThYNi1nWjRpODB6X3dRTENISUhPdWp2Rk1yRFpNRnYxR1VNUTZuQUl5RW5ldmljNFhqY3pJX3M4RVczRm13UzF4TWhTX1Z2UWF6aHRkUUNqLXZDd3FOSjRONVhEQkFjd0NWa09uQXNad0FONWdxdkVvRmdwWlFxczczT1VSanRjeU0zMUU?oc=5",
+          "paese": "Stati Uniti"
+        },
+        {
+          "nome": "l'Opinion",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb2xIY2g2LUpUOXlUcXhEbGdyT2ZNRDJjUWwwZ3dqVEo5Q1QzZG5YRkNhaVB5VmExcXhwRzV0MVlFX2g2dnpqN19KYjgxM21JRHlyN2w2ZzE1Y0ZVX0hsMzB6SmI3WUlFT0ZLX24wa1FHYWVWeFd3MlF0OXZzeEVCd29VT2UzYjdlcE9QV3NhVjdGNUNHZHNMa3lTbWg3MUFUbjZGRU1uUjRTWFdM?oc=5",
+          "paese": "Francia"
+        },
+        {
+          "nome": "The Times",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSmwyc0xQQmdkc1pLaEpoU2pXSUVfVm04QVZtbVRiYm1wenRTb2FSam9NcENNY2pwSl90cldqZ2pLRGFkT3pINUF3bHVHS0pBN0hUNUNDMXo3MGxDSmZGWXl3SHltbjNMSjhjS05WMkdxZXpveWN5MEtfVjBpb3MtU0tvRE95SXVpQXU3X1g5RVAzT1VDVTQ0MnBCU0QzSlhXcVkxVVNDWlNqNzBmZWZxZDZQQktxLVh2djlTVEVES0xrREdVU0E?oc=5",
+          "paese": "Stati Uniti"
+        },
+        {
+          "nome": "ESPN",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVGp2YmEtZlh6ZmhpekFrUnpnLWFTekliZFZTczBnMjBaMWNBOEZIcVYwSjBlZ2U5cmpNcEM2V3Fla0N4b09kYWg3enpKNEN6bDROaEZhaWVQaUZoWk43Y2lQY1M0WUtOM0RXVXlwU1JQMHM1NnBsZE5UdTBSMHRWUjFnd21sWFEtcThhd0ExRnRDeUtJLU1IeWx5dUxJUFhWWEh4aWJXQQ?oc=5",
+          "paese": "Stati Uniti"
+        }
+      ],
+      "parola_foto": "italian coast",
+      "paesi": [
+        "Stati Uniti",
+        "Regno Unito",
+        "Germania",
+        "Francia",
+        "Giappone"
+      ]
+    },
+    "tecnologia": {
+      "id": "tecnologia",
+      "label": "Tecnologia",
+      "segments": [
+        {
+          "text": "La guerra moderna",
+          "type": "deepdive",
+          "detail": "Come l'intelligenza artificiale e le aziende private stanno ridefinendo i conflitti"
+        },
+        {
+          "text": "diventa un campo di battaglia",
+          "type": "plain"
+        },
+        {
+          "text": "per Starlink",
+          "type": "name",
+          "detail": "L'azienda di Musk ha recentemente ridotto la connettività per i droni ucraini"
+        },
+        {
+          "text": "e per Microsoft",
+          "type": "name",
+          "detail": "Con il lancio del nuovo controller e l'espansione nelle aziende"
+        },
+        {
+          "text": "dove la vigilanza interna",
+          "type": "plain"
+        },
+        {
+          "text": "trova il suo momento di gloria",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il vero pericolo non è il nemico armato, ma la tecnologia che lo aiuta a sparare.",
+      "autore": "Marco Valturri",
+      "approfondimento": "L'uso di tecnologie come Starlink in zone di conflitto mostra come le aziende private possano avere un impatto diretto sulle operazioni militari e sulla strategia di guerra.",
+      "fonti": [
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOei1YRlVZZDQzNUdsbElZRkw3RU45YlVzVDQwdktrRjhwTW9iaDlXM3BtZTBxSU1TZmpDc1Yzb3Y4X01WN1llWkdLZGNXM0QycnVONDFKOXB5S1hSVEU5blA5OGdQZlVXZGJ6WGRESmxVSG5QSDdrMkxvSWUxaTI2cGt0cGNUaERWYnZtSW9rXzVQY0VXOVUwV3VNSk93MnVLMUQtLVI1MEMwMktlRG9SaTdfQWk0MGo4TWxoTkEyZnFFWXpN0gHKAUFVX3lxTE9mbXZnRmUtejl0UzgtejlOR0FxaUFOYnJTLWpENUNtWnByV0xlLV8zcjg4Q2l4bkQta0ZWNlZnYzJCeE9PaHMwZ00wc0xxa3FRazZvWl9jRFA0bG0tRTZvcHc2eFQ3NVZtOTZIZmFyNVp3a3hvX0N5VnhYcTEtQmo4WkFnaFFLRi1ZdzR0cVFTQktaTjZYUnJyeGlBcWk2UW1VN3hCdDdPcU5wbWdJOHpZT05yVVUweG14cVJ4MmpwN1JnVmFHaTVnZXc?oc=5"
+        },
+        {
+          "nome": "Multiplayer",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZzZQNV9NRUkyZ3UxeEhYYUMyTDZnUTJxU0J5WmNidk94a0pDWmhEZjB5TTJOcE9icUJnT3VUVW00YUdfSEdaT3NJdGVVWmc0RUdQd0hHWEE2YlhnQWdVWlR6TjFCQUNxVW9uWEx1UkJ4Q04ySGd3eFJmajQxSFE4cVJZUTZVQWhlTTJ3aVJxa0RWTl9vaWxRVGQ5akpNZWNNbGpnWlFnNkEyUzRmdzFHVm02Yi1WaGFYa1hRaFBqS3FHa1NqWC0tcGRDZ1BQMXpwS29oczdodkYzdkZWMkE?oc=5"
+        }
+      ],
+      "parola_foto": "cyber security",
+      "stale": true,
+      "stale_da": "2026-10-15",
+      "stale_ed": "mattina"
+    }
+  },
+  "errori": [
+    {
+      "categoria": "Tecnologia",
+      "errore": "[HTTP 429] Rate limit reached for requests"
+    }
+  ]
+}
