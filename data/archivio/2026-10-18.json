@@ -1,0 +1,644 @@
+{
+  "generato_il": "2026-10-18T07:25:28.865Z",
+  "data": "2026-10-18",
+  "edizione": "mattina",
+  "id_edizione": "2026-10-18",
+  "categorie": {
+    "italia": {
+      "id": "italia",
+      "label": "Italia",
+      "segments": [
+        {
+          "text": "Mentre il maltempo e i cari-vita mettono a dura prova la quotidianità italiana, il Paese si prepara a uno sciopero generale e a scontri violenti.",
+          "type": "plain"
+        },
+        {
+          "text": "maltempo",
+          "type": "unusual",
+          "detail": "Fenomeni atmosferici avversi che colpiscono diverse regioni"
+        },
+        {
+          "text": "Cgil",
+          "type": "name",
+          "detail": "La principale centrale sindacale italiana"
+        },
+        {
+          "text": "sciopero",
+          "type": "deepdive",
+          "detail": "Protesta di massa con richieste economiche"
+        },
+        {
+          "text": "20 novembre",
+          "type": "date",
+          "detail": "Giorno in cui sono previsti i cortei"
+        },
+        {
+          "text": "Bologna",
+          "type": "name",
+          "detail": "Città teatro di scontri tra giovani e forze dell'ordine"
+        },
+        {
+          "text": "e",
+          "type": "plain"
+        },
+        {
+          "text": "Torino",
+          "type": "name",
+          "detail": "Altra città colpita dalle proteste"
+        }
+      ],
+      "aforisma": "Il prezzo da pagare per la libertà è spesso la fatica di camminare controcorrente.",
+      "autore": "Giuseppe Verdiello",
+      "approfondimento": "La nevicata e i temporali minacciano l'Appennino Piacentino con rischio frane. Il Papa torna in viaggio dopo le dimissioni dal Gemelli.",
+      "fonti": [
+        {
+          "nome": "Sky TG24",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbnFPRXFZVUpNR0pkVUxDNGlMTjNHUktSM0poeFhnM0IwOFphNUdSUmRjZ1ZkZHlOQloyTkl4N3VLQkVVb3F2N192dDJ5d0tBX3RLdkg4MDhKZ1BSWFdodl9ESG93U1hpZi1Tc1NZOWZmazZhT3pCci1uSjN0VWkyRXZlMA?oc=5"
+        },
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSXotMklWNExKV3pKNmZreWJvWERjeXd6TjllUHVKdEctRVpEMnNhQjNSRFhkdzdyTUZId1FESVp0b21sdWpEOXNjRzdqOXdMYjBtWlF2ekh6NS1BN29ULUVBMFowcWJaN00yS1FnOW5mclpRSFcyTlFXTHpVSUt1Y3I0Ymw5T3JDNGVv?oc=5"
+        },
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQc2lHVjZQUDlSU1lOYm5TMkFnV0ZDNmJJTVl1S0I3ZmpHRGctR2ZKZFM4N05sN1hobUlFanFQUVlsYUFDNHZtVHhCSjM3TFJmcnhEUlM1YW5YQWpSdGtHMXhLa2o4MDl4SDNIT09MYkRGV1VmWmV2cEY1RlNfZVRMZGZUbjhTMUpzTFpHMExtZmNTVDZhVXRmc1lQa0tXUXdtdEYwZUNsMWhOa1AyNlFaZ2lmUFVDMVlDQ2xBSlo0Vmt4NWNWWEJXbEQxQW9xSC1TOVhIM0EyRkZDd1RWV0Y2MkJaNHluZjhsV2FlXzNkUVNZOHdLbXlTRTRPSFdNeHlSVHpDYnN0WdIBjAJBVV95cUxOcFltSXlRdnJmRnRtd1VVRXF3bml1RmV1T1B5WnZlR2U5aUd4RzV5ZlRXQ3ZXb1I2Rkc5b1k5V2M2UWVIZjg2Ykx4V3pBSXJNR2NoXzNxd1lFYUpOWmtWcEJHR3BMY21Xc3lxWlBvWGdSZFRfdndSbGNWYUhzYkttdjNJckZEMGRqT2xHVHBfT3E2dno2RlZIb05fajJjUDRPSWdnOVJRQWdpOUZrS2xOVG1nb3p5VkhSY0Uzby1BeG1ETURlX1NBd2xnZ05acEhyaENoMjZCSmVrU0dFcWxjMnJxcTMxRU82N1NVLWp5S1MzLWVwSExDTS0tc2kySm5sUE50b256OElhTGZ0?oc=5"
+        },
+        {
+          "nome": "ANSA",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNUG1sUzB4bVJQUzE3OEk1YnM1RzdCUkZ4V2l5Z3JNSUtaMklHUXJoT1h4OWlMMTdtZTZPUzV4aElqcF9WN0tmS0czZ2ZWODZuNVRMZ1lrUmg2MnRNemh4S2sxdU56cTIwWDh4czZpS2N3ZGptVFBIQTVoR2JuOFJYOWtKUVFXVEZNYUNrRzFDUU1YWnppRUhSNldHVDVoSzd1eDVzdFE2QTdKa1RYV1NYT04zYW1UYktqM2tYNDVpWUlNeGl4S21YQkxaTlg1TVNfbTVjVE9FNlh2czNmM2lEcTF5M092cndIa0UwaThOMW9aWHlyWTItWmtR?oc=5"
+        }
+      ],
+      "parola_foto": "stormy sky"
+    },
+    "economia": {
+      "id": "economia",
+      "label": "Economia",
+      "segments": [
+        {
+          "text": "Il Governo, Fmi e Confindustria discutono la manovra e la sostenibilità del debito mentre Inps e Fisco varano nuove regole per l'anno nuovo.",
+          "type": "plain"
+        },
+        {
+          "text": "Inflazione",
+          "type": "unusual",
+          "detail": "Tasso di aumento dei prezzi al consumo, punto critico dell'economia attuale."
+        },
+        {
+          "text": "recessione",
+          "type": "deepdive",
+          "detail": "Periodo di contrazione economica con calo della produzione e dell'occupazione."
+        },
+        {
+          "text": "2027-2028",
+          "type": "date",
+          "detail": "Anno di previsioni di rallentamento economico."
+        }
+      ],
+      "aforisma": "La crescita non è mai gratuita, chiede sacrifici.",
+      "autore": "Roberto Baciocchi",
+      "approfondimento": "Le discussioni politiche e istituzionali puntano a bilanciare il debito e la crescita, ma le previsioni economiche per il 2027-2028 segnalano una recessione imminente.",
+      "fonti": [
+        {
+          "nome": "Il Fatto Quotidiano",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOcmlOendsNGpFV0Jqdjh5bklzalNCSXI1T2NGeEJXa05iemF0NEVVQzBlTXVxT0Z4S29sSmZxZ1cwanYwQ0F4bXRqWUhPcEV3bkdzY3JfWHJEZVpMdlplcEN6UG5SdnctVERNb3pxb1A5WTUwcGotSkh2SGYxQVNJWFNoSVJqNm9wbU93RlpQY05WVmR0X0lmNDRUUHVsemdkdnZfVTRMbVNmU2VOTTlxRkw4djQtUWxMRzlZWHJld3BBaUUxakg1bUJLaVNoNUdDNGxRdjlXV0U2QjhRMEJvSGxkNDNCS2REUkR2YktSWU82Qk9qYWRJ?oc=5"
+        },
+        {
+          "nome": "ANSA",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNS3IxaHpLczduLWNGUWE2bzJSSWh3Rk8xRkhoUHFHWF9QMzBORlhDd3MzLVlNRnhzNkY1T21jbjFOOUUyalFGYWJIbm1IMUJJOURkSzZFRTVXd3Y4RExVZGNRcjRIMHpud21VX3NyVHdPQm10bG1BUWxNNENacHMwbzBySE5SNTRrWkNIejFlRTY1MjA0d0xsOGl6Y29DWDNvMlVCNG5saVN4OU1YUU1NMENNR0xQdXNJNFNpYmUzemMycXpENGRZSUlLYnl4LW0yNldLQTdVOE9ROVl5X2NZ0gHkAUFVX3lxTFBIaElqcGNyLTB1bFlVbXA4bkswM3hGekpSUHVmLWFIaVAwRi1IQWlUbTRwaHQyaE1QS2pCaGhPYmtaNGNlaGEtU2RVakZZaGY5VWFRX2hGeEVxcXRmbXgtaVZ1RkpCS19PVFpJUGhZM3k1SVVUdTlMZWR0b3FHZXU3R0RJWk9vQ2pIVW41QllRcmsxeWk2aC1PSjNzWVpESUZ6em8yQlZadUM2X3UzOFQ3ZG1RWUdnSDB5bmlkdDVFNXdXeDRrZkFRNWh1RXBHX2FMT295b2E0MDAyU0dwUVctZnFUVA?oc=5"
+        },
+        {
+          "nome": "Sky TG24",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9MTkZDZkQtT2NTaTEtSDgwVW1mWXVQRXF5T2lLOGRFWVh2Mk5LV3dNN1pldzJPUll5REgzdWVJcThHUzVKQU0wZFMzbW1SYnBvYWJiajlGaVMwZFhxRUhaX2ZMbFVma1B2eWgyNDhlUWlBc2lFYlBZMmd3?oc=5"
+        }
+      ],
+      "parola_foto": "economic data"
+    },
+    "tecnologia": {
+      "id": "tecnologia",
+      "label": "Tecnologia",
+      "segments": [
+        {
+          "text": "L'inflazione tecnologica",
+          "type": "unusual",
+          "detail": "Un termine economico per descrivere l'aumento dei prezzi nell'industria digitale."
+        },
+        {
+          "text": "sconvolge il mercato",
+          "type": "plain"
+        },
+        {
+          "text": "San Pietroburgo",
+          "type": "name",
+          "detail": "La città colpita da blackout e droni in Ucraina."
+        },
+        {
+          "text": "mentre",
+          "type": "plain"
+        },
+        {
+          "text": "Kessler",
+          "type": "name",
+          "detail": "La sindrome che minaccia lo spazio."
+        },
+        {
+          "text": "prepara la catastrofe nello Spazio",
+          "type": "plain"
+        },
+        {
+          "text": "e",
+          "type": "plain"
+        },
+        {
+          "text": "AI",
+          "type": "unusual",
+          "detail": "Intelligenza Artificiale."
+        },
+        {
+          "text": "rende tutti bersagli",
+          "type": "plain"
+        },
+        {
+          "text": "Musk",
+          "type": "name",
+          "detail": "Elon Musk."
+        },
+        {
+          "text": "del",
+          "type": "plain"
+        },
+        {
+          "text": "Nobel",
+          "type": "unusual",
+          "detail": "Un premio prestigioso."
+        },
+        {
+          "text": "e",
+          "type": "plain"
+        },
+        {
+          "text": "PS6",
+          "type": "unusual",
+          "detail": "La sesta console di Sony."
+        },
+        {
+          "text": "costa oltre",
+          "type": "plain"
+        },
+        {
+          "text": "1.000 dollari",
+          "type": "date",
+          "detail": "Il prezzo stimato per la nuova console."
+        }
+      ],
+      "aforisma": "Il progresso tecnologico è un'arma a doppio taglio: più potente, ma più pericoloso.",
+      "autore": "Silvio Vento",
+      "approfondimento": "La combinazione di costi crescenti e minacce globali crea un ambiente di instabilità economica e geopolitica.",
+      "fontesi": [
+        1,
+        4,
+        8,
+        10,
+        11
+      ],
+      "fonti": [
+        {
+          "nome": "RaiNews",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVWlIRFlfeXBwVDAtZGNabGlSZmdFOTJBemtRdUZnOGpnM0pFdjNHUXVOLWFvNkREaUE2ZS1aMDhJSjROMmFNcGJjNFZPbUVGY1ExN3REb21oZUJaMWdYY3J0TnRTc2cxMXVIVjFWV21RSGQ1NmZLU1ZwTFJEcGRuQ0lLa1h3TkZHdVFzbzJXeHpGdzJTNHlOVFlLM2E4SGs0YVc2Q1RfSmJpV0RkNURRbDlDc0JCU3hUems5UXNlWUl6YkJhOG9tOHJGUGh1SmVoRGU3Rm1n0gHbAUFVX3lxTE1DZ2NHQy1UWU82OEtPbTQwdlFXbC12RnpIWVdSVDJHSFZOOGY0eXhxdHprMTc1bUtPM0lpUUxNME1TclF1MzBaWXBxSkNMMTN4XzhDVVBHSHJvbkh5V09nSlBMNzBOUG9KQ1VnY2V6UTdYcUVRTGxjaUhDX2l4ZmdpSHZIbHlIb2puTTZKTzgtNDZReHZxUExDNUdzOEVWemRIakdna3ROMkFOd1c4TTBiZ2pwQzNfQnNVcWpFZEZOaVF4enBnR0pNcjNBVGdJak9FclBSamloYVA3NA?oc=5"
+        },
+        {
+          "nome": "Tgcom24",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNV3ZRb25fa2dRa3VRck4xVEQ0THhGRlM1amNGTHFpZ0NRVi1iNmpJcGE4WlF2R1lvcjk3WGFZeUE1SUs1clh2Qnk5SFJDeDhSVjZVSHREdFpBcFdKcjhYd1FSU0ItQzN2Qjl3ejdNVFYtdE5FMzBPQ3N1dEtyUG5IbS1kOG0xMWtsZG1iQW1Mdmw1NmlwYXRVcTVmV1paaDYzdHlEMmNUZ01BZlp2ZGJUMnhabXBQR3ZfOUFNWkNkSdIBaEFVX3lxTE0xZGpUZU1NQkdsbHdhS0RTRHM2MENuSjFrRFh4S2l4OXB3eGZ2MUhuZnJHWnBBcHo5TDEyYVpPMy1MdEFIc2FFenU3SWhrakVwSy1teFpUaTcxV3JWQWFMcFZfZzc5MmdF?oc=5"
+        },
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWGpFUG4yaXRScnlobzQwRVlEdGFTMXpuUzFNek0xYVNEcGJUTnlycGo1Wkhhd2syeHRnTXVxdUptLXFHdEVvbTZoNWhrMUR6b1FzM2ptNDg4T3hjbFk2Qm9kVHZFeGtlc0Q0cnZ1NUg0X0ZNZThYSnNod0daRDJob25TWGx4bTAybnlsM3pGS01ZRHVuUGNPMG81ZWlHaFh3TDk4Qg?oc=5"
+        }
+      ],
+      "parola_foto": "tech prices"
+    },
+    "cultura": {
+      "id": "cultura",
+      "label": "Cultura & Spettacolo",
+      "segments": [
+        {
+          "text": "Il mondo dello spettacolo è in fermento, con sogni di gloria, appuntamenti fissi e avventure artistiche che animano la scena nazionale ed internazionale.",
+          "type": "plain"
+        },
+        {
+          "text": "Ballando con le Stelle",
+          "type": "plain"
+        },
+        {
+          "text": "e",
+          "type": "plain"
+        },
+        {
+          "text": "Sanremo",
+          "type": "name",
+          "detail": "Il festival musicale italiano"
+        },
+        {
+          "text": "vedono protagonisti che lottano per la vittoria o cercano di entrare nella storia, mentre le stelle del cinema si esibiscono sui red carpet.",
+          "type": "plain"
+        },
+        {
+          "text": "Festa del Cinema di Roma",
+          "type": "plain"
+        },
+        {
+          "text": "e",
+          "type": "plain"
+        },
+        {
+          "text": "X Factor",
+          "type": "name",
+          "detail": "Il talent show musicale"
+        },
+        {
+          "text": "confermano la vitalità del settore, offrendo spunti per approfondimenti culturali e notizie sulle nuove generazioni di artisti.",
+          "type": "plain"
+        },
+        {
+          "text": "Show business",
+          "type": "unusual",
+          "detail": "Il termine tecnico per il mondo dello spettacolo"
+        }
+      ],
+      "aforisma": "L'arte è un modo per dire la verità, mentre il successo è solo la sua forma più vendibile.",
+      "autore": "Giovanni D'Ancona",
+      "approfondimento": "Il panorama dello spettacolo italiano è in continua evoluzione, con talenti locali che affrontano sfide internazionali. Le stelle televisive e musicali non si limitano alla scena, ma influenzano la cultura pop e i gusti del pubblico.",
+      "fonti": [
+        {
+          "nome": "RaiNews",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNaTB0NjBDNk9iVG80aktFcDZzSkZJdk9rQnE4ZTdKS0xXdUptTUE1a3pOU0Z5eERjUW9QTWo5V2VkTDVUS3c1QjdXSkxIeERQUkRZS1RqcC1ET1hwM3BCMWxpaFVKRGhfekV4NndQa0J6cTc0UnRuZTNUV0daSXR4WDRPX0hGM0JaRndNOFh4c0pXRkVyRG9sOEtXMF9rR0tpMThBYk5iR0JrV0ktM3VaWW1Qb0ZtSnNkMHBOQjlkZF9WT2lKcWFSd21QdEhITUJZZWR0SnkzUE9xYlJKZDBEamozQkVrQmRRMkY4ZUh5ZFBPa1BG0gH6AUFVX3lxTE9GOEk4cHRGQTRqaGlucml4Y00tUG1WMnVhVDJnOXVILUF0Szl3RUpQSHVKa183cGhlNXRJbDFhWDFpZGpOeU8tdUI5YkUyZTFaVGx6ZGE5Y2w5dGFYN1lBRHNaTFgtUGpZNjlHLW5fMExJZjRXaUhDVVFoNWx2UFZMcjBOV0tBQ0lsM2pnSzBLRFVNZGF3N0RwZnhXNGtuZnZsaGZtSVQ5V2tic2x5LVAxbWtSS3Q2aGx2UjlNRGJEWVJtanU2azY4aXJ1YWItV1hGcDJIbk14Tzg5Mno2RlB1elFsY1pDLWtGcU9fMy1wcVRHZUZVTkpiUmc?oc=5"
+        },
+        {
+          "nome": "Il Fatto Quotidiano",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQZ3NVZXpJVXNVZDZ6T05qVGttVmtqTlNnampqY1IwMm1RM2xELUc3Nndnb1Jja2ppWlBzT1NfUzg4Z0h2ZHNoLTRnNG5LRkxFNHBDWVU3eEUwbFFrRS1FMHYwam1VYzk3UTRsZ0NISFNuTnd1bk5XZElVbFFzaWFpdEx4VEdVaFpHU1hpazZtdm10THhQeDJEaXViSUZYMVA3aWRxaUhlandIOXlsb0FkcG1vNU5xdF9lRG13ODV5U1VHcnhpZU9rT2RZYlc0Mlo1Y042YlRySVItVC1zUHJrRG1tY3BWaE5CZWQ4TkJWQjlUZnN4LTJ1QVpQREdDZVBtV0FWSkZJN180QQ?oc=5"
+        },
+        {
+          "nome": "Libero",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMmVVZFl3TEVVZUlsY3RteDJNaGd1QlltWFVtX2JiS2tRQXlFWThuR2k5WU9ZSGtsNGdSTUdGb3pIOHgzSGVBMHZGSWIxSzFkMXE1RU1OSENKMjZ6TWFaVnQxSjJGWm81NnFmU3RMa2xPeEZPcXVWRXJuNUxsQmpmMUtiS0x2VTZ5X3ctNnZVdFlzQzluWDFLUnJFRlpKeDFfMWw3N9IBqgFBVV95cUxOUk01NXBjVEVlQ0E1QWRxM05YbWUtUlphQ0hsQ3hXWl9CMkQ0aEt3QWZrY21yRHpKM0F1dElFUlhvWTkxZktNanZiYlR4WkNNaDVfRzk3UDJmeDNNU3BHOFVRZGxWWVFJcmhSZXYwYzdIdnZIOWxROWM0VkE0Skh1T3EzdG9zVkxBR3k4WF9leURXaVV6ai1sYnAzNDRWcTdhVlpSaGZlclEwZw?oc=5"
+        },
+        {
+          "nome": "Vogue",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcFUxekd5WTBmbU5ZZWFUSVA1RUlzdHlLLWtXVGtYTHFZQnR6SlBWS0NuRkRVc1B1aTVEZURlTVVQdW5LcjQ2TllkLWMyOEM4M2REMldWVlo2eTduNHlTRE03VmtzYlg0TWQ2dWViODRWNGhSM1Q1b3RkMUZGdXBDSktUOHhnZnVtTUJ4aXdaTTNZdw?oc=5"
+        }
+      ],
+      "parola_foto": "concert crowd"
+    },
+    "gossip": {
+      "id": "gossip",
+      "label": "Gossip",
+      "segments": [
+        {
+          "text": "Le stelle si rifugiano nell'Isola dei Famosi e nelle vacanze per sfuggire alla caccia mediatica",
+          "type": "plain"
+        },
+        {
+          "text": "Marilyn",
+          "type": "name",
+          "detail": "Leggendaria icona del cinema e della moda, oggetto di grande fascino e specchio dei desideri"
+        },
+        {
+          "text": "Coachella",
+          "type": "date",
+          "detail": "Festival musicale e culturale che attira le celebrità più in vista"
+        },
+        {
+          "text": "Deepdive",
+          "type": "deepdive",
+          "detail": "Il desiderio di privacy di chi vive in pubblico"
+        },
+        {
+          "text": "fashion week",
+          "type": "unusual",
+          "detail": "Eventi di moda che diventano scene di celebrazione e confronto sociale"
+        },
+        {
+          "text": "Belen Rodriguez",
+          "type": "name",
+          "detail": "Celebrità italiana nota per la sua partecipazione a reality show"
+        },
+        {
+          "text": "dopo mesi di trattative",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "La fama è uno specchio che riflette la nostra immagine ma non la nostra anima.",
+      "autore": "Emanuele Valturri",
+      "approfondimento": "Le celebrità cercano costantemente un equilibrio tra il desiderio di visibilità e la necessità di proteggere la propria vita privata. I reality show e gli eventi pubblici diventano sfide che mettono a nudo le loro emozioni.",
+      "fonti": [
+        {
+          "nome": "Today",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBTbnVvdnB2eE94NDNWbU9Jamx2MW1MLTVVRXhlZTdCakxpTjZUd3RBZnhleUdoTjhrRlVBaERaME42eXpWeVY5RXNUa1lmS2toOWxKY2Z6XzBqUmZxRUd2TTBXNF9rZ2I1djJZUEkyZEJHQWdn?oc=5"
+        },
+        {
+          "nome": "ComingSoon.it",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMS1OSl90Q292cVBIZ195bG85TFNnalhwa25MZ1FnNk9nM05pUzdZaFBSSEdHQlVHNGE4U1Jtd1FyOWF5RFVmR2hlSzB5TG9hTTNGUXlDekNicklLZzBVZnJPNlg5VEJaOHRQbXV6eDhrbERxS01SX3hobzVkME5KSUNjaEljbVdJMlc4aU4tbU53OGFQeFBJV3hnT2NMMGlqYXRxLUx0a1RtWVdBSG5hQW52cFpPenN4Y3Aw?oc=5"
+        },
+        {
+          "nome": "Cosmopolitan",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQUlkT1paakJQY0N5dUMxZ2NjUDFXUGNENkVBamI5bkRpNU5WalAyalI0d3RSRDBUZWVZZFZ5M0FyVmh5a3duNEwtbjJTUUt3R053RktKY0JRS0M4OVlxdkJqbS1ObVV0RjM2Q1lDZ1JIX0tXcHZDNWN4enZlR1hZdGNKbnZhOXdDSmwzRXk4T2pPUXpKbXJ2T2t2bktPcjFX?oc=5"
+        }
+      ],
+      "parola_foto": "celebrity paparazzi"
+    },
+    "moda": {
+      "id": "moda",
+      "label": "Moda & Lifestyle",
+      "segments": [
+        {
+          "text": "Dal connubio moda e design, con progetti di lusso e grandi collaborazioni, emerge la tendenza per il 2026, che vede l'espansione del business anche nell'arredo, come dimostra l'accordo strategico tra Haworth e Ralph Lauren Home, e il crescente interesse per corsi e borse di studio in ambito fashion design, inclusi quelli di Istituto Marangoni e Polimoda.",
+          "type": "plain"
+        },
+        {
+          "text": "2026",
+          "type": "date",
+          "detail": "Riferimento temporale principale per la progettazione e le iniziative di moda e design"
+        },
+        {
+          "text": "Haworth Lifestyle Design e Ralph Lauren Home",
+          "type": "plain"
+        },
+        {
+          "text": "Istituto Marangoni",
+          "type": "name",
+          "detail": "Istituzione accademica con corsi e borse di studio in ambito fashion design"
+        },
+        {
+          "text": "Polimoda",
+          "type": "name",
+          "detail": "Accademia con la Davide Renne Scholarship per celebrare i designer"
+        },
+        {
+          "text": "Fuorimoda",
+          "type": "deepdive",
+          "detail": "Il progetto formativo per studiare Fashion Design in università pubblica"
+        }
+      ],
+      "aforisma": "Il lusso non abita solo gli abiti, ma anche gli spazi che ci circondano.",
+      "autore": "Elena Valtieri",
+      "approfondimento": "La Milano Design Week 2026 è il palcoscenico dove la moda e l'arredo si intrecciano. Le collaborazioni strategiche tra marchi internazionali e scuole di moda proiettano il settore verso un futuro in cui il design diventa essenziale.",
+      "fonti": [
+        {
+          "nome": "Vogue",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81RlJJelF4ZmVLdjNUU1lmN2FMczdPUnk4ODJPTE9TOF84UC03RS1OU3NZWDZmMy1qaHFuVXh5bDF3UUk0T29Rdk9ldHFYdFRISDVYZkpIbng5NTA?oc=5"
+        },
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNGt4dldsWHAtRVNRS21hLTBkWWo3Ry1RTWREd3VPTTVCbkp4OU5NSE9rYUJueEhlZVN3dTVJeVBaWnIxY0I0cU9JOTJFYU80WGhoSmdzQURYVXpLaDhFWnNtUWJleGQ0dEZNNXJQNlN2aDR3Sk1CSjI2QUxmR3luV2VEekhhYlpFYjhkUFdmdDB2eFFqNWNfRnM1MA?oc=5"
+        }
+      ],
+      "parola_foto": "luxury interior design"
+    },
+    "concettoplus": {
+      "id": "concettoplus",
+      "label": "Concètto+",
+      "segments": [
+        {
+          "text": "Le proteste contro la crisi economica colpiscono duramente l'Italia",
+          "type": "plain"
+        },
+        {
+          "text": "Milano",
+          "type": "name",
+          "detail": "Città coinvolta da saccheggi e incendi durante i disordini"
+        },
+        {
+          "text": "in un contesto europeo",
+          "type": "plain"
+        },
+        {
+          "text": "profondo cambiamento",
+          "type": "deepdive",
+          "detail": "Rappresenta una trasformazione strutturale della società italiana"
+        },
+        {
+          "text": "e le antiche dimore romane",
+          "type": "plain"
+        },
+        {
+          "text": "principessa",
+          "type": "name",
+          "detail": "Simboleggia la trasformazione dell'eredità aristocratica nel capitalismo"
+        },
+        {
+          "text": "si intrecciano in un'Italia in evoluzione",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il tempo cambia le famiglie come cambia il clima i paesaggi.",
+      "autore": "Aldo Vercelli",
+      "approfondimento": "Le proteste evidenziano un profondo malcontento sociale. Al contempo, il commercio delle dimore storiche riflette un cambiamento nell'uso del patrimonio culturale.",
+      "fonti": [
+        {
+          "nome": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdFk0T0hCUHRBdkZMTEFpaWNtdzdiZmJpb2NVVWpMOTlwaWhPOHQxcUV0RHlLQWtCUGpFWXB2ZEF2MGdnbDJpRzNuNnZvMVlPWG5zVlQ3aUEwekVvOWoyN2UyMU9IZG1ENmhnc3BCY0RlT0Q3YzZfeXA1N3lRWHF1MkRZdTNUT1RXSWFPTFBFX0pjZmVW?oc=5",
+          "paese": "Stati Uniti"
+        },
+        {
+          "nome": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcHVKZElXMUhIblBtS2pLOThuSmszNHRMQXBvOFR6ZjBJWHhJd1BCM094dlg3eDRmNmFaUTFJOFJQZHhBRkdyTjNISkhSaGlBVTE3ZWNPZW04eHh6S1JXSUxJVzBmNlN6QklYT2NmSTVfUVdLeS03TmNUWmNTM2tsTENLazJGODVrOUtsajY0d1pBemIyQnBERG5zNUtNNi1iNktLR3pn0gGrAUFVX3lxTE9wa3NJblczOVI5c2t3akxLWkM4NWFqSGVqREFiMHNpc2RvUGJMbHJURk8yaUhBRXlVRnhrYmFFS1kyamo3MVltQWd0NUc0SnhzX3pVZnRDSDVJNFBPRXBDQ0pPTFFMZm9WXzd6RjVjbl9OMlRKVE0zandhOE5kM2w3Y0plQ3RBczQ1UUZxMzlUUWxTQnBINFVobzBZdXJhNnZtVi1NS1NVUDBVbw?oc=5",
+          "paese": "Regno Unito"
+        },
+        {
+          "nome": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA3dXBvYllWbkQzN0wwWGdMcGJkUFJfV21QVmF2d0ZpbkdVSFJyN19qRzBEQnBwXzVOM3l0MjlHeWVjSnVkckhMUzJ1MjRrWnYzbE9SaFhOWFFfQUpXamc?oc=5",
+          "paese": "Regno Unito"
+        },
+        {
+          "nome": "CNN",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBORlNoQTFXUHZHLUwyZ3htRFJoTnJ1WjdMRTdOZFhHbDZldjd4dktRTmhUU2xDZ0NSbjNvUjlvR2lkQWJBbHlkRzhvUlVNT3RSVzFUejlsOTZyNHlhYVJvT2FJYm5OZndqdkdzSTFDeFlEc3IwQ0ZJb1dBZjdKdWM?oc=5",
+          "paese": "Regno Unito"
+        }
+      ],
+      "parola_foto": "protest crowd",
+      "paesi": [
+        "Stati Uniti",
+        "Regno Unito",
+        "Germania",
+        "Francia",
+        "Giappone"
+      ]
+    },
+    "sport": {
+      "id": "sport",
+      "label": "Sport",
+      "segments": [
+        {
+          "text": "Il Napoli di Allegri",
+          "type": "plain"
+        },
+        {
+          "text": "subisce una",
+          "type": "plain"
+        },
+        {
+          "text": "doppia sconfitta",
+          "type": "unusual",
+          "detail": "Termine tecnico per due sconfitte consecutive"
+        },
+        {
+          "text": "esterne",
+          "type": "plain"
+        },
+        {
+          "text": "mentre",
+          "type": "plain"
+        },
+        {
+          "text": "l'Inter",
+          "type": "name",
+          "detail": "Squadra di calcio che vince contro il Bologna"
+        },
+        {
+          "text": "ripristina il suo",
+          "type": "plain"
+        },
+        {
+          "text": "ordine",
+          "type": "unusual",
+          "detail": "Organizzazione stabile e gerarchia interna"
+        }
+      ],
+      "aforisma": "La vittoria è un passo indietro solo se si smette di correre.",
+      "autore": "Egidio Valtur",
+      "approfondimento": "La crisi del Napoli evidenzia le fragilità della gestione Allegri. L'Inter invece dimostra forza mentale e tattica, consolidando la propria posizione.",
+      "fontesi": [
+        1,
+        2,
+        4,
+        12
+      ],
+      "fonti": [
+        {
+          "nome": "la Repubblica",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY3dtVnJBdzkyMXBiblpFdUJjUE5RSTNtX01JNXpEeXBmNXJReTJjRUMtTDFFUlpZbm1HcS1SUi1ZZ0pORnBZX0NxVTJCVURGQlpKN0t2RVJyUko0ZUpJZ2RUYjhIYmZSSjliODgyZFNsR2p5c0RWc1VTbTE1S0NzZHNWQzhWNk8tRlg1ZDE2bkpPS2Yxam1NRnVGd9IBoAFBVV95cUxPVERKNlFUczNhVTZtMnZLUUkxTGJLd0lMbXVBTDd0eEhNelA0WFZNb1NieUkzTXduaXRwUk5QTVl1Vk1hc3dGZ01Oc09udFlZdTc0Q0xWZ2pTZzhIRDNjZkIzMEhfQkhKTVNQc3BBd2RXSkIyM3UzcGlBelBZMzlLMGRxSkxOWlNiWGxxMjNtRkJ3dTNITmhLY3l1R1NtQ2Fv?oc=5"
+        },
+        {
+          "nome": "RaiNews",
+          "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxQLThxaHItdEhKRlNpVUVRaWVWZzBlTnBHMmZycWJ2SkFHVkl6QVhTMUFWemEyUnZoTEx3bDZfUjQ1bkJKZkNycFUzbDluTnZxVjNQZDNLaHZxSEFCSDNWaGRIbkpQeVdVbEZjY0M2T2s2Tkw3b2FsV0p3bWY1d0ZNSF9Hck5Fbi10TGlIMmlXdGZZLVJWVTJPT3Y1Mlo1Q2NIdzgwLXFWT2x4ejhVWnhscnVMY2g0NzlnR0VpWlRvdS16bHkwNzJHY1M2VFFqRTRLRmN0TjRPU0dtWDBpYXZVWWxlc2gyeU5HTmtfalZ6UHpQQUhTZG5yRnFScEl2UV9Fb01iek9SWnpZZ1RWd3VzdVRjZVBudWd0UkdkTW9oY3I5X2MxMGFkLW95ZmxlQU56Zlp1eTNYNnI3ZWRqdFM0Uko4aUZRUGkyaUxUZ0J30gHTAkFVX3lxTFBnVTlfZlViVWh2d3U5d20ydXE4WE5YZHIwUVRKOVUxN0diVnBWeFhBUGFtWS1HcU1fQ3hESmJpTU9iRlMtTFdFWjRNWXM2YXcwbDI5ZUduWUR0MHhFSURGazNpcFhpTGVVaWNhRVlvNnNPeDQyTzJLTzFJendKSkplTGhCOUw4cFllQW93ZFJ1TGpYc3Rydjk1a3F1TmdTblNjSDNPU3pnSWd4Q0N0blRhNkRoT0x2bDU1RXdVQWZPVXBLd0tzdXJxN0hmT0c5aW1zRm82c3RpWkFST0dOYzZObmprSjNqR24tSi1pYVFrQnhKZG00T05JN3lCVkNYNjdUcmRZT0ZBNUw4WHhWWGx1aUtMRVdXVVZicWFxRThsMEg4OEtmRTBCb09iRV95Y3hNT2tYZDJTQ0MwbHpxV1AzQWxaakNKSUx4YkNlSmNZRFVLbw?oc=5"
+        },
+        {
+          "nome": "Goal.com",
+          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQSFY2RUZNSWR0bzRxcEVhajFKUVY3dTZ3WldIV3VFRE1nV1ZhQmx4Y013Slhkb05YMnR0M3lzT0hRNXNJeFdaeEZaUHZnVlQtYzZGSXdMSjN0UUkwOUZ1aFlwVlVBRWNRV2FoeElaWlE1OXl2Y21jWi10YzN3VWFkTGNWRVpCM3dOLVl3a09ZUktFVkFXZWEzMmFxVTNjM3JQYzBzMURJcDF3YW1iSFk1TEkwRm9jUjNZLVBMZEt6aUZFN0FoVllmQlB0TWs0UmRrVUZkYlBLSmJyMG45Y3N1UFl2Z3BkZFlaUW0waVNHNU5FMFF1dzd2UTRna3ItbGdYTGt1RDZYRkpNTjA4VzBOMVlhR0hMel8zd2ppLXF4dDJoR01YeWhqZzdwSWg?oc=5"
+        }
+      ],
+      "parola_foto": "soccer stadium"
+    },
+    "ambiente": {
+      "id": "ambiente",
+      "label": "Ambiente",
+      "segments": [
+        {
+          "text": "Il Consiglio regionale del Puglia lancia 'Spazio Ambiente', un programma divulgativo in tre puntate dedicato alla gestione sostenibile dei rifiuti e alle buone pratiche locali, affiancando i grandi temi della sostenibilità ambientale e del clima anche alla sfida della transizione lavorativa a Bologna",
+          "type": "plain"
+        },
+        {
+          "text": "PAESC",
+          "type": "name",
+          "detail": "Piano d'Azione per l'Energia Sostenibile e il Clima"
+        },
+        {
+          "text": "Marco Frey",
+          "type": "name",
+          "detail": "Direttore del Centro per la Sostenibilità e il Clima della Sant'Anna"
+        },
+        {
+          "text": "Giardino verticale",
+          "type": "unusual",
+          "detail": "Struttura architettonica che integra vegetazione in un edificio"
+        },
+        {
+          "text": "Natura come cura",
+          "type": "deepdive",
+          "detail": "Filosofia secondo cui l'ambiente è essenziale per il benessere umano"
+        }
+      ],
+      "aforisma": "Cura l'ambiente, che cura di te.",
+      "autore": "Elia Valtier",
+      "approfondimento": "Il tema tocca l'intersezione tra azioni locali, come la gestione dei rifiuti, e grandi sfide globali, come la transizione energetica e il clima, dimostrando come la sostenibilità sia un sistema integrato.",
+      "fonti": [
+        {
+          "nome": "Regione Puglia",
+          "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxPZ0pDaVhJa0hHUDdXSzQ2OU0weVczRWFuVTBSek9UbU8wRF83SGlhemlvNFNoTUJnQ1daeUhza19UUTVkSnJCT2Y3THlFMUFUdndmSEZRbWExQ0NnSldrSmNrbHY5bnhDdjltZWlCYnR1NFNGNzlDRUZMY2ZacnZDZjduZUtpWVFpajFCQTFlWERGVms1cDVWQnFqRVNJQ0VmSDcxNWQtQTFYRTJBeHlYdDk1TWMyRUc0eGpGQXljTHpvUGtOOWQ1RjA5WU04TEFSQmF3UFNTWWs0QjlPNVlZRmlodkwzUWVqOTlSbE1nOXV3VmZFek5YMHFnTm9ycnBFbmwzbmZIZEk4UnE3RlB6aENvYUZYbVZoU3ZXb1hDdUxDWk5lU2ZWV1RTWlVyd0EzN1U5eldncE1qZWZKSGdPaXlKRDYwbEQzRWd5Q0pqaTJucmdrcHV6eGlR?oc=5"
+        },
+        {
+          "nome": "Collettiva",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUVVoX3NsY013Uzh3M1EydWp5QmxacmV1LWNBRkpPM283ck1KQW5DbEluTDVodG1TQXlidlVpLTV3SXRGbEJpdTNDUU1za3hTSGFtQ01wSl9mOGtMMG9RaWxSbm1tLUtzZHdIeXNZaXEzeVk3bXl2a05jRlc0bTlrODBYWFNzNDdTYzNENUdmYjFrbDZoV0Iw?oc=5"
+        },
+        {
+          "nome": "La Nazione",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQzZEUTJrMVpBZHBEWV9sQm9UREh4dV85Z2tEa2dybEQ1NG03NHliSXFuSGJ4QmVRY0FpR0xhcENmWk9hbE1lSDJiRF9veE15ZEVzSkwwNXkyOG5zOHhkZEFTMEJobVRiT3pNMXFXY2pDZXFLUS00M0VrSVdMTEtmRWNzYk54a09HV3lrVUNkZVZUNlJINERnRHFuOTNQSVhaZnhHVmd1REZsZXdfUVFkaVpBdng4aHBNZGk3T1MtckEwdWhIMmNqSE9tbw?oc=5"
+        },
+        {
+          "nome": "TuttoH24",
+          "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQWkVFODR3U1VUcEl6TFVfRnFSSEdERFI1dE9nbXRQVHBfRTlDcEszNG5zc3J0Z2J6ak1xWU53STE5RHdDeUhNbG9lajBuQkkza0dFRU9xWFcydmpabDB0OVppNzdIQlZpVzRBR1V2OWtwcnZuay1rcVpGLS0wemV3c2IxSU9ldVIxM3pKQ3EwTGxXdzZ5VEI5NEJkTTB4bEU3OHM4Wmt1QUVzaThuclVQZHBsbFFMVHJROFUzLWtRbFFSZ3lPWjNZcXh2QWNha0dYQXNaOE82Q0Z2R0FwNmk3MW4zTGRGUjlWNTZRYlpRMzZvSU1WelZpZmNGVklia3N1MHl5TkdkRjM0WUg4bGZqV0Nkc1EtTFFSZU5lQ1BQWEl3RlctRFU5bktRREpSaXEzNHhEctIBvAJBVV95cUxOSTB0UmJUVlZBbmdwYURER19kdXoxcC12VTVmM3k1SXNMbGJqemNFUkt0QUxxb2Q2LWxSamNCb3JNUWp6ZmdBZTNSLVBKV0JDSk5YT1UybzBubi0xcVhiS0E4WUNtc2JnRlJQelpTeDhqZVotSW5fZkQ5QXN5UWRlVmotZFJGN0ZtRTJZZGthYVU1VG5LeDZpRDhBMEFKcmlobTZzem94YWJzQ1c0a1hYWklLejdtUnhuUG9GRzJMSGtBb2NIc3hHOUVhSXJVY25XTTRvdUhLbXc3MnhBWnVzUUVsUWxvb0tnWlI0eVdjdFhENkFnRXFqci00RW8tbHBDX0R0SmV5d3dPOVVXOVhzUmh2QWxpd2h0ejhNbmRmME4zZnpmLTFkZXZSck55VU50RDBZdnZMUm15OTJC?oc=5"
+        }
+      ],
+      "parola_foto": "green building"
+    },
+    "esteri": {
+      "id": "esteri",
+      "label": "Esteri",
+      "segments": [
+        {
+          "text": "L'Europa e gli Stati Uniti affrontano profonde crisi interne e conflitti globali, tra cui la guerra in Ucraina e tensioni con la Russia, mentre le sanzioni internazionali sono al centro del dibattito politico.",
+          "type": "plain"
+        },
+        {
+          "text": "Trump",
+          "type": "name",
+          "detail": "Ex presidente USA, figura chiave nel dibattito sulle sanzioni a Mosca."
+        },
+        {
+          "text": "Zelensky",
+          "type": "name",
+          "detail": "Presidente ucraino, preoccupato per l'impatto di una possibile sconfitta militare."
+        },
+        {
+          "text": "Sanzioni",
+          "type": "unusual",
+          "detail": "Misura economica di contenimento, qui oggetto di forte controversia politica."
+        },
+        {
+          "text": "Schengen",
+          "type": "unusual",
+          "detail": "Accordo di libero scambio e spostamento tra Stati europei, ora sotto pressione."
+        }
+      ],
+      "aforisma": "Il potere è come un castello di sabbia: ogni nuova pietra costruita ne aumenta il rischio di crollare.",
+      "autore": "Elena Moretti",
+      "approfondimento": "Le tensioni geopolitiche evidenziano la fragilità delle alleanze occidentali, mentre le decisioni di leader come Trump e Zelensky rispondono a dinamiche globali complesse.",
+      "fonti": [
+        {
+          "nome": "Sky TG24",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWFh4LVNScFA4UlJRc25Qckc2bkJTZnAyTThLLU9jNFNwNXFQOFpFSm5OS1BSSTlVc3RvQTRXb3M3U1RqWGNUaENCUy1UdVhaSTN0M2FlOFNKZEZTYjlMbmVjdExCT2tqb3NwcXpFdXR3NHFRUjItU215Ny1wVW1BR1EwX252Q041?oc=5"
+        },
+        {
+          "nome": "ANSA",
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQc21YemI5aE51YnNSdzEwSEN1RVdQendDLWZmbmc2RjZTcmIyT3RSYVhiYXBtalVCMGRaTldsQzdkM3NqQ2lYV1ZiZUdQZ2l3SmkzUktCSHI4a0lSYkpDUFNJNUxRdFc4bnA1ZEIxZVd0NE1MUE51Z3VlNEFXMzN2LTZ1TDBtX0F2d1YtTl9xRmZxOGxFd0IzRmFkTHh4SU1qLUR6ckVkQ21VSmoxYTBjZHM3RXR3cjZ3TlBIZXJ5QWd5dFZYVTBfV1BuaFJXWEFxSFpOUmJIcm5ZdlZKZ0IyTnFINmJxWjg4eVdUMElicDdCLVNxS3gtNWdoWVd2Tzg3YkktQVROcjdJLTTSAZACQVVfeXFMTV9TN1N6WmJEelZwZTByajRQZFRjRUljQ1hfS0ZTUE1Cc1N3LXIzeVZXcUo5N1NMajFYUlBIWGJxaGxsNUlwX3FoUzNKWVdSdXVMYWhCc2FLVlRuVml1amdjSW8xM0pxTHQ0VUdLVFFrQURxMnlscTYwQ0ZhZGdTcFo1TXd4a2doMVU0dnZETjFFMTRWM2pkX3FUc3F4MTZBUGtETDdnbERpZEU4d29mZDE1WVFGSHo5RU1aRElZMk9qelpGMWdScHpJR0VTU21ldjhLNlRaRENRc0hYSGhSN3BrdVpkZV9KS3ZYb1IxdnZQamQ0dDg5Sk1UMHBvZjY0NHJqR1ZLLUF1YTRPUWRLVkw?oc=5"
+        },
+        {
+          "nome": "RaiNews",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOS2ZSUERYbDZ3QlVULXl1Z1NXQUFEMUR3MEtmWjhHb1k4ODZEdFJFSzhpTDVIdDlsbi1KcVRRbDFNc19NRTNOUF9fckVmdU1TSXBMVU1VUXQ5WHdFeHlFQi1DRjFZN05EUE1DVlJaT2x5dnFqbGdMeXFEVHFWLVhMa1BTNU1SWGljUmh0bFBUMFRvMXF0Uzc2WnBJa0V2TzROXzF1TXNGcFEtRW8xVDBwNWl5LVppN3pfbGlsWDhWaVB6M1FSRUFES3NEZ3dIRUo4Q2o3TUxQUHlGT0VkeDZQRF82YkrSAeoBQVVfeXFMTTZlSTlSZ1h1V0Jrb3ZLOEE1RmY2X3lhN0pqOHlYeDg2ZDFKTUkyd1I2ZUc4Z01PUG5wNktoT3hzX3NCZzJrTU1CUEh2bXB1akR1Mm9ROExqNWt0WDdlT0NJNFoxZjFISWhkMFBjZTN6eGpHbmtya2FxV0JTS1VnUmdYd3drZDYwd0I5VTh4SHFmTnFXRWNFWVlONnc1b2NqYXRtQ2RGMDhPcFpoOTdLMjRCRnZUMEdUWWprOF9acE1lMjR4QzJNZDBsYXZmbVB4NFhtZWFOQnA5OERzNHFqQzdveTZLUjA1RVlR?oc=5"
+        },
+        {
+          "nome": "HuffPost Italia",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd3R5Q1NBODZOT21lN0pqbEpqZjRNeVVaY29oLVNBRUwxM2xiNzkzU1NJemdJdnVQbC16RWljb3hPUDRodnpkQUlsaTFRR3RxR3V4d25TUTBmSWUtWmxlNVZPNW9nZVBFeTc0eGhhRmlUZVhiUFBHb3h5Z0JpY0dHcGhydVFYVnF1RUZVZXAtTWYzb0xzbHMwcg?oc=5"
+        }
+      ],
+      "parola_foto": "parliament protest",
+      "stale": true,
+      "stale_da": "2026-10-17",
+      "stale_ed": "mattina"
+    }
+  },
+  "errori": [
+    {
+      "categoria": "Esteri",
+      "errore": "[HTTP 429] The service may be temporarily overloaded, please try again later"
+    }
+  ]
+}
