@@ -1,0 +1,605 @@
+{
+  "generato_il": "2026-10-18T16:57:55.512Z",
+  "data": "2026-10-18",
+  "edizione": "sera",
+  "id_edizione": "2026-10-18-sera",
+  "categorie": {
+    "italia": {
+      "id": "italia",
+      "label": "Italia",
+      "segments": [
+        {
+          "text": "Il caos socio-politico in Italia è amplificato dalla violenza urbana e dalla precarietà economica",
+          "type": "plain"
+        },
+        {
+          "text": "scontri violenti in piazza e proteste per il carburante",
+          "type": "plain"
+        },
+        {
+          "text": "scandalo di un omicidio-suicidio",
+          "type": "plain"
+        },
+        {
+          "text": "a Roma",
+          "type": "name",
+          "detail": "Luogo dell'evento"
+        },
+        {
+          "text": "mentre il governo cerca accordi per il Dl Bollette",
+          "type": "plain"
+        },
+        {
+          "text": "e la Chiesa concede indulgenze",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "L'ordine pubblico è spesso solo un muro di gesso che crolla sotto la pressione delle ragioni impazienti.",
+      "autore": "Elio Valmori",
+      "approfondimento": "La violenza urbana e le proteste per il carburante indicano una crisi profonda. Il governo si concentra sul Dl Bollette mentre l'omicidio-suicidio a Roma segna un momento di profonda disperazione sociale.",
+      "fonti": [
+        {
+          "nome": "Sky TG24",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYnJmNEszYnQ0LWpYQ0pBMGlaVkc3bXZiRGxmbHhlcDhvejJiUjh3c2RIR2JWdktUazh5ZFpRWnNIRzZhZEdxRlROUk9QRDBqbnp5azZNQmpsVGdzZGsxNFBxS2JSaTdHbTRuN1REY1ZMLWdQemZYWlhxU1k4Qll0X1E4UktHVHVuaVlpd0pLY3ZoTGlHVFRaaEdBVQ?oc=5"
+        },
+        {
+          "nome": "BariToday",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQS25JaEJhZ25GT014SXhCY19XdDlSek1mX05sVFNhb3FWTGN4Y3Noa01RakdqLTdZMzF1WU9rcFhsaW9rLWxvMkRobmRPa0VHQTJQVzg5VUxtTUszb3NQeHhQYnI5Z1NiTmdDVTNWcVRraHVuMW9yd0UzWTZHSDZKT3RNT0hrOFhaLTdoZUpVX1QySjQ?oc=5"
+        },
+        {
+          "nome": "RaiNews",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQTNhTnIyejc0eUdmdVY4VW1KMUdUd3lsdHEzWXhtZFBfbUx4eXVlemFFSWtTZmFXLU1UX0lUblpJVjZDcWdJNGVWN0hTblpxRzhBVkFtLWt0Wk5JSTgxZjIybU9rRlNfcEFpdldYWmdoYXVmb0ktRmg0bWlpeFZwLVh3Qk1TbmlPejdkQW9iN2pNdDR6STkyMUJSLTVwRUdoS3lBWU8xQUZFdzZsMU1oOGlNeHFMMHE2WTNJVWNQM3RlNlY1Q1RRMDJJa0p6NzJhTHlXV1NzaHlrNW42X24zRUVPa2FpNHZw0gHuAUFVX3lxTE5YZDFSNnF2aWgtUlh6MGRyTDhta2NNSW9fMnJEOENBTXRQM2R1S1o4T3BjQ0ZrcU9xcUp4bXhXTFAtampXSXBOT0YwQlJ6ci1RbmJYRGNSdU5UaEdjRmFjQ2hsd1ZfS21vSFZjekcyaVpuVDFmQllqN1lURHF6bFJhZ2JqM0RpRVFwbmJzVEctYmFzcWVHY2E4VFpQWFl4bnVONmg2dTg2cXM3WG5YdVdGN1JOMEl2UHU1QTFfUjhCbnFidExOSjkwTEcxWmM3MVY5Y0VuZG9nVFgxTW1IRU85WW81VXoxVU02MGRtZ1E?oc=5"
+        },
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLVU0RWdRTHQzUXhRMk5zTXNEbVNZQ2U1OEtDOXRNc2o0dU0xTS1YSkE1bFh2RTVkUkIyNHdiWEhVSDV5RjMxOHVLQktMYThqSFhrd2gtcVM2VHB6SjA2YjRpc05NdHZnMURtUzhNV0dmNDF4Q2Q0X09YaVZoVDdVQnlXVUFETVY0LXJhb3pzYkptSG9HQlBjeXRJdGIxNjhrREdvSmVkTl9kUUFic0E?oc=5"
+        }
+      ],
+      "parola_foto": "police riot"
+    },
+    "esteri": {
+      "id": "esteri",
+      "label": "Esteri",
+      "segments": [
+        {
+          "text": "Le tensioni globali sono in salita mentre il mondo affronta conflitti aperti, crisi climatiche e una drammatica fuga di rifugiati",
+          "type": "plain"
+        },
+        {
+          "text": "Ucraina",
+          "type": "name",
+          "detail": "Il fronte principale del conflitto in corso"
+        },
+        {
+          "text": "Gaza",
+          "type": "name",
+          "detail": "La zona di grave crisi umanitaria"
+        },
+        {
+          "text": "Grecia",
+          "type": "name",
+          "detail": "Nazione colpita da disastri naturali"
+        },
+        {
+          "text": "profughi",
+          "type": "deepdive",
+          "detail": "Il problema umanitario più urgente e diffuso"
+        }
+      ],
+      "aforisma": "Il mondo è un unico palcoscenico dove ogni atto è una conseguenza del precedente.",
+      "autore": "Elara Vance",
+      "approfondimento": "Le guerre in Ucraina e Gaza mostrano come conflitti locali possano avere impatti globali. La Grecia subisce le conseguenze del cambiamento climatico che colpisce altre aree.",
+      "fonti": [
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOcTZPcHN2VlllLUxjekFvazNzNk1mSFhOTXpMRUVkcWFtbTBzVzhDNjNnTGhIZDA3QkZERGY2Qmt0MUxNaU13UnV0TlhTNU9SVmRYNk84ZVhmaWJNVzhCRjYySlRTSjNQdkRCelAzZWRScjVJcXQ4ZndZY1RNT2FvUXh1bnpETEc4MlVtU2dlTkw3X1g1X2o2OWN5d3RnVWFmVjZIV2FNSE5CNmk5NXNQZ2ZyQXRjSHVtMERoVFpSSEowZ24tQzBvTHNreVY1X0hOUzFsTmFUMUwxaWM?oc=5"
+        },
+        {
+          "nome": "Sky TG24",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5iRXN2dUl4RjI5QS1WMkIxTmI0VHUxMm9FRjYyYWFZN0lpeFdTQ2htaEotdEtULTJpWDM1UjJaYk1BV0JGMS1yXzZQSXNhV3JYSHZncHpfNGd1eWo0Q3RCYzJKdkhKdFlhbTc4ejZuT1ZiSXpUMEtTRmZsaw?oc=5"
+        },
+        {
+          "nome": "Il Fatto Quotidiano",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQc1EwcHctN3lPcGV3d1hqcjRPVURQaDY5NENvc0lHQ2xHcDVUNzhqZzBGSUN5ckV6QzRBNTZ6V3J5QnhtTkRxY1FPam9xOVQwVXZqYjlHMTNsZk0tcFlSUVF2aWFkN1JwM2dmMGlDMUNCWXpFUVBXRzdtR0Q3eEJlWkhiaWwwbXBHbThwenFyc09ZdTdKNXJDRmNlMVNNRUU?oc=5"
+        }
+      ],
+      "parola_foto": "parliament building"
+    },
+    "economia": {
+      "id": "economia",
+      "label": "Economia",
+      "segments": [
+        {
+          "text": "Il governo",
+          "type": "name",
+          "detail": "Autorità politica in discussione"
+        },
+        {
+          "text": "riesce",
+          "type": "plain"
+        },
+        {
+          "text": "a bloccare",
+          "type": "plain"
+        },
+        {
+          "text": "i rincari",
+          "type": "unusual",
+          "detail": "Rincari per 1.250 euro a famiglia"
+        },
+        {
+          "text": "e le proteste",
+          "type": "plain"
+        },
+        {
+          "text": "di un'Europa",
+          "type": "plain"
+        },
+        {
+          "text": "che combatte",
+          "type": "plain"
+        },
+        {
+          "text": "l'inflazione",
+          "type": "plain"
+        },
+        {
+          "text": "con Accordi",
+          "type": "deepdive",
+          "detail": "Concordato biennale e accordi tra nazioni"
+        },
+        {
+          "text": "e la Cina",
+          "type": "plain"
+        },
+        {
+          "text": "e il Fmi",
+          "type": "plain"
+        },
+        {
+          "text": "ma la corsa",
+          "type": "plain"
+        },
+        {
+          "text": "ai nuovi",
+          "type": "plain"
+        },
+        {
+          "text": "titoli di Stato",
+          "type": "plain"
+        },
+        {
+          "text": "continua",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il caos è solo l'ordine che non capiamo.",
+      "autore": "Michele Verdi",
+      "approfondimento": "Le tensioni economiche internazionali si riflettono sulla stabilità dei mercati e sulle politiche domestiche.",
+      "fonti": [
+        {
+          "nome": "Il Fatto Quotidiano",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOcmlOendsNGpFV0Jqdjh5bklzalNCSXI1T2NGeEJXa05iemF0NEVVQzBlTXVxT0Z4S29sSmZxZ1cwanYwQ0F4bXRqWUhPcEV3bkdzY3JfWHJEZVpMdlplcEN6UG5SdnctVERNb3pxb1A5WTUwcGotSkh2SGYxQVNJWFNoSVJqNm9wbU93RlpQY05WVmR0X0lmNDRUUHVsemdkdnZfVTRMbVNmU2VOTTlxRkw4djQtUWxMRzlZWHJld3BBaUUxakg1bUJLaVNoNUdDNGxRdjlXV0U2QjhRMEJvSGxkNDNCS2REUkR2YktSWU82Qk9qYWRJ?oc=5"
+        },
+        {
+          "nome": "L'Arena",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSHBvQkNwN2VFd18zWGJ3SFd3S2dHOUdVdGdQYm5Xa2JIckE5cWg5UGRMMzdZSlpNa0d5bmpTNGsxa2lVaVdJWC0wMGN3RWl0Qk41U0hOQks1bjlsUFVFQWI4ZnkwcmtYaEcyOTBTUWRoakZhUzBYTXh6TGxmamdNaUpIa182THZrdGlVcl9pRngzTjVCOXNLaWVKZk1RcUNpN1hkWUNCZTNWTzhqZ1ZNYW1PZGZpQ1NKNkl4SjlZZEh2SGdwd0szRXhZUGZtMVHSAdQBQVVfeXFMTVU5MlZFOG53MlpQd2V4QW9ja2s4N1pnZkxLVkVmQ1FZMF9FOVNrVmsta0s5ZGp1QmpFTG9JOWZRSTVycmFDcVBmaHdWZkpPSGRBNGxuS3dkUGR5VU1WLVlUOWNELXNkUWlCamI3MzJfNER0N2txWWJFS25VVlJYZUE1SGk3a2x1OGVaOWZuTkpFd0F4aUV5dFZRaExramNLZGtjZHBfdXpZQjhnRmt3ck9SNV9BbVphcUpvU0pUNGo4bUlqOTRCbGxWT2NtS1l2TE9RRkw?oc=5"
+        },
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR1I1M2ZJcUowNzZvMnVNNWVpSkpwSW4wYUVIZGlQTThFSGt0Vlg1TTBYOG53dEthZjRDYUFOYkNKWWdfdW9QOTNQeHVLX0JXNVR1aWFMMkQ0dnViZll1STF2LWc1NUVuZUdTYnhlOWFlVWg4SmtLamlpRGl5WW1NYks0d25VUTQtbjdzVjNBVGtuek1WSXVDVjI5SEtNbmJrc05sNDNxRDhFWEdRSmRKTDNWSjZqTzhfOG5B?oc=5"
+        },
+        {
+          "nome": "Borsa Italiana",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxObENESkN3alBTSlE0eEtzNFJvdzRYQXNVNi1hcnVSZkNCSjZoLTRwZ2dRS1lpWVpjRVBiQXk3amRTZFlJcUE2dTBLNGtyOE04VEZEX0V2LTBsY1daczZ3a1lkSWozaFRMTktxaGU4c1owb0VLSDZlUEhzLTI1RjRHLThHN1hHT2FTeUV5T1g1WEFpaHVXaUcxeHoxU1dqLWRISWhBWW9XUHFjVEJFVkRfUUFPVTdxc3BRVHVEQXpkRmNmMm1Jb0NFSmJtN0hiYk4xeERkN2RXZ0dVdDNxYnplbGh1bjZYZ2ZwS2hveW1NRmVQOHcxZUI0Q2VuRHc?oc=5"
+        }
+      ],
+      "parola_foto": "parliament debate"
+    },
+    "tecnologia": {
+      "id": "tecnologia",
+      "label": "Tecnologia",
+      "segments": [
+        {
+          "text": "Mentre la guerra in Ucraina",
+          "type": "plain"
+        },
+        {
+          "text": "Kiev",
+          "type": "name",
+          "detail": "Capitale dell'Ucraina, al centro degli scontri."
+        },
+        {
+          "text": "si sposta",
+          "type": "plain"
+        },
+        {
+          "text": "Starlink",
+          "type": "name",
+          "detail": "Satelliti per internet di Elon Musk, usati dai militari."
+        },
+        {
+          "text": "sull'innovazione tecnologica",
+          "type": "deepdive",
+          "detail": "Innovazione e guerra si intrecciano sempre di più."
+        },
+        {
+          "text": "con droni e robot",
+          "type": "plain"
+        },
+        {
+          "text": "e prezzi",
+          "type": "plain"
+        },
+        {
+          "text": "inflazione",
+          "type": "unusual",
+          "detail": "Aumento generale dei prezzi dei beni e dei servizi."
+        },
+        {
+          "text": "che colpiscono anche l'industria",
+          "type": "plain"
+        },
+        {
+          "text": "hardware",
+          "type": "unusual",
+          "detail": "Componenti fisici di computer e dispositivi elettronici."
+        },
+        {
+          "text": "delle nuove tecnologie.",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Chi ci dà la potenza ci dà anche il peso.",
+      "autore": "Elena Valtor",
+      "approfondimento": "La guerra moderna sta diventando una gara tecnologica. L'Ucraina usa sistemi come Starlink per difendersi. L'Europa e gli Stati Uniti rispondono con tecnologie avanzate e droni. Allo stesso tempo, la guerra provoca un'inflazione globale che tocca anche i prodotti high-tech.",
+      "fonti": [
+        {
+          "nome": "RaiNews",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVWlIRFlfeXBwVDAtZGNabGlSZmdFOTJBemtRdUZnOGpnM0pFdjNHUXVOLWFvNkREaUE2ZS1aMDhJSjROMmFNcGJjNFZPbUVGY1ExN3REb21oZUJaMWdYY3J0TnRTc2cxMXVIVjFWV21RSGQ1NmZLU1ZwTFJEcGRuQ0lLa1h3TkZHdVFzbzJXeHpGdzJTNHlOVFlLM2E4SGs0YVc2Q1RfSmJpV0RkNURRbDlDc0JCU3hUems5UXNlWUl6YkJhOG9tOHJGUGh1SmVoRGU3Rm1n0gHbAUFVX3lxTE1DZ2NHQy1UWU82OEtPbTQwdlFXbC12RnpIWVdSVDJHSFZOOGY0eXhxdHprMTc1bUtPM0lpUUxNME1TclF1MzBaWXBxSkNMMTN4XzhDVVBHSHJvbkh5V09nSlBMNzBOUG9KQ1VnY2V6UTdYcUVRTGxjaUhDX2l4ZmdpSHZIbHlIb2puTTZKTzgtNDZReHZxUExDNUdzOEVWemRIakdna3ROMkFOd1c4TTBiZ2pwQzNfQnNVcWpFZEZOaVF4enBnR0pNcjNBVGdJak9FclBSamloYVA3NA?oc=5"
+        },
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPX21fMHREZE1ZOTBmS1VKdlVzQ1Y0d1hVMklYY1I4VE51bXFrY0ZGN01tbDMtYlE4akk5Z29lSkVVaWhxMnMxR0MyZVR2cXl1M0VIaHhfa2tLcWxOMU4xN1l2MmNzZzZMMTVINmEtSlNrd0ZlVjF5eWh6RjRSVFdQTUlYdW5jaWtVYXlKSGJTLUhCVWJTVndSelNaSnBCeHEzNXVRVmc1VGhrTHRYYkxXX0pMdkZLNUhkLVpxSWYwSmRlbVkxcUpXMzNET1RrWEZrcmxUYzln0gHbAUFVX3lxTFAtd3VObmcwRHJJVEdlN3dyd2lSb2UyRkdFbWRsWkNTTjlmNWM2VXNTQVotSVdYNHRXSmpiVTctRGlOdHVxVkIybVlrOTdUM0d1QVI3aDJCWmJ4MlFSWjFjSzBTTnFNTVd1VnBFTVEzTHQxcGJFRGpSdGtQZTMzVjBmaUk2T3ZYWWhxdHNQakM1RV9heGFmZUJkdFRlcG5lOWY0a3NMWll6Y3Z1U01DekFtOWUxWHlueFIyWUxoUWRHZC1HdGtTaFBweGJuSll3OFVhTkdSRzZSUEQzdw?oc=5"
+        },
+        {
+          "nome": "Il Messaggero",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdFRlMUdyWTZENWc5a21hMW5kZmYzdjFrZUpsSGZQWjBBQV9lT2hxck9pNmFualJMMFZZcERqbjM0R0psYXpkbTBHREltUjRra1ZaZmFlcXZ0NXVDVGpnQjUtamwtNi1SSHlpSlR1LWI0cS1SXzE4Z2toVG50c180QXo3VGM3bFpJZlctRHhjamZLWHVzSEUxRVQ2YUo3am1pVHlUV0Zkelh1dnZXRlBrTzMtclk4T0FQRG4xYWN3LXh2NFHSAcgBQVVfeXFMUGQ4ZE9QSHJFYnoyaDRBRm5UQVBIWXFqNXN5VDMwWmdPalhTemU5b3ZYWjZzLThuUkdyS1AzVFV0djA1RWIyblpQTkZnejBSYWJVaUtJdVczaXVwZkNqZTlGbXhvUkN3Y1NCenNWUllpQzEtNG5KVkdhdkpfd0hhcHBhVlQ3YzNydUJzaUtJbi1ndVNIS1FsdmZqMDJ4NHZRMW9UUEpBSGFaREJ4LURHTmgwQlQ3cUpsQThPbDZULURLUDdoQm1CeUQ?oc=5"
+        },
+        {
+          "nome": "Sky TG24",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNd3dJX3Nrd1IzaGZBcE11WnJPTmxzZUQ1VTJDNktSX0I1QW9sbDZLcDhOU3BqcExaV1hoV3BNSUlieThqRU5ISUI5bmVySFd3TW1tUkNuM1NDS05CQ0gxZ21abjNMNjR5M19rQldLc3VJaExLbFVNUE9kUERCYXhPc3NqMnFrUjR5?oc=5"
+        }
+      ],
+      "parola_foto": "war drones night"
+    },
+    "sport": {
+      "id": "sport",
+      "label": "Sport",
+      "segments": [
+        {
+          "text": "Un inno azzurro",
+          "type": "deepdive",
+          "detail": "Il tema dominante è la vittoria italiana e l'orgoglio sportivo."
+        },
+        {
+          "text": "scontra",
+          "type": "plain"
+        },
+        {
+          "text": "le stelle",
+          "type": "unusual",
+          "detail": "Espressione per descrivere i protagonisti internazionali e di alto livello."
+        },
+        {
+          "text": "di calcio e motori",
+          "type": "plain"
+        },
+        {
+          "text": "tra Milano",
+          "type": "name",
+          "detail": "Città che ospita gare di calcio e spettacoli automobilistici."
+        },
+        {
+          "text": "e Shanghai",
+          "type": "name",
+          "detail": "Luogo di eventi tennistici internazionali."
+        },
+        {
+          "text": "il cui richiamo",
+          "type": "plain"
+        },
+        {
+          "text": "soglia",
+          "type": "unusual",
+          "detail": "Il punto di rottura tra vittoria e sconfitta."
+        },
+        {
+          "text": "non si ferma",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "La gloria è solo la punta di un'onda che non finisce mai.",
+      "autore": "Elena Vivaldi",
+      "approfondimento": "Il match tra coraggio e tecnologia segna il destino dei campioni.",
+      "fonti": [
+        {
+          "nome": "La Gazzetta dello Sport",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUENXTmU3ZC1abFFmNXVzNk8xbzNJNDhNeHhGVUZKa0FIUmNVd18yOEx2a0Q2NGVDVzdSSlJTbUFUajcwN25nd2NOOFliNWo3S0NfaG05cGpxU3pfLWlpTkkyenRRUVZvWC0xYjJWZlRJUE5ZNEcwWXNGMnhibS10MEFWWWFpdGVYeHJMR25jUjNjVmI3Q0FXeFJHWVJNOXNaYURWSUtfeDBYMWJXTGfSAbMBQVVfeXFMTWZvODMtVk94OGo3REJTNU02QUJHb2pEMnd6YThNOHhBZWd2SUF0VE9DUlFma3gzLVZvdGZlX3NWcXlnZFFWRFFIOVdzZVdZZEJjU25GZW1qRHE4TktXb3VSZ3RZaXgxc1BCa2hQUEZ6RWFoQVBiU0pUb3FuRDVybGtUVEV0YWxsdWhFeS1EcFhjNV9hd3A2TC1oX2Z6bWVmV0JSc0xDQWN2R2lNYzRuNEFyU1U?oc=5"
+        },
+        {
+          "nome": "la Repubblica",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNTRXY2l3VTAwQlFiekllMEp1aW9RMmh4bVlFeFExRnJBMmRKTHRYN3NKLVNUQ2F1WWRVVzl2U0k4QmFxWVlBR1BKSXZaNDVRSTlncW9YVTcxeFhGQW1fUlVFemJtM3RWZ0dsbVlnWnAza0ZPcFZERml5TGo0dXQ3SndSbVV4UHpLRGJxenJLd1M2djI1SXpYZWNjN0xEWGNBQU1icDE1WnBqeEVwaTFFbFExYV9SWXPSAbwBQVVfeXFMTWdocFVTeGJaTEtETWJpZ2JYV21mbmlsSEJkbzQ0dUR6b2lUTzZUX1V3SVYwaFZDTmQzSVBvMmNmdTJxSDBjSmQ1UWIyaVFPamZfeFBUeDhrVG9wbTkwcUJEY0VTLWMzUlhSS0FxV0xRWm45S1JfMEotajBYWF9PT2N2WlpXbkJUUDJlcG1UQ01kdzhhSkhIT2NnaXVYNWdzWENwdFdrTTRpeFAycGR2WndtUzVtMDJzam9tYjk?oc=5"
+        },
+        {
+          "nome": "Sky Sport",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTDZMaWdMcEFzamNPMHFVR3QxVExPZmlhYmVhVFZSNG9oR3FJeFdXeUh4T2N1LWxfcnlJZ1NFektRZ3RBOEV4bTlXMUdDWTdiaTljLU9rbkxjYXl5UVRZWEZ6d1h2bjBHcVhTb3liUkFsX3hJTFhsaXRndkp3aTN1RmlvNUJIblRnel9RdTVJdlN6NC1zN2Uw?oc=5"
+        },
+        {
+          "nome": "SuperTennis",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNDFHVmdRd0N3RHVtWC1pU1Q0VmYtVHBUcXNndDMtVzJqdzZpMHlsdURsSUFXaGEwTXgyYS1IOXltdjNIa2FjcE13T3MtdXAzd3N5bjd4MDAtNUdLSE1SSzhhT2tUSDd5MHdjVkVlWEI0VXFnY3dubjNTUU1TTzFodWp5Y1J6Y0xRTHZ3M2R3?oc=5"
+        }
+      ],
+      "parola_foto": "sports competition"
+    },
+    "cultura": {
+      "id": "cultura",
+      "label": "Cultura & Spettacolo",
+      "segments": [
+        {
+          "text": "Cultura e spettacolo sono in prima linea con le avventure di Fiorello, le riflessioni di Javier Bardem e i grandi eventi di Roma, tra cinema e varietà.",
+          "type": "plain"
+        },
+        {
+          "text": "Fiorello",
+          "type": "name",
+          "detail": "Leggende del varietà e showman di culto."
+        },
+        {
+          "text": "Javier Bardem",
+          "type": "name",
+          "detail": "Premiato attore spagnolo noto per ruoli complessi."
+        },
+        {
+          "text": "Roma",
+          "type": "name",
+          "detail": "Capitale d'Italia, centro culturale e cinematografico."
+        },
+        {
+          "text": "Cinema",
+          "type": "deepdive",
+          "detail": "Arte visiva e narrativa che unisce spettacolo e profondità."
+        }
+      ],
+      "aforisma": "L'arte è l'unica forma di resistenza contro la noia della vita.",
+      "autore": "Elena Viscuso",
+      "approfondimento": "L'evento culturale più noto è la Festa del Cinema di Roma, che riunisce attori e registi per celebrare il cinema mondiale.",
+      "fonti": [
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxObkljZHFncUpUUWlDZ05pRXdUalVjOGRwRFc3M0lqYm8zQ192LU14T0JENlhRd0JNUDUxZ1k3MlhqeVN0RGFacVIzMXhGU2lubXpONEpOaG5LNkdKaU1Hem9SMlJua3hjYXJyV3ZXT3RyOU1HejN6T19qcjF1aVNVa2pDZnVURGJNUTNaajJuVUlxSE44RXZNNTloSVZ4TzZ6QXJXUkhxdmdfVF9VZjdEMWljNnIxeEtSMmtiRkV3MlBSOE5kd196cFlPY2I4WDZkUUdiQkNBRjJBWlRSRGprVHNLM0RFem53azc5M9IB_gFBVV95cUxQUGZYZTVVMHktLWwySE5iRzVScVdqNl9VS3BEZ2pjUWdmbnhMdWZmaDJQUmJWRkVyZ1hVdms0R3R5WklIQkRLQXlmNVM0clkwRC1RU045UGlBRXJ3cHdYeUllUzFSVmJWSVppOEdXajBsOTVmWU1HYUVhZ2hxY1V6WkJWOEswRGxaWFpzeG1pVVJDTUM5dnVoNHZ5Vjh5Wmxmb1A3T0hmTkVWN0YxRmpVMGtxdUNZR0dJZFdvT1BqTzVqY3ZId1lidklrS1JsUnhfMVI2UHIzRGpuVXNUWVRSVkVVZW1YZHdrTG8wNHFSM1pVdEl4Q0txdGZBT1JOdw?oc=5"
+        },
+        {
+          "nome": "HuffPost Italia",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYmVlT05td2Rtb1E1QUo2Ui03c3lXSS1HdjUzQUsxYzFEQjR4MVljYTk1UExybnpuUS1fX1NWb3VFM21tNy1HTXhvV3lZSUEtWUNFWE9RMXBNQ3FfTjc5QlNLamhIVTk4SGJxbFdEaFNELWR5TW5FaExwU2MtS002RWRqNjJPZkhhbkhzY05FczJxZTVwUUJoRFdSQklnbC1EcDlNZWRYM0RvN0dyX2JWTjlQMHEyMW9YOERWT2J4YWxRV1FpUXQwSUlxX0MwWUw4cEJDdmtrNE4?oc=5"
+        }
+      ],
+      "parola_foto": "film festival"
+    },
+    "gossip": {
+      "id": "gossip",
+      "label": "Gossip",
+      "segments": [
+        {
+          "text": "La Milano Fashion Week 2026 ha visto una partecipazione senza precedenti di vip internazionali",
+          "type": "plain"
+        },
+        {
+          "text": "Coachella",
+          "type": "name",
+          "detail": "Il festival musicale più seguito del mondo"
+        },
+        {
+          "text": "festival musicale",
+          "type": "deepdive",
+          "detail": "Evento culturale che unisce musica, moda e socialità"
+        },
+        {
+          "text": "mentre il gossip televisivo esalta l'imminente Isola dei Famosi 2026",
+          "type": "plain"
+        },
+        {
+          "text": "Isola dei Famosi",
+          "type": "name",
+          "detail": "Il reality show di maggior successo di Mediaset"
+        },
+        {
+          "text": "celebrity bake off",
+          "type": "unusual",
+          "detail": "Il format culinario con i concorrenti famosi"
+        },
+        {
+          "text": "e gli spettacoli di varietà continuano a dominare le classifiche di ascolto",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "La luce dei riflettori acceca spesso la verità sotto i riflessi.",
+      "autore": "Egidio Velluti",
+      "approfondimento": "Il 2026 promette di essere l'anno in cui la linea tra celebrità e pubblico si annullerà definitivamente.",
+      "fonti": [
+        {
+          "nome": "Cosmopolitan",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMGcySTQxLWVCRUpTN2k2N09Hc1BIYThSNVB5aGltRjU2bi0xYzNQaXYydGdwMVE3Zy1aUTIxWk5PUzJRUG05SHg3SWdkbmJsSzI3Z3VMc1MzVGx6NDNDLURubS1JaUFWcFF6WERzaFFpT0M0YkJ1aXU0bXJ0czZPdzRtWldFcU9STFQ3RENDNXAxQk12Y1dWZGxmX1RFVUJwbnhvREJzNU85aENBUE1qYmwwMGM2UQ?oc=5"
+        },
+        {
+          "nome": "La Gazzetta dello Sport",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQSEh2ZWszVXdxUjFwb0lSM2NOb1Nwelkwd05SNGRSdFhpeW85eTlEbkRaOFdldWhERTcwRk5PSTdiU0ZsTTRwNEF6VUNWdmhqWEhxUElxaFAycGFVUDlFcTVKQ2ZmcklNc05YaUhEY0RWUnp0aTA5U1VLTHBEbDRtd3BxWS0ySFE5MXBsTHVscmN1dWdNbTlCMFQyWDdoaEZiY3NaUHNrcVp6RVgycFhxb1NiYTVHQmVxekk3bV84VEo2UnlhdW9NRTBpTXNFRlh5ZUloU0p5Yk1nSjlRM2FUNFB2Yl9NZlI5Z3FoRnM4U0V1dlJsZ1R3WtIBxwFBVV95cUxNMk52RGJETkRpN1VOc2FINGVWLVE1dU5sTV9EX2lnSl9xX0dNNTVPVm5kVGlXb2pQN0xmSU4tT1RTeFRENERQRm5BaGVBb1dobHA4dV9FV1BmbDZ6OE11a3ZEUnFQQVp6bnQtbXZad1A3WEljaW0xTWdsNjc2NktlLWlQNmk2dmFRYzZEblB4ZE5fZlVabEh3Z1Q4b0xmVnBWNkZWYU9LSDZjR2M0bjdmS3ZQVjJqajRZVXBzMUsyZmhmNXVWRlZn?oc=5"
+        },
+        {
+          "nome": "ComingSoon.it",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZy1DckpXeUEwSDRTbFBhOUVhYzdjUC1LN0pPMTd0MEgzWk9PdThBcURBNGpsTFpkQ1dzSktoeGxiczIxbnVpN0VyZ1JNdnFseFlYN1lna2FadldneUczblA0VWxINlBzd3JSWm52bzFSUW9FN0VISzFRSUtOTmVHbkdKNG1mdWY0TE1GTmJuZlFLQ0xra0o5cEcxWnVUUTJCYmxUTzBGU3lrRzMtbEVDb0x4Z3ZIY1ZQ?oc=5"
+        },
+        {
+          "nome": "Vanity Fair Italia",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNY1Rta1AtM2VrT1F2RkpUQ3lVUWwzbU8ydjZlU1pJWWZvZkJDN1FHZ2hzSjhjejY0Y00zbEtvVDUtZTdxQnRhY0FfTUN1OUpwN0FRajJCN04zdzBCbEZsY0VtZFFCaFV1a3RQb1BGM0luMkpJUHB4MTM1ZXdvQ0VNR2tKeGpxbEEza3VieE56c3NIYVlha1dFN2YwQnBXaDdh?oc=5"
+        }
+      ],
+      "parola_foto": "concert crowd"
+    },
+    "ambiente": {
+      "id": "ambiente",
+      "label": "Ambiente",
+      "segments": [
+        {
+          "text": "Il clima e la sostenibilità sono al centro di numerose iniziative nazionali e locali, dai finanziamenti europei alle proposte dei giovani e degli assessorati regionali.",
+          "type": "plain"
+        },
+        {
+          "text": "Sostenibilità",
+          "type": "deepdive",
+          "detail": "Concetto complesso che integra ecologia, economia e socialità per soddisfare le esigenze attuali senza compromettere quelle future."
+        },
+        {
+          "text": "Giornata Mondiale dell'Ambiente",
+          "type": "date",
+          "detail": "Evento annuale internazionale dedicato a promuovere la consapevolezza globale sulla protezione dell'ambiente."
+        },
+        {
+          "text": "Marco Frey",
+          "type": "name",
+          "detail": "Esperto confermato alla guida di un centro di ricerca dedicato alla sostenibilità e al clima."
+        }
+      ],
+      "aforisma": "Il futuro si costruisce oggi, non per ciò che facciamo, ma per ciò che sappiamo di non dover più fare.",
+      "autore": "Giacomo Verdi",
+      "approfondimento": "La sostenibilità non è solo un tema politico ma una necessità economica e sociale urgente. Le politiche ambientali sono state sottoposte a tagli ma continuano a trovare terreno fertile attraverso iniziative locali e innovative.",
+      "fonti": [
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTDVhVmtvMGl3VmctUm40dExJN2xHdElvLUlQQ3JNNExTV0xMTHh1dWw1ZVRrVDZUTEdvaVEwdjVDWVdobzZSbFJjN2lhTGpDYTA4WUs4bTlTOXQ1a3gyYjFLcW9KemxrdWNsRUVUbkU5UzMycXBhZFBiblBybDFnQk9OUUpmcEY5dGFJVGlYRzdsQWtmX04wQm5TVEttb0xSdDR6eXZhZUE0dw?oc=5"
+        },
+        {
+          "nome": "Regione Puglia",
+          "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxPZ0pDaVhJa0hHUDdXSzQ2OU0weVczRWFuVTBSek9UbU8wRF83SGlhemlvNFNoTUJnQ1daeUhza19UUTVkSnJCT2Y3THlFMUFUdndmSEZRbWExQ0NnSldrSmNrbHY5bnhDdjltZWlCYnR1NFNGNzlDRUZMY2ZacnZDZjduZUtpWVFpajFCQTFlWERGVms1cDVWQnFqRVNJQ0VmSDcxNWQtQTFYRTJBeHlYdDk1TWMyRUc0eGpGQXljTHpvUGtOOWQ1RjA5WU04TEFSQmF3UFNTWWs0QjlPNVlZRmlodkwzUWVqOTlSbE1nOXV3VmZFek5YMHFnTm9ycnBFbmwzbmZIZEk4UnE3RlB6aENvYUZYbVZoU3ZXb1hDdUxDWk5lU2ZWV1RTWlVyd0EzN1U5eldncE1qZWZKSGdPaXlKRDYwbEQzRWd5Q0pqaTJucmdrcHV6eGlR?oc=5"
+        },
+        {
+          "nome": "Comune di Oristano",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSUhRaEFzR0s1MW10b2FDaDBXQTAtNy02TmR1OEEtTFhYSHM1S1V0bWZNQWJYVmppdDBTNGRmb0dadkZrTFNVOTdQdlpTOHRnRHp5MmZycFoyNWNfM1BsWWR2T1ZZaTZORFF6NzNOV2VnamF6ODdUMnZXdmFoU1laMW5oU1JJZUhQWWpVRHhBVXluQkVxblB3S0tseGRscEV4Tm5OcEhBRHNxeVM1SlZaVjNxa3dNZkkwNnJCVFI3MXo4Z2J5c0ZSeVpDcl9JdXRScmc?oc=5"
+        },
+        {
+          "nome": "La Nazione",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQzZEUTJrMVpBZHBEWV9sQm9UREh4dV85Z2tEa2dybEQ1NG03NHliSXFuSGJ4QmVRY0FpR0xhcENmWk9hbE1lSDJiRF9veE15ZEVzSkwwNXkyOG5zOHhkZEFTMEJobVRiT3pNMXFXY2pDZXFLUS00M0VrSVdMTEtmRWNzYk54a09HV3lrVUNkZVZUNlJINERnRHFuOTNQSVhaZnhHVmd1REZsZXdfUVFkaVpBdng4aHBNZGk3T1MtckEwdWhIMmNqSE9tbw?oc=5"
+        }
+      ],
+      "parola_foto": "solar panels"
+    },
+    "moda": {
+      "id": "moda",
+      "label": "Moda & Lifestyle",
+      "segments": [
+        {
+          "text": "Il connubio tra moda e design si espande",
+          "type": "plain"
+        },
+        {
+          "text": "Milano Design Week",
+          "type": "name",
+          "detail": "Evento principale di design e moda"
+        },
+        {
+          "text": "2026",
+          "type": "date",
+          "detail": "Riferimento temporale specifico"
+        },
+        {
+          "text": "unisce corsi di laurea e master",
+          "type": "plain"
+        },
+        {
+          "text": "di Istituto Marangoni e Polimoda",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "La forma del vestito definisce la forma del mondo.",
+      "autore": "Elisa Vannini",
+      "approfondimento": "Le scuole di moda italiane continuano a scalare le classifiche mondiali. Il design si trasforma in abito e viceversa, creando nuove opportunità formative.",
+      "fontesi": [
+        1,
+        3,
+        5,
+        16
+      ],
+      "fonti": [
+        {
+          "nome": "Vogue",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81RlJJelF4ZmVLdjNUU1lmN2FMczdPUnk4ODJPTE9TOF84UC03RS1OU3NZWDZmMy1qaHFuVXh5bDF3UUk0T29Rdk9ldHFYdFRISDVYZkpIbng5NTA?oc=5"
+        },
+        {
+          "nome": "Cosmopolitan",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdGo1Vi1iZmcxTmpkXzZYU0pxc0hRd0FCMFZkaWxGM193QjZqZkRRNG9mTVpyZ0NXeEtQUktocFpwWHQtajg2S2tLNnRnTXJocUxmN3p6dEEtSXhqSzA5bi10S1N5Z2lBQXhuanl3dnpJNm9tRWRUdmRCWEh1c09hRW1aa2xMM000aUZ0U21ZMlk4VTVrVk9OWGZUUTcxbXdJazkzVmdmbVdnY1VzMkRLdmZGQQ?oc=5"
+        },
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNGt4dldsWHAtRVNRS21hLTBkWWo3Ry1RTWREd3VPTTVCbkp4OU5NSE9rYUJueEhlZVN3dTVJeVBaWnIxY0I0cU9JOTJFYU80WGhoSmdzQURYVXpLaDhFWnNtUWJleGQ0dEZNNXJQNlN2aDR3Sk1CSjI2QUxmR3luV2VEekhhYlpFYjhkUFdmdDB2eFFqNWNfRnM1MA?oc=5"
+        }
+      ],
+      "parola_foto": "fashion runway"
+    },
+    "concettoplus": {
+      "id": "concettoplus",
+      "label": "Concètto+",
+      "segments": [
+        {
+          "text": "Proteste per il costo della vita in Italia e in Europa sfociano in scontri violenti",
+          "type": "plain"
+        },
+        {
+          "text": "Meloni",
+          "type": "name",
+          "detail": "Prima ministra italiana"
+        },
+        {
+          "text": "condanna",
+          "type": "plain"
+        },
+        {
+          "text": "gli hooligan",
+          "type": "unusual",
+          "detail": "gruppi di teppisti"
+        },
+        {
+          "text": "che devastano Milano",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "La violenza nasce spesso dal rifiuto di ascoltare le ragioni altrui.",
+      "autore": "Elena Rossi",
+      "approfondimento": "Le manifestazioni in Italia riguardano principalmente le crescenti spese per l'alloggio e i beni di prima necessità, portando a episodi di saccheggio e distruzione.",
+      "fonti": [
+        {
+          "nome": "The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQ05kNmh0VGZQQlV4MkExc2lkOW9BaGpPaW5ZUkNSdTlSYk9SZ0lqZHR5VzRZdFVrZW1xTDlPTEVxSjBINHZ3dGxSamJtNFBvZVJwczB6Ym11ZllxYXdKTEFtTnBZbFNEUTZlMldaWHZ0UXRMU29ZWmpFRjVMWVFmb0J5OEc3dHJfckJ5UXZWSm1TUQ?oc=5",
+          "paese": "Regno Unito"
+        },
+        {
+          "nome": "The Times",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd3hicFZHdVdKbnNLUzhXcFVKMHpHbnZyVVpMandEMGlYNy1KeW1iWGE1U0tJY3NWbFFzdURqeUtON0tFMmZXbF92UXJxSmFiRjd1emY2ODBuOGVGTko0VXFGZ0tQQ3M3dEpaaEFKWG1DNTcwV2pjZndOb3BpZHNrVlF5blJLcVY4a3FhSmRxb2prenZzTnpGR2dn?oc=5",
+          "paese": "Regno Unito"
+        },
+        {
+          "nome": "ITVX",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTnp4VmN5MmNIVzBtODJJRGlPeEVnMHlxZ29NVm5jRDVVZTNrcVQ5ZWR2Y2xFa0ZRQ2xpRGhIZDZsZzJLSTMyek5qcFpsRFpuUm9ZaTZXcG9GQ0RwLWE3UjFTZzZXcmczbS0tUnI2NkU4U24zdm1DdlNnQXVDanBzelVCeHNQRHZxX29pdlNYZHhkeVZtZk9aUzFabkVBTDdiOVp0UVpHcmlidw?oc=5",
+          "paese": "Regno Unito"
+        }
+      ],
+      "parola_foto": "protest crowd",
+      "paesi": [
+        "Stati Uniti",
+        "Regno Unito",
+        "Germania",
+        "Francia",
+        "Giappone"
+      ]
+    }
+  }
+}
