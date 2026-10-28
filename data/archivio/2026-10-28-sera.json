@@ -1,0 +1,634 @@
+{
+  "generato_il": "2026-10-28T13:41:08.091Z",
+  "data": "2026-10-28",
+  "edizione": "sera",
+  "id_edizione": "2026-10-28-sera",
+  "categorie": {
+    "italia": {
+      "id": "italia",
+      "label": "Italia",
+      "segments": [
+        {
+          "text": "Il governo approva la manovra con tagli fiscali per il ceto medio, ma Roma vive ",
+          "type": "plain"
+        },
+        {
+          "text": "alta tensione",
+          "type": "unusual",
+          "detail": "Descrive la situazione di occupazioni e minacce nelle scuole"
+        },
+        {
+          "text": "con ",
+          "type": "plain"
+        },
+        {
+          "text": "scioperi",
+          "type": "unusual",
+          "detail": "Riferimento ai cortei previsti per il 30 ottobre"
+        },
+        {
+          "text": "e ",
+          "type": "plain"
+        },
+        {
+          "text": "crimini",
+          "type": "deepdive",
+          "detail": "Include omicidi, femminicidi e aggressioni in atto"
+        },
+        {
+          "text": " ",
+          "type": "plain"
+        },
+        {
+          "text": "quando",
+          "type": "date",
+          "detail": "Riferimento al weekend di Ognissanti con arrivo del freddo"
+        },
+        {
+          "text": " arriva il freddo.",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "La tempesta si scaccia con un colpo di spada: la violenza non risolve, ma solo prolunga il caos.",
+      "autore": "Elvira Vismara",
+      "approfondimento": "La recente manovra, pur prevedenti tagli all'IRPEF per le famiglie medie, è stata approvata con un margine minimo alla Camera. Intanto, l'alto tasso di criminalità e le tensioni sociali, esacerbate da occupazioni e minacce, rendono il quadro nazionale molto complesso.",
+      "fonti": [
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTjlITG8yalY1LU1ZbHpxbC1ycWZsRDJHaVJpNXh5bGwyd1UtWlI1N0dyaElXMGd6cEdEdWt6NmV3SWJQNU5BdXpXcDR2QkxNYnN0U19kTkN0MGFTOVVBeVRNUnVsaGhzazRTN2pUWjF4SmVPVWExdnZjSWh6ZFFBTWVOcXktNldMaS1Xc1gyaUFSMmV3cFZwMTZyM0dCNXowQ2xlNzIyNDJqTW4yRHRSTGpRQTdVN0NjNndvTFdBVXl5UnVYZTNNOQ?oc=5"
+        },
+        {
+          "nome": "RomaToday",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNM2QwNW9HN0xqRFhzOWNJZjMyREpyZ0tnc0duSTl2dDBJaDZnSjFKTVVkcU9SVTItcU9mS01tek5tY29MYWJ6ZHQyeXZJNFRZal92LUZSb2MxQU9GLUlDWWdETnV4VzlkRzJ5SXhaaWtHZnlWeWFkb21iczZkcy0weA?oc=5"
+        },
+        {
+          "nome": "RaiNews",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOTGxhTnJOZ1VXSkJLT3RNZVhlMWN1R3R2TVdlVXNCMTcxY0pkaXJDbVN3aUtCUF8taW5lcUNGTHJRUDMzcW00YTR5WmY0aGdkX1IzYnlDeEFWR194ZFdTYzJCSks2Tkg5RUlhNzhTZno5RDNvNWR3UVR5SEU4MkdVc0JJRUpHSnpiX0RYeGdrUHJwYmJHT19LVDUtZlo1d1pTMFRXQ1VKZXl3TFc0d3BVRGpubFFSZTBrY3VDY2lSRWpQWk1ueUdwV1RTUS1jUTQ2dWVjTEtjanZfU0hMQjdGTkR5SGpfTGZRVUhOd2ZWWE1Za0pMQmxN0gH8AUFVX3lxTE9rVE5Wc1lVVmdTOXhEMThqcWNob09tZW5nb2xZZkF2R3V4MUtOeG5wNWphN1J0N294TTJSX3EwRW84Zmw3UnpKcEoxU0lLeDZKdFVfS2liZVFuT2x6ZXFhcWRUMVB3djl5SzBlcVJqTXNNSFEzUVpYR1ZBVkJDQkJnRGJXQi04R0VJc1JkbFBXWTBlOGd6aWZCVXVncEFRdzhhTGR2SUlKcDEyUzBVMllSeGh0dEh0anZCMDFfOWluSU5RQS1GVk93NFQ1aXRqam9vWlRIZHdFRXlzN09wSkl3N09wWW9sQlFVWTdQR3NkdXE4b0ZCdXhRZkFhUQ?oc=5"
+        },
+        {
+          "nome": "AGI",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQM2VReWliX3lKVmp5eU9HempmM2dKY0h3UHJwSTJLNU5GT0ZnTVFSSnhNM2YySEhkc1ZRLTBwYnlKX0VyVFp2UjM3VVVkcDktSVR2SmZrenZwalVfQlh3MWpLN0V0Z1pFbnc2dERSa3M0ZjRiOTVja3hrNGpSTFdpbWU2TFR2cEZyNVlkTEdBeWhNaXRGclFBS0VBMF9hOUNXaXJKaEp4MWc?oc=5"
+        }
+      ],
+      "parola_foto": "storm clouds"
+    },
+    "esteri": {
+      "id": "esteri",
+      "label": "Esteri",
+      "segments": [
+        {
+          "text": "Elezioni in Israele",
+          "type": "name",
+          "detail": "Situazione politica attuale"
+        },
+        {
+          "text": "scrutinio in corso: blocco Netanyahu",
+          "type": "plain"
+        },
+        {
+          "text": "su Eisenkot",
+          "type": "name",
+          "detail": "Nome del principale avversario politico"
+        },
+        {
+          "text": "mentre l'Ucraina",
+          "type": "name",
+          "detail": "Sede del conflitto principale"
+        },
+        {
+          "text": "subisce",
+          "type": "unusual",
+          "detail": "Terribili conseguenze di un attacco aereo"
+        },
+        {
+          "text": "la guerra in Siria",
+          "type": "plain"
+        },
+        {
+          "text": "e il Brasile",
+          "type": "name",
+          "detail": "Nuovi sviluppi politici internazionali"
+        },
+        {
+          "text": "condividono il palcoscenico dell'attualità globale",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il mondo oscilla tra scelte elettorali e devastazioni, rivelando una crisi di valori senza fine.",
+      "autore": "Elio Moretti",
+      "approfondimento": "Le tensioni in Israele segnano un punto di svolta per la regione, mentre in Ucraina l'orrore della guerra continua a sfogarsi. Il Brasile, con le sue complesse dinamiche politiche, aggiunge ulteriore incertezza al quadro globale.",
+      "fonti": [
+        {
+          "nome": "la Repubblica",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUU1Zb3EtR0d5NHJGU29rb2hubkJMTTFBT2p1X2lqdDc5UDlNNFR0QUtEN1dEdWEtTC1OWVBKN0lzUVlGWHBUYWZNTjRZa0ZlSDlPSVNlUU1rbkRzdlRfMDllUzV0MlRPdVBBR2VNR25wakRmRUVoQVFzbnE0dmZHY0g4dFYtSGtNbUw4bVdZUUg1cm9LZElDR1RmODA5YlU5dGpRcGlUZWs2N1RVckM2M2xrQ1NqV1UxSGhZ?oc=5"
+        },
+        {
+          "nome": "Tgcom24",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeGlNcG5nRGNIYk9oMDRndnVMZmJvWXI5WnZ6eUZLZWZuSmV6YWN2VTVhd2hVMlNSQ0VVZ1hiR2RITElOcmNTYXBJS0ZrYV9hUU9kdEF3UFBDdmRmUTNyNEVkY0lVWFpXcjE4Q1BLb2FIUFBSeVV4UDJJc1FXdlF4WTV0REI4RkJWTTFKMUVmaXFKWVZzOWJZOFFtSkg3dzNZcFBBUDVWdXNBdWx1UFHSAWhBVV95cUxPcmROSy0wdHJsY2haclE2U2FONGdNRXM1dThfaWhWX3ZfNXItUHFQZEIxLTRROGVhTUtPY0FIZHZoZUxMWERWbEpWaDBWQ3ZGSGFIaHdQSDlCRDJhUmZIaWhzXzFVNEhvNg?oc=5"
+        },
+        {
+          "nome": "Il Fatto Quotidiano",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVFBrcHVydlBvNTN5cEsxWUxKWGxON0FRN0NicFI1RDBMWVRxRWVCZE9kNjlPOF9malctaE82SmE1UHp5Z0E4NEE4Vnh4NGVmclBUTFk4ci1tWWF5U0I3empkRG92TXBfNGtKb2J1OWNPdFlqREtybkRHeTdTTDhKMVVYcGdYd3dwNjFOR2Nqdw?oc=5"
+        },
+        {
+          "nome": "Sky TG24",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB1eXp2QkhBWXZFTUctR01qMjZXVEhqQ0kza0h1cEpkUV9QSlV6Z3RJejZWc1BqbFRZckU2Sm8xZHV1cGFybnM2UW5LSWRjM083TVJweU9PMzhieng4dVI2TWFHMEZuelVuanBWQVM4V3MyWTEzb2VDOQ?oc=5"
+        }
+      ],
+      "parola_foto": "tension in parliament"
+    },
+    "tecnologia": {
+      "id": "tecnologia",
+      "label": "Tecnologia",
+      "segments": [
+        {
+          "text": "L'attuale panorama tecnologico è segnato da una forte convergenza tra l'innovazione hardware di punta, come la nuova generazione di MacBook Pro con M6, e la diffusione pervasiva dell'intelligenza artificiale che sta rivoluzionando non solo i dispositivi consumer ma anche i mercati globali, portando a un cambiamento strutturale nel settore lavorativo.",
+          "type": "plain"
+        },
+        {
+          "text": "Amazon",
+          "type": "name",
+          "detail": "Colosso del e-commerce e cloud computing che investe pesantemente nell'IA."
+        },
+        {
+          "text": "AI",
+          "type": "deepdive",
+          "detail": "Intelligenza artificiale che sta trasformando i mercati e il lavoro."
+        },
+        {
+          "text": "Microsoft",
+          "type": "name",
+          "detail": "Giant dei software che taglia dipendenti per puntare sull'IA."
+        },
+        {
+          "text": "tagli",
+          "type": "unusual",
+          "detail": "Ristrutturazioni forti nel settore tecnologico per reinvestire risorse."
+        },
+        {
+          "text": "Marche",
+          "type": "unusual",
+          "detail": "Aziende tech che dominano il mercato globale con prodotti di fascia alta."
+        },
+        {
+          "text": "Apple",
+          "type": "name",
+          "detail": "Leader del settore tech con un focus su innovazione e potenza."
+        },
+        {
+          "text": "hardware",
+          "type": "unusual",
+          "detail": "Componenti fisici e dispositivi che costituiscono la base della tecnologia."
+        },
+        {
+          "text": "2025",
+          "type": "date",
+          "detail": "Anno in cui si prevede un ulteriore sviluppo dell'IA."
+        },
+        {
+          "text": "Digitalizzazione",
+          "type": "unusual",
+          "detail": "Processo di passaggio al digitale che è oggi centrale per il mercato."
+        },
+        {
+          "text": "lavorativo",
+          "type": "unusual",
+          "detail": "Settore del lavoro che si sta trasformando a causa delle nuove tecnologie."
+        }
+      ],
+      "aforisma": "L'innovazione non è solo fare cose nuove, ma dare un senso alle cose vecchie.",
+      "autore": "Marco Vignali",
+      "approfondimento": "L'IA sta ridefinendo il mercato del lavoro, ma anche creando nuovi modelli di business e prodotti inediti. Al contempo, i giganti tecnologici sono in una corsa all'armamento per dominare i nuovi mercati, con un impatto profondo sulla nostra vita quotidiana e sulla nostra economia.",
+      "fonti": [
+        {
+          "nome": "HDblog.it",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZ2x3aklWbzZLRFMxXzFCUG9UUXRGZlVES2VmdGJfdkpDZUxGa0h6VUpjTkJ2ZXpTU2JRYXdjQmVCOFdZSmFqamtPdHNIYmw2NDdMX1RHUFpqUnlHenk1cmRiME1NTUxDc0syM3RJdjExRGJlWEw1bVpvRlUwS3U5cmJVZmJmUDZMZ2I2eWJOUjQ?oc=5"
+        },
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOYlhOSDZ4VGItaTNWSTRKNDZDT2NfUkozLXFVUTFQVjBPNzlFVjMyLTMxNlpGOWVTQmVKbEdDRVZORUdLNXRvV3IzeVlYa2N4MTN1aTZjSU9TQXlYWWRMbHV3czVWVkxTdDRLVGVqWFBMLU1rbTJwMjlxaWRvZW50UVAxZDZBdDVIczh6QkVLZXpTODAwemIwMVlvbnNIbnB4UjNNR00yQW5CV3k4My1xUG5KcjVJNHNqTXBZNXNnRHhnSUZDVGFZMUpGNmtmakwyMVV3UEtjRXFMb3l0TkhMeGlmdHowYkxNUzM5VzFfdi1mX0lVdHltVDFuZVB3VzFDZ2h4dkdwOHlhb0pjSDlYbFg1MUs0MG96bzZiUkVqQmpwTXYwT2txRjFKbFlydk1xVmgxN1dOVlBHOUhXT3N0RnZySdIByAJBVV95cUxQYVhCZjJwUkMydnFWdU0tVVI4RVJUaFU5dFpjNzlWZTJyTVNNamcyWndtWVlBODN3XzJNRTM4UFVhNlliZk9Gb0w5WXhvR0Z5a09QV1dzMG4xdTlXaGc4SE9GdzdaalNHdzR5cWlyZjkwMVVSRUNjUlBCRmNlVGoyUGptb3FqWFZFTkVDUnlKYXpPazB6TlpOU0h5T2RpeVdrUkZoZ3VhYjgzcU1zbjRERm5LeUlvMFN5eHprX0tJMmlHcUtNWUcwX1hhUkdYcmJ0VE8zdkFTRkxGU2RrNFBoYWlmQ3RZaWRDd25iNHNzMEplVFloUHpXTGphdUsxc0lBc3k2TEVya1NXUGVhLUNERmhSS0VtdHRXX1l3WFNuWUJFeExyRVF6Tlg5eWNSQWd0cnRlcWsxekFGS293LTdMelBlRkY5VmNK?oc=5"
+        },
+        {
+          "nome": "Il Fatto Quotidiano",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQ2dXUmZGQWdZQ0pfZ3l6Z3VqNmZndjFQc0tFMkdJSks4MF9VYUtua2syZnBtTmZXOWY2SHRPS1poM3VHVUhmR1dZaU5vR1hJb3NGS3pSdDJraG9LMGU0R1RFTTVpdWwzWWtuMmZoVGZQQ1c4NTYyY1FWeVpJd28xSUlva1VCUFg5MzZzTnMwVnVBd2UxT1I5Wm1waVhMLW5RZnNja3ItN3UxTFM4azVQeUZ5Nk1yVndCYmZrbjM2eHlCbWhCcU5WZzl0dU9sZkEw?oc=5"
+        }
+      ],
+      "parola_foto": "city skyline with"
+    },
+    "cultura": {
+      "id": "cultura",
+      "label": "Cultura & Spettacolo",
+      "segments": [
+        {
+          "text": "Mentre Lucio Corsi privilegia il silenzio creativo e la solitudine, Eros Ramazzotti rievoca i suoi antichi amori e Michelle Hunziker cerca riscatto sugli schermi, ecco una giornata di spettacolo in cui anche il televoto e i matrimoni suscitano curiosità",
+          "type": "plain"
+        },
+        {
+          "text": "Codacons",
+          "type": "name",
+          "detail": "Associazione di consumatori che chiede l'annullamento del televoto per il caso Grande Fratel Vip"
+        },
+        {
+          "text": "Lucca Comics",
+          "type": "name",
+          "detail": "Evento di fumetti e giochi che celebra i suoi primi sessant'anni con Barbero e Go Nagai"
+        },
+        {
+          "text": "Harry Potter",
+          "type": "name",
+          "detail": "La serie HBO conferma i nuovi attori per James e Lily Potter"
+        },
+        {
+          "text": "Sanremo 2027",
+          "type": "date",
+          "detail": "Mara Sattei annuncia il suo ritorno al Festival di Sanremo da casa"
+        }
+      ],
+      "aforisma": "Il successo a volte richiede più silenzio che parole, così come l'amore vero può nascere anche dove meno ci si aspetta.",
+      "autore": "Elio Moretti",
+      "approfondimento": "L'equilibrio tra vita privata e carriera pubblica è oggi il nodo critico per molti volti dello spettacolo, tra aneddoti d'epoca e nuove sfide televisive.",
+      "fonti": [
+        {
+          "nome": "Libero",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVm1ncDZrcmdPNzlteXB2TzZraGpEakpVbktuYTF5di1mZWV5VE1lb21zSFRzeEpVSDhGZ284T19MdmZNVjZSZ29OSUllVHVLU2NEVWJmTUlTZkpBeFB2V2pYNWF6bWUydFN2MnpTRC1NVWtEQXpNMHgtaHpnN3lHUzBrY0dodm5laURCVXdrM2ZnWkZXUkt6VFotWUlqSmtsaDJmUEVQYXBvN2pKczVrZDhZMVdKckVaOVFRS2JGYU5zbGxvUFIxS2pSRVpEemtY0gHWAUFVX3lxTE9FVnQ4VFdIM1gyVUd6Umc3U091RDdEX1JUOUZTU05LSFp6RXlyX2p2bmtfeWxvbWctQ3Bfdl9GQktGbEh1dEZUX0hPdXdlUVRZR1pnOE9LaFUyY0UyZXl2N0FwTVM3bWNBazZFdzVHY0J2b3lwZFhmSWtiNUpsZU1WNEM5UW1MektYQ1BYZ2prZHRuLTVwVjVzTW12TklKVURxSVFEbjVyN0ZoZFFyWlVpanJuMEdrVGpBcWxmd21UN1ZVT3kwRklGcy1lVzJCaGdITlN3a1E?oc=5"
+        },
+        {
+          "nome": "Il Fatto Quotidiano",
+          "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNTWhBa05NVlgtXzJkbWVzenJGOTR1dHE1Qlc0Yy1iQ3loRk1YLUdNU0lvMDFoOC1EN2hjUnVqLTFidDdaVzBHTjIybDhvYzhlSTFSYnk2Z0lYNjBoSGhidzdIclZoQW5DamFiSnJZOXd5SDNvM1dkNEhyWGdfWGl2SUJiMXpJMGdyQlBsbWlUUFFQUThULTJoUFZiMjI1bnlpUU5yZFpTZUdkcjhYTG5XX1pMamNtQnE3TzhSOTdQZHo1MWJxR3ljQjFic3JnT3BoOW1KaUN1aWJXUmItUGxVREJmUzQzLUE2YUtRcmo5ZDkycWZZbzhwU0NEYU9UclNVNmg5R2xnRGszS01ZZjR0YTZpaDhoa1BGdXlV?oc=5"
+        },
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOeUdkcmhXMDVUVk00aUtUcE9PbzlkYXNuRTRpMGs2SVE5MUFiMkFrS3Via3piZE5Ma0REX200V1lIdzh6M3N5WDFNdG1OeDIwazZHZjc5ODNaV3dBR1QyZVZVSmxEaGlITHNIZVpMZU1IeTNuUHNIQzFLY0hCc2dqa0QzMFgxVUstVEs0SnhoY0RIS3A5OFZSOGNJX2NsMjlsZlJJempSMERodklKV2cyWm5xTy1QOS1DOWVKX1k1Y2V6eU5jYzRTN0lHYVpvLTJ6c1MxWkVjRGhEWTVOLVZaREk0ckxCZFJNbURYRWo4ckxDVGlJTi1wWjNsMlM3c243MEtwaHI1eW9CLS04WHhtS0NKUFotSGhVVGfSAZ8CQVVfeXFMTzNTR0NfYkZ0MnBCcEFWZ0VBUW01eHRfM0FHZ1E3ekFOcHJ2NGhmdG15Rll6ZU15LU5Ka19JcG9YSFd3eHF4QkJ6MEQyX0pzZlpBU1FiQ3BoT2Z2LTA5MGtLMUFLSldJdmZBU3pfVmNidnc5WV9HbHFZUFktZXZKbkxXQTBydDhrUHpDVUtVZHlKUU5pLXVyVWY3VU9ZTDJsRlBoeDh1ZmFDTmZZOGMtaXNfMmpKblgyYmpkb3dFa3BLZUwwbjZtNmMxSnk2dGs1eDhUM3dMakwyRHZrUjhGVHhyb3hhREVxV3pCbHo2bXFXaXhEaUE2NGlSN1pQa0E1Xy1VRHJKY2F3WmVWQVk3QmlwLXM3aGVnanA4OTBSOEU?oc=5"
+        },
+        {
+          "nome": "RaiNews",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTExNMVMwRk1yaVRjaGdvbkV2TGxSSW1LSDl6WlF4Y1VIZ1M0cEJiN0FUUC1CZU1nY2hYSUo5dFFETjZqUFJxV1NYMXJvOVVVLWRjeTh2OWphOFA0NF9qZEk4ZUdzaFlNSVRjMnA0MXlMQVkwRjdndFBHRVlRSU1veUprRHNiSGw4WC1uNlQ2WU9xYU0wWVk1UEkwaFB2U1Z4NHJkY3lDYy16MUxRVGxJTHNmbEZacHh4TkhLRXRkcEk1OUtLazJXZVMwNHkyUW9Fc3haQVY1MmtIOEtjdmfSAeMBQVVfeXFMTkRfclRhZWpyTmtjTGJiVnM2OHY1UWtOWXpIRkxuTTFzemRrTFNZdkZzRVZvRFM2RXJ6ak44R2swdWNMSUd1N1IwM1hPTGZxSjUxamo2Z3VFNlpMSktGd1dmelI4VnFzdGVZcnpsN3hMRFVNS1VBTUk3RnhCZGYxT1M3Q29ZYVRhcEJtQWxSSmR0eUc1UEdwYXB0UWM3eHZZd29pUDRjZnNRVV9NdnlLbXRuN0NmOE1PeDJDdEpDRndSbUQwQmZycWJqOVJMVElNQzNSZ3BYcTNYbWV0VmJ2MmN1VjQ?oc=5"
+        }
+      ],
+      "parola_foto": "celebrity portrait"
+    },
+    "gossip": {
+      "id": "gossip",
+      "label": "Gossip",
+      "segments": [
+        {
+          "text": "Il 2026 è l'anno delle apparizioni vip su",
+          "type": "plain"
+        },
+        {
+          "text": "Coachella",
+          "type": "name",
+          "detail": "Festival musicale di lusso"
+        },
+        {
+          "text": "e",
+          "type": "plain"
+        },
+        {
+          "text": "Milano Fashion Week",
+          "type": "name",
+          "detail": "Settimana della moda"
+        },
+        {
+          "text": ", con i divi che si contendono il red carpet tra baci e scandali.",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il lusso è solo un altro modo di contare i minuti passati sotto i riflettori.",
+      "autore": "Ludovico Stravinsky",
+      "approfondimento": "Il 2026 appare come un anno di grande visibilità per le celebrità, con eventi globali come Coachella e la Milano Fashion Week al centro dell'attenzione. I gossip ruotano intorno a flirt, divorzi e apparizioni, rendendo la vita pubblica una continua performance.",
+      "fonti": [
+        {
+          "nome": "Cosmopolitan",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVXJ0dTZaczkyZVU2UlpjbUZXMl9SaUNBYVV6QkFZQndyMzlQLXhqUE9yUXpmR2RFOHJaeFUwUnFiakpNVFYtaWxlVTFoMEZ5N2VQc1pBN1A3WGx1WjJicWl3V2Y5dDVfdjFGdlJ3Zno1b1c4VW9yUkJ4M3pPM1JTWndYY1dycWF5eUVucm1yZ18xZTIxcVBuSVczNXZ4MF92Y2ctWFF4blRCdw?oc=5"
+        }
+      ],
+      "parola_foto": "concert crowd"
+    },
+    "ambiente": {
+      "id": "ambiente",
+      "label": "Ambiente",
+      "segments": [
+        {
+          "text": "L’attenzione globale si concentra sull’impatto incombente del cambiamento climatico",
+          "type": "plain"
+        },
+        {
+          "text": "ecocidio",
+          "type": "unusual",
+          "detail": "un termine denso che cattura il danno irreversibile dell’ambiente"
+        },
+        {
+          "text": "PAESC",
+          "type": "name",
+          "detail": "Piano d’Azione per l’Energia Sostenibile e il Clima"
+        },
+        {
+          "text": "sostenibilità",
+          "type": "deepdive",
+          "detail": "l’equilibrio tra sviluppo e protezione della biosfera"
+        },
+        {
+          "text": "spazio ambiente",
+          "type": "name",
+          "detail": "il programma divulgativo regionale per le buone pratiche"
+        },
+        {
+          "text": "Oristano",
+          "type": "name",
+          "detail": "la città che costruisce il futuro con i ragazzi"
+        },
+        {
+          "text": "Il costo dell’inazione climatica",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il clima non aspetta, e noi non possiamo aspettare.",
+      "autore": "Marco Velo",
+      "approfondimento": "Le politiche climatiche devono integrarsi con la salute e l'economia, mentre l'inazione comporta rischi finanziari gravi.",
+      "fonti": [
+        {
+          "nome": "Scienza in rete",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBkNDVNWWFROTVmWnphbjltUHVtWFpzQ1c1U004TXNoZWlDTGhIRFVza3ZqNzJUekdwYXFIQkZ2Mk0wX1hhWm9kRTJhdkF2aHlWWDlWZS1DdjNWRUVwYXA2WE9wc3ZtVnVQT2FRR0FXOEp0TVRYdmU2S05ESVE?oc=5"
+        },
+        {
+          "nome": "Comune di Napoli",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOcFRLWldBQUVSQVU5MlBiMGJNRHctTlhzM0N0Z1F4ejJnWm9EdlhqQjlMaUphUFlRWTZYaU5NRmUzSU12QzU4aGxYd0hHTGtkV1kzT05UcF9iTGNENFc2dWZKeWRRd1Q3SFJDNGxsMGhYU3hieFlCY3FTN3BBOTlHQ3NLWV9DOUVPazVtUUg4RkNuNExSOGlpZVdLR211eG12bElYb195bHFfdjUybFpvZndWb1pPeVFseDhoX2pPc0RMRThpSHpxWHVCSnFxNHRtS1FlQmtwcnZ0UWZOcG10V2NGNGR0bmFLYnNGQ1BJQzJiVFFGWE55d2VCLTMxNHYtRlE?oc=5"
+        },
+        {
+          "nome": "Regione Puglia",
+          "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNNkd3VW5PeGJnVlFDY2MzZEd2R1ZhNzhTM1BnNXlBV01sSVFFSDBlYVRubzU1aG8xb1lQdmt3RGVWMmhJbjh2aVpJcVBQTTBXSEpnbzN5TzhBalFPV1Roa2hkSjd6X2J4ejlJU01FXzhZb0lMY090XzF6YjlYVFRHSDM1dXNTWXFJbnlVcWJXUE5PUkxGdUJ6SnlPcFlQWTF4NmdLNUk3eEI2RGFsRzlZR1Nuem1aRVhXMVdJaGQzSngxWVczM1JpdVJ3bFZKZTVCSUlxbVo2RUUyaFlOc2lpWlRRckRRbUVqMDNETHFDVjFoUmg3dDg0SndFblNZb0tBbWgxWm4zTWp6M20wTmJRZTg2UGwtaXhLalhhNFNqNEsyUlFCb0k1QUxGVWlHRENJSmpaV2oxMXk1ODlYdkt0bjh5TjNqcEFsVW5NcS1aODc0RFhwcDlkRW00dw?oc=5"
+        },
+        {
+          "nome": "Comune di Oristano",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSUhRaEFzR0s1MW10b2FDaDBXQTAtNy02TmR1OEEtTFhYSHM1S1V0bWZNQWJYVmppdDBTNGRmb0dadkZrTFNVOTdQdlpTOHRnRHp5MmZycFoyNWNfM1BsWWR2T1ZZaTZORFF6NzNOV2VnamF6ODdUMnZXdmFoU1laMW5oU1JJZUhQWWpVRHhBVXluQkVxblB3S0tseGRscEV4Tm5OcEhBRHNxeVM1SlZaVjNxa3dNZkkwNnJCVFI3MXo4Z2J5c0ZSeVpDcl9JdXRScmc?oc=5"
+        }
+      ],
+      "parola_foto": "climate protest"
+    },
+    "moda": {
+      "id": "moda",
+      "label": "Moda & Lifestyle",
+      "segments": [
+        {
+          "text": "La moda si espande oltre il vestito unendo architettura, design e lifestyle in un connubio di lusso che caratterizza la Milano Fashion Week 2026",
+          "type": "plain"
+        },
+        {
+          "text": "Milano",
+          "type": "name",
+          "detail": "Città centro dell'evento e della settimana del design"
+        },
+        {
+          "text": "Fashion Week",
+          "type": "name",
+          "detail": "Settimana dedicata alla sfilata di moda più importante al mondo"
+        },
+        {
+          "text": "2026",
+          "type": "date",
+          "detail": "Anno in cui si svolgono i principali eventi citati"
+        },
+        {
+          "text": "luxury",
+          "type": "deepdive",
+          "detail": "Concetto di eccellenza e qualità superiore che unisce i diversi settori"
+        },
+        {
+          "text": "collaborations",
+          "type": "deepdive",
+          "detail": "Strategie di partnership tra brand del settore moda e lifestyle"
+        }
+      ],
+      "aforisma": "L'arte si trasforma, ma lo stile resta l'anima di ogni creazione.",
+      "autore": "Elena Moretti",
+      "approfondimento": "Il confine tra moda e design si assottiglia sempre di più. I nuovi progetti di lusso spaziano dall'abbigliamento alla casa, dimostrando che la bellezza è un linguaggio universale che non conosce confini.",
+      "fonti": [
+        {
+          "nome": "AD Italia",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOV3pmaHpFeHpjazlvUXc5VXFidFJEcHZZOWRsN1Z1cElXZkJDdmRCOENheVd6OGFRNm1qdU9hNlJ5dU81THVqZzc5Q3NVSzFqQ0F3NWRIeWw1U0lUT19DMGFLNTNMTF9DVC1DMDZFY2xCSUItX2FFVXFGWVVsMVVlZklqa0Fjek0xQV9aOVZSVzlIMHMtWjMtWjM4Zw?oc=5"
+        },
+        {
+          "nome": "Pambianconews",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUi1VOHoxSFRnVlNNM1ZUN3lMd2tDeXdwWF8zWk0xdC1TWmw4RTI1QURmQk9iSXp1MlBjcFJ5cjdaeEVTZVdxWHE5UDhrQmktVV92a3BjaDlwX1ZsMkdiVnBmajJpVXQ2ak1HcUNFTHpOMWlLdTJVS3pFNXBSYl80Ym5BOHlVWTRZWkFGanZDLW9tNkRxSnhLT1FUXy1qN3BMQkd2dHROVFI5bUJ0a2tQWmVhZVBra1hlTFRIbk5pS2xJUl9vZ0hfckVZQ1FfbGJ4emJ3TnBLTmRZdw?oc=5"
+        },
+        {
+          "nome": "ANSA",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQQ3l6aDBjZnRxMWo5Y21EQXRTc1VSRGZ0RU5zNXJNZmJ1a0Vrb2tCSjRMcTlGbEt1Q3NrT0tDV1JYalhIRVhzMnlOYkwtMGZyVnA0elF4cjJadnpDQXVSY3U0UTZxNmtaWFEya2JESlpzM294MEp6TXpQNXZTOVZmT3JyRVVxbmZVZDROcHptYWNFeFNmbDNIaFRTQzJfa1FWNEsxb3A1NUlrSW5kcmZ5QlVXTGF1RlprbjdpalBYMkNYRUxUSHdlN3pYVjhPMDRlSjNRN0RsYVJfYVlFMjZ5UUR6NnRwVzJuS0x2cnR3Nk1Kd2JGZ2ZGeTRrMNIBgAJBVV95cUxOcHM5Rm5PYWo0Um4xZ2JKaU1mY3UwVTB6UUVVZVAtTldxUGQtNDBya1dQdzAzazFTNTQwOE5fVUdhQUtCbWN3VVVSMjZ6MV9MYkxseWJZdXI3VjM2SW5hazc1bkJQQUZBcjZQUnA2NU16QjRzaWpKTFMzY28tUjlhcnNYSXk5MVNsZWJmeEF6RkMtSGR0XzJpZ0hKQzk4c0xKTlItM1diYVdDMlJGRjA2VzN0VklyVVNZVmVuLXhsRG1rYldKdjVGdy1wcWhKXzJLbnI2eTF2S09taVZOaGd0TTUyNEhXbWFvOFdfV3o3RG9uYWUtaWNDMW9Jb2hWZDZy?oc=5"
+        },
+        {
+          "nome": "FashionNetwork Italia",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbkFXY1V6TjBkMXZMZUVjMDBXTW42NldBREZZMjQ4QXR6MTk2NGNvQmN4aXY3dmNKVVNaZHdVYlZfUktJdVhKdU5GaFhCTlF5dlR5ZjhndjdJNjNpYnlkSHZfR293cGVMUUFJUVVYdDlsSUp0bEY3cWxFeWg1TGlqdy1jXzNvM0hmaDYtTHIteFFCSTg2bGEzRUt6TGdwVTNPa0xBNGdYZmVfbkU?oc=5"
+        }
+      ],
+      "parola_foto": "runway fashion show"
+    },
+    "concettoplus": {
+      "id": "concettoplus",
+      "label": "Concètto+",
+      "segments": [
+        {
+          "text": "Il governo italiano",
+          "type": "plain"
+        },
+        {
+          "text": "Meloni",
+          "type": "name",
+          "detail": "Prime Minister Giorgia Meloni"
+        },
+        {
+          "text": "ha congelato",
+          "type": "plain"
+        },
+        {
+          "text": "l'aiuto militare",
+          "type": "plain"
+        },
+        {
+          "text": "ai danni del glaciere",
+          "type": "plain"
+        },
+        {
+          "text": "e blocca la consegna di missili a Kiev",
+          "type": "plain"
+        },
+        {
+          "text": "seguendo le mosse degli Stati Uniti",
+          "type": "plain"
+        },
+        {
+          "text": "mentre il paese vive un momento di profonda incertezza economica.",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il futuro è un presente che attende decisioni coraggiose.",
+      "autore": "Elena Vorelli",
+      "approfondimento": "La decisione di bloccare l'aiuto militare riflette una strategia di politica estera incerta. Parallelamente, la scoperta di armi della Grande Guerra nei ghiacciai delitalia rappresenta un forte richiamo alla storia e al cambiamento climatico.",
+      "fonti": [
+        {
+          "nome": "The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbWE0R3RJN2NTY0JaOEZ4dEpfY3hBTkMtbXRCN2UyUEZHaG1MZVQxNWFiNHh0UEtqb0RLS2pseTdfTEhKajVVZzJlSVlUdmE3S0ZFSE8wcFBzbzBVSGZDMmUtYWVDeU9LTm9jdXRLTXhFYkZkNHU4YWZrZXpkUDI1U3BJcDZzWHBYSjFaVjU2RGdZTE9mQUFlbzA5cktDaGt3ZGpSMVZqNA?oc=5",
+          "paese": "Stati Uniti"
+        },
+        {
+          "nome": "Мілітарний",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1hTUdLaVhOejZyZE5CSEZVRkpoWE1XUU9hWkFvdXlYTUVJTFFIWURnTzFQNGY1d1NFeUQ4dVZWZ3BBSktub3YxREY5U0xTd0RYemtSaDM2cnBrandFbjlxTEhYdnVEN0ZKYWJJODVVZmUxOG9sa3R1OWRkWTE?oc=5",
+          "paese": "Stati Uniti"
+        },
+        {
+          "nome": "Українська правда",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5aVXVRUXk5ckFSWElqRVFhdW5mak1CenpNZUZWZ2xSN1NkYklTZVZobkMzaTlYLVBTQ0x6UFZsRXdKNjY1YUtDSW4zY3ZFLW0wVXJxeHlUdkZoSTlJa0E1YWN1bGvSAXBBVV95cUxOX0dmc1BOVEtmcmZQb0xXN3BfblYzeDJPQmlVQUtoUWJTLV9KajZCNlJzU0R4VzlGN1ZMOHZaMkNjXy1UX2gyOHo5NW9yaFNkejZqekFuUC1TQ2l0WHlQSjE2U3VRbHpOcHhiNHRlcVRH?oc=5",
+          "paese": "Stati Uniti"
+        },
+        {
+          "nome": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQU0xOZFotanU1bXQ5Q3ZWVElDT2pKd3FZZ0I2X3B4SHFQUmZjRWVuaGE0M2lEbk1vRFdBcldjekw2SHdMZEIxcnR0M21iemEtOGthZUwtSGhIS2xvM1FEREo4SVJQMkM5c3FtWWlBU3cyTGlGTml3c25sbXVQYWVITmd3QnJ4VEFoTEtzMVRkMHhHSF9mc3V3?oc=5",
+          "paese": "Stati Uniti"
+        }
+      ],
+      "parola_foto": "political debate",
+      "paesi": [
+        "Stati Uniti",
+        "Regno Unito",
+        "Germania",
+        "Francia",
+        "Giappone"
+      ]
+    },
+    "economia": {
+      "id": "economia",
+      "label": "Economia",
+      "segments": [
+        {
+          "text": "Le Borse europee",
+          "type": "plain"
+        },
+        {
+          "text": "Stellantis",
+          "type": "name",
+          "detail": "La società automobilistica italiana in forte ripresa"
+        },
+        {
+          "text": "guidano il rialzo",
+          "type": "plain"
+        },
+        {
+          "text": "Mps",
+          "type": "name",
+          "detail": "L'istituto bancario che ha ottenuto il via libera"
+        },
+        {
+          "text": "mentre l'attenzione",
+          "type": "plain"
+        },
+        {
+          "text": "AI",
+          "type": "deepdive",
+          "detail": "Intelligenza artificiale: un tema centrale e pervasivo"
+        },
+        {
+          "text": "regna sovrana",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il mercato è la più grande e rumorosa biblioteca del mondo, dove le notizie sono solo le etichette sugli scaffali.",
+      "autore": "Elio Vittorini",
+      "approfondimento": "L'evoluzione tecnologica impatta pesantemente sulle scelte di investimento. Le aziende che adottano soluzioni innovative ottengono vantaggi competitivi.",
+      "fonti": [
+        {
+          "nome": "Borsa Italiana",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOczFreWtiRkNLRURmY3pDMkZZanVyWE1xODJ5NWNjUzlSa0wzTWFqMkNHMlg5NHJKUzE0TUZsbkJMUTFKLVg1Tm4zVWdDLWNVaWJodVowVGUwU0w5bnBYNkhUd25oUDlhR0VESWhGSHQwZ2ttRVoxMW14S3NpVlNQN05jdmNIeE5fTEFEaE9VRXdkNmdyQ0RzRjBSX2daYTV5aEpFNFAwZk9ZdXZZVWk3UHJiejdwLTdxOTZmbmJ4VWdQUERWc0lNNnV0YXV2SlVaVmZLTVdtMU9KZGxaekFBNDE5c1Y?oc=5"
+        },
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNN3FUWmhQQWdyMFQ4elNTWUxaNzBBRzJ5bGdoaU5oQ3AwSWw3aWlFc1k2YlBHNlFBdEVmR0ZsOFZ2U0FveEZvWldyN1NNRU9VUEpjQjFFV2hqeDRwS2hCSW1KUlRBRjJUUWFFVTdjQ293aVgwQmp6T0hSQk1vQVRYOHBtZWc4Zw?oc=5"
+        },
+        {
+          "nome": "SoldiOnline.it",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOUphY2RESEJxSE4ybkVwRDR4bzRhbjJfcy1VSHVxdUJibkp4VklVdTJRMkpzUU56TjdqMnZFZXdlclMwcXN1eUdtUnVCdmw2RktEQTlfVTRRY09LbXRvblNhQ1dOOXg3cnd4bGl2U2tXTGJaMjg3R2E1R3JhLU5IRWFpYVItY1MwZUNCbncwaFlQN3BQei1NLXBUbUpqdjRVRzlWU1hXQ1hWOFB0MzFTUkhhNA?oc=5"
+        },
+        {
+          "nome": "Yahoo Finanza",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORVg5T3U5S2JOMVF1VEE5WkhVNTBQb1ZDUEsxRDcxbmlNNGNjZ0pyVklwOTNJam9vOEhRVWNlQnNieVhYUXFPa0JWOTBibmxTeHdvQXBIMlAtdi1HUnRlWC1QMGdGb1NqWUt1Y2ZmbEduaEtkR1VwUzlodHBfZVBGSDRTOV9XWmc?oc=5"
+        }
+      ],
+      "parola_foto": "stock market"
+    },
+    "sport": {
+      "id": "sport",
+      "label": "Sport",
+      "segments": [
+        {
+          "text": "La Lazio si impone per 6-2 sul Sassuolo con una goleada al Mapei Stadium, e questo successo fa sì che Gattuso resti in vetta alla classifica",
+          "type": "plain"
+        },
+        {
+          "text": "Roma",
+          "type": "name",
+          "detail": "La squadra di Spalletti affronta Cagliari, con Malen in panchina"
+        },
+        {
+          "text": "Napoli",
+          "type": "name",
+          "detail": "Allegri rinuncia al ricorso per un infortunio"
+        },
+        {
+          "text": "Kane",
+          "type": "name",
+          "detail": "Il calciatore inglese vince il Pallone d'Oro 2026"
+        },
+        {
+          "text": "Fitp",
+          "type": "name",
+          "detail": "L'organizzazione sportiva sorpassa il calcio per tesserati"
+        },
+        {
+          "text": "Sinner",
+          "type": "name",
+          "detail": "Tra i motivi del boom del tennis italiano"
+        },
+        {
+          "text": "Mbappé",
+          "type": "name",
+          "detail": "Il francese perde sponsor cinesi per offese a Mao"
+        },
+        {
+          "text": "Ronaldinho",
+          "type": "name",
+          "detail": "Ricorda il passato alla Juventus con Costa"
+        }
+      ],
+      "aforisma": "Vincere è la parte facile, la vera arte sta nel non credere di aver vinto.",
+      "autore": "Egidio Varese",
+      "approfondimento": "Il successo della Lazio segna un punto di svolta nella stagione, mentre il tennis italiano conquista nuovi record di partecipazione.",
+      "fonti": [
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZHROWERIUExmT1lZU3ctOVE0SjVzZi0zWmVpMWhTQTUzVjBOdkNma1ZFSS0xTmI3NUN1TnlKd0h2NGF5NzRCY0JvRDdrdW5MNjlEU1FweGJ2azBHcnkyZ3N4M01nTmNfTm53bnhBdkI3bnFpNE9SdmFDdU1YVEZuQzhKOG9DRVExclFFWjVGRUtTRkwwZXhvdDRucDNCR0ljUXFUbkY1aGZnTUg2RjZ1VE5oUGVzSldzRnY1VVlEYnZJaWFT0gHKAUFVX3lxTFBSZE9kaGtURXc3Tmk4bnJ6elI3ZlhmbHRITF9iMEM5clZJTk1PLVFCa0g4M3g3V1prdkRFY3FSejFmSTNNYTk0VG95SHZMZnZXbEdZTUtjbnhoN2JNeVpKc19Ic0RRTm9Ib05RbGYycEdIaFNiY1FFYTR1QVpxeFpKbHNKOEt1Z0pqSm0xQndMQVlZd3djLUZtakV4VlVSY3gwUllqZUhidEEyTFdxWnMzYTA1eFZ3Z3NpS3hFUHlHNWU5WHRKNTZEanc?oc=5"
+        },
+        {
+          "nome": "La Gazzetta dello Sport",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVDFrV1FHdUk0X3ZPVXNOM0hrRTI4ME5kZVBYOUJFMVR3aW9pYW55WF9UQlZ6MllQRDhZdldpcWxYdzhGd0h2N1pVUmZzTEtlZmpIQjl4ZlpIUVZ2V0dhM3NRYXJSX0kxR2tIU0FNblhva19pbkR1LTY4eUZzel9FWFV3NXdFVzU5ZlpRc2VJMEY4dzduaWpCVXRjd3dPVzdPd3NpUFF6bmRGZ2FxR1J6elBtWnbSAboBQVVfeXFMTVE3dkptZHZxeE5BSlotNmhOSThIQzd3MnVoWC1fb205QmtzejE2dzlsVnZ1b0tpY1hZMy1SRDNONHdUM1NSdURvRjZfa0pIWGRSMUNmWXBPLW0weU9tSGZZMDdUVUNFNGtMdDBFZ3VsbGp0R01Lc2xla3BtTEdpSzBPRW9YZDhTbWdsdmxCQWZoT0JXYmxudDVMMV9XVUVLQmt2dFB5aXI5SlZHbWVaUUF3d29kcWd1Rmtn?oc=5"
+        },
+        {
+          "nome": "Sportmediaset",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWVVlbkdoU2dUUC13NEl6UXFUdmpfcmoxMlVXUlVmN1d1TGtPbG5MajE3TGtsWVNvYmtCWFdxZTBLZG5iUU92ajREM1Y2R1NBRFVRVnk2VmZlLWNuUmh0M3ZlZ3E3djFpWUNzV1FjZXB2c0tjVERSTWIwZVBheWIxX2RjR1FISm90UHZPUENqUEJCcGtaMTlabXdwUjdfa0E1TjFnQU9WVVY1Ymtsam5hM0RzMjFlOWJ5NFBPdDJMZ0JubmVab2JUbWRxamtYT1d5cXJ1bkNn?oc=5"
+        },
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQV2xjQ3prVVRtOW1tYTRPcXBUTl9VRUp1NERXa0JQb3lLMTN2bGpuc2M4Wmg4Q0ozbXA2WVM5XzNiQkR4VUtEYk5KaGZDd1B1YTZRa09NOHBOSHJ0a3d4VzNrN1c0QlZrVlNKZVUzUGFxVXdLTVpxOXNFeU9mdFhFb0tybGZHcHhkel9FR0JDa3VjaU8tWXBwS3pvZjU?oc=5"
+        }
+      ],
+      "parola_foto": "football stadium crowd",
+      "stale": true,
+      "stale_da": "2026-10-27",
+      "stale_ed": "sera"
+    }
+  },
+  "errori": [
+    {
+      "categoria": "Sport",
+      "errore": "Unterminated string in JSON at position 6510"
+    }
+  ]
+}
