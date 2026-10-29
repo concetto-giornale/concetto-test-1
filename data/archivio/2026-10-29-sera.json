@@ -1,0 +1,724 @@
+{
+  "generato_il": "2026-10-29T13:50:06.986Z",
+  "data": "2026-10-29",
+  "edizione": "sera",
+  "id_edizione": "2026-10-29-sera",
+  "categorie": {
+    "italia": {
+      "id": "italia",
+      "label": "Italia",
+      "segments": [
+        {
+          "text": "Scioglimento",
+          "type": "name",
+          "detail": "Riferito allo sciopero del 30 ottobre"
+        },
+        {
+          "text": "treni",
+          "type": "plain"
+        },
+        {
+          "text": "e",
+          "type": "plain"
+        },
+        {
+          "text": "nuova",
+          "type": "unusual",
+          "detail": "Indica la manovra economica da 26 miliardi"
+        },
+        {
+          "text": "manovra",
+          "type": "plain"
+        },
+        {
+          "text": "con",
+          "type": "plain"
+        },
+        {
+          "text": "tagli",
+          "type": "unusual",
+          "detail": "Riferito alle misure fiscali per le fasce più basse"
+        },
+        {
+          "text": "tagli",
+          "type": "plain"
+        },
+        {
+          "text": "a",
+          "type": "plain"
+        },
+        {
+          "text": "milioni",
+          "type": "unusual",
+          "detail": "Riferito ai beneficiari delle misure Irpef e flat tax"
+        },
+        {
+          "text": "di",
+          "type": "plain"
+        },
+        {
+          "text": "italiani",
+          "type": "plain"
+        },
+        {
+          "text": "che",
+          "type": "plain"
+        },
+        {
+          "text": "vivono",
+          "type": "plain"
+        },
+        {
+          "text": "in",
+          "type": "plain"
+        },
+        {
+          "text": "situazione",
+          "type": "unusual",
+          "detail": "Indica la crisi sociale e di sicurezza evidenziata dagli arresti"
+        },
+        {
+          "text": "crisi",
+          "type": "plain"
+        },
+        {
+          "text": "di",
+          "type": "plain"
+        },
+        {
+          "text": "sicurezza",
+          "type": "plain"
+        },
+        {
+          "text": "con",
+          "type": "plain"
+        },
+        {
+          "text": "nuovi",
+          "type": "unusual",
+          "detail": "Riferito agli arresti per attentati e rapine"
+        },
+        {
+          "text": "arresti",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il potere si divide tra chi governa l'economia e chi controlla la paura.",
+      "autore": "Marco Vannini",
+      "approfondimento": "Il governo ha revocato lo sciopero ferroviario per garantire la mobilità, pur introducendo misure fiscali contestate che colpiscono le fasce più basse. Contemporaneamente, il Paese è segnalato da diversi arresti per reati gravi, evidenziando una profonda insicurezza.",
+      "fonti": [
+        {
+          "nome": "Sky TG24",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xWmFicWotNlV6OEM2eVFvRDJmUkw1dmpUdkxzSVU3ZndlVllKX0NSZ21CVWZ0enFjVWRva3pKVnhTN0N2TkVNMkN4UVNBU2g1Zk9WNjV0R2lsNktDaGNTYl9taHpzdURjX29PTjVxWTFlUXAzeXBjS010dTNVdw?oc=5"
+        },
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPOWR0ZnYtV0N3WnB6VnhYdGNzWE5FMExjQkM3SEdZYk90TktBYnR3UG12VEh4cTlQU2EtTWpsbHRWczF3cjFQdml2NkVfZmM3azB0Y3VZMjNBLUJXVUgwVzNUbEVQWk0ycllqVEN3TFpmNi1wdUdja3hjT2I4UzNjbFQzVkNxVGhXd0lURFVLcjQwX2lBam5uc285bUx3OVZSWUZaQi1jTTJjSmJOQzFiNUVvVlM1eGRobVg3VF9WYUVtYjFqVEt6UnVySE44cWM1bmJwXzFJVQ?oc=5"
+        },
+        {
+          "nome": "RaiNews",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUjZ0bFY5WVJ4NGx3V056RDZaTkRvbnh3MFlZMGQ5RHI4aWFfZW44Qm1aY2h5RVdSbFhEdVRDZkVZMkVyZ3ZZR3pIM08yOFM2eFJFLUJnVFhfR3BhSC1nbktsVHRVZno2ZGU2Mi14UE05M085V2ZfSEE4WnpiNmtKYUs0dXNGeERZMUxkQzR5WTRfM1F6bEdRRzdMWC0tMUJ1bWw2VDM0d1o0Uk11UENsS182TzhpTko1LS1wTGFHWWx0LThSZkRLVHV0bkN4a01KV25zTXc1a9IB3AFBVV95cUxQdTZ4MHJkU2ZOWko1dXhHbXR1SndvMk5mNnlvX09jTUhvd19UM3VQMHZGSDJfamJLN1FHQVl2dGotcUVaUktVdWo0Y0R2cDRMTW5xcTFqOVF1MkViVUJHQ2xDOVRYc1FFaGZqclg0cjZLNzJaUFRzNG5kaUwxZXpQLTNkX1NCNXlVNEtlNHNwQlY2RmJoTk15V3RWSmJ0eGVTWk50M19meEgwdXV0Y2Vjd3FGSjMzS0FHSUlVa01NNFdiVDQ1XzVuSS0zb1JjNmNBaW1kSWpnODJpX185?oc=5"
+        },
+        {
+          "nome": "ANSA",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQVW5zcTBZTFR2aGJxVlNiNWVaZmN5SFhCVFJWY1AzbVd6X0txMmx4ZEVHeDVybXdDS0JSczg2WGUxZERwVWtnTEpWdXEzTUh6REk5V0o2bVE1RmFlRnVYVVpTeXRJT1I4cXZkSW9FQ3BiZ1o4VFdMVHhvSVVsU2gwdEZxcXhfalNKUzBsSkxCaEpXQTE5a3gtbXQ1MGVQd1A2LWd0Wm5sVzloQWxveHBIWUVpcW12SUF3cEZQM0t6X3dnaUxWQzRUa3lyZWFJblhCMnVnamltNXJFUVVxekhnVzRVMnVsRWdqdERGU1lmVnpsZjJj?oc=5"
+        }
+      ],
+      "parola_foto": "parliament chaos"
+    },
+    "esteri": {
+      "id": "esteri",
+      "label": "Esteri",
+      "segments": [
+        {
+          "text": "In un mondo inquieto che vede guerre in Ucraina e tensioni internazionali, le democrazie occidentali cercano nuove alleanze mentre le elezioni alimentano polarizzazione e scandali.",
+          "type": "plain"
+        },
+        {
+          "text": "L'Europa",
+          "type": "name",
+          "detail": "Unione Europea"
+        },
+        {
+          "text": "si rialleanza",
+          "type": "unusual",
+          "detail": "Formazione di nuovi legami strategici"
+        },
+        {
+          "text": "con il Canada",
+          "type": "name",
+          "detail": "Stato nordamericano vicino all'Europa"
+        },
+        {
+          "text": "per affrontare le sfide globali",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il vero nemico non è il vicino, ma l'incertezza che ci rende vulnerabili.",
+      "autore": "Elena Valtorri",
+      "approfondimento": "Le tensioni geopolitiche richiedono coesione tra le nazioni occidentali. La strategia di alleanze rafforza la capacità di risposta globale.",
+      "fonti": [
+        {
+          "nome": "RaiNews",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPRnd3SDNoWEcyLWVYSWFmVlJIN2F0VXNUNUZKNmhwSmtuMHh4S0FwckpRT3d3emxNTm1jbGxodjZzWXJ3RWhuMHBQR3RSeTVqdmlKMExjakdObWk0TFJGWkZfYW92cF9ITlVGbk1yVndadEJpd2NFYlp3bHFiMzVjbE11WWJoT0ZwLXJxYkxOMzA0Mno0d0p4elM0aVFkR24tb2NVbHdYTjNmN3FlRjhsZ3lKMjVmanBqc3RJWElJeFpDaFhuWjZPRXdmU29vNUVJa19ncFlVMWsxczg2WnJEVDhuNzl1LThJRW5Wam1fQ0JELTlFRnBydEJwRU95WHJoZUs40gGIAkFVX3lxTFAxNXh0ZGVVZVJMM2J1TWNRXzhvWDB1d2Nfd0laUzdKODV4LUZQUWdQUVhJdlNYaERWUl93VThtVVI2VzNMaUc5MkRwaWphelh1TEV0akdjVmtVYzNkXzRDQ19DOWMyLUo2N1gzYWotZkVYUkQxYkFiT3VWeFNyX0duR1NORVNuRVlFSm1pVm9NV1dEVGZBM0hfejAza3RMek1SaVZVeE9GTmhncXFJQ2JyQ0hPWm83cHdaVkxlNGxWYlAzb0pvazVjeEF2QV93U0c5WTZySHZLQXljaGQ3cWpzUGZiblFCY1g5QWM5RVpSNmJGTWM5Q1FnRE1XYndNS3hzM2djZFhWeA?oc=5"
+        },
+        {
+          "nome": "Il Fatto Quotidiano",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaW5OSkJOYUdSQ1ppaGhGVlBBek91TnBHc0xxclZYZWVvTkhxOE5JS2RUR3BMRGpnVzVyTFdJZ3JRVklkRFJDTUZzS2QtRTdCTTJjdDVlY09jTHZScDFMQ3g1aHVXSHNsLTBYX0VaTC1scHZoM3RBSkNMRk9mSGRxSlpaUVRGZ1RuQ2wxX2ZmRHRodWVsWjFLcjl1Mk1GTGc?oc=5"
+        },
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYW9fME5qeFlMSko1M2E3QmNydXFaVVlpa2F2d2RzcEh6MmZyNjNmVmlWZ191bzA1WGRXdldZZTQ1V2ZjaG5ZT1E2Y1J6TmZ6eGgwekpzQjZ5aGQwNW1fRVdKYmVwWVA1eGdSMWpOaHBOMDNPUXFSbm9QTFdDUGFXcFpENFF6VFN2S2loQ0VfV3dTTkhSZ3I0Wmln?oc=5"
+        }
+      ],
+      "parola_foto": "global connections"
+    },
+    "economia": {
+      "id": "economia",
+      "label": "Economia",
+      "segments": [
+        {
+          "text": "Il governo approva la Manovra",
+          "type": "plain"
+        },
+        {
+          "text": "incredibilmente",
+          "type": "unusual",
+          "detail": "Espressione raffinata per sottolineare l'inaspettato risultato"
+        },
+        {
+          "text": "senza",
+          "type": "plain"
+        },
+        {
+          "text": "tassi",
+          "type": "deepdive",
+          "detail": "Concetto centrale di politica monetaria"
+        },
+        {
+          "text": "e",
+          "type": "plain"
+        },
+        {
+          "text": "bonus",
+          "type": "deepdive",
+          "detail": "Misure economiche dirette per le famiglie"
+        },
+        {
+          "text": "che",
+          "type": "plain"
+        },
+        {
+          "text": "Mps",
+          "type": "name",
+          "detail": "La banca che ha perso la fusione"
+        },
+        {
+          "text": "si",
+          "type": "plain"
+        },
+        {
+          "text": "rivede",
+          "type": "plain"
+        },
+        {
+          "text": "dopo",
+          "type": "plain"
+        },
+        {
+          "text": "Lagarde",
+          "type": "name",
+          "detail": "Il cambio di guida alla BCE"
+        },
+        {
+          "text": "a",
+          "type": "plain"
+        },
+        {
+          "text": "2027",
+          "type": "date",
+          "detail": "Nuova scadenza per le decisioni monetarie"
+        }
+      ],
+      "aforisma": "Il cambiamento è l'unica costanza, specialmente quando si aspetta.",
+      "autore": "Elena Viscuso",
+      "approfondimento": "La manovra introduce misure fiscali complesse. Il cambio di guida alla BCE del 2027 segna una nuova fase per l'economia globale.",
+      "fonti": [
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTmpUNDkyVENhMWNiRWNTa0FvV0I5dWZSR3JQRXFfdXdtTTJPMi00dmwxVlRfbk1mU0dYNjB1RGZPNUtGOFR1NDJiTVVFeHdKd2dDSEpocV9xVmY1c2p1Ql9vVlBrWGZJaUM3RFA5ejVfeXlRSlBlUzhvQkRGSHprbjczV0RGQ21NRWVGckpwRHZjd0pOZVd6bVVGaVBkU3hrMEgw?oc=5"
+        },
+        {
+          "nome": "Sky TG24",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUkM4cmdDVTNzN2Y4QTA1ZGI3a1Z2SjVVaGVVdHVXLW15S3NfZUwyeVNtdmlpY0l1bmRJUTA5UFo2R05rX1czU3pZczdIbUlmRW44TUpLalBfaTNsWkV0enpRNWI4b1BKUGFJY0MzU2JoTi1PY0VXRHZzMFNSQ0hBVkUxRFAzRjg?oc=5"
+        },
+        {
+          "nome": "Avvenire",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQUJCU0RYaFV6a1M4SmRyUGotVTBqUk05blJNdTRPX244NHRMZDJKbW85TmNpZVNmQnltOE9RNzk4SUQ2bThRZ09WaGpTbDNPYmxvYkFzU1gtb3VzdHlraUVCckY5U0FGWHBGRzJhOWlvVkgwWEYxYnVjQmpqU3FyQlhvQXhnSHhiVkZ3LWpYRDFvWHY3aFBkT0tTakkzMWRPNUl3YmpVTDFrZTNZd1o1Ump6N1VsZnF0bkp5d1ZiVkU?oc=5"
+        },
+        {
+          "nome": "Morningstar",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbFdoQmMwTmpab3llcXdHUGRMRDdvVlRuMTRfTjZyRDc4MnZFVU5YWG96bGlyV2o0NXZ1ZzU1a2NZVHd2SThXRXdfZDVuY3lEWDFoSHY2TUpMbzlrZ3ZDb3lnTGpTOGQxdG5kYzhCVmg2NS1Rekg3YjhsekFiRTllcHhTb1dEYkVIU3JqeGNZYVNTTXgzdWYxTlQ2X1Q5eVFWVzktNDVlSUJGVmNYbEl6OWJRNzlPeXpN?oc=5"
+        }
+      ],
+      "parola_foto": "business meeting"
+    },
+    "sport": {
+      "id": "sport",
+      "label": "Sport",
+      "segments": [
+        {
+          "text": "Genoa",
+          "type": "name",
+          "detail": "Squadra di calcio"
+        },
+        {
+          "text": "vince",
+          "type": "plain"
+        },
+        {
+          "text": "contro",
+          "type": "plain"
+        },
+        {
+          "text": "Juventus",
+          "type": "name",
+          "detail": "Squadra di calcio rivale"
+        },
+        {
+          "text": "con",
+          "type": "plain"
+        },
+        {
+          "text": "Baldanzi",
+          "type": "name",
+          "detail": "Calciatore protagonista"
+        },
+        {
+          "text": "in",
+          "type": "plain"
+        },
+        {
+          "text": "crisi",
+          "type": "unusual",
+          "detail": "Stato negativo di una squadra"
+        },
+        {
+          "text": "mentre",
+          "type": "plain"
+        },
+        {
+          "text": "Milan",
+          "type": "name",
+          "detail": "Altra squadra di calcio"
+        },
+        {
+          "text": "si",
+          "type": "plain"
+        },
+        {
+          "text": "trasforma",
+          "type": "unusual",
+          "detail": "Cambia radicalmente il proprio statuto"
+        },
+        {
+          "text": "in",
+          "type": "plain"
+        },
+        {
+          "text": "dramma",
+          "type": "unusual",
+          "detail": "Situazione emotiva negativa intensa"
+        },
+        {
+          "text": "e",
+          "type": "plain"
+        },
+        {
+          "text": "Spalletti",
+          "type": "name",
+          "detail": "Allenatore a rischio esonero"
+        }
+      ],
+      "aforisma": "La crisi non è un muro, è una finestra aperta su nuovi errori.",
+      "autore": "Elio Vianello",
+      "approfondimento": "Il Genoa ha dimostrato resilienza tattica contro la Juventus, mentre il Milan affronta una profonda crisi d'immagine. Intanto, l'Inter e la Lazio si contendono il primato in campionato.",
+      "fonti": [
+        {
+          "nome": "la Repubblica",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbmZqWFhpSmR0Q0c4R1V2S2hNOEswZzBuR2dHblpWQjVlX3JlZnI3M3c0T29WTWNYOGx4cllfZ0ZZUW5CbHFrOXM1am92U1F4bXJHYmF4S2ZKRlpmbWh4LW1XWXZjU2Fyb1l0NUs5VEhiel9PS19qUjFrQWJFaXlpdnMyUjJvMVBOcjVYdmdrenRxZ1ZrVTdoR216blA?oc=5"
+        },
+        {
+          "nome": "Virgilio",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUE9KQS1maUZCal9XTlpnTVBxa1VkNlBuNklyR04yeHlpLXpvRTZwcGZhXzBjOUJxWjhoZE51Q0JtSTY2VFh1Unk1S3Ewd3BYR0pFSW8zaHE0UEJpTlA5VVhUUVZIWmhQSXJOVEtRNGY4R2t2cmJtcXpJdnZtd3pubGNpN3MwdGY1Z2R0OWVLWFBxWUg3alJOMkN5dWtLSXloUmpCZXRaT2RIODBvS1JsYlV2ZjQ3bzBzYUZHeER1ci0tQkU5b0pDdW5sdEh2ei1ORHNZ0gHaAUFVX3lxTFBkLUkzaEUybEVGWm1nd1B5eTVSeXZxVkZYU1l5LUVaTkVBbzVOaFRRMWx2bzRiaFY4eERJTjZPTUpJbFI2VGdOYTVJWVpNbEFHVkYyX3pudzZOaXEwRlA5bnFNaGVnZ2lpRDdycXpHRFRCMHN1RzF1dTRQU1JaTWIzQ1VjZ2NyS1dLVjRhTHBZRURiX2NwdUNwTTI3Vkc0WlVLZXlrbW1sNVh3ajVMUk14S2V3VTZNTDZCZXlCajVFWVdXTWo4SXpBUjgxYVpCc0VoQ0YtVVVLcW53?oc=5"
+        },
+        {
+          "nome": "La Stampa",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZXZ3QVRaemRoUDlUQm9PekNlZWRNUmh5RlRJUnp1TUlYNnlYaEUxdHlkYTJQVHlraVFGa25Tc3JLMy0zemM0eUtsMlNvMWd6YnJNV19vME5jRGdSd0V2RHo2bXUta09aakRzcHEwWnBNb3pITVE5c2hONjl5WFgzNjFreFMxTHBEMm9FT3NzRdIBlAFBVV95cUxNV1lNNVZoQ0pjYzB0MzdjQjY1bXgyOUhaRHFVWXcwUFZxd05TR183ZkFIWFk2dU9HZVFKOEU0ZlF4NVRLN1ltc2pfSnJVZk9uRVZlaUpyS0txNllyWGFDNkxUek5OTTB2THNCbmNDRDdpdEZRNS1fZmNIR0hIY3dBVlpZZjcyX0duTk5UUTdpTjNIbWFL?oc=5"
+        }
+      ],
+      "parola_foto": "football stadium"
+    },
+    "cultura": {
+      "id": "cultura",
+      "label": "Cultura & Spettacolo",
+      "segments": [
+        {
+          "text": "La cultura e lo spettacolo si rinnovano con talenti, concerti e serie TV, mentre la vita privata dei divi cattura l'attenzione.",
+          "type": "plain"
+        },
+        {
+          "text": "U2",
+          "type": "name",
+          "detail": "Grande evento musicale a Milano nel 2027."
+        },
+        {
+          "text": "Pechino Express",
+          "type": "name",
+          "detail": "Nuova edizione del talent con cast rivelato."
+        },
+        {
+          "text": "Winona Ryder",
+          "type": "name",
+          "detail": "Diva dark-pop al centro di un ritratto biografico."
+        },
+        {
+          "text": "Gianna Nannini",
+          "type": "name",
+          "detail": "L'atleta 72enne si cimenta nel triathlon."
+        },
+        {
+          "text": "Grande Fratello VIP",
+          "type": "name",
+          "detail": "Sospetto di trucco al televoto e sondaggi per la finale."
+        },
+        {
+          "text": "Codacons",
+          "type": "name",
+          "detail": "Lega di difesa del consumatore contesta il voto."
+        }
+      ],
+      "aforisma": "Il palcoscenico è sempre una prigione dorata: serve talento per entrare, ma niente per uscirne.",
+      "autore": "Elena Vorello",
+      "approfondimento": "Le trasmissioni di reality e i concerti di stelle globali dominano le classifiche, creando un ecosistema economico immenso.",
+      "fonti": [
+        {
+          "nome": "Virgin Radio",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUkxOMFNRenRSQmEwRExPRzNkdzJCeXpSQU1rSEFLRDBTdFBIa1lKRS1KUFJYdVdlWXpnMEUtcmJRTTlaaGp3OVB5R0tzb1VlazZzT3dpeUZWYmhyanROTWRyWF9VdDhLdTNsdU45SGFjakdXMVVpQVlPaTV3NEdBbi0xaEtOZzhocVc1VmQ3c181djZON0tPNndsTTk1MFFLcnFvaGVMU3RRS05Q0gGyAUFVX3lxTE05VjdjMVNudjBvSW16SXZWZGZ0ZThBRVpFcmpoTjNDaHFBYXY4bmxTc1o0QWpkVFRMX2ZoVEs4UmpXbDE1bUd1NmZMdW9zcVNGa2lSTUN4ZzB1LUt3R0gtQUhZTjBsb2JEZk9PNVVMTEZfUVZjc0RVbmVwdGI1VXFWT0FrTDhPaXFLUWx0ZjNwT0U3UU5MUkRyVXVEMENKMjhkbHhlb01TU3V6YWhuZi10Z3c?oc=5"
+        },
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPcENLMzBuQ1pDVFRMdUxyRW80dTVTOFVsX3l0RG1YWmRXTVdld1I1Q2NqSE1fZ3pHc3lHdXo2RjN4b1podDBXM2llRUVoYXpsek12bThxNTJWdERzbDJQOUNoVlk0NU5FbVBveHhCaW1KNVBGUDVkY1d6NFFrdDV4QnhNNGtuSHczVWhBbGtpN3RWMGpMTG9KclBQY09CQnFPWmZNcUc3bUl1bnJoTFpscTVhN1l0emNGUVZvWjZpMXRmWlBuUW9nNzRWWjNKVU8wbEMtaDdOY24zM21lT2k4VU1tUVlaX1ZvRDNTNnQxcGt5NlpTWEctUlU4dWd4aHJtYzN2NFNfemxwRnhTVW1VRWUtb0pxLUpqa1pfcl81eE9QR2ZEUkhmWFFIQ0YzVXZHcUZERDl5a9IBvAJBVV95cUxNeDhHendhMU5CRGFFZFpnM01Ka3pGOGcyWHlUdHJJYjBDaHFOYmxWanlzZWVrNnZIS0FVaDBSbEdGeFR5TEdMSnNkVjBueW5BQjBtbEdtTU1RUTJHa0taZ08xRWIyMnZqUHBGeDNmXzJPM1UtdlBjRmVjQnpCTVFib0dTYi16OFowaDdsZzhQb083dHhSRmx3ZEpzYTNsSmgwSHdKeGs2Vm5oU2d3bDZjaFVqNFpkbGlZUmlkZ1VYdy1peWlfd25aZ093WHd6YVMtMjZBZC1KX1lvRlZyQjROVVFPa1FOaWl1U1BJNVkzX0dMZUJDRTFnZGtGLUhaMWo1UFpNaTB0VFF5cUxCVzZuZmJJOU1HUVA1ZkZ2TjRCeDAzM2lqSTd1MjhfQ1p1VjBGZ29aMmJQTFdjMlF4?oc=5"
+        },
+        {
+          "nome": "Tgcom24",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX0JWR0R1amFzQmM3QnVaWkZ6c1luTExPbzA2MUhEZDJxNFpSVF95cjNsVGJUb3Q4dHM4d3pWMFB3Q004dGlpRFZ2OExZemZtMERma09RZ0hoMm13VWpGVnVFRmtzVTF1NXR0RmxTZ29Fb3AzOGhVcmg5NThyZWg5dmRicXlsd2lXYnBRQmtLSC13THZOeVRqam1ZN0syS0VLdFY2NHdWbVBFQmh2U0kwX1hGRGRXcTlDSVHSAWhBVV95cUxPbWtyazdPUFphcjAzalhYbExWZzVGYUNvMnNKeUI3T19reHI1andtOGk2SkZySDFCcmRJanlqTGxTQXZlMU9EOUt0c0ZwaFo2RmpGYzduekJaT2JkY3dUeDh0ekRnOEpoNg?oc=5"
+        },
+        {
+          "nome": "Style Magazine",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbEZUZlFwMFgzOHB3OU1oX2EzQ0JSNGdYZi05VG4zTFhoZ0F4NzFueE9vaVR0QzBSbjg4NUxyNmhla2RVMEdOWkotNWNUR194Mk9hOVUxRzZzWUtubkZmZ09xU2dnRm85ZFhKZ29aWV9hZDR6bGg1dThYbWFjUXVvZXU1V0ZnT0s2anVXTjBkNjZ6dko4YXhnenhuRFRKU295V0JXdXZhbUZaUk0?oc=5"
+        }
+      ],
+      "parola_foto": "concert crowd"
+    },
+    "gossip": {
+      "id": "gossip",
+      "label": "Gossip",
+      "segments": [
+        {
+          "text": "La Milano Fashion Week ha visto la presenza di numerose celebrità internazionali, tra cui Puff Daddy, JFK e Marilyn Monroe, per uno spettacolo di lusso e gossip che ha catturato l'attenzione del pubblico.",
+          "type": "plain"
+        },
+        {
+          "text": "Blinds",
+          "type": "unusual",
+          "detail": "Le 'soffiate' sui vip che impazziscono su TikTok"
+        },
+        {
+          "text": "Marilyn Monroe",
+          "type": "name",
+          "detail": "Icona del cinema e della cultura pop"
+        },
+        {
+          "text": "2026",
+          "type": "date",
+          "detail": "Anno di importanti eventi per le celebrità"
+        },
+        {
+          "text": "Taylor Momsen",
+          "type": "name",
+          "detail": "Attrice e cantante nota per Gossip Girl"
+        }
+      ],
+      "aforisma": "Lontano dagli occhi, lontano dal cuore; o forse solo dietro le telecamere.",
+      "autore": "Vittorio Scintilla",
+      "approfondimento": "Il confine tra il pubblico e la vita privata delle celebrità si assottiglia sempre di più con la diffusione dei social media e dei gossip.",
+      "fonti": [
+        {
+          "nome": "Cosmopolitan",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMGcySTQxLWVCRUpTN2k2N09Hc1BIYThSNVB5aGltRjU2bi0xYzNQaXYydGdwMVE3Zy1aUTIxWk5PUzJRUG05SHg3SWdkbmJsSzI3Z3VMc1MzVGx6NDNDLURubS1JaUFWcFF6WERzaFFpT0M0YkJ1aXU0bXJ0czZPdzRtWldFcU9STFQ3RENDNXAxQk12Y1dWZGxmX1RFVUJwbnhvREJzNU85aENBUE1qYmwwMGM2UQ?oc=5"
+        },
+        {
+          "nome": "Oggi",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSzR5MURfU2VxUEU1bVo4ZzZqS0JDZTBYaWIweHNMdEpDTlNqZzhkNmljUHVOY2FLejJOQkh3cTBUTGQ2MmVrQXMtRXd1X2lhM0hHanJKci1QNW9OT2xWb2lsZ0hDUUZHOHp0ZWhCS0hJeHRRaEhVeVpzRjB2WHdHQ29ZNVZldHRpOWFKY012TnpibUxNNk9Wbk5BUmZRUWRyZThncS00OUhIZTJZWnE0Z09RNjFoQU5SMGRyZEhZNTB3OGZydDlMbHByUV92Xy05U25fMTB6T2d1QWd0eDBpVXhlcFZwUQ?oc=5"
+        },
+        {
+          "nome": "GQ Italia",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE40ek52b3l0NS1LbW1IamxZUzc0TVE2R1h3TldpdjdBcGJTeE1mTjJOVk5JVkhPSmVRM3h4Wm9WOXRvc1pBTENIU2xzMFdOTEJ4ZXJHYXpqSGh2dFVVZnlyeVlidlVPRHlEQW9kVm5DWHlab1dmMVA3MFpfREw?oc=5"
+        },
+        {
+          "nome": "Rai Cultura",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQc0NrYzZiMXUxU1RzTm9KSlJwclhMeHJtV0dBUjlSakRjcWRiQ05wUUFPanJDQXpYYmp3Ql96QTZhVGZyRS1PbklfUVpMZ1BRYm1GYnNfSXduSWV3VmZ5ODdmMTdlWkU3cWt1WmxOQ3gwTGxTc2RWeGNqVS04SVdUMmNuTzlxX3VrSzhEVmk3V05wRXoybXRLQmpIWmM4dUJncjJTcEhWaWZXbVBadXJrMkFPbE9kWTI0RjBfdXVKMGlnRE9pLWxlT0RRQ0NfZWtkT2xROXA0dHo4RVlaSTl5VkdyeUxCUWVGWnVEdUdHaER1VmpZN0dB0gH8AUFVX3lxTFAtYVNvajliRndPNC1qNEtQTktGV0ZLYnoyLTlYN1dUM1JWUDlSS0lqajF0b0dVZHBRcEhnYXhSTWNKaDlDbjNkNktyM2J1Zm44dENRTkZBeG5uRUd6RHJNaS1sa3dmODFtTnpJcEFrT0dHbnQwUXRaX1l1V3l5VWRKa0hGOUJGRFFwUWFnVUh0cm15aVk2ang0SkNoT0NHZm56WEozdlhkMEExQ1NqQVhZU3B2UVU4djVGWWkxZ0RqdUhWNGtRU1VvVUg1S1lscVVYRkZqR0h0dTF5N0N4Yjc4dENDcTQ5UjdRM2ZlQktIWHhPeEpjSjVOUGxfLQ?oc=5"
+        }
+      ],
+      "parola_foto": "fashion runway"
+    },
+    "ambiente": {
+      "id": "ambiente",
+      "label": "Ambiente",
+      "segments": [
+        {
+          "text": "La sfida climatica",
+          "type": "deepdive",
+          "detail": "Il tema centrale che unisce le notizie."
+        },
+        {
+          "text": "e la transizione energetica",
+          "type": "plain"
+        },
+        {
+          "text": "richiedono",
+          "type": "plain"
+        },
+        {
+          "text": "azioni concrete",
+          "type": "unusual",
+          "detail": "Una locuzione tecnica per indicare soluzioni pratiche."
+        },
+        {
+          "text": "di fronte alla crisi ecologica globale.",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il clima non aspetta nessuno.",
+      "autore": "Marco Solaris",
+      "approfondimento": "Le notizie evidenziano un divario tra la consapevolezza pubblica e le misure concrete. La sostenibilità diventa un imperativo etico e sociale.",
+      "fonti": [
+        {
+          "nome": "Adriaeco",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQWmRqVGdrbXdSMXVvUENFQjB0WjdqalFDZmhqQllKWFRLVXBsa2NkN0QzQVotTEU4QXZSbTJ0TktJNzNaUnpXNjJycndmT1hJc2t3dGZiU01GcXQzai1XZlp6MHJkWGlGN0tyWlREa3E1OVQ0bTZXTEdXb1htemxhSVFuMEZCZ25KeERDODZxYmJ5UEN3bVZpOTVwU1RqVkhVUXc2RWFZUFVuRmtPWE04SVpSeWtYakJ5anM2SlRPU0FRcmg1bEZxY3VGeVZlUFZudjM4ODhqdVBFZ2NWVnJZMmVYRGVHZTdtYjQ3b1hB?oc=5"
+        },
+        {
+          "nome": "ildenaro.it",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNTBnS2RJQXowLTN6M0JQX2VGcGZROTFhUUQ0RG0xZ2NNRjFESWgyZDR6Z2pLczlsSnc4bmxPUnZicnM4c2doUm96VDFZTEtTMFRlR1YtZmRfU2xkQXB2aENqTU1CbWFLMU5BMEctb3lJNEFGdEhIOEQzY2o4LUVSQzA0NWx1LW9Hdy10TlRHNHNTclBmaGQ4cHVrUjNRcTJWVTgyZUNlV0JXRW1IdjFPd1B4bEdENVgwY3R0LUZydGMzU0Y1NlB3OXZlbTFNSnRHU0JV?oc=5"
+        },
+        {
+          "nome": "Collettiva",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUVVoX3NsY013Uzh3M1EydWp5QmxacmV1LWNBRkpPM283ck1KQW5DbEluTDVodG1TQXlidlVpLTV3SXRGbEJpdTNDUU1za3hTSGFtQ01wSl9mOGtMMG9RaWxSbm1tLUtzZHdIeXNZaXEzeVk3bXl2a05jRlc0bTlrODBYWFNzNDdTYzNENUdmYjFrbDZoV0Iw?oc=5"
+        }
+      ],
+      "parola_foto": "climate action"
+    },
+    "moda": {
+      "id": "moda",
+      "label": "Moda & Lifestyle",
+      "segments": [
+        {
+          "text": "La Fashion Graduate Italia 2026 e le iniziative di Istituto Marangoni a Riyadh",
+          "type": "plain"
+        },
+        {
+          "text": "Fashion Graduate Italia 2026",
+          "type": "plain"
+        },
+        {
+          "text": "Istituto Marangoni",
+          "type": "name",
+          "detail": "Scuola di moda che apre nuovi campus internazionali."
+        },
+        {
+          "text": "condividono il palcoscenico",
+          "type": "plain"
+        },
+        {
+          "text": "al design",
+          "type": "deepdive",
+          "detail": "Un'intersezione strategica tra i mondi della moda e dell'arredamento."
+        },
+        {
+          "text": "per ridefinire le connessioni",
+          "type": "plain"
+        },
+        {
+          "text": "tra stile e strategie retail",
+          "type": "plain"
+        },
+        {
+          "text": "e le vetrine scenografiche",
+          "type": "plain"
+        },
+        {
+          "text": "Hearst Italia",
+          "type": "name",
+          "detail": "Pubblicazione che crea installazioni d'arte nei luoghi commerciali."
+        },
+        {
+          "text": "in",
+          "type": "plain"
+        },
+        {
+          "text": "Milano",
+          "type": "name",
+          "detail": "Città capitale della moda e del design italiano."
+        },
+        {
+          "text": ".",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "L'arredamento non è solo oggetti, ma un modo di abitare la propria identità.",
+      "autore": "Elena Moretti",
+      "approfondimento": "La linea tra moda e design si assottiglia sempre di più, con accordi strategici che uniscono brand di abbigliamento a case di arredamento. I grandi progetti, come quelli di Milano, mostrano come le vetrine diventino vere e proprie installazioni d'arte.",
+      "fonti": [
+        {
+          "nome": "Harper's BAZAAR",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNU09nUW44dWVyUEZaNENlZFlDQ3NMM1ZxZ2c5VklGNzVMTjJ5M3dOY2RPSEgzZXR6aVFDNXN2SUNLNjZTZ2FIWHBVSHpTV2NWZlNPZWpDRWlfbU45VjJhRlJrQ3BueDltQ2RBRGJ4ZDNKRi1lRTVJdlVCTHdxZTZMV1dNbVJpTENUdUVGTFRqZFFDRkdpNWk0?oc=5"
+        },
+        {
+          "nome": "Vogue",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81RlJJelF4ZmVLdjNUU1lmN2FMczdPUnk4ODJPTE9TOF84UC03RS1OU3NZWDZmMy1qaHFuVXh5bDF3UUk0T29Rdk9ldHFYdFRISDVYZkpIbng5NTA?oc=5"
+        },
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWm9iRUFJdE05dGpEbk5ELVB0ekFjby02bFdJQzhkLTI5bndFNVJqS3Fibk1XaFMtMFZQOUhUd0FIWl84bVd2emtjMnNDR0o1Yng5aGd4NGViS2F2b2lHa21ncXE0Sjg0Z2V3bV92MVZOUklJQl9ZTUVibFRwTzlIQWQ2NlRxaU1TaXhONlRiM3BhZWZIb3FaRWtQckdrdlI2bVA2Y05B?oc=5"
+        },
+        {
+          "nome": "ELLE Decor",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZVBVT0YzbFZGQTJsdlBSRGZZUFNNeUttRFYtU1pWbGVVTGFlWEFYZTlDbXpGbF9OU0dkV0tPTTVEQ1o3SFRUZHVSeUlBZ1FSQ2cyQWNGYlV6a2F2LWJkRVJGZEI3aFBZNkl0M0NHb3pMOUl1YndpckNkM1JEY0FOM0VZNUtUdjN2SGN4UXZOQ1NfaHRSdmZQNVdTT21zd3FlU1JaN2JhT2ZvYUctVXdodTc2T1ZyZ3g1LVVTclRlejUxYlJRYlhoaTNmVUFSSW8?oc=5"
+        }
+      ],
+      "parola_foto": "fashion runway"
+    },
+    "concettoplus": {
+      "id": "concettoplus",
+      "label": "Concètto+",
+      "segments": [
+        {
+          "text": "L'Italia",
+          "type": "name",
+          "detail": "Paese oggetto delle notizie."
+        },
+        {
+          "text": "2027",
+          "type": "date",
+          "detail": "Anno del bilancio e delle tensioni sociali."
+        },
+        {
+          "text": "scontri",
+          "type": "deepdive",
+          "detail": "Conflitti politici e sociali in atto."
+        },
+        {
+          "text": "con i sindacati",
+          "type": "plain"
+        },
+        {
+          "text": "a Roma",
+          "type": "plain"
+        },
+        {
+          "text": "per protestare",
+          "type": "plain"
+        },
+        {
+          "text": "contro le tasse",
+          "type": "plain"
+        },
+        {
+          "text": "e le misure economiche",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il prezzo pagato per la libertà è sempre un alto tributo.",
+      "autore": "Elena Moretti",
+      "approfondimento": "Le proteste evidenziano le crescenti tensioni sociali. Il bilancio del 2027 è un punto di svolta.",
+      "fonti": [
+        {
+          "nome": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOXNlOFNXY1FIQWxqOWVQX2xwWkwtNWZubTRteG0zQ3FMQUZKM2QzVkFkX1R4Nkx6TVZCSUpqUmRqeE1Hc3lHR2c5dmlBSF9XQlFtRnhuZWxsV0oyZUZKTjdDY2hYMndWc0xEYlZtLUJ5bEpObmRhSy1LbmY1N29NczctSVVkT1JzZFRxRS1lOWhJSWJvckhmbW9HVi1Pa29aTEFaYWR2WUlHN19jbks4Z1JBbTZTQ1k?oc=5",
+          "paese": "Stati Uniti"
+        },
+        {
+          "nome": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQU0xOZFotanU1bXQ5Q3ZWVElDT2pKd3FZZ0I2X3B4SHFQUmZjRWVuaGE0M2lEbk1vRFdBcldjekw2SHdMZEIxcnR0M21iemEtOGthZUwtSGhIS2xvM1FEREo4SVJQMkM5c3FtWWlBU3cyTGlGTml3c25sbXVQYWVITmd3QnJ4VEFoTEtzMVRkMHhHSF9mc3V3?oc=5",
+          "paese": "Stati Uniti"
+        },
+        {
+          "nome": "The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbWE0R3RJN2NTY0JaOEZ4dEpfY3hBTkMtbXRCN2UyUEZHaG1MZVQxNWFiNHh0UEtqb0RLS2pseTdfTEhKajVVZzJlSVlUdmE3S0ZFSE8wcFBzbzBVSGZDMmUtYWVDeU9LTm9jdXRLTXhFYkZkNHU4YWZrZXpkUDI1U3BJcDZzWHBYSjFaVjU2RGdZTE9mQUFlbzA5cktDaGt3ZGpSMVZqNA?oc=5",
+          "paese": "Regno Unito"
+        }
+      ],
+      "parola_foto": "street protest",
+      "paesi": [
+        "Stati Uniti",
+        "Regno Unito",
+        "Germania",
+        "Francia",
+        "Giappone"
+      ]
+    },
+    "tecnologia": {
+      "id": "tecnologia",
+      "label": "Tecnologia",
+      "segments": [
+        {
+          "text": "Il mercato globale della tecnologia si confronta con l'impatto inaspettato dell'intelligenza artificiale, che spinge aziende e governi a una rapida evoluzione strategica.",
+          "type": "plain"
+        },
+        {
+          "text": "Elon Musk",
+          "type": "name",
+          "detail": "Proprietario di Tesla e X, è un pilastro dell'innovazione tecnologica attuale."
+        },
+        {
+          "text": "deepdive",
+          "type": "deepdive",
+          "detail": "L'evoluzione tecnologica non è solo hardware, ma un cambiamento culturale globale."
+        },
+        {
+          "text": "Amazon",
+          "type": "name",
+          "detail": "Leader nel settore e-commerce, sta rinnovando la sua linea Echo con nuove funzioni AI."
+        },
+        {
+          "text": "Apple",
+          "type": "name",
+          "detail": "Gigante del settore tecnologico con il valore aziendale più alto al mondo."
+        }
+      ],
+      "aforisma": "L'innovazione è l'unica arma per sopravvivere al caos del presente.",
+      "autore": "Elena Varese",
+      "approfondimento": "L'IA sta ridefinendo i paradigmi di business, ma il successo dipende dall'adattamento umano.",
+      "fonti": [
+        {
+          "nome": "ANSA",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQQVVGUFlUb0pLMVE0ZVZkMGpCQWY0T1JTeHpIa1ZlQ1Bic2ZSUkkyTVVpdGJRajhsTWdYQ0JqemVGdE1YWHlsQTJaVjZ6TFFwVGdoY3NPbTNCUjhCR19rSnNMQmVnbHYxVjViMlpuM0k0eHc1Mk9PTDlWWTlDNWx4b3g3MlZUUmVEcFNPR3U1NkdpRHJGNGxPZHJsQjc3Ni1OVUZjcnc4aUQyNVJQbFdqQkd6U2w2UDB6UlBPNFRKSmY0d1M1amdIMlNWQUFXRHdzNnNhN2JUVmZMNVlfMlprSl9mWHJobU1wMlZDM3NUMEw3eENiZXoyWk5SU1pvQdIBgwJBVV95cUxQeERjaEhFakowbVJCVzlYWnlmMVJnazZnYVUwWDRRbEhjd2FDTXhEXzE0TTNMcHVmQ0FlcFY5NTM4dElOYmVqWjdTRDBBVHRpZ3BVaWFmdlFocllEWGRJWVpyMFBBMkh1aE1jNFlkX3pLbHVrV0RUREZTaVFMMGJwcElJd19xenVVODZaQUtoQjEtUGVTcnpJYTV1U1hjSnlIY2twb3BqUTdIb3Z0aWZqVFJDOHkyZUNGVUZXN2RIQnNrVXZvbGxSdWo5Q1JnWVE2S2djWmIwYndRamtDa09KdXNXRENTWWthSFZaS2pnUldJZTNlU2E2bVVhYW4zN01UZ01j?oc=5"
+        },
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPcmVGU21zc1RrU0ZRNGlVelZqeXRvLS1BWnNzRnM4ZllhUnZUVmVjTm80UENlZmtubnlSSl9BQ01YZl9tZzR3RzlteGZwMUI4NmE3WlVZeVhBbVhyeUZYb09YbnVBdnRZRXFLRXAtRHdMOTFXeGRwblhmbF8wNlNXdF92V2lHOHRjYTRoZ2Roc0lkd1RpNGduZXRLWHhtS1lIQ19KbjVOcUcyRm8xZllDWlBfaG5iVGJ5Wm5oZkNoYTk1R3ZoZWNBR3gxSWl2MnY2emVqVlpRU3J2MDBwUWdMcEx4U3F6TElvbjF6RVEzTVlhOHZNYkpYc3FUZERWeVJvVU4tNTFEendCdzRfNTFvaXBFZndPWXk4cjdtbmRGSHN3aWdJQ1UyQkpRYmxaWW9yZkJJZ2pBR25xTEJlS3NqUW1WZHVhVG5F0gHOAkFVX3lxTE9YVnJXOEVJXzRUS01jTEE5MDh4b2ltS1pUajltVWJkRlE2ZEpxaEdFN0VleVhzRmc2bmhEWlEwTVo0NnprbHZaQm00cU1wLTN2d1ozWFQ1NDNFclBjeXlPYktVSXlxZ0Y4VWlJaHpaYVBiSmlQOTMxSDF6NEdYWGdsV3hiaU5TZmxuWnpOemJPRVVNSHVkeDlDWXY0ZTFnbDhxLVRvZGF4VnVPODE5U0JkV3pRalkzeFBfeWFqVnBsaVB2SDdUMWd6YnhJUnlWRUxMV0VMSGpQb2pBXy1pMjZfNGhmNXJZN2lEdTBlXzNYZ2RMZl9obzd3ZzRDTnQtd19hTHdLOUJ2cWFsZ1ZOZVgtck9LenFDWlluakxqSzFvczE2MHN5bUNGdmFSVkNqT3VqSU90NWRRSGY4dUUzalgtaVgwNUNmSjZvQ0VQNnc?oc=5"
+        },
+        {
+          "nome": "HDblog.it",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZ2x3aklWbzZLRFMxXzFCUG9UUXRGZlVES2VmdGJfdkpDZUxGa0h6VUpjTkJ2ZXpTU2JRYXdjQmVCOFdZSmFqamtPdHNIYmw2NDdMX1RHUFpqUnlHenk1cmRiME1NTUxDc0syM3RJdjExRGJlWEw1bVpvRlUwS3U5cmJVZmJmUDZMZ2I2eWJOUjQ?oc=5"
+        },
+        {
+          "nome": "Yahoo Finanza",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaGZZQThzdHJqbks0M2hNVEhqOXU1SXpMUVdKc0VXNEZWNkFyMFgwdUZRQm14Ui1sdGJ3bGVTMnJYZEFZTlk3VHZ3d2daYlE3LS12Q0p3czM4NGdOVFhsR3cwTDhKYkxiYTdDZTFRVW02S0t2V0hJeXRDY3U0d1E5TXRxSkptY19K?oc=5"
+        }
+      ],
+      "parola_foto": "artificial intelligence"
+    }
+  }
+}
