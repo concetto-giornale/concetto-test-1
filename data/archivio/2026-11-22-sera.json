@@ -1,0 +1,571 @@
+{
+  "generato_il": "2026-11-22T14:54:38.669Z",
+  "data": "2026-11-22",
+  "edizione": "sera",
+  "id_edizione": "2026-11-22-sera",
+  "categorie": {
+    "italia": {
+      "id": "italia",
+      "label": "Italia",
+      "segments": [
+        {
+          "text": "Un uomo muore a 16 anni nell'incidente stradale di Bondeno, mentre il cacciatore di Reggio Calabria perde la vita durante una battuta di caccia.",
+          "type": "plain"
+        },
+        {
+          "text": "Il Drago",
+          "type": "name",
+          "detail": "un cane che ha salvato il suo padrone"
+        },
+        {
+          "text": "salva due vite",
+          "type": "unusual",
+          "detail": "un gesto eccezionale e inaspettato"
+        },
+        {
+          "text": "in un ambiente naturale ostile.",
+          "type": "plain"
+        },
+        {
+          "text": "La violenza e la morte sono costanti",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il bene è un atto, il male è un fatto.",
+      "autore": "Aldo Novelli",
+      "approfondimento": "La vita umana e animale viene spesso bruscamente interrotta da incidenti o azioni violente, mettendo a nudo la fragilità della esistenza.",
+      "fonti": [
+        {
+          "nome": "Il Resto del Carlino",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQmQtU2lqZXhhU1Vsai1JbzF3b2FPVlN1VVpjMFRTeWpQbTlYZXdoRnB4bVRUbkE0aF91eDJueDBpanR2TkNWZ1B6UmtKTkJFYllmVjRCc2ZYVV9nNldKNTgyZ1l0M3k3bzJMVS16YUZXOF9xMmFjbHQtYXRPR1dzRzl5MS1pMzZt?oc=5"
+        },
+        {
+          "nome": "Tgcom24",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUEcyUlU2SE9qNjgyS1Bkc0pOY3ZaRURNeXAxRmw5X3FHQWtUNWp4TkxIVmJLRFY2YTlaNjBVamFfZHQ0bEVLTnBERTVYNEYtRVFlS0RCWVRhMmRVU1BSeHo2OUJ6aVpnTTRxN3o5X205UFdsSXk5NllaT2tpUDVya3MxeDJidmh1MHNJZDhPSnlqb0tjTlk3eVVRSURCMnd4V2hJMWhqeTXSAWhBVV95cUxOU19SSkdNcFpZVXlXQnBiMmNzbkZWWnczWEtaMTZGSGVTT1VGTWJoV19aM1N5T0F0LWRTQU1PZlRfcHc2b1I0Um5hU0ZlVDU0Nk5OcWF4UE9pMkw3U2tuYjRRYkN3RlUxcQ?oc=5"
+        },
+        {
+          "nome": "LeccoToday",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSUl1QzR2eGp2dkFaZmtSLTN0SjE1MmllQzIzeDRRZ2hPM3NnQWoycjZjWTFnTHhYZWx2cklIQmVPQlh0UnlGWkVjdnphajJneGJkTjNrdzlxVl9PVmgwOFNIRWlCN3hCZmZvc3ZxYmNPMDZCekpLMUl6Wm43VWpyMDY0NklTZldPTmUxZkhR?oc=5"
+        }
+      ],
+      "parola_foto": "stormy sky"
+    },
+    "esteri": {
+      "id": "esteri",
+      "label": "Esteri",
+      "segments": [
+        {
+          "text": "La geopolitica globale è in una fase di intensa tensione e incertezza, con conflitti in corso e tensioni tra le grandi potenze che sfociano in minacce dirette.",
+          "type": "plain"
+        },
+        {
+          "text": "Trump",
+          "type": "name",
+          "detail": "Ex presidente degli USA coinvolto in diversi rapporti internazionali."
+        },
+        {
+          "text": "Putin",
+          "type": "name",
+          "detail": "Presidente russo, al centro delle relazioni internazionali."
+        },
+        {
+          "text": "Zelensky",
+          "type": "name",
+          "detail": "Presidente ucraino, protagonista della guerra contro la Russia."
+        },
+        {
+          "text": "Dymer",
+          "type": "name",
+          "detail": "Luogo in Ucraina colpito da un attacco russo."
+        },
+        {
+          "text": "Deepdive",
+          "type": "deepdive",
+          "detail": "La fragilità delle alleanze internazionali in un mondo multipolare."
+        }
+      ],
+      "aforisma": "Il potere non è la pace, ma la sua più pericolosa illusione.",
+      "autore": "Elena Vittoria",
+      "approfondimento": "Le tensioni geopolitiche mostrano come le alleanze tradizionali si frammentino o rinegotino. La guerra in Ucraina è un campo di prova per nuove strategie globali.",
+      "fonti": [
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNHBEdFBmbDlwanJmZGZWWk42bXJieWtkZUl6Qi0xVGUwVFVfdko2ajRET2RWRk1OT21aRWx2N0tZblkySlpTZGlFLUIyelV1X3VUOUhONF9CVnBpU01uNGNaNGt2YW1SdWRKYWVOYkJoQ1BobjdZQUJmclpwZm5NTENn?oc=5"
+        },
+        {
+          "nome": "Sky TG24",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQX3JXeGxnblh0ZXpFS0NaVEhWT0JYQklacFdjWFo0bnhjTTdUSmtMYXMtQzdVc0dyZGNEV1IzNllQRWszT2ZwSWNzWWFiTUoyM2FKNnpJZ3NXYWdHaWJpTTEzbjVZMVhMWVFLSlBIcnc2QlVzVWpRTXlZSUUteWx3NWQ0eHhlOVBX?oc=5"
+        },
+        {
+          "nome": "Euronews.com",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZDlfS09BdWt5OUJVS2NFRzdBek9udWlfd2lISm5YMVB5b1Z2eUF6bVVUWDFBWk5sYzgxVTVlN24tUWV5UVMtR3hGOEhCRHhfLVdFVndYM1ZUTm5sN3VEa29IXzNQekd6bEhnS2Nmc1EzZmZLbVZwT2ZaZlJBTjFNLUpDU0lNV2tzN19rWGFEX1R6aWVxUWtJUzBQY0ExaXhnWkx2Nm5XZ3U1d0NLUVE?oc=5"
+        },
+        {
+          "nome": "la Repubblica",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPM25QY2l3ZDVEcW8tVUlLa3FRTjNYV0RZS0MxRVBLQWJpQUVaMmZtcDE5U2VHZWNzNTVrMWRoenpxZE5OanVBNE1rX0laOElYU2hNZGVQNzRqMUhoNV9YbGFoZm04WHE3a0xBREc2elM4U0RtMjlrWk45TDJzLXI5RGJrZERVaXVDV1RuNjIxbjQyY245M3E0Ui1LTXFzdUVlWGFmbDRIVGE2a0tNWkhTSmhKcS1nVFJXQmdlWDZCak9icWdY?oc=5"
+        }
+      ],
+      "parola_foto": "global tension"
+    },
+    "economia": {
+      "id": "economia",
+      "label": "Economia",
+      "segments": [
+        {
+          "text": "L'economia italiana si regge su investimenti globali e debiti domestici, con l'AI che divide gli analisti e i cittadini che temono l'inflazione.",
+          "type": "plain"
+        },
+        {
+          "text": "Banche",
+          "type": "name",
+          "detail": "Istituti finanziari e mutui al rialzo"
+        },
+        {
+          "text": "AI bubble",
+          "type": "deepdive",
+          "detail": "Correzioni nelle Big Tech e investimenti difensivi"
+        },
+        {
+          "text": "2026",
+          "type": "date",
+          "detail": "Anno di scadenza rinnovo contratti e imposte"
+        },
+        {
+          "text": "Tesla",
+          "type": "name",
+          "detail": "Sviluppo guida semi-autonoma e rapporto con Salvini"
+        }
+      ],
+      "aforisma": "Il futuro è un debito che si paga sempre con il presente.",
+      "autore": "Elena Moretti",
+      "approfondimento": "Il 2026 segna un punto di svolta per le banche italiane, con contratti in scadenza e tassi in salita, mentre l'AI crea nuove opportunità e divisioni tra analisti e investitori.",
+      "fonti": [
+        {
+          "nome": "Sky Sport",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNEJVMU9sOS1pbVRjN2pISm1uODg2bHZ0Y1cyWHpKNDlCRUVsVVcweWxMQ0FFb0p5Nzl3NVVTdTdQLU1SNHJoaS1VVXNESzk4QVJ6cFBHSG5CTlpybWE3Q3RxYjB6b1RkbHo1dmlZZ3JlS2lxVG0xWUZCRHRPWlJQNzJYTTFybVdHckFR?oc=5"
+        },
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQckNQVDBJTXRNMU1DLTQ5aU5ZUkN2RFN6d0JSdjRaaHV0VzZscEtXUHhBY3hVVU9TQ3ktSlZLaTdvNzhFcHhSTHU0OVRibEQ0RFp2TXlfVnZ5R1g0OVYzM0k5QXA1WlpUQnF0THB2Vjhzc19kc1NoeWpOaF8yc1lPaXcxZDF6ZFp6dVpCbExZUG9JNnpUeTk5YjBBWnVuQ25WU3Z1aDlpRG1kMnZ6NUxHQWUtUkpub3NF?oc=5"
+        },
+        {
+          "nome": "Tgcom24",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUUFnZjB0UXk5WFZYRFhlQ1QwYzFSWG1aQVJHRkR4cm92MG1aX2dNWEVnbDdFMUdFbmRuOGhqMFJ3VWN4aTg4b1NvelpraUdBMzZqNEI4MVdBeGRaMG1sdDRycng5M19TVENZR0E2dHhJWXZ1MWJXSnFxQ2xya19WNjBzbUdrZEFySnczRENWQ1BhbkpYNUNlUU5IT0MtaUV2bmN6OEJVYXVjTnBQbURfcVVZRnZpOFFtUFpPVUt3QVhuZ9IBaEFVX3lxTE9vVUhSRml0QnhwekE1UkdHQ3Jra3hOQzYtN1dCLUFEZGw4bHYyOVV5NVdxeDdTTnFoRTB2OExpQVB3c3pXZWJ3QndwRFNxb0lWU3Q3WDFHcmVSckIxaURHeE1rbENaejRO?oc=5"
+        },
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOQk14dGJNaDdhTE45ZGZOeUlFa2RUYWlTYzRnTW1RSFZSVGpiOGYzZ2VxMDloTVFNdXhMWmNKZ0tmcDdyc2Jadk5XcGNSSXFhWG5XaDFZVXN1UFhBeWdSb2FZT3hmUnQ5em5qOUt0eTg2V2FtTm81dE1yeEhfdVpHanUzSVJLQVNBc1ZsVzFqWndrb3hrLXhaS1ByaWZ5dW14NzNLcnl1T3B5aGcwSkV1ZUl0NTdfaUZXSDNXdjJvOWxWNlkwWURGRF9yWGFNWXg2REUzRTdKc3Bad3IyRlJxXy1WOVVpaGlGcGxfcE8zdkJEVDRCUG5IeV9qb21wUnFoc0R5UkpaS1ZlSVNRWG9Xbjl0WGlIbVRTcXl1bTY4UWt1M2VKWFVJS09pTFpZak9RVzFkR0NERDRTZC1SM3Izcm1QVnl4cm56aEpKWEdXMk1NTEMzaEs00gHcAkFVX3lxTE1jdFFuNEZvbndTQ05pb01MdlNYejFWdWZvVDdiakNrc0hzNjlid3ktdW9ZU0RETjdrcS1NOWdjM3lST3ZZRktoR2hMU294dTJKX1NkNVRHeUM4anAyV3h6Um9CcGk4aEluWFdzdVRpdHlQdllxeWhiVmFNUDdzdmhLQ0RqYjB5bmo2U2UwMFoyNFR2Y1l4Yml5U2RQLWpYSzdQQjZwT21CNUV0Skt2bm9wcDFldW5VNURRVk1wbU1zaFJ1aGd5Nld2WWt2bDl5SFJDQ1lsVllpWG93TFd4UERGRk9HbWpmMHNKQkFhXzFTOFp6UE82R2hjU29VV0s4dW1teV9vR2VacURmZ2ctLTJIdDVFQkVVeXQzNV85UjZiakIzMjQyZEVkd0dnc1BJZU5fSTJZa21pMjN4N0MyRHBNTVV2RGtITlhyWUo0TjJLMEpLbnZqOWctSjE2TQ?oc=5"
+        }
+      ],
+      "parola_foto": "stock market"
+    },
+    "tecnologia": {
+      "id": "tecnologia",
+      "label": "Tecnologia",
+      "segments": [
+        {
+          "text": "Il futuro dell'Intelligenza Artificiale è dominato da una corsa all'hardware, dai giganti del chip come Nvidia, fino agli investimenti di Bitcoin che vedono un'ondata di liquidazioni da 1,76 miliardi di dollari.",
+          "type": "plain"
+        },
+        {
+          "text": "Nvidia",
+          "type": "name",
+          "detail": "Gigante hardware per l'IA"
+        },
+        {
+          "text": "Bitcoin",
+          "type": "name",
+          "detail": "Asset finanziario in ribasso"
+        },
+        {
+          "text": "1,76 miliardi",
+          "type": "unusual",
+          "detail": "Valore dell'ondata di liquidazioni"
+        }
+      ],
+      "aforisma": "Il futuro non è un dono, ma una decisione che prendiamo oggi.",
+      "autore": "Elena Vitiello",
+      "approfondimento": "L'esplosione dell'IA si basa su un'infrastruttura critica: la produzione di chip avanzati e la gestione dei rischi finanziari connessi, come le massive liquidazioni dei mercati criptovalutari.",
+      "fonti": [
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxORWRqVUt2Ykc5d1ZsTFRlRUlEX0c5ZE1XVGQyUUIwMVFfWExxQkpQUFk0a1E3QXBoYndIeHVOR2Fudk9aMlE2TzRiUm9lbWc3OGtTbXE5c3ZlOFJwemNUcTByR2NzT3l6T25wUzJ2ZGc1M2RXWFRUTWt5NWxCUGlJRnZSbExJNUxIZm51MDU0UUN4Q3YweTE5ZEgxdllabkxZRXh3SmJIUm5PYUQ3SUhxZENXdmNsZVVUUGZqbmt3bEY0cWk5bmRud0pxZk41Vml1MFZqMFB4RGkyS3dQZWdVVEdDTHNleWlITWNLaHh0SzJSSFFydGc5QzZB0gH_AUFVX3lxTE5RX1hLdVBvMXVDWDZvRWkxVjcxRUt6cVVteGpINEpVRUk4N3dsSm5nbjNodWdWNzh5TFdLOC1GakRCdzlVams2U2RwdDhMbUJnSzFTNVNJNlRFVE5CQTFpbkI0dXpUM1l0Y1VYakg1TWFkN2YyUXVXOEJGcVp0V2ZVWlhNRHMtaU5MQlJlVjdTbDQ3c3JEN2RPOGJiSnIyejVvQk5GbWg1UDFrTUF2VU5kOVBFLUZHZ015YVBMa2FzN0c3ZWsxcjAxX3duWjM3Q2JGMVRtdHdsTkFNSm1IYWw1alRYQ3EtWndxdS1zd3dxQVUyY2xYSm1xMkF0a21Mcw?oc=5"
+        },
+        {
+          "nome": "Yahoo Finanza",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTlZFbjBReFNlRFl4cnBwM1RtNElDM2wwSzVtOHBTVFloQmhHNnpmQlo0eHVuNDJIYW12TVJUUy00OHRhdlpycmloWjBsZlRzZG9MbFQ0TnZUcXAzUl9MTm9TZXhkNlBOYkgwU3VLNHlEUm1kNThiZmIwd0JYNmNNc0tR?oc=5"
+        }
+      ],
+      "parola_foto": "technology chips"
+    },
+    "cultura": {
+      "id": "cultura",
+      "label": "Cultura & Spettacolo",
+      "segments": [
+        {
+          "text": "Tra le ondate di notizie culturali, spicca la premiazione di Aurora Ramazzotti a Ballando con le Stelle, che vede un confronto serrato con Tu sì che vales e la partenza di Massimo Martelli, mentre la televisione si prepara a Sanremo 2026.",
+          "type": "plain"
+        },
+        {
+          "text": "Ballando con le Stelle",
+          "type": "plain"
+        },
+        {
+          "text": "21 novembre",
+          "type": "date",
+          "detail": "Data della puntata vinta"
+        },
+        {
+          "text": "Massimo Martelli",
+          "type": "name",
+          "detail": "Sceneggiatore e regista scomparso"
+        },
+        {
+          "text": "Sanremo 2026",
+          "type": "name",
+          "detail": "Prossima edizione del Festival"
+        },
+        {
+          "text": "Tu sì che vales",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "La vita è un palcoscenico dove tutti recitano e nessuno sa il copione.",
+      "autore": "Elvira Vannucci",
+      "approfondimento": "Il dibattito televisivo si sposta sul talent show con la vittoria di Aurora Ramazzotti, mentre la cronaca nera colpisce il regista Massimo Martelli. L'anno prossimo si preannuncia ricco di eventi per il mondo della cultura e dello spettacolo.",
+      "fonti": [
+        {
+          "nome": "La Gazzetta dello Sport",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQclo2bkphLU45TFVrSnZNanJKcTJtRjhGZTNWTWFmOEY3NzE2LVpvQlZZeW50Q05kLXUyU0ZxRk83QURxMnMyRVQ4WTBhNkVjbk5rQzRqUVFiUUN1cXJKVll2OGVnWVpIQlhKSEZweTI2MmV1WjhzczNpQ203MDI0MWpZSVItQUtydDgwbHFjdDVONjlzWmsyc1Q3NUxNR0RDZmRiRmM5ZnhwbzVUNEtrNGxYNm9mRFRySmZLYlI1WndqYW1xamZnV2dtWVF4Vmxld2lEY2lHMEFzalZsZmdwbXlfT2JtNVQ3YVFBTEx4LUN5d0FwMDkyT3VnTjNQQdIB4AFBVV95cUxPVUwxVDJJbW45OHpWcjJsZXNMZXpMbkhGWFJhVUx3a2RiU29fN0s1aGNmcHNYYnJtTnNDSWdabW9yaDE4dF9fNHlkdzJBdGg5TUpDWFhyWEplanBXRzFNazJBYXZ4blgycUUtd1VCWTRtbXYzRXJUM3lmaF9TOTE2R1lvNkVzYkpYbHFTaWZHb2hzbGM5bXhodklGeG1EN0ZaM2RpWlR6ajdCRnhVZXpzVDB4YzIwd3l5RVFLRFdRaDJ5ZHA5RnhMd19tbmtlN0dyOWVPQkpkTndxYU9jcVJUaA?oc=5"
+        },
+        {
+          "nome": "Libero",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1DaEVfWWZ3eE5qWDNjUWRHeElob09tSnJleC1UV3c4aDE1VXBIWUZqSVZKY2tfYXd1RF9MRXFRQl93UUt0UE1tSWpVV0J3X050R0hKZllhR2lVSlpDQmtWdFRJTTFYUzk4SkN3d2dWNUwwbGvSAXhBVV95cUxNa1FHX2ZHZkJESXVabUdLd3ozNXdHRkRNYUxjSFpvXzBzVlZOY1h2Yno3WGJpMFhXTUlGS1E1VWJHandTUlpwWlVDcl9ROTYydXJFaDRaM1F5a1F0bG1USzJzYVF2eGpQQ055VWlsTXBXYjh4VjB3cnY?oc=5"
+        },
+        {
+          "nome": "ANSA",
+          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPaDVFVnBFUzZZeTBEZHQxTzNFdmVkVW84MGtISnBiOHB4NzJFYTdnUVNkaS1yNE1EUXNidy1GM1FyaG9JRUlHSmduNWRacmxmdk9ETmlDVHRFYnRhb001WkRPM0JuaXRYVVQzaG5MMVZyWmJ1Z1M2Y2czY2E4UXlsNFowZXB1Y0xoV19xWE8wTXlUOFNPck9TZHBpb3NnYWpac3NSbDdrSmthWEw4TWlCazdkYjBRZFpOLUJRQkJVNjJobmZ5a0FNQ1RwYzNObnQyOWxtT1dUMWZSU1lTWUZYaVdNaHBmTC1pUkdEUFBiUEhtZFg2U0hkeDQxekJzdnRmaC1wT0pkbGFkVWV4UmQ3QjhBY23SAZoCQVVfeXFMTXZUVVdmbExBUHViNGl4cW1DemYtX2R4MGgzRmEteTdCZlA1eF9pNmZFRzIwR2c4ZTNqN2hjWDlXOW9sbWxJMkdpX1F0V21WdzZaWThjM1drYW9VZHNwSkRFOE9oTVdkYXp0VnBKcGUzbkM5bE5HSFJqWFY5cUR3ZlRkb0dyMUh6bkFUSS1kQ2RlWEJQcTBwVzdYYXVCSkJpQ3JhVkphY1JwM21MTXhzbmc1dVFIcGNKaGFZYVZRVVZmemRqR0dVVlBWUzAybTB3cTc1X1F2S2VpRFdDTTQxVmxqbDdDYWpzSVRQNmtSY2Itd2wyNC1Va3U2MWIxNDlacTJTejc0bGdjYjJibU9EWU9aSl9BWVBZWWZB?oc=5"
+        },
+        {
+          "nome": "Museo dell'Ara Pacis",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYjlGOExOWVZyU2RzR2drd3hyMHF3M3kzcTJGU2dLcVFqaVI4MUhyZVFxbjVQcWloOGEyZ0NDa2l0YnVSUnVuOXljbHFPZjRnem1CT2Q1am83RTF6OHBpV1lFclZnN0hTZldMOWthU1pHb0RPR1BwQ2pWbU1jZ29relVxQkMwbGtW?oc=5"
+        }
+      ],
+      "parola_foto": "celebrity audience"
+    },
+    "gossip": {
+      "id": "gossip",
+      "label": "Gossip",
+      "segments": [
+        {
+          "text": "Venezia 2026",
+          "type": "date",
+          "detail": "Anno del grande evento culturale e sociale"
+        },
+        {
+          "text": "mostra del cinema",
+          "type": "unusual",
+          "detail": "Evento d'élite con presenze di rilievo"
+        },
+        {
+          "text": "e",
+          "type": "plain"
+        },
+        {
+          "text": "Milano",
+          "type": "name",
+          "detail": "Nuova meta di elezione per l'élite internazionale"
+        },
+        {
+          "text": "nuovo rifugio",
+          "type": "deepdive",
+          "detail": "Il concetto di fuga sicura e protetta"
+        },
+        {
+          "text": "delle celebrità",
+          "type": "plain"
+        },
+        {
+          "text": "che cercano",
+          "type": "plain"
+        },
+        {
+          "text": "gossip",
+          "type": "plain"
+        },
+        {
+          "text": "e",
+          "type": "plain"
+        },
+        {
+          "text": "curiosità",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il desiderio di vedere l'intimità altrui ci spinge a guardare le stelle.",
+      "autore": "Marco Bianchi",
+      "approfondimento": "Le celebrità scelgono mete sicure per proteggersi dalla pressione mediatica e vivere il loro privato con più tranquillità.",
+      "fonti": [
+        {
+          "nome": "Cosmopolitan",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVXJ0dTZaczkyZVU2UlpjbUZXMl9SaUNBYVV6QkFZQndyMzlQLXhqUE9yUXpmR2RFOHJaeFUwUnFiakpNVFYtaWxlVTFoMEZ5N2VQc1pBN1A3WGx1WjJicWl3V2Y5dDVfdjFGdlJ3Zno1b1c4VW9yUkJ4M3pPM1JTWndYY1dycWF5eUVucm1yZ18xZTIxcVBuSVczNXZ4MF92Y2ctWFF4blRCdw?oc=5"
+        }
+      ],
+      "parola_foto": "red carpet"
+    },
+    "ambiente": {
+      "id": "ambiente",
+      "label": "Ambiente",
+      "segments": [
+        {
+          "text": "La sfida globale del clima",
+          "type": "plain"
+        },
+        {
+          "text": "e la resilienza",
+          "type": "plain"
+        },
+        {
+          "text": "delle città",
+          "type": "plain"
+        },
+        {
+          "text": "e delle politiche locali",
+          "type": "plain"
+        },
+        {
+          "text": "come il PAESC",
+          "type": "name",
+          "detail": "Piano d'Azione per l'Energia Sostenibile e il Clima, strumento chiave di gestione."
+        },
+        {
+          "text": "per affrontare le sfide",
+          "type": "plain"
+        },
+        {
+          "text": "di un futuro sostenibile",
+          "type": "plain"
+        },
+        {
+          "text": "con una forte",
+          "type": "plain"
+        },
+        {
+          "text": "educazione",
+          "type": "plain"
+        },
+        {
+          "text": "e la consapevolezza",
+          "type": "unusual",
+          "detail": "Concetto di attenzione e responsabilità verso l'ambiente e la società."
+        },
+        {
+          "text": "delle nuove generazioni",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il clima non è un problema, è il contesto in cui risolviamo tutti gli altri.",
+      "autore": "Elena Vico",
+      "approfondimento": "Il cambiamento climatico impatta globalmente ma richiede risposte locali concrete come il PAESC e l'educazione ambientale.",
+      "fonti": [
+        {
+          "nome": "Scienza in rete",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBjNlZrR3I0OWJ3aVN6Q2xuSzZDcjlleGh0Vjl5VEFNX3BHZXFTd3ltN1U1bDU0LUNKNTV5Z2RfSVB3ZkNjS0lONll1WHlGY180Y0dDSzNfYjltQlB6TTdyOUVxSXBXa1hHdENwQnBkTUE5ak1uclVn?oc=5"
+        },
+        {
+          "nome": "Icona Clima",
+          "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPM0oyT0d5Mmk4eTdkaHAtNS1RNzVCbk1kdWNJSUoxMGlXMUlWVk1aTExDd1FwQWJCMWVGZ2VsNDItYmJPWGhOZHdXZnd5eW4xNWZFQkNWbllKTnUzaEFLZ2JLTG4zYUxhQVM2blVDTTBWM1k5RXlVSGI3bVd3US1tSzR3YjhLY01ra3NLOU13WExJYU55UmlPMDd2ZVpKeWdYeEtONUR3MHptVnNoZUFONFdOTnFRUWg5Z3NsdWlraUlKbWVqMUl0dmdCTWtORmNXQnNRVE9XN2UyVkd3cU9nN3JEaHlSMFJGNDdBSE1FSGY2N25tbDBxVUpqbV9KcjVXMWJXQTY2VExfR0ljVUJOcXphaHhwamdsUGVxcw?oc=5"
+        },
+        {
+          "nome": "Comune di Napoli",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOcFRLWldBQUVSQVU5MlBiMGJNRHctTlhzM0N0Z1F4ejJnWm9EdlhqQjlMaUphUFlRWTZYaU5NRmUzSU12QzU4aGxYd0hHTGtkV1kzT05UcF9iTGNENFc2dWZKeWRRd1Q3SFJDNGxsMGhYU3hieFlCY3FTN3BBOTlHQ3NLWV9DOUVPazVtUUg4RkNuNExSOGlpZVdLR211eG12bElYb195bHFfdjUybFpvZndWb1pPeVFseDhoX2pPc0RMRThpSHpxWHVCSnFxNHRtS1FlQmtwcnZ0UWZOcG10V2NGNGR0bmFLYnNGQ1BJQzJiVFFGWE55d2VCLTMxNHYtRlE?oc=5"
+        }
+      ],
+      "parola_foto": "climate action"
+    },
+    "moda": {
+      "id": "moda",
+      "label": "Moda & Lifestyle",
+      "segments": [
+        {
+          "text": "La moda si fonde con l'architettura e l'arredo in un anno cruciale per il design italiano",
+          "type": "plain"
+        },
+        {
+          "text": "Milano",
+          "type": "name",
+          "detail": "Città protagonista delle sfilate e delle mostre di Design Week"
+        },
+        {
+          "text": "2026",
+          "type": "date",
+          "detail": "Anno in cui si celebrano Master e borse di studio per il futuro"
+        },
+        {
+          "text": "Fashion Graduate Italia",
+          "type": "name",
+          "detail": "Evento che dà voce ai giovani designer emergenti"
+        },
+        {
+          "text": "esplora",
+          "type": "unusual",
+          "detail": "Verbo che sintetizza la curiosità e l'osservazione attiva"
+        },
+        {
+          "text": "il confine tra abbigliamento e spazio domestico",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Moda e design non si vestono l'uno con l'altro, ma si abitano a vicenda.",
+      "autore": "Elena Viscuso",
+      "approfondimento": "Le università pubbliche lanciano il progetto Fuorimoda per formare nuovi talenti, mentre grandi accordi strategici spingono il lusso verso l'arredo.",
+      "fonti": [
+        {
+          "nome": "Vogue",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81RlJJelF4ZmVLdjNUU1lmN2FMczdPUnk4ODJPTE9TOF84UC03RS1OU3NZWDZmMy1qaHFuVXh5bDF3UUk0T29Rdk9ldHFYdFRISDVYZkpIbng5NTA?oc=5"
+        },
+        {
+          "nome": "AD Italia",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOV3pmaHpFeHpjazlvUXc5VXFidFJEcHZZOWRsN1Z1cElXZkJDdmRCOENheVd6OGFRNm1qdU9hNlJ5dU81THVqZzc5Q3NVSzFqQ0F3NWRIeWw1U0lUT19DMGFLNTNMTF9DVC1DMDZFY2xCSUItX2FFVXFGWVVsMVVlZklqa0Fjek0xQV9aOVZSVzlIMHMtWjMtWjM4Zw?oc=5"
+        },
+        {
+          "nome": "Harper's BAZAAR",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNU09nUW44dWVyUEZaNENlZFlDQ3NMM1ZxZ2c5VklGNzVMTjJ5M3dOY2RPSEgzZXR6aVFDNXN2SUNLNjZTZ2FIWHBVSHpTV2NWZlNPZWpDRWlfbU45VjJhRlJrQ3BueDltQ2RBRGJ4ZDNKRi1lRTVJdlVCTHdxZTZMV1dNbVJpTENUdUVGTFRqZFFDRkdpNWk0?oc=5"
+        },
+        {
+          "nome": "Cosmopolitan",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdGo1Vi1iZmcxTmpkXzZYU0pxc0hRd0FCMFZkaWxGM193QjZqZkRRNG9mTVpyZ0NXeEtQUktocFpwWHQtajg2S2tLNnRnTXJocUxmN3p6dEEtSXhqSzA5bi10S1N5Z2lBQXhuanl3dnpJNm9tRWRUdmRCWEh1c09hRW1aa2xMM000aUZ0U21ZMlk4VTVrVk9OWGZUUTcxbXdJazkzVmdmbVdnY1VzMkRLdmZGQQ?oc=5"
+        }
+      ],
+      "parola_foto": "fashion architecture"
+    },
+    "concettoplus": {
+      "id": "concettoplus",
+      "label": "Concètto+",
+      "segments": [
+        {
+          "text": "Il suicidio dell'ex capo della polizia Gianni De Gennaro scatena l'indignazione e le dimostrazioni",
+          "type": "plain"
+        },
+        {
+          "text": "Gianni De Gennaro",
+          "type": "name",
+          "detail": "l'ex capo della polizia italiana"
+        },
+        {
+          "text": "a causa delle indagini sul 1992",
+          "type": "plain"
+        },
+        {
+          "text": "e il drammatico confronto con la Fidji",
+          "type": "plain"
+        },
+        {
+          "text": "Fidji",
+          "type": "name",
+          "detail": "la squadra di rugby"
+        },
+        {
+          "text": "in un match che segna un punto di svolta",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il peso del passato può schiacciare il presente.",
+      "autore": "Elio Moretti",
+      "approfondimento": "Il dramma di De Gennaro mette in luce le tensioni di un'Italia divisa tra cronaca nera e grandi sfide sportive, dove la memoria dei fatti del 1992 non sembra poter essere rimosso.",
+      "fonti": [
+        {
+          "nome": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVTNmcUVlZFhKZW1rX05waWs0UDhNOVdQYi1ERmVKVllXZFpGQmhLZ1pIUkU3R2hYcmpHbnYydXNlTlpjTWZvM1lKc3EtT0U5Ulh2MjNrbE9yWVFfblU1QXVLUXNyRlNLdVgybUMyd2dOUUVZdE0zN2xmRmxPTVhIQmZGd1F6N2VfYVFidzh2bXl2RER2dmc?oc=5",
+          "paese": "Stati Uniti"
+        },
+        {
+          "nome": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRHRWNEgwMkxHcTRCT2t0cnB0bU5zWHdYd3NjaWlRQmNrSlF5ME1xVkl2Y1daY3dRbkY5MzVjR0Zva0FQM2NXdXhRR0JmaVNyNnozaDVWNWVEWXF1SnZHNHo4OS1zc3BDLXZxd1Q5dEUyNG92M3FubElMdWc0TGhyY3ctdWlrZkVHWW43VDhvYjNDZmF6ZjJDbUdUdEFYbmx6OS1wcXE4NThkUHhUdjg1Und3?oc=5",
+          "paese": "Stati Uniti"
+        },
+        {
+          "nome": "TNT Sports",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNGRQcHpxdGdVem1YQ3YxMVNDbnozNVFvcXRZVmJ5NkFpYWZvN3E2VWwyYnJ1VzU5dkVtM19ybGlzZXhPQ2tDbThEVzVTUTZVR1BVM3dpX1hWcXhIdUNTTkhxa3djNUdsc1JnZTN1T0hKTVRYNno5RmdhNUs3VlktcmJYV3RQdDdLNkRXT3pPUUEtQmRueVgxZXVXZ0RhUG9ZaHRFWVFDUQ?oc=5",
+          "paese": "Regno Unito"
+        },
+        {
+          "nome": "Business Insider Deutschland",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObW1hbWRXbTFjYjFZVUVIUDZOZUlWclVLQ0k1d0RkbkxuT2xHRVdJaHZBb2RoUm03RGVJUnM2NUxUQzNEbEt1SkRBRFM4T3JBbktzWldZSHlFSHhXV2drSHo3MnFWSTVwazFKT0tLRkZlRnN5aVRLMF82RVVqMjdwYXUzcXp5bXZrMjVxbGMwbDh5T1ZsbFNacEphT0NpOWIyMWFLdWl3Sm1LN251RUFfTi0tbWEwWnhRMkhTSnpXc3RBQ214d0E?oc=5",
+          "paese": "Germania"
+        }
+      ],
+      "parola_foto": "police protest",
+      "paesi": [
+        "Stati Uniti",
+        "Regno Unito",
+        "Germania",
+        "Francia",
+        "Giappone"
+      ]
+    },
+    "sport": {
+      "id": "sport",
+      "label": "Sport",
+      "segments": [
+        {
+          "text": "Il campionato",
+          "type": "plain"
+        },
+        {
+          "text": "MotoGP",
+          "type": "name",
+          "detail": "Gara di motociclismo"
+        },
+        {
+          "text": "e",
+          "type": "plain"
+        },
+        {
+          "text": "F1",
+          "type": "name",
+          "detail": "Campionato automobilistico"
+        },
+        {
+          "text": "concludono con i protagonisti che conquistano i titoli iridati e",
+          "type": "plain"
+        },
+        {
+          "text": "calcio",
+          "type": "name",
+          "detail": "Ambito calcistico italiano"
+        },
+        {
+          "text": "si divide tra vittorie e battute di caccia",
+          "type": "plain"
+        },
+        {
+          "text": "delle squadre",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il trionfo è un'ombra che si riflette sulla polvere della pista.",
+      "autore": "Elena Varese",
+      "approfondimento": "Le sfide iridate mostrano l'apice della competitività. Il calcio italiano vive giornate di cambiamento e passione.",
+      "fonti": [
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcjhGd3NvRTB3UFFiWU1kM0s0TkhyblF2RTJtdGZNM3h2M01vcmhJT1pBSmMxaEdRYUIyOW1ZQ01iVjZybmxGYndKaVZKNnRDeF9kQ1gzejliWXBKZkYtX0hkM1g0UVVrZ2ZYY3VJZ2NQbjdicFVPTnVNWUg0MEUxNmo2M0hNVEhTdlJ5akh6Ti0wbkI4Ykw1dy1HaUdQaEJ3ZW9QZDVIeVhTMC1NNlRBT3VUN3psQdIBuwFBVV95cUxPUHkwOTJRdTZnMXlzdzgyVGNLME5IdWxFX0xZOWdGeWVLbWZaMzl1Zkw2Tjh5ZldHOU9sZDdSOWFrYjdKTmk5bVBZQ0YyTU1BZ3RpYm9UbUh4UHh6QzdSM0FaT2xKSC1wNTBVZGxKc0tBd3NGSU9MZmhQVjZBMUc5STlTQTc0eHhlNThoTk8wRnVNV21aZmptcFRqRE5JVk5takx2NzM3VFkwRVdrT1dEaEdTQjJDdDhLMVFn?oc=5"
+        },
+        {
+          "nome": "ANSA",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOVE12c1dINnhpU2VTVTdmS05RdHhzendEcGZaTzk1OVY3aXc1RDBPVklOMGtzcTE3RXRLM0UybmFfbUE1Q1dmd2ZGb2RFWTcyY28zaVJxZDNTRElYLWt6ZVdkdnhoSHhBQWtTdHdlNklWNGpGTS1qdTJKWHFfYVJySlJsb2ZaZGpBcUN6bzN0LUVyY0IydndjbGI1ekZ4U3ZiRGx4aUZDRm9sSTc4RWloZ0NfZ1pTODYwMU9icUJYUHAwbDFZRF9OdTAzcjRheW1pNzc5Y0U1ZlBpWDk0VXJRdEUtRHZYOEl3MFRMdmd6NXg3NGg2?oc=5"
+        },
+        {
+          "nome": "Eurosport.it",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQUjY1MWVpQUVpRVlxZlloQkJ3SmtwcVNlY2NmcmRST0dZRmh3ZC0wT2F4cGhDOXB0V09lMXBLV3ZxTEdUMGF5aUxfUzZDaXJsamluY3VMOXdha1V5c0lsSFp0a3gwUEg0RFdtMzBCT3dRSUtrX3ZhQ1FIOExoQXRtNHZ4S2dPb1NkZVdvUXdRUnJLZDZxdUVEYVVsZkxWamsyZlVxNGhNaFdPdXJTWi1CR2txUUREaGlzZ01pTm1MYjFsZnM0bmVPX25vVmpkZ2dNeWxjbVpJd0RId05jX0ZoQmxhcExGSnUwck5nZ2phWWI2R2x1ejVCQndRT2x5VU82Y09xMW1TR3ZXckd0ZzBLcThQUGFpQQ?oc=5"
+        },
+        {
+          "nome": "La Gazzetta dello Sport",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNLUhYYXpuOGxBUzBiSHpRc3k4NTZlcnNTeHBvalpTTVJLbThRMW5PT2tzQVlFYndPc2dBUXhudmo3R0w2ck1UbHNwaFdRZ0I5czZGaV9SVzZtZGg1MVc2aXVZVmU0QVVKaWkwUjY1WENiaUhHMlZPTjFVdGhYai1WNGZ6NXRJaWFiMnhfVFFvTkhNTzFBajhBOUpVU1k3V0o2cjNKV2VoVWFTSTlFc0I3YU1RT195QkFqNFE0S2NUNE53ZFRua1JuLVhJY0dBUjRK0gHWAUFVX3lxTFAxUFF6RDF4NjVIOVVRYm9TWUJGaU1NUzNselhjTTJyUnVJOGtYVElXamx3QVFNTnZmUGY3YTRYOUpTSDNuTHRpWVFMcFFvUmllMGR6c0h4ZDQyc1R1TU1IOURFWjc1Uk9wWXZzUFZnT3RaTU9FbTJwdlp4UWY5Zmc5N0k0SUJPMTZYcGdlQVlHY0Nrbk9rbzVMa2k2UU1iV3djVzJHbzF4blBlUWphbklZRTRWb2cxWndRcEgxX1YzT1hlbV9ZZkpGZmRvbTE2dy1sRFlsRmc?oc=5"
+        }
+      ],
+      "parola_foto": "championship trophy"
+    }
+  }
+}
