@@ -1,0 +1,683 @@
+{
+  "generato_il": "2026-11-27T00:49:54.550Z",
+  "data": "2026-11-27",
+  "edizione": "mattina",
+  "id_edizione": "2026-11-27",
+  "categorie": {
+    "italia": {
+      "id": "italia",
+      "label": "Italia",
+      "segments": [
+        {
+          "text": "L'Italia si confronta con una serie di drammatici eventi, dalla scomparsa di Emanuela Orlandi e la morte di Gianni De Gennaro, alle indagini sulla 'Falange armata', fino al dibattito sulla rinascita delle province e il Superbonus.",
+          "type": "plain"
+        },
+        {
+          "text": "tensioni sociali",
+          "type": "deepdive",
+          "detail": "fenomeni che evidenziano frammentazione e conflitto"
+        },
+        {
+          "text": "mass media",
+          "type": "unusual",
+          "detail": "strumenti che modellano e limitano la narrazione"
+        },
+        {
+          "text": "25 novembre",
+          "type": "date",
+          "detail": "periodo temporale di attenzione mediatica"
+        },
+        {
+          "text": "Emanuela Orlandi",
+          "type": "name",
+          "detail": "caso leggendario rimasto irrisolto"
+        },
+        {
+          "text": "Gianni De Gennaro",
+          "type": "name",
+          "detail": "figura istituzionale scomparsa"
+        }
+      ],
+      "aforisma": "Il dolore non fa rumore, ma lascia una cicatrice profonda.",
+      "autore": "Mario Rossi",
+      "approfondimento": "La cronaca italiana recente dimostra come il peso dei fatti passati, come nel caso Orlandi, e delle figure istituzionali, come De Gennaro, continuino a dominare il dibattito pubblico, spesso sovrastando le riforme istituzionali in corso.",
+      "fonti": [
+        {
+          "nome": "Il Fatto Quotidiano",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPZ2NaZE43UlVXVVNvRkpiQnpwLVFjT2M5N195bGUtS290dkwycGhOMUNtUXpWTmdma1lwMDJ2OGxMM2J2Rk1CMmxEcTNtVklibU9LbUNheGlqOHladGtjZEEtakZWeE5tZlNtamJLakx3TkU0azVNWHBPNF9NY0dlMW0wazViVFQ0bmZ3ck9IRTl6bnFRMWtjQ25VejlhRGxXZXVxeEcwZGgwUkxjR2VRZG1LN3E4RTRZWVNXZnhqTDRsMGV6ZHRPZXRtSjVtZGd5TGpIeEJXcXBXVG9SeEZJRmtBTUtWRjBsMHVLQmNPNDJnRDdWSUNkZlRhbnFEUUNhSjdjcjUzWWpDUQ?oc=5"
+        },
+        {
+          "nome": "Sky TG24",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9lUUMtLVhTUTZEdlVFVE5mMTNnaEt3RmY2ZVg1Z0dBdUxUQXdkNmQ0T0pDTThOMG5pRmhXQWZ1NnNSblU0V1ppWWNRMUFIcnpXeXJKNDBoUDdyMDJhcEpWSFdxU3pGcWpWaklKV0dlRVBXNDk4Z3BfTHBKOA?oc=5"
+        },
+        {
+          "nome": "Open",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQjl3amFOUXFYYkY0cU0yS1RBdnhPTXpxclhyZURobzNBNVBpY242VzB0NXowMDUxUW1iV3J3djFzNjF6cHZiUlduTXJuazRjM1hJZnprdUFVYmVIazk4UkJKVllGWFhtVjZJRTFyekZ6aVdhLUV5LUQ0Q1Fubkl2Z29aTWRWR3lZ?oc=5"
+        }
+      ],
+      "parola_foto": "newsroom"
+    },
+    "esteri": {
+      "id": "esteri",
+      "label": "Esteri",
+      "segments": [
+        {
+          "text": "Il mondo è in stato di allarme costante: conflitti in Ucraina e Israele, tensioni nucleari e minacce climatiche mettono a dura prova la stabilità globale.",
+          "type": "plain"
+        },
+        {
+          "text": "in",
+          "type": "plain"
+        },
+        {
+          "text": "Europa",
+          "type": "name",
+          "detail": "Contesto geopolitico centrale per le tensioni occidentali"
+        },
+        {
+          "text": "e",
+          "type": "plain"
+        },
+        {
+          "text": "Teheran",
+          "type": "name",
+          "detail": "Minaccia diretta alle basi occidentali"
+        },
+        {
+          "text": "confrontano",
+          "type": "plain"
+        },
+        {
+          "text": "le",
+          "type": "plain"
+        },
+        {
+          "text": "potenze",
+          "type": "deepdive",
+          "detail": "Conflitto tra stati e istituzioni in crescita"
+        },
+        {
+          "text": "con",
+          "type": "plain"
+        },
+        {
+          "text": "un",
+          "type": "plain"
+        },
+        {
+          "text": "nuovo",
+          "type": "plain"
+        },
+        {
+          "text": "combattimento",
+          "type": "unusual",
+          "detail": "Espressione più tecnica per indicare scontro armato"
+        },
+        {
+          "text": "di",
+          "type": "plain"
+        },
+        {
+          "text": "sostanze",
+          "type": "plain"
+        },
+        {
+          "text": "chimiche",
+          "type": "plain"
+        },
+        {
+          "text": "nei",
+          "type": "plain"
+        },
+        {
+          "text": "campi",
+          "type": "plain"
+        },
+        {
+          "text": "d'America",
+          "type": "name",
+          "detail": "Sede dell'esplosione di Iowa"
+        },
+        {
+          "text": "che",
+          "type": "plain"
+        },
+        {
+          "text": "porta",
+          "type": "plain"
+        },
+        {
+          "text": "un",
+          "type": "plain"
+        },
+        {
+          "text": "nuovo",
+          "type": "plain"
+        },
+        {
+          "text": "disastro",
+          "type": "deepdive",
+          "detail": "Evento che mette a rischio l'ambiente e la salute"
+        },
+        {
+          "text": "per",
+          "type": "plain"
+        },
+        {
+          "text": "il",
+          "type": "plain"
+        },
+        {
+          "text": "clima",
+          "type": "deepdive",
+          "detail": "Sfida globale incombente"
+        },
+        {
+          "text": "e",
+          "type": "plain"
+        },
+        {
+          "text": "per",
+          "type": "plain"
+        },
+        {
+          "text": "la",
+          "type": "plain"
+        },
+        {
+          "text": "sicurezza",
+          "type": "unusual",
+          "detail": "Stato di tranquillità e protezione contro i rischi"
+        },
+        {
+          "text": "del",
+          "type": "plain"
+        },
+        {
+          "text": "mondo",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "La pace non è l'assenza di guerre, ma la capacità di sopravvivere a esse.",
+      "autore": "Egidio Speranza",
+      "approfondimento": "Le tensioni globali si riflettono su scala locale, con impatti diretti sulla sicurezza e sull'ambiente.",
+      "fonti": [
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOejlsVTl1Z2U2XzNEbUJoRUpBRV9OMlM4bnFycWhCcnU3bElKbENvS0tJNVNKbklpSnF0c0Rzb1pmRGg4ZzVWWk53V18zRWktUjBPU1hLZjQwQnJrUUg0MnBVNTVlaHU0YTNYamhKdWNJdkFER2xxVS1FTkdsNEpyM0FrNTNHQThQMFJyNFdGeWZNVllxeEdnYTlFMjBpVWN5ai1Wel9STThQYkpfZi03dzlIZG5IZVJJYkJ0dDFkYTNudm4zR2VDTzVNN0hWYTNYN3oyZWYxM0dEbDFZSlFFRWVIM2p0YVU2N1hvMEFfcGxpZEI0c2ZLb2hkaGVZNVkzT2hsUV9mTWxaaDZNTWJab2ZqMlZId9IBmwJBVV95cUxPdzBYbFZiNWI1aW9ETXB1a1FBcE1zNjlOWDVtMm9ma0dxTFBlNEpIZlpJbDIzVXZGNlEwcWVfSllEcURhUUhxdlk0RHZITFNMem9BNFlTeUhDY0Z0T3RWSnhEX3VXQVV2YlhqaDVydjh2YUZ6ZVVOYzBSb21vN3VNZ3QyR09QSk4wenlhaFAzbWhqMzhiRU5ZMUlLMW9idXJmUWFRSDlKREpNbGd4S3pNanBiR2QwME4tNUhpd1RPWndJM1ZESGE2T2p3a2tvZnFiUGRDRkg4emNPaDBzSXRMY3RITDRNYThHSExoSVhmTkUxQXF6dUR0Sm9yOE85MHprbHVCZWl6V0JKUnhjZkdRZTVHcXVCWU9JaXNV?oc=5"
+        },
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeTR1ajJ3RmE1djR2TnQ2eF96ZXRtaU4yZ3V2YUdweW9FTE50SEQzMHl0U2hhV1ZUNzhYbWZhdDk2MXphTjhFSzhqZzZJWXNvMXVmSEpZbmVVYUJRMWZNbldyc2ZEellQUFJ5TmJ2emhCNWJtZk5VbDZWaHN4RUVHbXo3SnpYWGR5RE9fbnhKcw?oc=5"
+        },
+        {
+          "nome": "la Repubblica",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPODZGbFR4b3JVRi1raVctM3R6aG1aclBvLVRGUU1naEhIYWVwZHpaeDF1dXRVQ1JHN056NjRjWHZHclRLTXlpN0IzeUVYcXVNU01uN0xkZFVVQzQ4YmQ0Uk9PWFJZZlptaXg1c3JMQktKVi1kNVNKNXE0VV81alpMb281V2pINllZUEpUQXFZdU05NnQzd1ZKZWlIM2I4cEJpNGtUMDU3WU1fMkJxeTliMU1R?oc=5"
+        }
+      ],
+      "parola_foto": "parliament protest"
+    },
+    "economia": {
+      "id": "economia",
+      "label": "Economia",
+      "segments": [
+        {
+          "text": "La borsa europea",
+          "type": "plain"
+        },
+        {
+          "text": "dopo il Black Friday",
+          "type": "plain"
+        },
+        {
+          "text": "trova il rimbalzo",
+          "type": "plain"
+        },
+        {
+          "text": "grazie a Elon Musk",
+          "type": "plain"
+        },
+        {
+          "text": "e alle nuove quote di Anthropic,",
+          "type": "plain"
+        },
+        {
+          "text": "mentre la Ue",
+          "type": "name",
+          "detail": "L'Unione Europea e le sue istituzioni"
+        },
+        {
+          "text": "affronta la truffa del Black Friday",
+          "type": "plain"
+        },
+        {
+          "text": "e si prepara a nuovi aiuti per le imprese",
+          "type": "plain"
+        },
+        {
+          "text": "sotto la pressione dell'inflazione",
+          "type": "plain"
+        },
+        {
+          "text": "e della crisi nel Medio Oriente.",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "Il denaro è un buon servitore, ma un cattivo padrone.",
+      "autore": "Eugenio Vitozzi",
+      "approfondimento": "Il Black Friday è un momento cruciale per l'economia globale, con enormi opportunità e rischi. L'inflazione continua a pesare sulle decisioni delle banche centrali.",
+      "fonti": [
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQS0NPRHlrMmljcGFRRnJvaHNqVmVUTWwwSWRFX1BJaTdNVUJXWTdCTU0wLVlhSEF0aUNOemJlRnU2QVJMNTN2NFo4RXpzSDhHbE5Ma2tET0VranhqX1llUU9YUXI5d2d5VlV2ZWFpYlkzZk9QbFFnV0xBV3pOaHZZNHUyVnVydkpzWThNOWhRcXFrYU9VV0YzUmRHU3FGRm9ucUJSMFVFemNMV0pET0FzYjJrYTZBLS1nbVVITlh2Z0VUeEZwejRGU1lVTnZqUElGa3JmOHNGRDFfd1N1akZSTUlLZjhOZlBQaFY2YmVNM2FGbWZoaHVaQnJubUVMZ21wamFUa3NDYkY1RVpQdEpNZmU0TUhULURVdXcyd9IBogJBVV95cUxPSTMtcXhQR1poQWNvaFJNV0JLZ0JlTi1IM0h6bV9oYmRKTUkxVURFeTNaMTM1eVF4UHNIazBuVnpDQmtjeDNpUmtRRnpmcElhaFNfTXVTaUEzV0p2R28zSHo3d3h5cFpvUXFVdWIzUllTUWE2LTdNcHM0WURpd3F6U01FS1RtLU8yS2hOZ0RKbEZfcUFSbFR5TkZRN1dhTWhiUW5BVF8wMGpObndnY3FMLUtpYU8tSUhyUU9FeVAxYVJpcTd4Y0tCVy1lbEFfSlp2MFU0VjJVRS15QzdvUE9MaFJKdVV2c0k4eUZhR25JYTctM0lJaEVIeHd5RUxPZXFTbXg3REtST3p3d1E3aUw0QU1YQzRuRzF1NnFvS20zeDA2dw?oc=5"
+        },
+        {
+          "nome": "Sky TG24",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOV0t0anZSekZwM1kza185VVRYenZYMkNEMjlGcnctdDlfYk05RFM4WjRhWnhrYmJRSUdOQVJRMTlkUXd5NmdhWGw4X21MZ29LUGRvOVkyRlZwNjJnckpUS2hCODhlM2hILXg4bXJKZjNBWWFkV2ZGdl93bURtOTFITUo3TUZ5Zw?oc=5"
+        },
+        {
+          "nome": "la Repubblica",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQN0NwYnFjc1h3aC1KMld2VW9xMWNBNjBGNzhLanVfTkt2S0h0MjlSWWFrS0VobFg2bzBVM0paSkNyU0xPaVVDVU9iNUNtZm9XZzdUeTIwdEd3MmJaNGY5OXFNTGFVd0ZXUGNCMXF5TG5NUXFpeno0cV9uOFU1WWRSTjluRzlKRlZycU5hbzIwQktyeFk5T3ZFVA?oc=5"
+        },
+        {
+          "nome": "QuiFinanza",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBocE1JZFBzV2ZFbDF6bmoxYkt2MWV0aU5yUTRla1lIelFKVVkzdXRHYWtjN3VFNVcwTlp6RzVpM2pFVDNuZFhSaWlycWVFX2UyQ3pscEd0MWdQMG5saTJleHdMdDlRTjRDSEtqemVxMnRHREpLbkpVYWR5eFFDZw?oc=5"
+        }
+      ],
+      "parola_foto": "stock market"
+    },
+    "tecnologia": {
+      "id": "tecnologia",
+      "label": "Tecnologia",
+      "segments": [
+        {
+          "text": "Navigare tra le minacce tecnologiche emergenti, dalle incursioni con droni alle sfide dei computer quantistici, richiede un occhio vigile su tecnologie in evoluzione come la truffa dei falsi rimborsi e le anomalie dei GPS.",
+          "type": "plain"
+        },
+        {
+          "text": "GPT-6.2",
+          "type": "name",
+          "detail": "Nuovo modello di intelligenza artificiale"
+        },
+        {
+          "text": "Artemis II",
+          "type": "name",
+          "detail": "Programma spaziale NASA"
+        },
+        {
+          "text": "quantistici",
+          "type": "unusual",
+          "detail": "Calcolo avanzato sfruttando la meccanica quantistica"
+        },
+        {
+          "text": "falsi rimborsi",
+          "type": "deepdive",
+          "detail": "Truffa digitale di recente diffusione"
+        },
+        {
+          "text": "GPS",
+          "type": "unusual",
+          "detail": "Sistema di posizionamento globale"
+        }
+      ],
+      "aforisma": "La tecnologia è uno specchio: riflette la nostra grandezza e ci mostra le nostre paure.",
+      "autore": "Elio Manzoni",
+      "approfondimento": "Le minacce al sistema GPS dal lancio di Artemis II sono un monito per la sicurezza crittografica e la gestione delle infrastrutture digitali.",
+      "fonti": [
+        {
+          "nome": "ANSA",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQN1pid3dwTmhFcDQzN09odTc5X1p3UHIybHNDeE1nVmtqUUxybHo5VEVoaWRxQjJWZDR5cFIxcC1MSTJHVV9MVTFiX3ZwR2JvYzdmblZIbWdkSTFvT1NmZEg4NG43Y0ZTVHVueXdqZnBQczN2RTZMWDZMdGd1bFJ2c0ZZN2NpMmVkTzNXQTEyLUkxSTZkX29rcFhReUh4cTJLNFZCRXRvdXcwVHJCLWY0Q0tPNHdaNmVLVllRbzE3aXpLRTBoTHlMR2JjaFhPR2J0WmgwekwzVWwxWFJ6MUM4R01hYTBUNHhab090SC1TaDUzd9IB9wFBVV95cUxQQ0xpWUk1YXFJR2RmVzVmb0VhVDZybGNQVGV4UDlnRk1hY09qQ3IxY3FaRkZ6X0MxUEY2VE1naVZmcWpuT09YUFZqYUpmWW9SaEo0OE5Oc0R5dzNjbGZRWll2XzRndkFLQ0VyZ2dpdVZ5THFtV2dYQS1nYkVDQU4wUF94X2laNnlJVzlQQm9ZOGJKbEx6VzVRX1kyLTBIV1owRFg5YUpuSUlCNENXdG5TeUI0OS1EYU5UZ2pFZG9RQ2thODNhdndJbmk4cTNleHNabkwwYlgtMGNsUVQzOHVUcmRwb2xaZ2pleGpXaGlfUTRlb19rS3Bv?oc=5"
+        },
+        {
+          "nome": "la Repubblica",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaDhMSDF4dXNkQWdCcW1SMWJ6UEJkZDZmckFuVk45OUtCY1pubGtHSlFGSk1ZWFRfZ3VwbDgxQ2RhUmZqTWxKbG96cHBhX0NvWkRWcGl5d3F2M3EwbmNKLVdZWHliR3d6WkJnSXFjbFhOZDVJRlljbzRJaEdTcWlwd3R2YndUekw1MUNtQ0pqQlJoamNmQmpzQ3ZyU3c5UXJKR0ZEcFZyV3Nudw?oc=5"
+        },
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOUUsxLU0zS2pGOFNkY25kQWJjTGZKWUdLRjhkdWhncjB6Wkt5b3VkLXhlcU4zd2xNU0kyaXFlT0RjeTJnNVVucmtmMG1obzExdHVPNkpWbk9lSkNSal9kOGljVXNMUlQxOUtRcC04R3pVTGx1THJvMzBsalVGTmxpeVNhLU9vQVloNDNCVDdJaVZWU2R3X0lOMG10NGhkbjJHMXNXMkFHNDc5U3JzUnlpVV9MOGp4N3A1eThVU2o2Um4zY0pRN3JTWHVyUFY0bTFkbkgwUGdMSE1IVi0xWnF3cFNDVDE0ZUpJN3VaeHpaeW9hVHZvUVdJ0gH8AUFVX3lxTE8tMFJxR1NKSnZUZTFXVk5xc2JTaU83TGg2VmowWTlQVzIwWW9YU001VmlFSnBkVi1fQUp1STNLeXNRNHhKcmtQYzhaQ3kzZjItUEx0MGJUZDhlak5ZeE44Y1V2d0hKaldmUC1ZMHZ5Zzc1aEJiM0VzQk9NTWtfNm4tWUROSlBiVkFXT0dOd0V5T2x5WUE3dWdRQ2s5akp4aG0yOVc2YWxLYW5yNmFPbkVmd3BxSkpxRzVJbklCTVY5eEVlN0RPQUt6VjJURGZna3lfZnFZUmZCaDYzajZ4RVNZX2drWnZYVDRRYkJnR2ZucmNEQ1I4ckgzT29hOQ?oc=5"
+        },
+        {
+          "nome": "Libero",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONjhadTZmc20yYUZvRlJIdUZkUlpyanZBTGxzV3lhUDhvamhCb3AyM1VkbEc4Um8zMTJfekRZRG5lOHBrN2NQT2ZwUThUbzRGRG5yenZzVUdCUnZjUVZlb0ZlVlRLSnQxYURqa2dGcHlISXRBV2hCd1pTc3dOX0lXUE5oUXNtc212U1ZCbHlR0gGTAUFVX3lxTE9fdGdTVnV6blJVTmpuci1zcnlVUUk5cTd1eUgxSHdFWWljZHhkQjBzVFpDYU54SmFFdGlWdXY5Y09fY3V3cTFBNkxFay1ReDZ2SWFhT011XzZ4dlZ3ZmhwckN5THJqZVBvMml6bnJLNmhLc1RYLXFwdHJpdm0tVlJCVl9qU1kxYi1QR0VhZXY2RmdETQ?oc=5"
+        }
+      ],
+      "parola_foto": "digital storm"
+    },
+    "sport": {
+      "id": "sport",
+      "label": "Sport",
+      "segments": [
+        {
+          "text": "Juventus, Italbasket, Dea e Ferrari: la stagione sportiva italiana è un tripudio di emozioni in ogni disciplina",
+          "type": "plain"
+        },
+        {
+          "text": "poker",
+          "type": "unusual",
+          "detail": "serie di quattro vittorie consecutive"
+        },
+        {
+          "text": "rimonta",
+          "type": "unusual",
+          "detail": "recupero di svantaggio in corsa"
+        },
+        {
+          "text": "abbandono",
+          "type": "deepdive",
+          "detail": "lasciar correre per vincere"
+        }
+      ],
+      "aforisma": "Non esiste un solo modo per vincere, esistono solo tanti modi per perdere.",
+      "autore": "Elio Vannini",
+      "approfondimento": "L'Italia dimostra versatilità su tutti i fronti, dalla pallacanestro alla Formula 1, sfidando i favoriti.",
+      "fontesi": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "fonti": [
+        {
+          "nome": "Sky Sport",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQd1NRYUFRSHBHeE96dU9keHRPWjdPMmx1QXUxbkNaSzdORzZfbkw2THJiMDVsOUtSdm1IZWR6bktfa3FBeG1sVVloRlh1T1RLajRKYXRzOVEtcml5c0VVanRmbUpSWFVrX2QzQUNoUU5FTi1qM25SZTAwelRQU0dvX2RQeUx5aVNlTXJyQ3dtbzRJOGEtQVhFbEo5MXJaeGtXY2VoY1Zn?oc=5"
+        },
+        {
+          "nome": "La Gazzetta dello Sport",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeGdVbzBSREw4eWNuajhfWVpZa1pyQldvR3pFZ1psWlR3Yk9KMFFoa2dCNWRHZXpqOWRxbnJUVktaYlJ4S2lhcm96dDVhTzRQTDVpY01qOTZUQWhFUG9ERno4TTBSa1JvbjFlLWRsY3VsRGxQbm5pdFBMR1psekRsQWJUX0d2ZU1NRTZRSjRYVUZkN0xTeUl0bUR1X2pxdlZPMURZcjc3dWxCSjl0ZU5GdjFxQkYwRjgxWjdsTUhxTFg4TTFja1lHN0hiQ01SOVEzTEZnWW94dFNWOGPSAeABQVVfeXFMUEtZQ3llUHNUcGRaMlZLOURVVVNmZjV0Ql80TVEwdmlCa0xzRGVvWURGODFwUWc4b2pHMGN2WEU1Q2lxd1dGbnI3QTdRZE9mRm5mdkJhMjlBd2lFVEU0VDJnQl9wTHFac29MSUdDWW43R3BLNWp2TVhrRlZxbmVuODFOTnhKR1pfNkdNWHE5al9BbVk1QXVDckNPeGdQdDZBaTBheW1NemZWTWNRdVhxTjZuTTlabFAyX0p3eDJkUU50Yk53SV84UU1jdWpmc09xSVhTbms4T2U4MUpJZTJvbzU?oc=5"
+        },
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUUEtZGdnSHJsMUNDZjNpV2g2S1B6LUFmdlBGMW9jZkpnLWFGQVJrZjVpSDhUSmVIejFLcS1ERUhQNlVIeXZFQ19aUjFvNjIwRjZYSmpIbEFRX3doc251OF9MRXprYm5kNm1kOFE1QzB2Rk1MWDktLVk5QXF6ZVMyS2lYY21uelJFWU5UTi1fUEdZc3BUTTZuWkZ1SElQbm1GN3BUQmF0YkV3UklaUnfSAbMBQVVfeXFMTUNZQTdLZmdlZk52aDZnaUR4ampBTWdBUkd4Ynk2ZHpYaFJNeGtJdGJ2NWJaajhaRXkxUXJVTHViTWR6b21fQjN2aDREUmxRLVI3SlF2T3dPQjJBSUU3bTBIUDN2cTJ1S3FBXy1VcV85NHF0SWwxNG9Hb1FzeTlFbVR0MTV4YWtmbnZHcF9qTGdIcGEwVDlJLTJLOEVTYmgxb3VQeUc0YkJmbC1CejBRdXdVbGc?oc=5"
+        }
+      ],
+      "parola_foto": "sports victory"
+    },
+    "cultura": {
+      "id": "cultura",
+      "label": "Cultura & Spettacolo",
+      "segments": [
+        {
+          "text": "La cultura e il mondo dello spettacolo sono al centro di una giornata intensa, dove il passato e il futuro si intrecciano in un mix di eventi storici, sfide artistiche e nuove serie TV, raccontati anche attraverso l'indagine dei fatti di cronaca e i numeri del lotto.",
+          "type": "plain"
+        },
+        {
+          "text": "Biennale",
+          "type": "name",
+          "detail": "l'istituzione d'arte più prestigiosa di Venezia"
+        },
+        {
+          "text": "Blade Runner",
+          "type": "name",
+          "detail": "la futura serie TV su Prime Video"
+        },
+        {
+          "text": "ottimo",
+          "type": "unusual",
+          "detail": "il voto di un docufilm su Elizabeth Holmes"
+        },
+        {
+          "text": "Sanremo",
+          "type": "name",
+          "detail": "il festival di musica più seguito in Italia"
+        },
+        {
+          "text": "ottimo",
+          "type": "unusual",
+          "detail": "il voto di un docufilm su Elizabeth Holmes"
+        }
+      ],
+      "aforisma": "Il passato è la sorgente che nutre il futuro, ma solo se si ha il coraggio di guardarlo in faccia.",
+      "autore": "Marco Vescovi",
+      "approfondimento": "L'attenzione per le storie personali, come quella di Elisa o di Antonella Elia, si sposa con l'attenzione per grandi eventi culturali e produttivi, mostrando come la narrazione del passato e l'innovazione futura coesistano nel pubblico interesse.",
+      "fonti": [
+        {
+          "nome": "Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOOE1sSDhwRDVOQnhWMTYyWmxaNkN6UWxwWGtpSi1zc0tiTnBDUzV5OWt1UXY4QWltUVB5T1Q5N1ZWcnAtUk0zdmswQXZKVXh2NU5EUmlwVFpOMlcyb05VRUNzbGRmS3VwUU8zYVZzVWJJaU8yZ2NVM3I1Ymd5eDhLSVBxZkpTZ2NGbjR5STlxNGVyUndTdjNhazlPZV92Tkc0QmdJVzBPLVQtMDBfR0RaUzRwXzdMbXl1ckREb0tqSTVQZ3IteUFFRjh4WHo3RHFSYkJfanRmWW0xZC1SSUc2Qm4yMkl2ZWtlUjgyY2MwRjhMSmRnU2tISGIwSThfMTNuek9SWFhPRlRkcHJFWEtTeU9IQ3QwNG05SEwzbXhyYnR6NFlmOC1yTmZ0Zng4U1JRWHd4R0xpYlF0dTZwX2JN0gHEAkFVX3lxTE5idm9rR0VLQ1dIdmRMbWF4eEgzNGduMkJDNnV6cEVaN0w5YS1wWnFZTkI3cXFJa2ROblVtdGtGQlhxcmtvbHBWZkFtbkV0NU1ac2g0a0RkdTFWaFlVTmlqRUdBbHptS0ZlbG9xVS1PQ3lJXzEzdDNiVTduNnBMZWlzSlBMakJsUzdHQTcyQ3hfSzUxMFFtWmd1bG02NHpVMlJRZzN2dEZvbHh1ZklqZkYyWVY2bUVzN21pQVFua1lCdm5PeGhHOGhZUDRIdVdBSzlMeHUtX05MM2VmOEhJdV9XUC02UHVRTmtMMFFBYjlkeGhKS2V5N1JKRXJ6ZTQ0R09KTWlEM19fMVBPVEF1d19jX2xPTER3OFk1dWs0WTRLY2x6SFFlLU9oRHVBMndic2VQaUlUUkljOWRzY0ozWW5YYmVlUA?oc=5"
+        },
+        {
+          "nome": "selectra.net",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPM2RnSW14alpaQ1NUR0VOM1ZIZVhNb3phUU52WF8tdmtUdXB1V2M4OUF4enFLM29qUHh4SEVsZ2xTVDRjNDFNOUlQZ1JVTUdEQTc4Q0MzVDhBNUt3UmJHRHJpT2toc2JhSHd1MEFyVDdPOEtJZW1MbHBxeGpkZnprLVNFZzExaXUzRGMyak1BWDV2NmhMMTg5b29EdTRaRmJBYnlBODBTTjR5Q29seGRKZHVJVGw1czR6MUJ5NWtWYWVheS1URlE?oc=5"
+        },
+        {
+          "nome": "QuiFinanza",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeXk4OTM1eUNSbElBY2U2a1pfRDNBSm0tRndVQ2ZTSmItMW9DQWZPSnl3X2QxX0hQMWtpV25TbjdLTldGb2RXdlRsajI2RWlnRFQ5ZGM1SzQta1RIT0Vlc0RPdE5KblJMZmtPZWppMm9vUk1mcWtsT3BFNnNJaGdHTtIBhgFBVV95cUxNZjExRDdpME1iUHpmeXljMjlNSXBTOFowYzRtQWdZMzZEeDVxaHIwaGcwZzVBeTY5QnhDOU1ZOE84ZmlTQWx4OTdvaFcxZWNUUXJlaGNSYmI2OUJUd1RfcUtWWUd4Qlhlb2l0d2JSQlJkS2dFQ0t3eDJLejhaWEN5aUxSOXk2QQ?oc=5"
+        },
+        {
+          "nome": "Vanity Fair Italia",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSkN3V25NTTA1bUUyVUxoazRqTlAtMFdpWVJud09aa0dFWlQ4a0gxdWNicUFTVzd2amtXek9Xd0w2Q01lUDdqQUF2bk9MU19vaURfVnJDUWsxSHBLd0szNGtEa1RJMmlxUU5iY1Z4b3FQZ3V6dGZKZHhNakNhbTlNeUJiUUxrYVBBdnpyd0pqMEducWZ1WFRaWmFZMEE?oc=5"
+        }
+      ],
+      "parola_foto": "theater stage"
+    },
+    "gossip": {
+      "id": "gossip",
+      "label": "Gossip",
+      "segments": [
+        {
+          "text": "Il mondo della celebrità è un teatro continuo dove i confini tra informazione reale e gossip costruito si assottigliano",
+          "type": "plain"
+        },
+        {
+          "text": "Venezia",
+          "type": "name",
+          "detail": "luogo celebre per eventi di alto profilo e il festival del cinema"
+        },
+        {
+          "text": "festival",
+          "type": "unusual",
+          "detail": "evento di culto e osservatorio privilegiato per le dinamiche sociali e le storie di coppia"
+        },
+        {
+          "text": "Marilyn",
+          "type": "name",
+          "detail": "icona del cinema e della cultura pop che ha ispirato numerose narrazioni"
+        },
+        {
+          "text": "blind",
+          "type": "unusual",
+          "detail": "notizie anonime su vip diffuse sui social media"
+        },
+        {
+          "text": "politica",
+          "type": "unusual",
+          "detail": "interazione tra la sfera pubblica e la vita privata delle figure pubbliche"
+        },
+        {
+          "text": "Generazione 2000",
+          "type": "name",
+          "detail": "epoca che sta riscrivendo le regole del gossip"
+        },
+        {
+          "text": "parliament",
+          "type": "plain"
+        }
+      ],
+      "aforisma": "L'immortalità vera non è vivere per sempre, ma essere osservato per sempre.",
+      "autore": "Silvio Marcone",
+      "approfondimento": "Oltre i pettegolezzi superficiali, il fenomeno mostra come le biografie private di figure pubbliche diventino argomento di dibattito pubblico, influenzando l'opinione e la cultura di massa.",
+      "fonti": [
+        {
+          "nome": "Cosmopolitan",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSExCRHN0SEh2eVU5SlNtMUpQRzlqZDR5Ti16S1FGekRIV1VROUIxTFlwR1ZjemZtMEVERE51aGVLQmVFbGhueXJicTNBaU9KSVdyUDc4dWN5XzZab3FOYlRsTHNraFhOQ1YzVWJic2hXdGVjYk5ZX2NBNXYySFAxWk1WS3FycnVUd3FWOWFnY2VSYm5Qd1AwWEJzMnlVbEN4LVVubGwxYUpmVVdMVlBOVlE5OFcxRXpISUdONzltYw?oc=5"
+        },
+        {
+          "nome": "Rai Cultura",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQc0NrYzZiMXUxU1RzTm9KSlJwclhMeHJtV0dBUjlSakRjcWRiQ05wUUFPanJDQXpYYmp3Ql96QTZhVGZyRS1PbklfUVpMZ1BRYm1GYnNfSXduSWV3VmZ5ODdmMTdlWkU3cWt1WmxOQ3gwTGxTc2RWeGNqVS04SVdUMmNuTzlxX3VrSzhEVmk3V05wRXoybXRLQmpIWmM4dUJncjJTcEhWaWZXbVBadXJrMkFPbE9kWTI0RjBfdXVKMGlnRE9pLWxlT0RRQ0NfZWtkT2xROXA0dHo4RVlaSTl5VkdyeUxCUWVGWnVEdUdHaER1VmpZN0dB0gH8AUFVX3lxTFAtYVNvajliRndPNC1qNEtQTktGV0ZLYnoyLTlYN1dUM1JWUDlSS0lqajF0b0dVZHBRcEhnYXhSTWNKaDlDbjNkNktyM2J1Zm44dENRTkZBeG5uRUd6RHJNaS1sa3dmODFtTnpJcEFrT0dHbnQwUXRaX1l1V3l5VWRKa0hGOUJGRFFwUWFnVUh0cm15aVk2ang0SkNoT0NHZm56WEozdlhkMEExQ1NqQVhZU3B2UVU4djVGWWkxZ0RqdUhWNGtRU1VvVUg1S1lscVVYRkZqR0h0dTF5N0N4Yjc4dENDcTQ5UjdRM2ZlQktIWHhPeEpjSjVOUGxfLQ?oc=5"
+        },
+        {
+          "nome": "GQ Italia",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE40ek52b3l0NS1LbW1IamxZUzc0TVE2R1h3TldpdjdBcGJTeE1mTjJOVk5JVkhPSmVRM3h4Wm9WOXRvc1pBTENIU2xzMFdOTEJ4ZXJHYXpqSGh2dFVVZnlyeVlidlVPRHlEQW9kVm5DWHlab1dmMVA3MFpfREw?oc=5"
+        },
+        {
+          "nome": "Vanity Fair Italia",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUGpOQWpKejVNcGlaTExvX0VUdUFlYVdaQktnT3RvSEpTWEVBTGdfbkRmc0l5YWxUekFqR2N5cmZhbUNXaTNWYjZPdjFlakJVYk5BSVFWVC0xcUpYcnJEODltd2FYM2NaVnNObWJ6eHo1WDV0bkl4TFZsM1NTMVFoTklEa2tLV05Od0Q3S2N2VGg2SHZ0eXR3RTdSMGpZQ3RnamFZdkdhNkFaUQ?oc=5"
+        }
+      ],
+      "parola_foto": "red carpet"
+    },
+    "ambiente": {
+      "id": "ambiente",
+      "label": "Ambiente",
+      "segments": [
+        {
+          "text": "L'attenzione globale si concentra sul clima, su come energia sostenibile e conflitti geopolitici incidano sull'ambiente e sulla nostra salute, promuovendo piani d'azione e progetti europei.",
+          "type": "plain"
+        },
+        {
+          "text": "PAESC",
+          "type": "name",
+          "detail": "Piano d'Azione per l'Energia Sostenibile e il Clima"
+        },
+        {
+          "text": "ecocidio",
+          "type": "unusual",
+          "detail": "Danni irreversibili causati dall'uomo all'ecosistema"
+        },
+        {
+          "text": "ansia ambientale",
+          "type": "deepdive",
+          "detail": "Paura diffusa per il degrado planetario"
+        }
+      ],
+      "aforisma": "Il clima non aspetta, e noi non possiamo permetterci di restare indietro.",
+      "autore": "Elisa Volpe",
+      "approfondimento": "Le strategie di adattamento urbano sono urgenti per contrastare l'impatto degli estremi climatici, che influenzano direttamente la qualità della vita e la sicurezza sanitaria pubblica.",
+      "fonti": [
+        {
+          "nome": "Scienza in rete",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBjNlZrR3I0OWJ3aVN6Q2xuSzZDcjlleGh0Vjl5VEFNX3BHZXFTd3ltN1U1bDU0LUNKNTV5Z2RfSVB3ZkNjS0lONll1WHlGY180Y0dDSzNfYjltQlB6TTdyOUVxSXBXa1hHdENwQnBkTUE5ak1uclVn?oc=5"
+        },
+        {
+          "nome": "Comune di Napoli",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOcFRLWldBQUVSQVU5MlBiMGJNRHctTlhzM0N0Z1F4ejJnWm9EdlhqQjlMaUphUFlRWTZYaU5NRmUzSU12QzU4aGxYd0hHTGtkV1kzT05UcF9iTGNENFc2dWZKeWRRd1Q3SFJDNGxsMGhYU3hieFlCY3FTN3BBOTlHQ3NLWV9DOUVPazVtUUg4RkNuNExSOGlpZVdLR211eG12bElYb195bHFfdjUybFpvZndWb1pPeVFseDhoX2pPc0RMRThpSHpxWHVCSnFxNHRtS1FlQmtwcnZ0UWZOcG10V2NGNGR0bmFLYnNGQ1BJQzJiVFFGWE55d2VCLTMxNHYtRlE?oc=5"
+        },
+        {
+          "nome": "Regione Autonoma della Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNV1BJUUwwV3liSTF2X0pyeTNYNmpmQi1VQll5c19ncXNHbDNtb045Um95blJCMUgzMTBlSGM1UFNuTTlncUtaNkk2eE5KQ0ZsSVZIU25oanQzRHFqcDl6djdzSTJRUW9NaWVVbWtHUFZKVnlyY1dDcks3ZU1nLWpLdExJVU9GVVNmdWc1VlpXOU9ybUZEUW1oOXdjNEtUVGRGcXhJMG9qOWNFS2ROOFpoa2hOWnhBQQ?oc=5"
+        }
+      ],
+      "parola_foto": "solar panels"
+    },
+    "moda": {
+      "id": "moda",
+      "label": "Moda & Lifestyle",
+      "segments": [
+        {
+          "text": "La moda",
+          "type": "plain"
+        },
+        {
+          "text": "Milano",
+          "type": "name",
+          "detail": "Capitale del design e della sartoria nazionale"
+        },
+        {
+          "text": "Design Week 2026",
+          "type": "date",
+          "detail": "Evento chiave per le tendenze future"
+        },
+        {
+          "text": "sfida",
+          "type": "unusual",
+          "detail": "Un concetto attivo di confronto tra arti diverse"
+        },
+        {
+          "text": "università",
+          "type": "deepdive",
+          "detail": "Spazio educativo per la formazione dei futuri stilisti"
+        },
+        {
+          "text": "e",
+          "type": "plain"
+        },
+        {
+          "text": "Fast Fashion",
+          "type": "name",
+          "detail": "Settore dominante che si espande in nuovi mercati"
+        }
+      ],
+      "aforisma": "Il lusso non è solo tessuto, è architettura del desiderio.",
+      "autore": "Elena Moretti",
+      "approfondimento": "Le istituzioni educative preparano i talenti per il design contemporaneo, mentre i grandi marchi spostano la loro attenzione verso l'arredamento per dominare il mercato immobiliare. ",
+      "fontusi": [
+        5,
+        6,
+        8,
+        18
+      ],
+      "fonti": [
+        {
+          "nome": "Vogue",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5lc2ZPY0tnMW43eUVFNXV0bmdET3FIUHlWYThVcDRLUTg4UF9PWjRhR1QzcUlHaUkzOE95cHBuemhjQjZGblRpa0xXcUZqWHpfd1lFS1R3XzNvYks3MUgxQUg3X2lQcWNfYTJ0VFI2RGN3UjJfRDRPZQ?oc=5"
+        },
+        {
+          "nome": "Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNGt4dldsWHAtRVNRS21hLTBkWWo3Ry1RTWREd3VPTTVCbkp4OU5NSE9rYUJueEhlZVN3dTVJeVBaWnIxY0I0cU9JOTJFYU80WGhoSmdzQURYVXpLaDhFWnNtUWJleGQ0dEZNNXJQNlN2aDR3Sk1CSjI2QUxmR3luV2VEekhhYlpFYjhkUFdmdDB2eFFqNWNfRnM1MA?oc=5"
+        },
+        {
+          "nome": "Harper's BAZAAR",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNU09nUW44dWVyUEZaNENlZFlDQ3NMM1ZxZ2c5VklGNzVMTjJ5M3dOY2RPSEgzZXR6aVFDNXN2SUNLNjZTZ2FIWHBVSHpTV2NWZlNPZWpDRWlfbU45VjJhRlJrQ3BueDltQ2RBRGJ4ZDNKRi1lRTVJdlVCTHdxZTZMV1dNbVJpTENUdUVGTFRqZFFDRkdpNWk0?oc=5"
+        }
+      ],
+      "parola_foto": "fashion runway"
+    },
+    "concettoplus": {
+      "id": "concettoplus",
+      "label": "Concètto+",
+      "segments": [
+        {
+          "text": "Due italiani sono stati uccisi in un attacco al Kuwaito, mentre la Libia diventa il nuovo fronte caldo del conflitto ucraino.",
+          "type": "plain"
+        },
+        {
+          "text": "Kuwaito",
+          "type": "name",
+          "detail": "Paese del Medio Oriente dove è avvenuto l'attacco"
+        },
+        {
+          "text": "Libia",
+          "type": "deepdive",
+          "detail": "Nuovo fronte destabilizzante per la regione"
+        },
+        {
+          "text": "conflitto ucraino",
+          "type": "deepdive",
+          "detail": "Espansione del conflitto geopolitico"
+        }
+      ],
+      "aforisma": "Il potere non sta nell'essere invulnerabili, ma nel calcolare i rischi in un mondo in cui ogni attimo è una guerra.",
+      "autore": "Egidio Moretti",
+      "approfondimento": "Il rovescio della medaglia è che l'Italia deve navigare tra le potenze globali mantenendo una posizione di equilibrio strategico.",
+      "fonti": [
+        {
+          "nome": "CNN",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNUdlenhjamNKTzFaUG9EMVdzb0wwbmlNd1dYLU15Q2xDWDVuYVN6cWtrZlUyRTMxeGdKbVMzaXh0SXNRS1RGUUd1bnhIS3dtYXpLTi1BQkJjSm5SaUhWcENBTlRyZ2dlNEFnbUFOWkdxYlBYUC1sN2NUR0pDc2hDNjR3SF91ODVpOHRCUw?oc=5",
+          "paese": "Stati Uniti"
+        },
+        {
+          "nome": "Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbFh0VFRPVEdvSXRZei1ZeFpleEMzUkV4MW1SVlg1OTQwM1AzeElUNVhQM2pqc0s4RWpqbzdaR2lveENCQktTSF9ESUh2UTZQV3dqTkZOeWJKVVRIdjhfM0FXTVdTSnc4b2d3MzVDekUwYUR4VVVyUjdoV3JOOGdkTzVyakQ?oc=5",
+          "paese": "Stati Uniti"
+        },
+        {
+          "nome": "DW.com",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbUREQkhmeFFNeEprd2VQcHJIalA4ZEIzb2s2LWYxeC1jakptVm0wS0MtX0lLaXN3Y3gtWHNkUWY3eWtQMU5raFVLeHNWSU44cDRzdVdvWDFvRHlhRldHaVR1a1psTGx6cEdyd0ZJSWdON2lVVVlQNDVhNVA4QlQwNjYxWFk3WktVb3h2NHJSRzBZN0RFa1BR0gGXAUFVX3lxTFBLS2RMTFlmSzJCT0h2eVgyYU93ZElXOGhweUt4Qks2MzhZVXFMajN4bDRaVEV1UmwzTmNVOUduczVha3dja1J5a1pPeldTQ2pnbmJoVl95bjdEQ3hpNjVWa0RMUUpPbEhKY2hBRkQ3Q2prX1hfcjVqTzduUDdDcXM1Y3E2WDZfLUJvOHl2a3BscEV6a1lLODg?oc=5",
+          "paese": "Regno Unito"
+        },
+        {
+          "nome": "Orange Actualités",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxONXhCdVlRVFlQN3RxME9xSFRRNE5PMGFZUmxHS0NRQnRpazdWWXk3SE9MNUVjQXRGMzdLSUs2Z01tdlZyZmNyX21peE9yU0lUODY4SzdDSnhCUFRnVmlkX2FKcVFJUEFpWlVpUUdHeHZmMjBXTkw0ckY4YnpwcTRMMnVRTHlFcWVwSGE4Z1BjRTQyMXh1M09oelJKYlhwTmRqbkVHT0J4OWVEY1M5ZHozdWhzdVlDbDA4cm90RGRZak04azhSZ2FTU3NLSlFsTkhxWnJfbjZFMDhINnJoTE81S2V5R1J5eTF3Z0E3Sk1ORDlRN19rSWVycnY4OC1OZENKbGZz?oc=5",
+          "paese": "Francia"
+        }
+      ],
+      "parola_foto": "war zone",
+      "paesi": [
+        "Stati Uniti",
+        "Regno Unito",
+        "Germania",
+        "Francia",
+        "Giappone"
+      ]
+    }
+  }
+}
